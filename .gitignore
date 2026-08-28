@@ -1,0 +1,19 @@
+# Python virtual environments
+.venv*/
+venv/
+env/
+
+# Output directories
+outputs/
+results_v1/
+
+# macOS system files
+.DS_Store
+
+# IDE / editor settings
+.idea/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo

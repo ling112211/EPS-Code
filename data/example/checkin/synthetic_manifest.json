@@ -1,0 +1,221 @@
+{
+  "seed": 20260325,
+  "datasets": {
+    "weight_loss": {
+      "human_participants": [
+        {
+          "participant_id": "WL-HUMAN-01",
+          "user_nickname": "Ava Stone",
+          "alias": "Ava",
+          "feedback_count": 1
+        },
+        {
+          "participant_id": "WL-HUMAN-02",
+          "user_nickname": "Bella Reed",
+          "alias": "Bella",
+          "feedback_count": 1
+        },
+        {
+          "participant_id": "WL-HUMAN-03",
+          "user_nickname": "Clara Young",
+          "alias": "Clara",
+          "feedback_count": 2
+        },
+        {
+          "participant_id": "WL-HUMAN-04",
+          "user_nickname": "Diana Price",
+          "alias": "Diana",
+          "feedback_count": 2
+        },
+        {
+          "participant_id": "WL-HUMAN-05",
+          "user_nickname": "Elena Brooks",
+          "alias": "Elena",
+          "feedback_count": 3
+        },
+        {
+          "participant_id": "WL-HUMAN-06",
+          "user_nickname": "Fiona Hayes",
+          "alias": "Fiona",
+          "feedback_count": 1
+        },
+        {
+          "participant_id": "WL-HUMAN-07",
+          "user_nickname": "Grace West",
+          "alias": "Grace",
+          "feedback_count": 2
+        },
+        {
+          "participant_id": "WL-HUMAN-08",
+          "user_nickname": "Hazel Scott",
+          "alias": "Hazel",
+          "feedback_count": 3
+        }
+      ],
+      "eps_participants": [
+        {
+          "participant_id": "WL-EPS-01",
+          "user_nickname": "Ivy Turner",
+          "alias": "Ivy",
+          "feedback_count": 2
+        },
+        {
+          "participant_id": "WL-EPS-02",
+          "user_nickname": "Julia Hart",
+          "alias": "Julia",
+          "feedback_count": 3
+        },
+        {
+          "participant_id": "WL-EPS-03",
+          "user_nickname": "Kara Woods",
+          "alias": "Kara",
+          "feedback_count": 3
+        },
+        {
+          "participant_id": "WL-EPS-04",
+          "user_nickname": "Luna Ward",
+          "alias": "Luna",
+          "feedback_count": 4
+        },
+        {
+          "participant_id": "WL-EPS-05",
+          "user_nickname": "Mia Perry",
+          "alias": "Mia",
+          "feedback_count": 4
+        },
+        {
+          "participant_id": "WL-EPS-06",
+          "user_nickname": "Nora Lane",
+          "alias": "Nora",
+          "feedback_count": 5
+        },
+        {
+          "participant_id": "WL-EPS-07",
+          "user_nickname": "Olive Cole",
+          "alias": "Olive",
+          "feedback_count": 3
+        },
+        {
+          "participant_id": "WL-EPS-08",
+          "user_nickname": "Piper Bell",
+          "alias": "Piper",
+          "feedback_count": 5
+        }
+      ],
+      "files": {
+        "human_arm": "data/example/checkin/weight_loss/human_arm.xlsx",
+        "eps_arm": "data/example/checkin/weight_loss/eps_arm.xlsx",
+        "human_chat_history": "data/example/checkin/weight_loss/human_chat_history.xlsx",
+        "eps_chat_history": "data/example/checkin/weight_loss/eps_chat_history.xlsx"
+      }
+    },
+    "glycemic": {
+      "human_participants": [
+        {
+          "participant_id": "GLY-HUMAN-01",
+          "user_nickname": "Quinn Baker",
+          "alias": "Quinn",
+          "feedback_count": 1
+        },
+        {
+          "participant_id": "GLY-HUMAN-02",
+          "user_nickname": "Riley Long",
+          "alias": "Riley",
+          "feedback_count": 1
+        },
+        {
+          "participant_id": "GLY-HUMAN-03",
+          "user_nickname": "Sofia Price",
+          "alias": "Sofia",
+          "feedback_count": 2
+        },
+        {
+          "participant_id": "GLY-HUMAN-04",
+          "user_nickname": "Tessa Green",
+          "alias": "Tessa",
+          "feedback_count": 2
+        },
+        {
+          "participant_id": "GLY-HUMAN-05",
+          "user_nickname": "Uma Fisher",
+          "alias": "Uma",
+          "feedback_count": 2
+        },
+        {
+          "participant_id": "GLY-HUMAN-06",
+          "user_nickname": "Vera Knight",
+          "alias": "Vera",
+          "feedback_count": 3
+        },
+        {
+          "participant_id": "GLY-HUMAN-07",
+          "user_nickname": "Wendy Ross",
+          "alias": "Wendy",
+          "feedback_count": 1
+        },
+        {
+          "participant_id": "GLY-HUMAN-08",
+          "user_nickname": "Xena Moore",
+          "alias": "Xena",
+          "feedback_count": 2
+        }
+      ],
+      "eps_participants": [
+        {
+          "participant_id": "GLY-EPS-01",
+          "user_nickname": "Yara Dixon",
+          "alias": "Yara",
+          "feedback_count": 2
+        },
+        {
+          "participant_id": "GLY-EPS-02",
+          "user_nickname": "Zoe Kelly",
+          "alias": "Zoe",
+          "feedback_count": 3
+        },
+        {
+          "participant_id": "GLY-EPS-03",
+          "user_nickname": "Aaron Fox",
+          "alias": "Aaron",
+          "feedback_count": 3
+        },
+        {
+          "participant_id": "GLY-EPS-04",
+          "user_nickname": "Blake Reed",
+          "alias": "Blake",
+          "feedback_count": 4
+        },
+        {
+          "participant_id": "GLY-EPS-05",
+          "user_nickname": "Carter Hall",
+          "alias": "Carter",
+          "feedback_count": 2
+        },
+        {
+          "participant_id": "GLY-EPS-06",
+          "user_nickname": "Derek Wells",
+          "alias": "Derek",
+          "feedback_count": 4
+        },
+        {
+          "participant_id": "GLY-EPS-07",
+          "user_nickname": "Ethan Shaw",
+          "alias": "Ethan",
+          "feedback_count": 3
+        },
+        {
+          "participant_id": "GLY-EPS-08",
+          "user_nickname": "Felix Lowe",
+          "alias": "Felix",
+          "feedback_count": 5
+        }
+      ],
+      "files": {
+        "human_arm": "data/example/checkin/glycemic/human_arm.xlsx",
+        "eps_arm": "data/example/checkin/glycemic/eps_arm.xlsx",
+        "human_chat_history": "data/example/checkin/glycemic/human_chat_history.xlsx",
+        "eps_chat_history": "data/example/checkin/glycemic/eps_chat_history.xlsx"
+      }
+    }
+  }
+}

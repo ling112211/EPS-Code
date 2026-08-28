@@ -1,0 +1,161 @@
+"""Incremental expert-rating gains across the EPS ablation sequence (Fig. 4d)."""
+
+from __future__ import annotations
+
+import argparse
+import csv
+from pathlib import Path
+
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+import numpy as np
+from matplotlib.colors import LinearSegmentedColormap
+
+
+DIMENSIONS = [
+    "consensus",
+    "correctness",
+    "completeness",
+    "unbiasedness",
+    "clarity",
+    "empathy",
+    "actionability",
+]
+DIMENSION_LABELS = [
+    "Consensus",
+    "Correctness",
+    "Completeness",
+    "Unbiasedness",
+    "Clarity",
+    "Empathy",
+    "Actionability",
+]
+GAIN_COLUMNS = ["EPS without D2\n- Base", "EPS\n- EPS without D2", "EPS\n- Base"]
+
+
+def configure_style() -> None:
+    mpl.rcParams.update(
+        {
+            "font.family": "serif",
+            "font.serif": ["Times New Roman", "Times", "Nimbus Roman", "DejaVu Serif"],
+            "mathtext.fontset": "custom",
+            "mathtext.rm": "Times New Roman",
+            "mathtext.it": "Times New Roman:italic",
+            "mathtext.bf": "Times New Roman:bold",
+            "pdf.fonttype": 42,
+            "ps.fonttype": 42,
+        }
+    )
+
+
+def load_means(input_csv: Path) -> dict[tuple[str, str], float]:
+    if not input_csv.exists():
+        raise FileNotFoundError(
+            f"Missing expert-pilot summary: {input_csv}. Run plot_expert_evaluation.py first."
+        )
+    means: dict[tuple[str, str], float] = {}
+    with input_csv.open("r", encoding="utf-8-sig", newline="") as handle:
+        for row in csv.DictReader(handle):
+            means[(row["model"], row["dimension"])] = float(row["mean"])
+    return means
+
+
+def build_gain_matrix(means: dict[tuple[str, str], float]) -> np.ndarray:
+    rows = []
+    for dimension in DIMENSIONS:
+        base = means[("Base model", dimension)]
+        without_d2 = means[("EPS without D2", dimension)]
+        eps = means[("EPS", dimension)]
+        rows.append([without_d2 - base, eps - without_d2, eps - base])
+    rows.append(np.mean(rows, axis=0).tolist())
+    return np.asarray(rows)
+
+
+def write_summary_csv(path: Path, gains: np.ndarray) -> None:
+    with path.open("w", newline="", encoding="utf-8-sig") as handle:
+        writer = csv.writer(handle)
+        writer.writerow(
+            [
+                "dimension",
+                "gain_eps_without_d2_minus_base",
+                "gain_eps_minus_eps_without_d2",
+                "gain_eps_minus_base",
+            ]
+        )
+        for label, row in zip(DIMENSIONS + ["Mean"], gains):
+            writer.writerow([label, *(f"{value:.2f}" for value in row)])
+
+
+def plot_gain_heatmap(gains: np.ndarray, out_png: Path, out_pdf: Path) -> None:
+    row_labels = DIMENSION_LABELS + ["Mean"]
+    cmap = LinearSegmentedColormap.from_list(
+        "phase1_gain",
+        ["#FFF7EC", "#FDD49E", "#FC8D59", "#D7301F", "#7F0000"],
+    )
+    fig, ax = plt.subplots(figsize=(5.1, 4.35), dpi=300)
+    image = ax.imshow(gains, cmap=cmap, vmin=0, vmax=1.3, aspect="auto")
+    ax.set_xticks(np.arange(len(GAIN_COLUMNS)), GAIN_COLUMNS, fontsize=9.5)
+    ax.set_yticks(np.arange(len(row_labels)), row_labels, fontsize=9.7)
+    ax.tick_params(axis="both", length=0)
+    ax.axvline(1.5, color="white", linewidth=2.4)
+    ax.axhline(len(row_labels) - 1.5, color="white", linewidth=2.4)
+
+    for row in range(gains.shape[0]):
+        for col in range(gains.shape[1]):
+            value = gains[row, col]
+            is_summary = row == gains.shape[0] - 1 or col == gains.shape[1] - 1
+            ax.text(
+                col,
+                row,
+                f"+{value:.2f}",
+                ha="center",
+                va="center",
+                fontsize=9.2,
+                color="white" if value >= 0.82 else "#1A1A1A",
+                fontweight="bold" if is_summary else "normal",
+            )
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+    ax.set_xticks(np.arange(-0.5, gains.shape[1], 1), minor=True)
+    ax.set_yticks(np.arange(-0.5, gains.shape[0], 1), minor=True)
+    ax.grid(which="minor", color="white", linestyle="-", linewidth=1.1)
+    ax.tick_params(which="minor", bottom=False, left=False)
+    colorbar = fig.colorbar(image, ax=ax, fraction=0.052, pad=0.03)
+    colorbar.ax.tick_params(labelsize=8, length=2)
+    colorbar.set_label("Gain in expert score", fontsize=9, labelpad=8)
+    colorbar.outline.set_linewidth(0.5)
+    fig.tight_layout()
+    fig.savefig(out_png, dpi=300, bbox_inches="tight", facecolor="white")
+    fig.savefig(out_pdf, dpi=300, bbox_inches="tight", facecolor="white")
+    plt.close(fig)
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Plot expert-pilot ablation-gain heatmap (Fig. 4d).")
+    parser.add_argument(
+        "--input",
+        type=Path,
+        default=Path("outputs/expert_pilot/expert_pilot_means_ci.csv"),
+        help="Mean/CI CSV generated by plot_expert_evaluation.py.",
+    )
+    parser.add_argument("--outdir", type=Path, default=Path("outputs/expert_pilot"))
+    return parser.parse_args()
+
+
+def main() -> None:
+    args = parse_args()
+    configure_style()
+    args.outdir.mkdir(parents=True, exist_ok=True)
+    gains = build_gain_matrix(load_means(args.input))
+    out_png = args.outdir / "phase1_ablation_gain_heatmap.png"
+    out_pdf = args.outdir / "phase1_ablation_gain_heatmap.pdf"
+    out_csv = args.outdir / "phase1_ablation_gain_heatmap_summary.csv"
+    write_summary_csv(out_csv, gains)
+    plot_gain_heatmap(gains, out_png, out_pdf)
+    print(f"Saved {out_png}")
+    print(f"Saved {out_pdf}")
+    print(f"Saved {out_csv}")
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,1209 @@
+[
+  {
+    "id": "mts_4",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: How's your asthma since you started using your inhaler again? \nPatient: Much better. I don't know why I didn't take it with me everywhere I went. \nDoctor: It's important to carry it with you, especially during times where you're exercising or walking more than usual. \nPatient: Yeah. I think I've learned my lesson. \nDoctor: Besides asthma, do you have any other medical problems?"
+      },
+      {
+        "role": "assistant",
+        "content": "Asthma."
+      }
+    ]
+  },
+  {
+    "id": "mts_13",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: How old are you? \nPatient: I am forty four. \nDoctor: Are you right handed or left handed? \nPatient: I'm right handed. \nDoctor: Tell me what happened. \nPatient: I don't know. I woke up over this numbness on my left side of the body. I remember it was on July twenty nineth. \nDoctor: Was there any sensation like having pins and needles? Was there any weakness? Is there any change in your visual or mental status? Were you able to walk? \nPatient: I was able to walk and there was no weakness or any other thing you mentioned. \nDoctor: When did you first start noticing these symptoms? \nPatient: There was nothing around Independence Day. It all started after that. At first, I felt that my right hand is very clumsy, and it is kind of stiff. Then I noticed leaning towards the right when walking. It was strange. Happened around July seventh.\nDoctor: Did you recently have any cold or flu like symptoms? \nPatient: No. \nDoctor:  Were diagnosed with a thing called multiple sclerosis? \nPatient: No. \nDoctor: Did you ever have a feeling where you felt like there's an electric is going up or down your spine? \nPatient: No. \nDoctor: How about any fatigue or pain? Any frequency in your urination? Any urgency in that? \nPatient: No."
+      },
+      {
+        "role": "assistant",
+        "content": "This 44y/o RHF awoke on 7/29/93 with left hemibody numbness without tingling, weakness, ataxia, visual or mental status change. She had no progression of her symptoms until 7/7/93 when she notices her right hand was stiff and clumsy. She coincidentally began listing to the right when walking. She denied any recent colds/flu-like illness or history of multiple sclerosis. She denied symptoms of Lhermitte's or Uhthoff's phenomena."
+      }
+    ]
+  },
+  {
+    "id": "mts_17",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Good afternoon, ma'am. \nPatient: Good afternoon, doctor. \nDoctor: Is this your assistant, ma'am? \nPatient: Yes, she helps me out all day.  \nDoctor: Great, do you have your food diary sheets? \nPatient: Yes, can you give them to her, please? \nDoctor: Thank you. What are you doing for exercise? \nPatient: Um, right now, I walk around at the mall to get my steps in every day."
+      },
+      {
+        "role": "assistant",
+        "content": "The patient's assistant brings in her food diary sheets. The patient says she stays active by walking at the mall."
+      }
+    ]
+  },
+  {
+    "id": "mts_33",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Have you lost weight?\nPatient: No, I haven't, you can ask my daughter.\nDoctor: How about anything like fever, nausea, vomiting, pain?\nPatient: No.\nDoctor: And as we discussed you have problem talking and comprehending. \nPatient: Yes.\nDoctor: And you get urine infections too?\nPatient: Yes. \nDoctor: And as discussed, your drainage is similar to past episodes when you had such infection? \nPatient: Yes."
+      },
+      {
+        "role": "assistant",
+        "content": "As in HPI. Patient and daughter also deny weight loss, fevers, chills, sweats, nausea, vomiting, abdominal pain. She has had some difficulty expressing herself, but seems to comprehend speech as above. The patient has had a history of chronic urinary tract infections and her drainage is similar to past episodes when she has had such infection."
+      }
+    ]
+  },
+  {
+    "id": "mts_113",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: How are you dealing with your pain now? \nPatient: Oh no, I have no issues with my pain. Today I'm here for a different cause. I'm having this weakness all around on my left side, especially in my arm. I feel like I cannot lift anything like even a glass of water. It's hard for me to lift it up. I'm not able to walk properly, let alone the balancing and everything else. It's just that my whole left side seems to be weak."
+      },
+      {
+        "role": "assistant",
+        "content": "The patient reports that the pain is not an issue at this time. The patient states that her primary concern is her left-sided weakness as related to her balance and her walking and her left arm weakness."
+      }
+    ]
+  },
+  {
+    "id": "mts_114",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Did you have any medical disorders previously, sir? \nPatient: I have diabetes. Also, I was quite overweight. \nDoctor: Are you taking any medications for that? \nPatient: Yes, I was still taking something called Zyprexa, but I stopped it after my last regular weight check. Also, I never took anything for diabetes. I also have chronic bronchitis for… I don't know… many years. \nDoctor: Do you smoke? \nPatient: Oh yes, I am a smoker. \nDoctor: How many cigarettes do you take in a day? \nPatient: Maybe up to sixty a day."
+      },
+      {
+        "role": "assistant",
+        "content": "He has a history of obesity and also of diabetes mellitus. However, most recently, he has not been treated for diabetes since his last regular weight since he stopped taking Zyprexa. The patient has chronic bronchitis. He smokes cigarettes constantly up to 60 a day."
+      }
+    ]
+  },
+  {
+    "id": "mts_118",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Can you confirm your age for me, ma'am?\nPatient: Absolutely, I'm sixty six now. \nDoctor: Good, so it's been about five months since you last evaluation for type two diabetes and high blood pressure. \nPatient: Yes, and I have a few other problems today, too. \nDoctor: Sure, we can treat all of them. What seems to be the problem today? \nPatient: I'm having some right shoulder pain. \nDoctor: Can you remember an injury to this shoulder? \nPatient: No, not that I can remember. \nDoctor: What aggravates your symptoms? \nPatient: It hurts when I move the shoulder. \nDoctor: Do you have any weakness, numbness, or tingling? \nPatient: No, I don't have any of that. \nDoctor: Okay, back to diabetes, how has that been progressing? \nPatient: Well, I can only check it in the morning, and it's usually less than one hundred. \nDoctor: Have you been checking your blood sugar two hours after meals? \nPatient: No, doctor, I haven't been. When I check them, it's normal though. \nDoctor: Do you have any records to prove that? \nPatient: No, I don't have that with me today. \nDoctor: That's important, do you have any other issues or concerns today? \nPatient: No, I can't think of anything. \nDoctor: Okay. I'm looking at your charts, and I see you had a benign breast biopsy done on June eleventh two thousand four. Did you have a repeat done after six months like they asked? \nPatient: No, I never had that done, I need to."
+      },
+      {
+        "role": "assistant",
+        "content": "The patient is a 66-year-old female who presents to the clinic today for a five-month recheck on her type II diabetes mellitus, as well as hypertension. While here she had a couple of other issues as well. She stated that she has been having some right shoulder pain. She denies any injury but certain range of motion does cause it to hurt. No weakness, numbness or tingling. As far as her diabetes she states that she only checks her blood sugars in the morning and those have all been ranging less than 100. She has not been checking any two hours after meals. Her blood pressures when she does check them have been running normal as well but she does not have any record of these present with her. No other issues or concerns. Upon review of her chart it did show that she had a benign breast biopsy done back on 06/11/04 and was told to have a repeat mammogram in six months but she has never had that done so she is needing to have this done as well."
+      }
+    ]
+  },
+  {
+    "id": "mts_132",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: How are you doing today?\nPatient: I have a long history of lung disease. COPD to be exact. Recently, I was experiencing a lot of coughing and shortness of breath even on walking from one room to another. All the time I felt sleepy, tired, or confused. \nDoctor: How is it now?\nPatient: It is getting better. \nDoctor: What else?\nPatient: I was also diagnosed with pneumonia; I was on trip and there they found it. It is also getting a lot better now, but doctor said to continue taking oxygen for some more time. \nDoctor: Oh wow!\nPatient: With everything going on, I felt weak and tired and it looks like I have lost all my strength and muscle. \nPatient: I also felt very instable and had a fall. I did not call for any assistance but now I think I should have called someone. Everyone including my family and nurses all tell me all the time to call for assistance. I was just being stubborn and hurt myself.\nDoctor: Did you use a wheelchair?\nPatient: No. \nDoctor: You know I would agree with everyone else; you should call for assistance if you need help like getting out of bed or need to use the restroom."
+      },
+      {
+        "role": "assistant",
+        "content": "1. Acute on chronic COPD exacerbation. 2. Community acquired pneumonia both resolving. However, she may need home O2 for a short period of time. 3. Generalized weakness and deconditioning secondary to the above. Also sustained a fall secondary to instability and not using her walker or calling for assistance. The patient stated that she knew better and she should have called for assistance and she had been told repeatedly from her family members and staff to call for assistance if she needed to get out of bed."
+      }
+    ]
+  },
+  {
+    "id": "mts_140",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Around what time did the car crash take place? \nPatient: About forty five minutes ago. I think someone called nine one one shortly after it happened. \nDoctor: Do you happen to remember how fast you were driving at the time of the crash? \nPatient: I was driving about forty miles an hour.  \nDoctor: What kind of car were you driving? \nPatient: A minivan. The car in front of me stopped suddenly and I hit them right from behind. The front of my car is pretty wrecked. \nDoctor: Were you wearing a seatbelt? And did the airbag deploy? \nPatient: Yes and yes. \nDoctor: Any passengers in the car with you? \nPatient: No, just me. \nDoctor: Did you hit your head anywhere? \nPatient: No, but I do have some pain on the left side of my neck. \nDoctor: Do you think you lost consciousness at any point in time? \nPatient: Actually, I do. Right after the crash. \nDoctor: Any pain elsewhere? \nPatient: Um I'm having some pain in my lower stomach area. I think it could be due to slamming into the airbag or steering wheel. \nDoctor: How would you rate this pain, ten being the worst pain ever? \nPatient: Um I'd give it a five out of ten right now. \nDoctor: Any knee, ankle, or foot pain? \nPatient: No.  \nDoctor: How about pain in your shoulders, elbows, or wrists? \nPatient: Uh no, but I guess I do have a little bit of pain in my pelvic area. \nDoctor: Do you remember walking before or after the ambulance arrived? \nPatient: I don't think so. Someone told me that I was placed on the stretcher after they got me out of the car. \nDoctor: Just to confirm, no chest pain or difficulty breathing? \nPatient: No. \nDoctor: Have you noticed any cuts on your skin? \nPatient: No.  \nDoctor: Any headache, nausea, or vomiting? \nPatient: No. \nDoctor: Fever or chills? \nPatient: No. \nDoctor: Any chance of pregnancy? \nPatient: No, I've been good at taking my birth control and I also have an I U D. \nDoctor: When was your last period? \nPatient: Um end of May I believe. \nDoctor: Are you taking anything besides birth control? \nPatient: Accutane for my pimples."
+      },
+      {
+        "role": "assistant",
+        "content": "This is a 32-year-old Hispanic female who presents to the emergency department today via ambulance. The patient was brought by ambulance following a motor vehicle collision approximately 45 minutes ago. The patient states that she was driving her vehicle at approximately 40 miles per hour. The patient was driving a minivan. The patient states that the car in front of her stopped too quickly and she rear-ended the vehicle ahead of her. The patient states that she was wearing her seatbelt. She was driving. There were no other passengers in the van. The patient states that she was restrained by the seatbelt and that her airbag deployed. The patient denies hitting her head. She states that she does have some mild pain on the left aspect of her neck. The patient states that she believes she may have passed out shortly after the accident. The patient states that she also has some pain low in her abdomen that she believes is likely due to the steering wheel or deployment on the airbag. The patient denies any pain in her knees, ankles, or feet. She denies any pain in her shoulders, elbows, and wrists. The patient does state that she is somewhat painful throughout the bones of her pelvis as well. The patient did not walk after this accident. She was removed from her car and placed on a backboard and immobilized. The patient denies any chest pain or difficulty breathing. She denies any open lacerations or abrasions. The patient has not had any headache, nausea or vomiting. She has not felt feverish or chilled. The patient does states that there is significant deformity to the front of the vehicle that she was driving, which again was a minivan. There were no oblique vectors or force placed on this accident. The patient had straight rear-ending of the vehicle in front of her. The pain in her abdomen is most significant pain currently and she ranks it at 5 out of 10. The patient states that her last menstrual cycle was at the end of May. She does not believe that she could be pregnant. She is taking oral birth control medications and also has an intrauterine device to prevent pregnancy as the patient is on Accutane."
+      }
+    ]
+  },
+  {
+    "id": "mts_183",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Hello, I want you to meet my assistant. She will be helping me out with your case today. \nDoctor: Please represent the patient's case.\nGuest_clinician: Patient is a seventy six year old male. He complains of generalized weakness and malaise for several months. He has a two week history of worsening orthostatic dizziness. He denies any recent symptoms of fever or shortness of breath, cough, vomiting, diarrhea, hemoptysis, melena, hematochezia, bright red blood per rectum, polyuria, night sweats, visual changes, or syncopal episodes. \nDoctor: You said you are feeling dizziness, so what makes it worse? \nPatient: It's bad whenever I try to stand straight. I also have these intermittent headaches where it feels like somebody is hammering inside. \nDoctor: Do these headaches change with changing the positions or standing straight? \nPatient: No. \nDoctor: Does the patient have any known medical history? \nGuest_clinician: Yes, he has a history of sinusitis. \nDoctor: So, your headaches-- how long has this been going on? \nPatient: Many weeks now. \nDoctor: Do you smoke? \nPatient: I used to smoke a hundred and even more packs per year. Now it's just one to two packs each day.\nDoctor: Has there been any weight loss?\nPatient: I lost forty pounds."
+      },
+      {
+        "role": "assistant",
+        "content": "This 76 y/o male complained of several months of generalized weakness and malaise, and a two week history of progressively worsening orthostatic dizziness. The dizziness worsened when moving into upright positions. In addition, he complained of intermittent throbbing holocranial headaches, which did not worsen with positional change, for the past several weeks. He had lost 40 pounds over the past year and denied any recent fever, SOB, cough, vomiting, diarrhea, hemoptysis, melena, hematochezia, bright red blood per rectum, polyuria, night sweats, visual changes, or syncopal episodes. He had a 100+ pack-year history of tobacco use and continued to smoke 1 to 2 packs per day. He has a history of sinusitis."
+      }
+    ]
+  },
+  {
+    "id": "mts_185",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Good morning, ma'am, before we begin, how old are you?\nPatient: Good morning, doctor, I'm twenty five. \nDoctor: Good, thank you. So, how are you feeling today? \nPatient: I'm okay, but I have this rash and itching over my right arm. It's so itchy and I scratch all the time. \nDoctor: Is this your dominant hand? \nPatient: Yes, so this had especially been bothering me. \nDoctor: When did you first notice these symptoms? \nPatient: Um, I think it was in October of nineteen ninety two. I think it was the twenty third. \nDoctor: Have you had any symptoms in any other parts of your body? \nPatient: Um, yeah, I've had tingling in both my legs, like in the front, and then it goes into my toes too. \nDoctor: Did this tingling sensation go away?  \nPatient: Yes, it went away the next day without me doing anything. \nDoctor: Have these symptoms returned at any point? \nPatient: Well, two days later, so that'd be the twenty fifth, I noticed that my legs felt like they were asleep. I really couldn't feel anything.\nDoctor: Have these symptoms spread to any other part of the body? \nPatient: Yeah, I couldn't really feel anything in the middle of my chest. I also have started having pain in my right shoulder blade. \nDoctor: Do these symptoms interfere with your ability to move? \nPatient: Yes, I don't really feel comfortable standing on my own, and I can't walk very well. \nDoctor: Do you have any cold or flu like symptoms? \nPatient: No, heat and cold don't bother me\nDoctor: Do you feel any significant fatigue? \nPatient: No, not really. \nDoctor: Have you had any significant weight loss? \nPatient: No."
+      },
+      {
+        "role": "assistant",
+        "content": "25y/o RHF began experiencing pruritus in the RUE, above the elbow and in the right scapular region, on 10/23/92. In addition she had paresthesias in the proximal BLE and toes of the right foot. Her symptoms resolved the following day. On 10/25/92, she awoke in the morning and her legs felt \"asleep\" with decreased sensation. The sensory loss gradually progressed rostrally to the mid chest. She felt unsteady on her feet and had difficulty ambulating. In addition she also began to experience pain in the right scapular region. She denied any heat or cold intolerance, fatigue, weight loss."
+      }
+    ]
+  },
+  {
+    "id": "mts_198",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Good afternoon, sir. \nPatient: Good afternoon, doctor.\nDoctor: Refresh my memory, please, how old are you, sir?\nPatient: I'm forty nine. \nDoctor: Also, I need you to remind me, when was your lower back surgery?\nPatient: It was in January of two thousand five. What was the name of the surgery, again?\nDoctor: It was a lumbar disc replacement. So, how are you feeling today? \nPatient: Truthfully doctor, the surgery did nothing. I'm still in a lot of pain. \nDoctor: Besides the surgery, what other interventions have you tried?\nPatient: I have them written down, let me look. Um, I did acupuncture, T E N S unit at P T, and I've been to the chiropractor too. \nDoctor: Have you taken any medicines? \nPatient: Yeah, I have those written down here. I've taken Elavil, Topamax, Cymbalta, Neurontin, and Lexapro.\nDoctor: Are you still taking any of these? \nPatient: No, I had bad side effects to some, and the others just didn't do anything. \nDoctor: Have you had any injections for this pain?\nPatient: I've had a few into the, um, piriformis. \nDoctor: Did that do anything?\nPatient: Um, it provided some brief relief, I guess. I had a Botox procedure done on March eighth two thousand six. \nDoctor: How did this work? \nPatient: Honestly, it did nothing. \nDoctor: Where is your pain, exactly?\nPatient: I'd say its seventy five percent in my butt and leg, and twenty five percent in my lower back. \nDoctor: Are you able to workout, or exercise, anything like that? \nPatient: I've tried to increase how much I walk, but when I do I get spasms in my lower back. \nDoctor: I see, with ten being the worst pain of all time, how would you rate your pain today?\nPatient: I'd say it's a six out of ten today. \nDoctor: What adjectives would you use to describe the pain?\nPatient: Um, I'd say its shooting, sharp, and, um, aching.\nDoctor: Specifically, what activities make the pain worse? \nPatient: Well, lifting, standing for a long time, or, um, squatting. I can't do that anymore.\nDoctor: Does anything make the pain better? \nPatient: Um, sitting back, ice, and I guess there's some improvement with the pain medication. \nDoctor: Is the pain constant, or does it come and go?\nPatient: It's constant now, but, um, the intensity of it comes and goes. \nDoctor: Are you able to sleep at night?\nPatient: Not really, it is affecting my sleep, which in turn affects my mood. \nDoctor: So, overall, I can summarize and say you're not happy with your pain relief so far?\nPatient: Yes, doctor, that's correct."
+      },
+      {
+        "role": "assistant",
+        "content": "This is a pleasant 49-year-old gentleman post lumbar disc replacement from January 2005. Unfortunately, the surgery and interventional procedures have not been helpful in alleviating his pain. He has also tried acupuncture, TENS unit, physical therapy, chiropractic treatment and multiple neuropathic medications including Elavil, Topamax, Cymbalta, Neurontin, and Lexapro, which he discontinued either due to side effects or lack of effectiveness in decreasing his pain. Most recently, he has had piriformis injections, which did give him a brief period of relief; however, he reports that the Botox procedure that was done on March 8, 2006 has not given him any relief from his buttock pain. He states that approximately 75% of his pain is in his buttock and leg and 25% in his back. He has tried to increase in his activity with walking and does note increased spasm with greater activity in the low back. He rated his pain today as 6/10, describing it is shooting, sharp and aching. It is increased with lifting, prolonged standing or walking and squatting, decreased with ice, reclining and pain medication. It is constant but variable in degree. It continues to affect activities and sleep at night as well as mood at times. He is currently not satisfied completely with his level of pain relief."
+      }
+    ]
+  },
+  {
+    "id": "mts_245",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Well, I am looking at your test reports and your blood sugars have been running up and down but nothing to be worried about but yeah, we need to keep monitoring. This morning it was perhaps a bit high at one hundred eighty-eight. Last time it was one hundred fifty and in one report it's around one hundred twenty and in lower teens too which is good. So, tell me how are you feeling?\nPatient: Well, I am doing okay. I am getting treated for hemorrhoids. I am also having some constipation from the past few weeks and I have recently developed this cough which is okay as I kind of get it often.\nDoctor: Oh boy, that's a lot going on!\nPatient: Yeah. \nDoctor: So, tell me are your hemorrhoids painful?\nPatient: No, it's fine.\nDoctor: And are you taking anything for constipation? \nPatient: Well, just prune juice.\nDoctor: Okay, let me write you an order for a laxative that should help. How bout cough? Any pain in the ribs while coughing?\nPatient: Nah, I am not bothered by it.\nDoctor: Any headache or nerve pain or body pain?\nPatient: Um, no I am fine.\nDoctor: Any fall or imbalance problem?\nPatient: No.\nDoctor: Any agitation or any other issues? \nPatient: Well, I am doing okay! Sometimes if I have pain, I take Tylenol and usually it works for me.\nDoctor: That's good!\nPatient: Yeah.\nDoctor: So, you have been seeking psychiatric help from Doctor Hudyncia right?\nPatient: Yes.\nDoctor: She mentioned in her report that you are responding well to her treatment and that your depression is under control and the medicine is working for you. That's good news. Oh, what medicine has she prescribed? Um let me see here in the report, oh okay, got it! It's Cymbalta. \nPatient: Right.\nDoctor: And no side effects, right?\nPatient: No.\nDoctor: And looks like the plan is to treat you for a minimum one year. \nPatient: Yeah.\nDoctor: Lastly, any breathing issues?\nPatient: No."
+      },
+      {
+        "role": "assistant",
+        "content": "Overall, the patient has been doing reasonably well. She is being treated for some hemorrhoids, which are not painful for her. There has been a note that she is constipated. Her blood glucoses have been running reasonably well in the morning, perhaps a bit on the high side with the highest of 188. I see a couple in the 150s. However, I also see one that is in the one teens and a couple in the 120s range. She is not bothered by cough or rib pain. These are complaints, which I often hear about. Today, I reviewed Dr. Hudyncia's note from psychiatry. Depression responded very well to Cymbalta, and the plan is to continue it probably for a minimum of 1 year. She is not having problems with breathing. No neurologic complaints or troubles. Pain is generally well managed just with Tylenol."
+      }
+    ]
+  },
+  {
+    "id": "mts_246",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: The next patient we have is Miss Dey, we have been regularly following up with her for her hydrocephalus since two thousand and two.\nGuest_clinician: Oh, okay.\nDoctor: She also had anterior cervical corpectomy, we removed her front part of the vertebra followed by fusion from C three to C five in March two thousand and seven.\nGuest_clinician: Oh wow!\nDoctor: Yeah. We last saw her in March two thousand and eight at that time she was experiencing some head fullness and ringing in the ears, however we decided to leave her shunt setting at one point zero. \nGuest_clinician: Okay, then you asked her to follow up doctor X Y Z regarding her cervical spine M R I.\nDoctor: Yes exactly! Let's go see her. Hello Miss Dey, how are you? This is my colleague doctor Jen, and she will be accompanying me today if that is okay with you? \nPatient: Of course, Hello doctors. \nGuest_clinician: Hi Miss Dey. \nDoctor: So, tell me what is going on? \nPatient: Well, last week I had some urine issue, like had to pee frequently. I had few episodes of urgency.\nDoctor: Okay and how do you feel this week? \nPatient: This week it's much better I am not feeling like how I was feeling last week.\nDoctor: Okay good. \nPatient: I feel no urgency or inconsistency and I am able to empty my bladder completely.\nDoctor: That's good. \nPatient: However, I do leak some pee when I cough. I wear pads daily. \nDoctor: And did you notice any changes regarding your bladder, do you think it is better than before or worse since the last time I saw you?\nPatient: I don't think it changed much, it feels almost the same. \nDoctor: Okay. Let's talk about your memory, any problem there, are you able to remember stuff and think about stuff?\nPatient: Yes, all good there, no issues. \nDoctor: Any headache?\nPatient: Nope!\nDoctor: Any changes in your walk or balance?\nPatient: Yes, I feel both have worsened. I am able to walk on uneven surface most of the time. But I feel I have become very slow. \nDoctor: And are you able to climb up and down the stairs? \nPatient: Yes. \nDoctor: Are you able to climb in and out of the car normally without any fuss?\nPatient: Yes. \nDoctor: Are you using cane at this point of time?\nPatient: No, no cane. \nDoctor: Okay good. Anything else you want to tell me?\nPatient: Ah yes, in the beginning of May, I got a spell of severe cough and because of continuous coughing I think I developed pain in my hip which travels down to my legs.\nDoctor: Oh okay, do you feel any tingling or numbness. \nPatient: Yes! I feel constant tingling sensation and a feeling that something is pinching my never. Sometimes it's just so painful. \nDoctor: Okay.\nPatient: Often I feel like my legs have become like elastic. I feel this tingling sensation is the reason my walking has become slower. \nDoctor: Doctor Jen did you take the notes of what she said? \nGuest_clinician: I did. \nDoctor: Okay great, anything else Miss Dey? \nPatient: No, I think I told you everything. \nDoctor: Alright you take care. I will see you next time. \nPatient: Bye! \nDoctor: Bye. \nGuest_clinician: Take care Miss Dey, Bye!"
+      },
+      {
+        "role": "assistant",
+        "content": "She has been followed for her hydrocephalus since 2002. She also had an anterior cervical corpectomy and fusion from C3 though C5 in March 2007. She was last seen by us in clinic in March 2008 and she was experiencing little bit of head fullness and ringing in the ears at that time; however, we decided to leave her shunt setting at 1.0. We wanted her to followup with Dr. XYZ regarding the MRI of the cervical spine. Today, she tells me that with respect to her bladder last week she had some episodes of urinary frequency, however, this week she is not experiencing the same type of episodes. She reports no urgency, incontinence, and feels that she completely empties her bladder when she goes. She does experience some leakage with coughing. She wears the pad on a daily basis. She does not think that her bladder has changed much since we saw her last. With respect to her thinking and memory, she reports no problems at this time. She reports no headaches at this time. With respect to her walking and balance, she says that it feels worse. In the beginning of May, she had a coughing spell and at that time she developed buttock pain, which travels down the legs. She states that her leg often feel like elastic and she experiences a tingling radiculopathy. She says that this tingling is constant and at times painful. She feels that she is walking slower for this reason. She does not use the cane at this time. Most of the time, she is able to walk over uneven surfaces. She is able to walk up and down stairs and has no trouble getting in and out of a car."
+      }
+    ]
+  },
+  {
+    "id": "mts_289",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Do you have any major medical conditions running in your family history that you know about?\nPatient: No, there's nothing of note. \nDoctor: So, there's no history of arthritis, or cancer that you're aware of?\nPatient: No, not that I know of."
+      },
+      {
+        "role": "assistant",
+        "content": "Noncontributory."
+      }
+    ]
+  },
+  {
+    "id": "mts_322",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: How are you feeling today? \nPatient: I have been having some trouble breathing.  I had tightness in my chest after walking up stairs. \nDoctor: Let me listen to your lungs."
+      },
+      {
+        "role": "assistant",
+        "content": "\"Trouble breathing.\""
+      }
+    ]
+  },
+  {
+    "id": "mts_334",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: How's your wife doing? I think the last time I saw her was two weeks ago. She was telling me about the remodeling you've been doing around the house. \nPatient: She's doing well, thanks for asking. Oh yeah, the remodeling has been a lot. I didn't think it'd take as long as it has. \nDoctor: Yeah, it can take some time. We remodeled our kitchen three years ago and it turned our lives upside down. So tell me, how's training going for you? I believe you were telling me that you have a five k coming up. \nPatient: Yeah, it's two weeks away. I've been jogging and doing cross country track about five times a week. I also lift twice a week on my better days. \nDoctor: That's great! And no smoking or drinking, correct? \nPatient: Nope.  \nDoctor: How's work been treating ya? \nPatient: Pretty darn well actually. I go into the allergy and immunology clinic four days outta the week. I like that my hours are flexible. My patients also haven't run away from me yet, which is always a good sign."
+      },
+      {
+        "role": "assistant",
+        "content": "The patient is married. Wife is living and well. He jogs or does Cross Country track 5 times a week, and weight training twice weekly. No smoking or significant alcohol intake. He is a physician in allergy/immunology."
+      }
+    ]
+  },
+  {
+    "id": "mts_370",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: I just need to confirm some information before we begin sir, you're forty one, correct? \nPatient: Yes sir, that's correct. \nDoctor: Good, so what happened? \nPatient: Well, I work at A B C, and about two days ago I slipped on some oil that had spilled. \nDoctor: How did you fall? \nPatient: I fell with both my arms outstretched, but I fell mostly on my left shoulder. \nDoctor: Where is your left shoulder pain?\nPatient: Mostly, it's in the back of my shoulder. \nDoctor: Going backwards a little, how about the right shoulder? \nPatient: It hurt really bad yesterday, but that's gone away now. \nDoctor: Good, do you have any pain in the front of the shoulder? \nPatient: No sir, I don't have anything there. \nDoctor: Good, how about weakness? Is there any shoulder weakness?\nPatient: No, it's not really weak at all. \nDoctor: How have your symptoms progressed over the last two days? Have they gotten better, or worse? \nPatient: Um, overall, I'd say it's gotten better. I have a little better range of motion. \nDoctor: Have you been able to do any activities? \nPatient: I was able to get in the swimming pool with my kids, and I didn't really have any trouble. \nDoctor: Good, what medicines have you taken for this? \nPatient: I've just taken some Advil so far."
+      },
+      {
+        "role": "assistant",
+        "content": "The patient is a 41-year-old male presenting for initial evaluation of his left shoulder. He works at ABC and two days ago was walking though an area, where there was some oil spilled on the floor. He fell and landed on bilateral outstretched arms and then further fell landing primarily on his left shoulder. He presents today reporting primarily posterior shoulder pain. The right shoulder was bothersome yesterday, but is now asymptomatic. He has no anterior shoulder pain. He denies any feelings of weakness. He reports some improvement over the last two days especially in his range of motion. He was able to get into the swimming pool last night with his children without difficulty. He has had no additional treatment other than over-the-counter Advil."
+      }
+    ]
+  },
+  {
+    "id": "mts_378",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Welcome to the clinic. \nPatient: Thank you. It is nice to meet you.\nDoctor: It is nice to meet you to. I hear an accent. Where are you from? \nPatient: I am from Denmark. I speak Danish as my first language. Me and my husband have been in the States for many many years. When we first got here, we did not speak a word of English. \nDoctor: Wow! Your English is excellent now. \nPatient: Thank you. \nDoctor: How old are you? \nPatient: I just turned seventy four last month. \nDoctor: Happy birthday! \nPatient: Thank you. \nDoctor: So, your primary care physician sent you here for possible hydrocephalus. \nPatient: Is that the water on brain thing? \nDoctor: Yes. \nPatient: Then, yes. \nDoctor: Can you tell me about the symptoms that you have been having. \nPatient: I think I have been walking funny lately. I have also been losing my balance.\nDoctor: How do you know that you have been walking funny? \nPatient: My husband noticed that I have been walking funny. He noticed it about over six months ago or so. \nDoctor: What do you notice about the way your wife's walk that has changed?\nGuest_family: She walks wider then she used to, and I noticed that she stooped over. She walks much slower than she did before. She is often losing her balance. I have noticed her touching the walls and furniture to stabilize herself. \nDoctor: Okay. Have you noticed her stabilizing herself all of a sudden? \nGuest_family: No. It has been happening more and more over the last six months or so. \nDoctor: What else have you noticed about the way she walks? \nGuest_family: I noticed that she is having trouble stepping up onto things like a scale. She seems very unbalanced. She also seems to take her time as she walks. She can't be hurried. \nDoctor: That is good that you are taking your time. Do you use any devices to assist you to get around? Like a cane or a walker? \nPatient: No. \nGuest_family: I must help her get in and out of the car. Not every time but sometimes. I am very concerned because she has been falling more and more recently.\nPatient: I have had one emergency room visit. \nDoctor: What happened that you had to go to the emergency room? \nPatient: I fell. I was walking to the bedroom. I lost my balance so I put my hand out to brace myself against the wall and my hand slipped. I fell on my wrist. \nGuest_family: She broke her wrist.\nDoctor: When did this fall happen?\nPatient: March two thousand and seven.\nGuest_family: She has fallen a few times since she broke her wrist. It makes me so nervous. \nDoctor: I can see why that would make you nervous. Have you had any headaches? \nPatient: No. I never get headaches.\nDoctor: Aren't you lucky. \nPatient: Yes, I guess so. \nDoctor: Have you had any problems with your memory or cognitive abilities? \nPatient: I am still able to pay the bills on time. I don't feel as smart as I used to be.  I do feel like my thinking has slowed down over the last few months. \nDoctor: What is your perspective on her memory and her cognitive abilities? \nGuest_family: I have noticed some changes. She will occasionally start a sentence and then not know what words to use to finish the sentence. \nDoctor: Has she ever had trouble finishing a sentence the in the past? \nGuest_family: No, she has always been very well spoken never has lost thoughts. \nDoctor: Have you had any fainting or vertigo episodes? \nPatient: I have not fainted. I have had some dizzy spells in the past but not recently. \nDoctor: Have you had and problems with your bowel movements? \nPatient: No. \nDoctor: Any bladder issues or frequent urination? \nPatient: No. \nDoctor: Okey. Let us do some an exam. \nPatient: Okey."
+      },
+      {
+        "role": "assistant",
+        "content": "The patient is a lovely 74-year-old woman who presents with possible adult hydrocephalus. Danish is her native language, but she has been in the United States for many many years and speaks fluent English, as does her husband. With respect to her walking and balance, she states \"I think I walk funny.\" Her husband has noticed over the last six months or so that she has broadened her base and become more stooped in her pasture. Her balance has also gradually declined such that she frequently touches walls and furniture to stabilize herself. She has difficulty stepping up on to things like a scale because of this imbalance. She does not festinate. Her husband has noticed some slowing of her speed. She does not need to use an assistive device. She has occasional difficulty getting in and out of a car. Recently she has had more frequent falls. In March of 2007, she fell when she was walking to the bedroom and broke her wrist. Since that time, she has not had any emergency room trips, but she has had other falls. With respect to her bowel and bladder, she has no issues and no trouble with frequency or urgency. The patient does not have headaches. With respect to thinking and memory, she states she is still able to pay the bills, but over the last few months she states, \"I do not feel as smart as I used to be.\" She feels that her thinking has slowed down. Her husband states that he has noticed, she will occasionally start a sentence and then not know what words to use as she is continuing. The patient has not had trouble with syncope. She has had past episodes of vertigo, but not recently."
+      }
+    ]
+  },
+  {
+    "id": "mts_407",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Any sudden weight gain or loss?\nPatient: No.\nDoctor: Any headaches, nose bleeds, coarse voice, blurry vision or loss or change of vision?\nPatient: No, not at all.\nDoctor: No fever or chills, right?\nPatient: Yeah, no fever or anything.\nDoctor: Any chest pain, shortness of breath or shortness of breath while sleeping? \nPatient: No.\nDoctor: Any palpitation, swelling or varicose veins or pain in your legs?\nPatient: No.\nDoctor: Any sore throat or cough or cough with mucous or blood sputum?\nPatient: I have this prolonged cough, but other than that nothing.\nDoctor: No wheezing?\nPatient: No, no wheezing.\nDoctor: Any heart burn, nausea or vomiting? \nPatient: No.\nDoctor: Loss of appetite or blood in stool or abdominal pain?\nPatient: No.\nDoctor: Constipation?\nPatient: No.\nDoctor: How is the color of your urine? Is it dark or cloudy?\nPatient: No.\nDoctor: Any pain while urinating or burning sensation?\nPatient: No.\nDoctor: Any flank or groin pain?\nPatient: No.\nDoctor: So, any joint pain, muscle stiffness or pain? Any backache? Ligament, tendon pain or strain? \nPatient: Nothing.\nDoctor: Did you experience any blackouts or seizures lately?\nPatient: No.\nDoctor: Any hallucinations or memory loss? \nPatient: No.\nDoctor: Any weakness? Numbness or tingling? \nPatient: No.\nDoctor: Tremors or loss of sensation like paralysis or-\nPatient: No.\nDoctor: Any anxiety, irritability, apathy or depression like feeling?\nPatient: No. \nDoctor: How is your sleep?\nPatient: It is fine.\nDoctor: And how is your appetite?\nPatient: It's good.\nDoctor: How is your mental state? Any suicidal thoughts crossing your mind?\nPatient: No, nothing like that. \nDoctor: Sorry, I have to ask these questions. \nPatient: It's okay.\nDoctor: Just a few more and we will be done.\nPatient: Sure.\nDoctor: Any unusual hair loss or hair or nail breakage?\nPatient: No.\nDoctor: Did you notice any skin lesion or discoloration?\nPatient: Nope.\nDoctor: Alright then."
+      },
+      {
+        "role": "assistant",
+        "content": "CONSTITUTIONAL: Denies weight loss/gain, fever or chills. ENMT: Denies headaches, nosebleeds, voice changes, blurry vision or changes in/loss of vision. CV: See history of present illness. Denies chest pain, SOB supine, palpitations, edema, varicose veins or leg pains. RESPIRATORY: He has a chronic cough. Denies shortness of breath, wheezing, sputum production or bloody sputum. GI: Denies heartburn, blood in stools, loss of appetite, abdominal pain or constipation. GU: Denies painful/burning urination, cloudy/dark urine, flank pain or groin pain. MS: Denies joint pain/stiffness, backaches, tendon/ligaments/muscle pains/strains, bone aches/pains or muscle weakness. NEURO: Denies blackouts, seizures, loss of memory, hallucinations, weakness, numbness, tremors or paralysis. PSYCH: Denies anxiety, irritability, apathy, depression, sleep disturbances, appetite disturbances or suicidal thoughts. INTEGUMENTARY: Denies unusual hair loss/breakage, skin lesions/discoloration or unusual nail breakage/discoloration."
+      }
+    ]
+  },
+  {
+    "id": "mts_428",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: How's he feeling today? \nGuest_family: I think this is the worst he's been feeling all week. \nDoctor: I'm sorry to hear that he hasn't been feeling well. What symptoms has he been having? \nGuest_family: He's been very congested as of late and seems to be coughing a lot more than usual. He was also running a fever yesterday.  \nDoctor: I see. What was his temperature? \nGuest_family: The thermometer was reading one hundred and one degrees Fahrenheit. Does he need to go to the hospital? \nDoctor: Let me evaluate and see what we can do for him today. \nGuest_family: Thank you, doctor. \nDoctor: I suspect that he has an upper respiratory infection, possible pertussis. Is he still experiencing apnea?"
+      },
+      {
+        "role": "assistant",
+        "content": "Upper respiratory illness with apnea, possible pertussis."
+      }
+    ]
+  },
+  {
+    "id": "mts_431",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Do you know about any medical issues running in your family?\nPatient: Yeah, almost everyone had diabetes."
+      },
+      {
+        "role": "assistant",
+        "content": "Multiple family members have diabetes mellitus."
+      }
+    ]
+  },
+  {
+    "id": "mts_450",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Were you ever diagnosed with any kind of cancer in the past?\nPatient: No.\nDoctor: Did you ever had any rashes? Was there any change in your moles?\nPatient: No.\nDoctor: Any sudden weight loss history? \nPatient: No. \nDoctor: How about your energy level how do you feel?\nPatient: I feel great, my energy level is quite good."
+      },
+      {
+        "role": "assistant",
+        "content": "ONCOLOGIC: No history of any cancer, change in moles or rashes. No history of weight loss. The patient has a good energy level."
+      }
+    ]
+  },
+  {
+    "id": "mts_453",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: You recently turned sixty seven, correct?\nPatient: Yes. Sixty seven years young.\nDoctor: Are you right or left handed?\nPatient: Right.\nDoctor: When were you first diagnosed with Parkinson's? \nPatient: September first of nineteen ninety five. \nDoctor: Do you remember who diagnosed you?\nPatient: A local doctor I was seeing at the time. A year before my diagnosis, I had a few falls and episodes of lightheadedness. I also noticed that I was staggering a lot more when walking. \nDoctor: Did you lose consciousness during any of your falls?\nPatient: Not that I know of. I had noticed that I was losing my normal voice to a degree. On top of losing my normal voice, my handwriting became smaller and smaller. I don't ever remember writing so small. Something seemed really off to me.\nDoctor: I'm sure that was difficult to experience. \nPatient: It was very difficult. Two months prior to being diagnosed, I started to move much slower than before.\nDoctor: By slower, do you mean the movements of your arms and legs were slower and impaired?\nPatient: Yes. I was prescribed Sinemet back in September of nineteen ninety five.\nDoctor: Did you notice any improvement while taking it?\nPatient: None. I was pretty disappointed and discouraged as a result. I have problems with coordination and walking without staggering even today.\nDoctor: Noting that it's February thirteenth nineteen ninety six. \nPatient: I felt weak in the morning and worse as the day went on.\nDoctor: Are you experiencing any other symptoms, such as stroke like events, vision changes, seizures, or problems with moving and coordinating your arms?\nPatient: No.\nDoctor: Any headache, nausea, vomiting, chills, or fever?\nPatient: No."
+      },
+      {
+        "role": "assistant",
+        "content": "This 67y/o RHF was diagnosed with Parkinson's Disease in 9/1/95, by a local physician. For one year prior to the diagnosis, the patient experienced staggering gait, falls and episodes of lightheadedness. She also noticed that she was slowly \"losing\" her voice, and that her handwriting was becoming smaller and smaller. Two months prior to diagnosis, she began experienced bradykinesia, but denied any tremor. She noted no improvement on Sinemet, which was started in 9/95. At the time of presentation, 2/13/96, she continued to have problems with coordination and staggering gait. She felt weak in the morning and worse as the day progressed. She denied any fever, chills, nausea, vomiting, HA, change in vision, seizures or stroke like events, or problems with upper extremity coordination."
+      }
+    ]
+  },
+  {
+    "id": "mts_463",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Any medical issues running in your family? \nPatient: I don't know anything about that. \nDoctor: You know anyone in your family or relatives who ever had diseases like diabetes or any heart issues? \nPatient: Nope."
+      },
+      {
+        "role": "assistant",
+        "content": "unremarkable."
+      }
+    ]
+  },
+  {
+    "id": "mts_486",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Good afternoon, young lady. \nPatient: Good afternoon, doctor. \nDoctor: How has your weight been since your last visit, with the phentermine? \nPatient: Well, since the last visit I've gained about a pound. \nDoctor: Well, it could be worse, but we're at a plateau, I'd like to see you lose some more per month. \nPatient: Yeah, I've been working really hard, but I haven't been able to get the weight down any further so far. \nDoctor: What has been your lowest weight?\nPatient: My lowest? That was one hundred thirty six. I'm just as frustrated as you are, doctor. \nDoctor: Well, if this plateau continues, we should discontinue the phentermine. \nPatient: Why is that? \nDoctor: It shouldn't be used to maintain your weight, but only to get the weight down. So, if it's not serving that purpose, we shouldn't use it. There's no real benefit there. \nPatient: Okay, yes, I agree."
+      },
+      {
+        "role": "assistant",
+        "content": "She is here for a followup on her weight loss on phentermine. She has gained another pound since she was here last. We talked at length about the continued plateau she has had with her weight. She gained a pound the month before and really has not been able to get her weight any farther down than she had when her lowest level was 136. She is frustrated with this as well. We agree that if she continues to plateau she really should not stay on phentermine. We would not want her to take it to maintain her weight but only to help her get her weight down, and she may have really lost any benefit from it, and she agrees. c"
+      }
+    ]
+  },
+  {
+    "id": "mts_498",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Hello Miss Lee how are you? \nPatient: I am okay, my arms are troubling me so much. \nDoctor: Yeah, I know it's been a longstanding pain in both your arms. \nPatient: Yeah, and hands too\nDoctor: Can you pinpoint where exactly is the pain? \nPatient: Yeah, it's right here in the middle part of arm and my palm. \nDoctor: Okay so mostly in the medial part. Tell me do you feel any weakness?\nPatient: No, but I do feel this tingling sensation kind of like numbness in my left hand, and it gets worse at night after doing repetitive work.\nDoctor: Are you left handed? \nPatient: No, I'm right handed\nDoctor: Hm, any neck pain?\nPatient: Not really, nothing substantial. \nDoctor: Can you please tell me your age again?\nPatient: I am fifty two.\nDoctor: Did you ever have these kind of signs and symptoms in the past?\nPatient: Nope!\nDoctor: Okay and are you taking anything for pain?\nPatient: Ah yes, I am taking Lyrica.\nDoctor: Lyrica okay and is it helping?\nPatient: Yes, somewhat. \nDoctor: Any problem in walking or change in how you walk? \nPatient: No.\nDoctor: And you are having regular bowel movements any changes?\nPatient: Yes, no changes. \nDoctor: How about urine, any burning or difficulty peeing?\nPatient: No, it's all fine. \nDoctor: Okay good. So, the neurological exam we did earlier, I have the results for it. \nPatient: And?\nDoctor: Well, you were tested positive for Phalen's test on your left hand.\nPatient: What does that means?\nDoctor: It means that you have something called Carpal tunnel syndrome, which explains your numbness and tingling sensation in your left hand. It also explains your pain in the middle part of your hand as it's caused due to pinching or compression of a nerve called median nerve. \nPatient: Oh, how did that happen?\nDoctor: Well, it's possible that your repetitive hand motion could have caused it or sometimes it's just the anatomy of your wrist. \nPatient: Oh, that explains my increased pain in the night after work. \nDoctor: Yeah. \nPatient: Anything else came in the neuro test? \nDoctor: No, rest of your neurological exam was normal. \nPatient: Okay. I am worried now. \nDoctor: Don't worry we are here. \nPatient: Thank you!"
+      },
+      {
+        "role": "assistant",
+        "content": "The patient is a 52-year-old right-handed female with longstanding bilateral arm pain, which is predominantly in the medial aspect of her arms and hands as well as left hand numbness, worse at night and after doing repetitive work with her left hand. She denies any weakness. No significant neck pain, change in bowel or bladder symptoms, change in gait, or similar symptoms in the past. She is on Lyrica for the pain, which has been somewhat successful. Examination reveals positive Phalen's test on the left. Remainder of her neurological examination is normal."
+      }
+    ]
+  },
+  {
+    "id": "mts_507",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Can you tell me more about your son, please? \nGuest_family: Sure, he's ten years old now. \nDoctor: How long has he used his walker?\nGuest_family: Well, he's been using that since he started walking. \nDoctor: How old was he when he started walking?\nGuest_family: He was about a year old. \nDoctor: Good, what seems to be the problem today?\nGuest_family: He keeps complaining about the back of his legs being tight.\nDoctor: Can you sit on the table, young man? Yes, I'm bending his legs, we call this the popliteal angle, and both sides flex to only about twenty. \nGuest_family: Where should that be normally?\nDoctor: He should be able to get to ninety. \nGuest_family: What can we do about this? \nDoctor: I think we should do surgery on this leg. How does he walk? Can I see?  \nGuest_family: Well, just look at him. \nDoctor: Yes, he does not walk with a crouched pattern, but he is toe walking. \nGuest_family: Can we correct that instead of the hamstring tightness? \nDoctor: Well, I believe he should have surgery on the hamstring, as well. \nGuest_family: Okay, right now we want to do surgery to fix his walking. What are the risks of infection?\nDoctor: They're low, historically, they're less than one percent. The risks include anesthesia, infection, bleeding, changes in sensation and the motion of walking, and it may also not always cure the toe walking. There is also possible stiffness after wearing the cast and other cast issues. \nGuest_family: Okay, and will be under anesthesia during this? Is this worth it?\nDoctor: Absolutely, he won't feel a thing. It is worth it because the chances of the risks happening are low. \nGuest_family: Yes, we'd like to do the procedure. Let me text my husband really quick. Okay, yes, my husband agrees."
+      },
+      {
+        "role": "assistant",
+        "content": "The patient is a 10-year-old boy who has been a toe walker since he started ambulating at about a year. The patient had some mild hamstring tightness with his popliteal angle of approximately 20 degrees bilaterally. He does not walk with a crouched gait but does toe walk. Given his tightness, surgery versus observation was recommended to the family. Family however wanted to correct his toe walking. Surgery was then discussed. Risks of surgery include risks of anesthesia, infection, bleeding, changes in sensation and motion of the extremities, failure to resolve toe walking, possible stiffness, cast, and cast problems. All questions were answered and parents agreed to above surgical plan."
+      }
+    ]
+  },
+  {
+    "id": "mts_564",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Patient: You know Doctor, I am widowed for eighteen years now. Never remarried, I live by myself in my house.\nDoctor: Oh okay, are your still working?\nPatient: No, I use to run a restaurant, but now retired. \nDoctor: Hm. And you smoke cigarettes? \nPatient: No, I don't!  Never liked the smell.\nDoctor: How about alcohol?\nPatient: No, I don't drink either."
+      },
+      {
+        "role": "assistant",
+        "content": "She is a nonsmoker and nondrinker. She has been widowed for 18 years. She lives alone at home. She is retired from running a restaurant."
+      }
+    ]
+  },
+  {
+    "id": "mts_577",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Are there any known disease running in your family?\nPatient: My dad has high blood pressure, and he takes medication for it. He is now eighty two years old. He had a stroke around two years ago. This was his second stroke. First one he had when he was forty five. \nDoctor: What about your mom? How old is she?\nPatient: My mom is eighty years old. She does have sugar issues."
+      },
+      {
+        "role": "assistant",
+        "content": "Father with HTN and h/o strokes at ages 45 and 80; now 82 years old. Mother has DM and is age 80."
+      }
+    ]
+  },
+  {
+    "id": "mts_579",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Good afternoon, champ, how you holding up?\nPatient: Good afternoon, Doctor, I have a lot of lower back pain. \nDoctor: Oh no, before we begin, how old are you, sir and which hand do you write with?\nPatient: I'm seventy five now. Right.\nDoctor: Great, so tell me, how long have you had this lower back pain? \nPatient: It's been about ten days now. \nDoctor: Have your symptoms improved at all since they began? \nPatient: No, they keep getting worse. \nDoctor: Does the pain radiate into your legs? \nPatient: Yes, it started radiating down my right leg three days after the lower back pain began, and then the left leg three days after the right. The next day I could barely walk, the pain was so severe. \nDoctor: Do you remember the initial date of the beginning of your low back pain? \nPatient: Um, it was on December third nineteen ninety five. \nDoctor: Have you seen another doctor for this pain? \nPatient: Yes, I saw my local physician, um, it was on December eleventh, but he wasn't able to pinpoint what was going on. \nDoctor: What kind of treatments did he recommend? \nPatient: He gave me some antiinflammatories and sent me on my way. \nDoctor: Did you drive yourself? \nPatient: Yes, I did. \nDoctor: How did the antiinflammatories work? \nPatient: Um, by the time I got home, I could hardly walk due to the back pain, and I had weakness in my legs. I was, however, able to feed my dogs, and I fixed myself some dinner. \nDoctor: Was there any leg numbness? \nPatient: Yes. Since December eleventh. \nDoctor:  Have you seen an orthopedist for this pain? \nPatient: Yes, I saw one the day after my primary care physician, but my legs gave out and I fell while walking to my car because of the leg weakness and back pain.  \nDoctor: What kind of imaging studies did that orthopedist do? \nPatient: He did a C T and x rays of my lower back, but he didn't see anything wrong. He recommended I follow up at U I H C. The imaging was on my L S Spine."
+      },
+      {
+        "role": "assistant",
+        "content": "This 75y/o RHM presented with a 10 day h/o progressively worsening LBP. The LBP started on 12/3/95; began radiating down the RLE, on 12/6/95; then down the LLE, on 12/9/95. By 12/10/95, he found it difficult to walk. On 12/11/95, he drove himself to his local physician, but no diagnosis was rendered. He was given some NSAID and drove home. By the time he got home he had great difficulty walking due to LBP and weakness in BLE, but managed to feed his pets and himself. On 12/12/95 he went to see a local orthopedist, but on the way to his car he crumpled to the ground due to BLE weakness and LBP pain. He also had had BLE numbness since 12/11/95. He was evaluated locally and an L-S-Spine CT scan and L-S Spine X-rays were \"negative.\" He was then referred to UIHC."
+      }
+    ]
+  },
+  {
+    "id": "mts_585",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Welcome to the clinic, Miss A. \nPatient: Thank you. \nDoctor: Let's start with your medical history. What medical conditions do you have? \nPatient: Okay. I have high blood pressure, asthma and sleep apnea. I had blood clots in my left leg about six months ago. I also have cancer. \nDoctor: What kind of cancer do you have? \nPatient: I have stomach cancer. They also did a total abdominal hysterectomy. \nDoctor: Did they put you on an anticoagulant medication for the blood clotting? \nPatient: Yes. I took it for six months. I stopped taking it and then I had the stroke. \nDoctor: Have you had any other surgeries? \nPatient: Yes. I had a colonic resection to remove benign polyps. I had another benign lump removed from my breast.  \nDoctor: How are you feeling today? \nPatient: I am still having weakness in my left leg. That is why I still have to us my walker, but I have been able to get around easier. \nDoctor: Have you been experiencing any daytime fatigue? \nPatient: No. I have been falling asleep at work. I think it is from looking at my computer screen all day. My supervisor caught me snoring one day and forgot where I was at. My supervisor offered to give me a coffee. This has happened more than once. \nDoctor: This could be due to your sleep apnea. Who is treating you for your sleep apnea? \nPatient: Doctor X did a consult and had me do one of those sleep test about two years ago. I only get sleepy when I look at my computer screen. \nDoctor: Did Doctor X recommend a C P A P machine to use at night? \nPatient: Yes, but I never used to use it. I had another follow up visit with her and she told me that I need to use it every night. I have been using it every other night. \nDoctor: How much uninterrupted sleep do you think that you get per night? \nPatient: Maybe two to five hours, on a good night. \nDoctor: That is not enough sleep. No wonder you are falling asleep at work. I recommend following up again with Doctor X regarding your sleep apnea. You are at a much higher risk for obesity and high cholesterol if you continue to not address the issues you have been having with the lack of sleep and sleep apnea. \nPatient: Okay. I will make a follow up visit with her."
+      },
+      {
+        "role": "assistant",
+        "content": "Ms. A continues to have some residual left leg weakness and continues to use a rolling walker for ambulation, but she reported that her motor functioning had improved significantly. She was diagnosed with sleep apnea approximately two years ago and was recently counseled by Dr. X on the need to use her CPAP because she indicated she never used it at night. She reported that since her appointment with Dr. X, she has been using it \"every other night.\" When asked about daytime fatigue, Ms. A initially denied that she was having any difficulties, but repeatedly indicated that she was falling asleep at work and thought that it was due to looking at a computer screen. She reported at times \"snoring\" and forgetting where she is at and said that a supervisor offered to give her coffee at one point. She receives approximately two to five hours of sleep per night. Other current untreated risk factors include obesity and hypercholesterolemia. Her medical history is also significant for hypertension, asthma, abdominal adenocarcinoma status post hysterectomy with bilateral salpingo-oophorectomy, colonic benign polyps status post resection, benign lesions of the breast status post lumpectomy, and deep vein thrombosis in the left lower extremity status post six months of anticoagulation (which she had discontinued just prior to her stroke)."
+      }
+    ]
+  },
+  {
+    "id": "mts_592",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: I will ask some simple questions, okay?\nPatient: Hm\nDoctor: How old are you and how would you define yourself in terms of ethnicity?\nPatient: Well, I am forty seven and would proudly call myself as Latin American. \nDoctor: Great. What brings you to the emergency room? \nPatient: I had a blood test before and then it came out to be high potassium. I also went to a regular clinic the other day as I was feeling very weak and extremely tired.\nDoctor: Okay.\nPatient: My potassium came out to be seven and it was highlighted in red. That really scared me, so I wanted to know everything what's going on inside me. I told the emergency doctors too that all these weakness and tiredness is going on for more than half a year. \nDoctor: Did you noticed any other symptoms other than weakness? \nPatient: Yes, there was the fever and chills. I was sweating a lot in the nights, and I also had weight loss of around twenty pounds. During that time, I sometimes have nausea and was throwing up a lot. I was not eating. I always felt dizzy every time I tried to stand. \nDoctor: Did you have wet cough?\nPatient: No, not wet cough but I did notice back pain gets intense on the upper side whenever I coughed, like in my ribs. I normally massage that area and it gets better. \nDoctor: Any shortness of breath? \nPatient: Nope. \nDoctor: How about while sleeping or doing something else?\nPatient: Not while sleeping, but I did notice that if I'm walking for two to three blocks then I get out of breath easily. Previously it was not like this. I used to jog for two to three miles without even a single breath loss.\nPatient: I noticed one more thing. I feel like my balls on one side are getting big. \nDoctor: Which side left or right?\nPatient: I think its left. \nDoctor: For how long?\nPatient: I guess over the past year. I did see someone when all of this started, and he put me on some antibiotics, but nothing changed. For last few months there is yellow fluid coming out of it too. \nDoctor: Did you ever get any type of injury in the area?\nPatient: No. \nDoctor: What about your bowel movements?\nPatient: Nope everything is as usual. \nDoctor: Any change in urinary habits?\nPatient: Nope.\nDoctor: Any changes in your skin? Any rash? Any kind of eyesight issue?\nPatient: Nope, no changes.\nDoctor: What about pain? Like headache or any joint pain? \nPatient: Nope, no pain anywhere."
+      },
+      {
+        "role": "assistant",
+        "content": "A 47-year-old Latin American man presented to the emergency room after being told to come in for a high potassium value drawn the previous day. He had gone to an outside clinic the day prior to presentation complaining of weakness and fatigue. Labs drawn there revealed a potassium of 7.0 and he was told to come here for further evaluation. At time of his assessment in the emergency room, he noted general malaise and fatigue for eight months. Over this same time period he had subjective fevers and chills, night sweats, and a twenty-pound weight loss. He described anorexia with occasional nausea and vomiting of non-bilious material along with a feeling of light-headedness that occurred shortly after standing from a sitting or lying position. He denied a productive cough but did note chronic left sided upper back pain located in the ribs that was worse with cough and better with massage. He denied orthopnea or paroxysmal nocturnal dyspnea but did become dyspneic after walking 2-3 blocks where before he had been able to jog 2-3 miles. He also noted that over the past year his left testicle had been getting progressively more swollen and painful. He had been seen for this at the onset of symptoms and given a course of antibiotics without improvement. Over the last several months there had been chronic drainage of yellowish material from this testicle. He denied trauma to this area. He denied diarrhea or constipation, changes in his urinary habits, rashes or skin changes, arthritis, arthralgias, abdominal pain, headache or visual changes."
+      }
+    ]
+  },
+  {
+    "id": "mts_603",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: How long have you been running a fever? \nPatient: It's been on and off for a few days now. I'm also having chills. \nDoctor: Have you taken anything for the fever? \nPatient: Tylenol and Advil. I've been taking them interchangeably. \nDoctor: When was the last time you took your temperature? \nPatient: An hour ago. The thermometer read one O one point four. \nDoctor: Are you experiencing any other symptoms, such as shortness of breath, nausea, vomiting, diarrhea, or others? \nPatient: I've been having a stronger urge to pee a lot more than usual. Not sure if that's related. \nDoctor: It could be. We're still waiting on your urine results. Do you have a history of cataracts or glaucoma?\nPatient: No. \nDoctor: Okay, great. Any signs of pneumonia or valley fever?\nPatient: Nothing of the sort. \nDoctor: What about blood in your vomit or feces?\nPatient: Nope. \nDoctor: Any neurological symptoms like T I A or C V A? That is slurred speech or stroke symptoms.\nPatient: Luckily, no. I don't have seizures or anything like that. \nDoctor: Great to here. With the pandemic I wanted to check on your mental health too. Any depression or anxiety?\nPatient: I have always been a homebody. This is normal for me. Nothing like that in my head. \nDoctor: Cool. Do you have any issues with blood disorders?\nPatient: Nothing like that."
+      },
+      {
+        "role": "assistant",
+        "content": "CONSTITUTIONAL: No history of fever, rigors, or chills except for recent fever and rigors. HEENT: No history of cataract or glaucoma. RESPIRATORY: Shortness of breath. No pneumonia or valley fever. GASTROINTESTINAL: Nausea and vomiting. No hematemesis or melena. UROLOGICAL: Frequency, urgency. MUSCULOSKELETAL: No muscle weakness. SKIN: None significant. NEUROLOGICAL: No TIA or CVA. No seizure disorder. PSYCHOLOGICAL: No anxiety or depression. HEMATOLOGICAL: None significant."
+      }
+    ]
+  },
+  {
+    "id": "mts_615",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Is this your mother with you today?\nPatient: Yes, this is my mommy. \nDoctor: Great, welcome, what did you do this this ankle, young lady? \nPatient: Well, I was running when I twisted my ankle. \nDoctor: Which ankle did you twist? \nPatient: It was my right ankle. \nDoctor: Where does it hurt the worst? \nPatient: Right here, on the outside of my ankle. \nDoctor: Do you have a primary care physician?\nGuest_family: Yeah, we go to Doctor Brown. \nDoctor: Do you have any other injuries to speak of? \nPatient: No, it's just my ankle really."
+      },
+      {
+        "role": "assistant",
+        "content": "The patient was running and twisted her right ankle. There were no other injuries. She complains of right ankle pain on the lateral aspect. She is brought in by her mother. Her primary care physician is Dr. Brown."
+      }
+    ]
+  },
+  {
+    "id": "mts_638",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: How's he doing? \nGuest_family: Not so great. He's been out of it. He hasn't been acting like himself. \nDoctor: How long has it been since you noticed any behavioral changes? \nGuest_family: A few days now. \nDoctor: Is he complaining of any pain? \nGuest_family: Yeah he's been- \nDoctor: He's been? \nGuest_family: Sorry, my phone was on vibrate and I had to turn it off. \nDoctor: No problem. \nGuest_family: He's been pointing to his stomach and saying it hurts. \nDoctor: Is he having any other symptoms? \nGuest_family: He's told me he feels queasy. I took his temperature the other night and he was running a fever of one O two. \nDoctor: Any vomiting with the nausea? \nGuest_family: Yeah, he's thrown up a handful of times."
+      },
+      {
+        "role": "assistant",
+        "content": "Abdominal pain, nausea, vomiting, fever, altered mental status."
+      }
+    ]
+  },
+  {
+    "id": "mts_663",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Any past medical problems I should know of?\nPatient: No, ma'am. I am forty three and this is the first time I have had a major issue. It's only been this past month where I've felt weaker than usual. I'm much more tired and short of breath whenever I move around.  \nDoctor: Any recent weight loss? \nPatient: Yeah, I actually lost about fifteen pounds in less than two or three months. \nDoctor: How's your appetite? Any nausea, vomiting, diarrhea? \nPatient: Appetite is pretty fine. No nausea, vomiting, or diarrhea.\nDoctor: How about fever, chills, sweats, cough? \nPatient: No, ma'am. \nDoctor: And any chest pain with your shortness of breath? \nPatient: No, ma'am."
+      },
+      {
+        "role": "assistant",
+        "content": "This is a 43-year-old black man with no apparent past medical history who presented to the emergency room with the chief complaint of weakness, malaise and dyspnea on exertion for approximately one month. The patient also reports a 15-pound weight loss. He denies fever, chills and sweats. He denies cough and diarrhea. He has mild anorexia."
+      }
+    ]
+  },
+  {
+    "id": "mts_688",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: How old are you, young man? \nPatient: I am twenty one. \nDoctor: Are you right handed or left handed? \nPatient: I am right handed. \nDoctor: So, tell me what brings you here today? \nPatient: Everything started on the fifth of November. Then after I saw the gradual increase in my symptoms. So it was all like numbness. I could not feel my legs. They felt numb all the time and there was no coordination between them, and it also affected my walk. All these symptoms were at their limit in just like a half day or more. It is continuing the same way since then. I also feel like somebody is putting pins and needles on my legs approximately  halfway up the calf on both sides. \nDoctor: You said that you felt decreased coordination or less coordination between your legs, right? \nPatient: Yeah, that's right. It totally feels like I'm walking in space and don't know where to put my next step. I have no up and down spatial awareness. \nDoctor: Do you have any issue with the bowel movements? \nPatient: Nope. \nDoctor: What about this weakness or the numbness anywhere else except your legs? \nPatient: No, it's only in the legs. \nDoctor: Did anything help you with those symptoms? \nPatient: Well, sometimes, you see, hot showers made me feel better, but it is like only sometimes. \nDoctor: Any recent flu like symptoms? \nPatient: Nope. \nDoctor: Did anyone in your family have anything like that or any other medical issues that was like going on in your family? \nPatient: Nope. \nDoctor: Did you have any surgery before? \nPatient: Nope. \nDoctor: What about any other major health issues in the past? \nPatient: No, no medical issues. \nDoctor: Are you taking any kind of medication for anything? \nPatient: No medications."
+      },
+      {
+        "role": "assistant",
+        "content": "21 y/o RHM complained of gradual onset numbness and incoordination of both lower extremities beginning approximately 11/5/96. The symptoms became maximal over a 12-24 hour period and have not changed since. The symptoms consist of tingling in the distal lower extremities approximately half way up the calf bilaterally. He noted decreased coordination of both lower extremities which he thought might be due to uncertainty as to where his feet were being placed in space. He denied bowel/bladder problems, or weakness or numbness elsewhere. Hot showers may improve his symptoms. He has suffered no recent flu-like illness. Past medical and family histories are unremarkable. He was on no medications."
+      }
+    ]
+  },
+  {
+    "id": "mts_701",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Nurse, do you have a report on my patient? \nGuest_clinician: I do. She has a two year history of small cell lung cancer, which spread to both femurs, lower lumbar spine, and pelvis. \nDoctor: Oh, no. Did she get chemotherapy? \nGuest_clinician: She's had chemotherapy and radiation treatments multiple times. She can't remember how many times she had those treatments because she lost track. She also said she finished a series of ten radiation treatments for pain relief. \nDoctor: How are her symptoms now? \nGuest_clinician: She's currently having severe pain. \nDoctor: I see. Does she have any imaging done? \nGuest_clinician: She does. A C T scan was done to check for metastasis. \nDoctor: Thank you, Nurse. I'll go see her now. \nGuest_clinican: No problem. \nDoctor: Hello, ma'am. What is the reason for your visit today?\nPatient: I wanted to see if I could get some treatment for my pain. \nDoctor: What kind of pain are you having? \nPatient: I feel like it's a burning feeling? I don't know. I can feel it one spot and then it spreads down. \nDoctor: I see. Where do you feel the pain? \nPatient: I feel it mostly on my lower right side of my back. \nDoctor: Do you feel it anywhere else? \nPatient: The back of my right leg and knee. \nDoctor: Would you said the pain radiates down from your back to your knee? \nPatient: That's it. Radiating. I forgot the word. \nDoctor: No problem. On a scale from zero to ten, with zero being no pain and ten being the worst pain of your life, how would you rate your back and leg? \nPatient: They're both a ten. \nDoctor: Oh, wow. Do you feel pain anywhere else? \nPatient: Yes. Could you check my feet? \nDoctor: Let me check them. I'll feel around your left foot. Let me know what you feel. \nPatient: I feel like the bottom is numb. Ouch. It also feels sharp at times too. \nDoctor: I see. The nurse stated here that you had some pain spreading to your mid back too. Let me feel it really quick. Let me know how that feels. \nPatient: Ouch! It hurts a lot. I feel a sharp and dull pain. Most of the time, it's just aching. \nDoctor: I see. When do you feel like the pain in your body gets the worst? \nPatient: I'd say when I'm sitting in a car for a long time.\nDoctor: So, just sitting for long periods of time?\nPatient: Yeah. When I stand and walk, too. \nDoctor: Have you ever taken anything for the pain?\nPatient: I am on a load of narcotics for the pain."
+      },
+      {
+        "role": "assistant",
+        "content": "The patient is on my schedule today to explore treatment of the complaints. She has a two-year history of small cell lung cancer, which she says has spread to metastasis in both femurs, her lower lumbar spine, and her pelvis. She states she has had numerous chemotherapy and radiation treatments and told me that she has lost count. She says she has just finished a series of 10 radiation treatments for pain relief. She states she continues to have significant pain symptoms. Most of her pain seems to be in her low back on the right side, radiating down the back of her right leg to her knee. She has also some numbness in the bottom of her left foot, and some sharp pain in the left foot at times. She complains of some diffuse, mid back pain. She describes the pain as sharp, dull, and aching in nature. She rates her back pain as 10, her right leg pain as 10, with 0 being no pain and 10 being the worst possible pain. She states that it seems to be worse while sitting in the car with prolonged sitting, standing, or walking. She is on significant doses of narcotics. She has had multiple CT scans looking for metastasis."
+      }
+    ]
+  },
+  {
+    "id": "mts_736",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Who's my patient today?\nGuest_family: Today, it's my brother.\nDoctor: What seems to be the problem today?\nGuest_family: Well, he's a vegetarian but he has high cholesterol and he's on a medication to control it.\nDoctor: Has he changed his diet?\nGuest_family: Yes, he did when he got a letter saying that his fat levels were high in the blood.\nDoctor: What kinds of foods did he eliminate?\nPatient: Oh, you know, all of the fun ones. Like cappuccino, quiche, crescents, candy, vending machines, all of that stuff.\nDoctor: Do you take your lunch to work?\nPatient: Yes, I do about three or four times a week instead of eating out so much.\nDoctor: Are you exercising right now?\nPatient: Yes, I do about six or seven days a week.\nDoctor: What kind do you like to do?\nPatient: Well, I do just about everything. I swim, I bike, run and then I lift weights.\nDoctor: How long do you workout per day?\nPatient: Usually, it's about one and a half to two and a half hours every day.\nDoctor: Good, are you training for anything specific?\nPatient: Actually, yes I'm going to do a triathlon.\nDoctor: Can I assume you're losing weight?\nPatient: Yes, I am."
+      },
+      {
+        "role": "assistant",
+        "content": "His brother, although he is a vegetarian, has elevated cholesterol and he is on medication to lower it. The patient started improving his diet when he received the letter explaining his lipids are elevated. He is consuming less cappuccino, quiche, crescents, candy from vending machines, etc. He has started packing his lunch three to four times per week instead of eating out so much. He is exercising six to seven days per week by swimming, biking, running, lifting weights one and a half to two and a half hours each time. He is in training for a triathlon. He says he is already losing weight due to his efforts."
+      }
+    ]
+  },
+  {
+    "id": "mts_741",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Good afternoon, ma'am. Before we begin, may I ask how old you are? \nPatient: Good afternoon, doctor. I'm fifty six years old, now. \nDoctor: Great, thank you. What seems to be the problem today, ma'am? \nPatient: Well, I need some support for dietary recommendations for healthy eating for my husband and me. \nDoctor: Why would that be, ma'am? \nPatient: Um, I have a lot going on, high cholesterol, high blood pressure, acid reflux, and I just want to lose some weight. My husband has high cholesterol too. \nDoctor: Tell me more about your eating habits, please. \nPatient: Well, we live by ourselves now that our children are gone, but I'm used to cooking really large portions. \nDoctor: Are you struggling to make food for just two people? \nPatient: Yes, that's a good way to put it. I'd like to just make less food, that way we're not so tempted to eat so much. \nDoctor: I understand, are you busy, do you work? \nPatient: Well, I start a new job this week."
+      },
+      {
+        "role": "assistant",
+        "content": "This is a 56-year-old female who comes in for a dietary consultation for hyperlipidemia, hypertension, gastroesophageal reflux disease and weight reduction. The patient states that her husband has been diagnosed with high blood cholesterol as well. She wants some support with some dietary recommendations to assist both of them in healthier eating. The two of them live alone now, and she is used to cooking for large portions. She is having a hard time adjusting to preparing food for the two of them. She would like to do less food preparation, in fact. She is starting a new job this week."
+      }
+    ]
+  },
+  {
+    "id": "mts_784",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: How old are you? \nPatient: I am seventy three.  \nDoctor: Are you right handed or left handed? \nPatient: Right. \nDoctor: So, I see the chief complaint is memory loss and cognitive decline. Tell me what exactly happened, and how did you notice the symptoms? Let me document that today is January twelfth of nineteen ninety five.\nGuest_family: We noticed it the week prior to Thanksgiving last year in nineteen ninety four. We have a family tradition where we play a game and this time, we were taking her to Vail, Colorado to play \"Murder She Wrote\" at one of our family gatherings. She was chosen to be the assassin. \nDoctor: Okay. \nGuest_family: Kids played a trick with her and they hid a plastic gun, a toy gun in her luggage. As she walked through the security, the alarm went off and like within seconds she was all surrounded, and everyone was like panicked. There was so much panic, they searched her and interrogated her and what not. Eventually she and her family made it to the flight, and she seemed unusually frustrated and disoriented by all that. Previously, if any such incident would have happened in the past, she would just have like chuckled and brushed it off. And we all would have sat together and laughed about it. This time it was different. \nDoctor: I can see why she was frustrated. Anyone can be in such situations. \nGuest_family: When we were in Colorado, she seemed slow. She had difficulty reading her lines to her part when we were playing that game. She needed assistance to complete the whole game. \nDoctor: Was she slurring?\nGuest_family: Nope. \nDoctor: Was there any difficulty with vision? Or any weakness? \nGuest_family: Nope. Nothing that we noticed. \nDoctor: How was it after returning from there? \nGuest_family: She returned to work. She used to work in a local florist shop. She returned on the Monday following Thanksgiving. And she had difficulty.\nPatient:  I was not able to take on with my usual task of flower arrangements or dealing with the cash at the cash register. \nGuest_family: She quit the next day, and she never went back. \nDoctor: How was it after that? \nGuest_family: She seemed to be doing fine and stable throughout November and December, and we were visiting a local neurologist as well, who was evaluating her. He did a few blood tests and did uh, M R I of the brain. He gave us all clear. He said there's nothing there. \nDoctor: Yeah, I see the working diagnosis of dementia of the Alzheimer's Type. When did these symptoms increase? Like when did you started noticing them more? \nGuest_family: One or two weeks ago, so end of December nineteen ninety four, she got lost in her own home. She was getting more sensitive and started saying that she is becoming a liability for everyone, which is not at all like her. Her walking was affected. She started walking like a bended form and also started veering to the right. She also did not recognize the location of where people were talking to her."
+      },
+      {
+        "role": "assistant",
+        "content": "This 73 y/o RHF presented on 1/12/95, with progressive memory and cognitive decline since 11/94. Her difficulties were first noted by family the week prior to Thanksgiving, when they were taking her to Vail, Colorado to play \"Murder She Wrote\" at family gathering. Unbeknownst to the patient was the fact that she had been chosen to be the \"assassin.\" Prior to boarding the airplane her children hid a toy gun in her carry-on luggage. As the patient walked through security the alarm went off and within seconds she was surrounded, searched and interrogated. She and her family eventually made their flight, but she seemed unusually flustered and disoriented by the event. In prior times they would have expected her to have brushed off the incident with a \"chuckle.\" While in Colorado her mentation seemed slow and she had difficulty reading the lines to her part while playing \"Murder She Wrote.\" She needed assistance to complete the game. The family noted no slurring of speech, difficulty with vision, or focal weakness at the time. She returned to work at a local florist shop the Monday following Thanksgiving, and by her own report, had difficulty carrying out her usual tasks of flower arranging and operating the cash register. She quit working the next day and never went back. Her mental status appeared to remain relatively stable throughout the month of November and December and during that time she was evaluated by a local neurologist. Serum VDRL, TFTs, GS, B12, Folate, CBC, CXR, and MRI of the Brain were all reportedly unremarkable. The working diagnosis was \"Dementia of the Alzheimer's Type.\" One to two weeks prior to her 1/12/95 presentation, she became repeatedly lost in her own home. In addition, she, and especially her family, noticed increased difficulty with word finding, attention, and calculation. Furthermore, she began expressing emotional lability unusual for her. She also tended to veer toward the right when walking and often did not recognize the location of people talking to her."
+      }
+    ]
+  },
+  {
+    "id": "mts_787",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: How old is the baby? \nGuest_family: He is twenty one months old. \nDoctor: What brings you here today?\nGuest_family: I have concerns about his motor development. Many times he seems to have lazy eyes and sometimes I can notice his jaw quivering. \nDoctor: How was your pregnancy? \nGuest_family: I had no complications in my pregnancy with him. My labor was very spontaneous, and it was a normal delivery. \nDoctor: Is this the only child?\nGuest_family: No, I have two more kids. \nDoctor: How much did he weigh at birth? \nGuest_family: He was around eight pounds and ten ounces. \nDoctor: Did you remember his milestones?\nGuest_family: Yes, I have all of it written down for all of my three kids and I brought this with me. He sat on his own by seven months. He was able to stand by eleven months and crawled around sixteen months but he was not walking until eighteen months. \nDoctor: What issues are he facing right now? \nGuest_family: He falls a lot. He cannot walk properly. He is kind of in toeing on his left. He's able to feed himself properly. He also throws, um, he picks up the things and throws them. His upper body looks strong. \nDoctor: How about his speech? How many words do you think he knows? \nGuest_family: He knows more than twenty words for sure. \nDoctor: Is he able to speak two word phrases? \nGuest_family: Yes. He says things like ,”give me,” and, “come here.” \nDoctor: Any other unusual behavior that you noticed? Any seizures or just the quivering movement of the jaw? \nGuest_family: No, it was only this and we have noticed this since birth. I don't know if it is related but I did notice that his left eye deviates outside."
+      },
+      {
+        "role": "assistant",
+        "content": "This 21 month old male presented for delayed motor development, \"jaw quivering\" and \"lazy eye.\" He was an 8 pound 10 ounce product of a full term, uncomplicated pregnancy-labor-spontaneous vaginal delivery to a G3P3 married white female mother. There had been no known toxic intrauterine exposures. He had no serious illnesses or hospitalizations since birth. He sat independently at 7 months, stood at 11 months, crawled at 16 months, but did not cruise until 18 months. He currently cannot walk and easily falls. His gait is reportedly marked by left \"intoeing.\" His upper extremity strength and coordination reportedly appear quite normal and he is able to feed himself, throw and transfer objects easily. He knows greater than 20 words and speaks two-word phrases. No seizures or unusual behavior were reported except for \"quivering\" movement of his jaw. This has occurred since birth. In addition the parents have noted transient left exotropia."
+      }
+    ]
+  },
+  {
+    "id": "mts_789",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Let me examine you. Tell me, did you have any fever or chills, any sweating or that sort of thing?\nPatient: Um no.\nDoctor: How about abnormal weight loss or weight gain?\nPatient: No. \nDoctor: Are you experiencing any chest pain on exertion or shortness of breath normally or when you try to sleep?\nPatient: No, no chest pain and shortness of breath.\nDoctor: Let me see your legs. They look good I don't see any pedal edema. Usually that happens due to excess water retention. Any palpitations?\nPatient: No.\nDoctor: Any feeling of numbness or tingling? Did you faint or lose consciousness anytime?\nPatient: No and no.\nDoctor: Okay, good!\nDoctor: Any double and or blurred vision? \nPatient: No.\nDoctor: Any difficulty hearing or any wired continuous sound you may hear?\nPatient: No.\nDoctor: Okay, um tell me if you had any um, allergies, or sneezing, or runny nose?\nPatient: No, no really.\nDoctor: Okay, got it.\nDoctor: Any indigestion, or heart burn? Did you notice any blood in stool or black stool? \nPatient: No.\nDoctor: Any diarrhea or vomiting?\nPatient: Nope. \nDoctor: Are you feeling thirsty frequently?\nPatient: No, just normal.\nDoctor: Okay.\nDoctor: And I see you got a urine test, so no pus cells or blood present.\nPatient: Yes. \nDoctor: Any pain while passing urine though? Any blood?\nPatient: No.\nDoctor: And how is the urine frequency? Do you have to wake up at night to urinate?\nPatient: Well, my frequency is normal. I don't have to wake up at night for urinating. \nDoctor: How bout the stream while passing urine? You think it's normal or somewhat slow? \nPatient: No, it's absolutely normal.\nDoctor: Okay, so any cough or cold like symptoms any sputum? \nPatient: Nope.\nDoctor: No wheezing, right?\nPatient: Yes, no wheezing.\nDoctor: I don't see any lesions, that's good. Any mood swings, feeling depressed or have anxiety? \nPatient: No.\nDoctor: Any joint pain in the legs, back or anywhere? \nPatient: Um no.\nDoctor: Okay, so no erythema in the joints. Any heat or cold intolerance?\nPatient: No.\nDoctor: Okay, any difficulty swallowing? Let me check here, lymph nodes look fine. And do you bleed easily and does the bleeding stop normally? \nPatient: Oh yes!\nDoctor: Do you bruise easy?\nPatient: No, not really. \nDoctor: Okay. Any abnormal skin lesions?\nPatient: No."
+      },
+      {
+        "role": "assistant",
+        "content": "General: No fevers, chills, or sweats. No weight loss or weight gain. Cardiovascular: No exertional chest pain, orthopnea, PND, or pedal edema. No palpitations. Neurologic: No paresis, paresthesias, or syncope. Eyes: No double vision or blurred vision. Ears: No tinnitus or decreased auditory acuity. ENT: No allergy symptoms, such as rhinorrhea or sneezing. GI: No indigestion, heartburn, or diarrhea. No blood in the stools or black stools. No change in bowel habits. GU: No dysuria, hematuria, or pyuria. No polyuria or nocturia. Denies slow urinary stream. Psych: No symptoms of depression or anxiety. Pulmonary: No wheezing, cough, or sputum production. Skin: No skin lesions or nonhealing lesions. Musculoskeletal: No joint pain, bone pain, or back pain. No erythema at the joints. Endocrine: No heat or cold intolerance. No polydipsia. Hematologic: No easy bruising or easy bleeding. No swollen lymph nodes."
+      }
+    ]
+  },
+  {
+    "id": "mts_796",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Do you have any chest pain?\nPatient: No, I don't.\nDoctor: Any breathlessness?\nPatient: Yes, I do get breathless only when I have to do some form of exertion like walking a long time or running.\nDoctor: Okay. How about any bowel issues?\nPatient: No, I don't have any stomach problems except I have to go frequently to use a bathroom.\nDoctor: Okay frequency. How about any prolonged bleeding issues or anything like that sort?\nPatient: No nothing like that."
+      },
+      {
+        "role": "assistant",
+        "content": "He denies any chest pain. He admits to exertional shortness of breath. He denies any GI problems as noted. Has frequent urination as noted. He denies any bleeding disorders or bleeding history."
+      }
+    ]
+  },
+  {
+    "id": "mts_798",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Hi, the weather outside is beautiful, did you get some sunshine?\nPatient: Yes in fact I came in walking.\nDoctor: Great way to get some exercise in.\nDoctor: ok so what's going on?\nPatient: I am having a bellyache.\nDoctor: Since when?\nPatient: Oh, it's been a while now.\nDoctor: Can you tell me more about your pain like how did it start and what exactly are you feeling?\nPatient:  Ok so the pain started as dullache but it is constant right here in the middle upper part of my stomach. And sometimes it is moving to the back.\nDoctor: Can you tell me if it is stabbing pain and if it is related to any specific time of the day?\nPatient: Sure, so i do get episodes of stabbing pain but they are not related to meals. Once the wave comes it lasts for only a minute or so.\nDoctor: Can you tell me when exactly you noted it?\nPatient: Approximately six months back. I took over the counter antacids and got some relief so i did not go to doctor. But two months back it got worse, I do get occasional nausea and vomiting.\nDoctor: I can see that they found H pylori positive infection and treated you with triple drug therapy for two weeks and then gave you antacid omeprazole. But it did not improve your pain.\nPatient: Yeah that's right.\nPatient: Do you know I lost twenty pound of weight since all these symptoms began but i have been also admitted for poor appetite.\nDoctor: Ok tell me how are your bowel movements and if you see any blood in stools?\nPatient: I get two to three loose bowel movements a day but no blood in stool or anywhere. \nDoctor: Are you taking any pain medication over the counter? Do you drink alcohol and maybe you are vomiting blood?\nPatient: No no, nothing like that.\nDoctor: Can you tell me if any change in position changes the quality of pain? do you have any fever?\nPatient: No position changing have no effect, no fever or anything.\nDoctor: Have you been exercising before all this?\nPatient: Yes I have had very active and healthy lifestyle."
+      },
+      {
+        "role": "assistant",
+        "content": "23-year-old Hispanic male who presented for evaluation of chronic abdominal pain. Patient described the pain as dull, achy, constant and located at the epigastric area with some radiation to the back. There are also occasional episodes of stabbing epigastric pain unrelated to meals lasting only minutes. Patient noted that the pain started approximately six months prior to this presentation. He self medicated \"with over the counter\" antacids and obtained some relief so he did not seek medical attention at that time. Two months prior to current presentation, he had worsening of his pain as well as occasional nausea and vomiting. At this time the patient was found to be H. pylori positive by serology and was treated with triple therapy for two weeks and continued on omeprazole without relief of his pain. The patient felt he had experienced a twenty-pound weight loss since his symptoms began but he also admitted to poor appetite. He stated that he had two to three loose bowel movements a day but denied melena or bright red blood per rectum. Patient denied NSAID use, ethanol abuse or hematemesis. Position did not affect the quality of the pain. Patient denied fever or flushing. He stated he was a very active and healthy individual prior to these recent problems."
+      }
+    ]
+  },
+  {
+    "id": "mts_817",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Hello, miss X Y Z. Dr. X and I will go over your report with you to make sure everything is correct. Then, I will ask you a few questions. \nPatient: Sounds good to me. \nDoctor_2: Hi, ma'am. Could you confirm your age for me, please? \nPatient: I'm seventy six years old. I'm also a resident of A S D F if that matters. \nDoctor_2: Thank you, ma'am. \nDoctor: Doctor A B  C requested for you to see us, correct? \nPatient: That's correct. \nDoctor: Perfect. Doctor X, could you go over her previous diagnoses? \nDoctor_2: She is diagnosed with hyperlipidemia, hypertension, and atherosclerotic cerebrovascular disease. Is this all correct, ma'am? \nPatient: Sounds about right. \nDoctor: I see she underwent a procedure. What was it, Doctor X? \nDoctor_2: She underwent a decompression for L three and L four. Did Doctor Stanley Gertzbein perform this procedure for your back? \nPatient: He did. He also did surgery on my lower legs.\nDoctor_2: Thank you for confirming. \nDoctor: I see after the surgery, you had some pain in your right L four distribution, correct? \nPatient: That's correct. \nDoctor: Doctor X, did the M R I report of the outside lumbar come in? \nDoctor_2: It did. We also have a report of a lumbar C T myelogram, but no films came. \nDoctor: What does the C T myelogram say? \nDoctor_2: It says she has spondylolisthesis and L four and L 5 stenosis with right posterior surgical fusion changes at both levels. \nDoctor: I see. There are some notes from Doctor Reitman. What does it say? \nDoctor_2: It looks like she is being sent for an L four selective nerve root block to rule out if she would be a candidate for a T L I F at L four and L 5. \nDoctor: I see. Could you review the M R I film as well? \nDoctor_2: The M R I reveal a grade two L four anterior spondylolisthesis without major canal stenosis. She does, however, have facet joint disease at this level and dorsal postoperative changes. She also has a foraminal disc protrusion on the right and a severely degenerated disc at L three and L four. \nDoctor: Thank you for that. So, miss. Where are you feeling pain today? \nPatient: I feel it in the font of my lower leg and right hip. \nDoctor: What kind of pain are you feeling?\nPatient: I told Doctor X about it. He could let you know. \nDoctor_2: She claimed she had a burning, shooting, aching, and constant pain in nature. \nDoctor: I see. Is it worse when you do certain activities? \nPatient: Yes. When I walk and stand. \nDoctor: Are you able to walk at all? \nPatient: I can walk around a block before it gets to the point where I get weak. \nDoctor: When does it feel better? \nPatient: I feel more comfortable when I'm resting, sitting, sleeping, or getting a massage. \nDoctor: From a scale of zero to ten, with ten being the worst pain, how would you rate the pain on average? \nPatient: I'd say like a nine. \nDoctor: That's the intensity on a daily level, correct? \nPatient: Yeah, that's correct. \nDoctor: What's the lowest pain you've ever felt? \nPatient: I think it was a five. \nDoctor: I see. Doctor X, did you ask her the series of questions about bowel function? \nDoctor_2: I did. She denied any bowel or bladder dysfunction, saddle area hypoesthesia, numbness, tingling, weakness or Valsalva related exacerbation.\nDoctor: Great. Have you taken any medication recently? \nPatient: Uh. I think it starts with a T. \nDoctor_2: It states here you took Tylenol, correct? \nPatient: That's correct."
+      },
+      {
+        "role": "assistant",
+        "content": "Ms. XYZ is a 76-year-old resident of ASDF. She is seen at the request of Dr. ABC. She carries a diagnosis of hyperlipidemia, hypertension, and atherosclerotic cerebrovascular disease. She underwent an L3-4 decompression in Month DD, YYYY by Dr. Stanley Gertzbein for back and bilateral lower extremity pain. Shortly after surgery, she began having pain in the right L4 distribution and is seen today with an outside lumbar MRI only. I have a report of a lumbar CT myelogram as well, but no films. She has apparently spondylolisthesis and L4-5 stenosis with right posterior surgical fusion changes evident at both levels. According to Dr. Reitman's notes, she is being sent for an L4 selective nerve root block to rule out whether or not she would be a candidate for a TLIF at L4-5. Her MRI films are reviewed. These reveal grade 2 L4 anterior spondylolisthesis without significant canal stenosis, though she has facet joint arthropathy at this level and dorsal postoperative changes. She has a foraminal disc protrusion on the right, as well as a severely degenerated disc at L3-4. The patient complains essentially of pain along the anterior tibia and along the right hip, which his burning, shooting, aching and constant in nature. It is worse with standing and walking. She can walk about a block before her symptoms become debilitating. She is more comfortable in recumbency. She denies bowel or bladder dysfunction, saddle area hypoesthesia, numbness, tingling, weakness or Valsalva related exacerbation. She rates her pain as 9/10 in average and her daily level of intensity and 5/10 for her least level of pain. Alleviating factors include sitting, recumbency, sleeping, and massage. She treats her pain with Tylenol currently."
+      }
+    ]
+  },
+  {
+    "id": "mts_835",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Patient: In the past I was very very fat! Actually, I was morbidly obese. I also had high blood pressure, but after my surgery it got resolved. \nDoctor: So, everything is okay now?\nPatient: Yeah."
+      },
+      {
+        "role": "assistant",
+        "content": "Significant for hypertension and morbid obesity, now resolved."
+      }
+    ]
+  },
+  {
+    "id": "mts_843",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: I am afraid, I don't have better news for you, your reports confirm cancer.\nPatient: We were suspecting it all along, but now since it is confirmed it's just hard to accept.\nDoctor: I am sorry, I totally understand. Do you want some time?\nPatient: No, I am okay.\nDoctor: Hm, you also have hypertension and diabetes.\nPatient: Yeah, that I know.\nDoctor: Did you have any chest pain or shortness of breath or uneasiness?\nPatient: No, I don't have any heart condition.\nDoctor: Okay and no dizziness or loss of consciousness or stroke like symptoms?\nPatient: No.\nDoctor: Okay. Well, your B M I looks fine, that means you are not overweight. \nPatient: Hm."
+      },
+      {
+        "role": "assistant",
+        "content": "Positive for hypertension, diabetes, and cancer. Negative for heart disease, obesity or stroke."
+      }
+    ]
+  },
+  {
+    "id": "mts_852",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Good afternoon, ma'am. \nPatient: Good afternoon, doctor. \nDoctor: So, are you married? \nPatient: Yes, happily to my husband. \nDoctor: That's wonderful, um, what do you do for a living? \nPatient: I work as an office manager right now. \nDoctor: Do you smoke?\nPatient: Yes, I do. I've smoked a pack a day for the last twenty years. \nDoctor: Do you drink? \nPatient: Actually, yes, I drink daily. \nDoctor: How much do you drink every day? \nPatient: Well, it varies, but usually about anywhere from three to five drinks a day. \nDoctor: Okay, do you do any illicit drugs?\nPatient: No, absolutely not. \nDoctor: What do you do for exercise?\nPatient: Well, I go for walks, and like low impact cardio. But, I do like playing softball with my friends too. \nDoctor: Very nice, how often do you exercise?\nPatient: I work out a few times a month."
+      },
+      {
+        "role": "assistant",
+        "content": "The patient is married. She is employed as an office manager. She does smoke cigarettes, one pack per day for the last 20 years. She consumes alcohol 3 to 5 drinks daily. She uses no illicit drugs. She exercises monthly mainly walking and low impact aerobics. She also likes to play softball."
+      }
+    ]
+  },
+  {
+    "id": "mts_855",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Hello, sir. Looks like we are here for a general wellness check?\nPatient: Yes, sir. In my seventy eight years on this Earth, I have learned to take my health more seriously. I need to start catching things before they come, not after. \nDoctor: I could not agree more. From your last checkup notes, it looks like you had right knee surgery and back surgery about eighteen months ago. How is that going? Any pain?\nPatient: Yes, I had a right knee replacement. I am doing great so far. Nothing to complain about. I can do almost anything I desire now. It is such a good lifestyle change from before surgery. \nDoctor: What do you do with your new body?\nPatient: I travel every chance I get. I just got back from a cruise. \nDoctor: I hope to be as agile as you when I get to retirement. Now let's check the other systems. Do you feel any type of chest pain? Any heaviness, tightness or pressure?\nPatient: No, nothing like that.\nDoctor: How about shortness of breath?\nPatient: I only get short of breath when I walk up the stairs. \nDoctor: That is decently normal. I get out of breath when walking from floor to floor in this hospital too. \nPatient: I thought so. I remember being young and still struggling with stairs. \nDoctor: Unfortunately, some things are just with us for life. Do you have any coughing fits or irregular heart beating?\nPatient: No. \nDoctor: Great! You are getting a clean bill of health from me today. On the notes it says you have Crohn's disease. Are you getting regularly checked for that?\nPatient: Yes. Doctor Ferguson takes care of me for that. \nDoctor: Excellent. Are you scheduled for a prostate check?\nPatient: Yes, I go to Doctor Roszhart. \nDoctor: You are wonderfully on top of it. What a breath of fresh air. From all of your travelling, how are your ankles? Have you noticed any swelling?\nPatient: Surprisingly, from all the walking I do, I do not have any swelling. After quitting smoking ten years ago I had to get addicted to something else and that was walking and travelling."
+      },
+      {
+        "role": "assistant",
+        "content": "This is a 78-year-old male who recently had his right knee replaced and also back surgery about a year and a half ago. He has done well with that. He does most of the things that he wants to do. He travels at every chance he has, and he just got back from a cruise. He denies any type of chest pain, heaviness, tightness, pressure, shortness of breath with stairs only, cough or palpitations. He sees Dr. Ferguson. He is known to have Crohn's and he takes care of that for him. He sees Dr. Roszhart for his prostate check. He is a nonsmoker and denies swelling in his ankles."
+      }
+    ]
+  },
+  {
+    "id": "mts_861",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Where do you feel the most pain? \nPatient: I'd have to say at the heels of my feet. I spend a lot of time on my feet at work. \nDoctor: I see. What kind of shoes do you normally wear to work? \nPatient: Regular tennis shoes. \nDoctor: Are they cushioned? \nPatient: Eh not really, but they're pretty durable. \nDoctor: I'd advise getting an orthotic for your shoes to help with the heel pain and resting your feet when you're home. In the meantime, I'd like for you to see a specialist to make sure nothing else is going on. \nPatient: Alright, I'm good with that plan. \nDoctor: Are you having any other problems? Joint pain, difficulty walking, nausea, vomiting, or other symptoms? \nPatient: No, just heel pain for now."
+      },
+      {
+        "role": "assistant",
+        "content": "Positive findings of the foot that have been recorded. All other systems reviewed were negative."
+      }
+    ]
+  },
+  {
+    "id": "mts_888",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: How's he doing today? \nGuest_family: I think he might have fifth disease with sinusitis. It's been running rampant at his school. \nDoctor: Oh, wow. Let's see what we can do."
+      },
+      {
+        "role": "assistant",
+        "content": "Fifth disease with sinusitis."
+      }
+    ]
+  },
+  {
+    "id": "mts_890",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Just want to ask you few routine questions, let me know if any of this is positive.\nPatient: Sure, go ahead.\nDoctor: Do you have any problems like headache, fever, rash, oral ulcer?\nPatient: None.\nDoctor: Any problem with vision? Like unable to see or double vision?\nPatient: Um no, I can see everything.\nDoctor: Okay. Do you get palpitations, like are you aware of your own heart?\nPatient: No, nothing like that.\nDoctor: How about breathlessness while lying down or do you have to get up in the middle of the night to catch a breath? \nPatient: No I don't feel anything like that.\nDoctor: That's great. Any diarrhea, constipation, or red blood come out in stool? Or pale stool? Like any change in the color of stool?\nPatient: No, it is fine.\nDoctor: Okay. Any jaundice recently?\nPatient: No. No jaundice.\nDoctor: Do you have problems with appetite?\nPatient: Yeah, I mean you can say my appetite is decreased.\nDoctor: Because of that have you noticed any weight loss?\nPatient: Oh no.\nDoctor: Okay sounds good.\nPatient: Sure."
+      },
+      {
+        "role": "assistant",
+        "content": "No rashes, headache, photophobia, diplopia, or oral ulcers. No palpitations, orthopnea or PND. No diarrhea, constipation, melena, bright red blood per rectum, or pale stool. No jaundice. Decreased appetite, but no weight loss."
+      }
+    ]
+  },
+  {
+    "id": "mts_899",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Good morning, sir. Can you confirm your age for me, please? \nPatient: Good morning, doctor. I'm fifty nine years old. \nDoctor: Great, and which hand is your dominant hand? \nPatient: Um, I use my right hand for everything. \nDoctor: Great, thank you. So, what seems to be the problem today? \nPatient: I have had this weird feeling in both of my legs for about three weeks now. \nDoctor: Have you been treated for this so far? \nPatient: Um, I went to the E R about a week ago. \nDoctor: What did they tell you there?\nPatient: They said I had progressive sensory and motor deficits in both legs. \nDoctor: Can you describe your symptoms for me, please? \nPatient: Um, I have numbness, like here starting at my trunk, and then over the last month or so, it moved into my legs. \nDoctor: I'm going to apply some pressure right here at the nipple line, can you feel that? \nPatient: No, I'm numb from there down. \nDoctor: Have you had any weakness in your legs? \nPatient: Yeah, I have for the last week or so. \nDoctor: Is it getting worse? \nPatient: Yes, it is. \nDoctor: When did you start using the cane? \nPatient: Um, about five days ago, now. \nDoctor: Why did you begin using it? \nPatient: I'm having trouble walking and going up and down stairs. \nDoctor: Are you able to stand without it?\nPatient: No, I'm not. \nDoctor: Have you had any loss of bowel or bladder control? \nPatient: No, thankfully not, but at the same time I haven't had a bowel movement in about three days. \nDoctor: When was the last time you urinated? \nPatient: It was about twenty four hours ago. \nDoctor: In addition to the numbness, how else would you describe your leg symptoms? \nPatient: Um, I'd say it feels cold, at least I've felt that for the last day or so.\nDoctor: Do you have any back or neck pain? \nPatient: No, nothing there. \nDoctor: Do you have any shortness of breath? \nPatient: Well, I've had it chronically for a while now, but I think it's getting worse. \nDoctor: Have you had any lightheadedness or feelings of faint? \nPatient: Um, yeah, when I try to stand up. \nDoctor: How long have you had that feeling? \nPatient: I've had it for about two days now."
+      },
+      {
+        "role": "assistant",
+        "content": "This 59 y/o RHM was seen and released from an ER 1 week prior to this presentation for a 3 week history of progressive sensory and motor deficits in both lower extremities. He reported numbness beginning about his trunk and slowly progressing to involve his lower extremities over a 4 week period. On presentation, he felt numb from the nipple line down. In addition, he began experiencing progressive weakness in his lower extremities for the past week. He started using a cane 5 days before being seen and had been having difficulty walking and traversing stairs. He claimed he could not stand. He denied loss of bowel or bladder control. However, he had not had a bowel movement in 3 days and he had not urinated 24 hours. His lower extremities had been feeling cold for a day. He denied any associated back or neck pain. He has chronic shortness of breath, but felt it had become worse. He had also been experiencing lightheadedness upon standing more readily than usual for 2 days prior to presentation."
+      }
+    ]
+  },
+  {
+    "id": "mts_912",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: How's this little guy doing today? \nGuest_family: I think he might have another ear infection.  \nDoctor: Oh, I'm sorry to hear that. Let's have a look see.  \nGuest_family: He's been telling me over and over again that his left ear is hurting him. He was here on April fourteenth and prescribed Amoxicillin.  \nDoctor: Did that seem to help? \nGuest_family: It did at first, but the pain is back again. \nDoctor: Has he been running any fevers? \nGuest_family: No, no fevers. \nDoctor: He sounds a bit congested. \nGuest_family: He is. When he blows his nose, he brings up really thick mucous. This never really went away even with antibiotics. He's also been coughing a fair amount. \nDoctor: Is his cough productive? \nGuest_family: Yeah.  \nDoctor: Does it seem to be keeping him up at night? How does the mucous look?\nGuest_family: No, I don't think so. It is pretty thick and viscous. The cough isn't constant or anything. \nDoctor: And no shortness of breath or wheezing that you've noticed? \nGuest_family: No."
+      },
+      {
+        "role": "assistant",
+        "content": "Mom brings the patient in today for possible ear infection. He is complaining of left ear pain today. He was treated on 04/14/2004, with amoxicillin for left otitis and Mom said he did seem to get better but just started complaining of the left ear pain today. He has not had any fever but the congestion has continued to be very thick and purulent. It has never really resolved. He has a loose, productive-sounding cough but not consistently and not keeping him up at night. No wheezing or shortness of breath."
+      }
+    ]
+  },
+  {
+    "id": "mts_965",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Please, tell me a little more about your son. \nGuest_family: Well, he's twelve years old now, but he was born at about a month and a half early. \nDoctor: Were there any other complications with the pregnancy? \nGuest_family: He was exposed to drugs in the womb while I was pregnant, and he has been diagnosed with autism. \nDoctor: Okay. I see he has previously had an operation on the right knee, can you tell me more about that? \nGuest_family: He previously had a lot of trouble straightening out both of his legs, and since the right was worse than the left he had an operation on the inside part of the back of that leg. \nDoctor: When was this operation? \nGuest_family: It was in February of two thousand seven. \nDoctor: How did he respond to the operation? \nGuest_family: He responded really well, he was walking much better, and even got back to playing sports with the other kids in the neighborhood. \nDoctor: What seems to be the problem today? \nGuest_family: Now, his left knee is getting really bad, it's like how the right knee was. He can't straighten this leg. I think we should do the same operation again on the left knee. \nDoctor: Yes, I think we'll have to do surgery. \nGuest_family: What is the risk of infection with the surgery? \nDoctor: Historically, it's been less than one percent, we use prophylactic antibiotics in order to minimize infection risk. \nGuest_family: Will he be under anesthesia for the procedure?\nDoctor: Yes, he will be. He won't feel anything. \nGuest_family: Will this completely solve his problem?\nDoctor: I can't guarantee that he won't need additional procedures in the future. The other risks include, bleeding, changes in sensation and motion to the leg, failure to restore normal anatomy, and risk it won't work in general. \nGuest_family: What's the name of this procedure? \nDoctor: It's called a distal medial hamstring release.\nGuest_family: This is the same procedure he had in two thousand seven, right? \nDoctor: Yes ma'am, the exact same one.  \nGuest_family: Okay, that sounds good, we want to go through with the procedure. \nDoctor: Okay, here is my surgical scheduler's business card, give them a call, and they can walk you through everything."
+      },
+      {
+        "role": "assistant",
+        "content": "The patient is a 12-year-old boy born at a 32-week gestation and with drug exposure in utero. The patient has diagnosis of autism as well. The patient presented with bilateral knee flexion contractures, initially worse on right than left. He had right distal medial hamstring release performed in February 2007 and has done quite well and has noted significant improvement in his gait and his ability to play. The patient presents now with worsening left knee flexion contracture, and desires the same procedure to be performed. Risks and benefits of the surgery were discussed. The risks of surgery include risk of anesthesia, infection, bleeding, changes in sensation and motion of extremity, failure to restore normal anatomy, continued contracture, possible need for other procedures. All questions were answered and mother and son agreed to above plan."
+      }
+    ]
+  },
+  {
+    "id": "mts_975",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: What's a young thirty one year old like you doing in my office today, ma'am?\nPatient: Well, I got referred to P T after I had a fall. \nDoctor: When was your fall?\nPatient: Um, it was on October third two thousand eight. \nDoctor: What happened when you fell?\nPatient: I tripped over my dog's toy. \nDoctor: Did you twist your foot or ankle? \nPatient: Yeah, my left foot inverted. \nDoctor: Have you had any imaging done on this foot?\nPatient: Yeah, um, I've had x rays and an M R I already. \nDoctor: What were the impressions of those images?\nPatient: They told me that it was unremarkable. \nDoctor: How was the pain progressed since the onset? \nPatient: Well, after a month or so, the pain is still so bad I can't do any of my activities. \nDoctor: How long have you been wearing this walking boot?\nPatient: Um, it's been about a month now."
+      },
+      {
+        "role": "assistant",
+        "content": "The patient is a 31-year-old female who was referred to Physical Therapy secondary to a fall on 10/03/08. The patient states that she tripped over her dog toy and fell with her left foot inverted. The patient states that she received a series of x-rays and MRIs that were unremarkable. After approximately 1 month, the patient continued to have significant debilitating pain in her left ankle. She then received a walking boot and has been in the boot for the past month."
+      }
+    ]
+  },
+  {
+    "id": "mts_978",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Any muscular pain?\nPatient: No, not really. \nDoctor: Any problem in walking? \nPatient: No, it's normal. \nDoctor: Let me check your toes and fingers. Can you move them for me?\nPatient: Yeah.\nDoctor: Everything looks fine. Nails looks fine too. No bluish discoloration no sign of any infection. Can you push your legs against my hand.\nPatient: Both legs?\nDoctor: Yes, both. Well, your muscular strength is equal and stable in both legs, so that's fine. Motion looks adequate.\nDoctor: Any tenderness? \nPatient: No. \nDoctor: And I don't see any swelling or fluid accumulation.\nPatient: Okay."
+      },
+      {
+        "role": "assistant",
+        "content": "MSK: Normal gait and station. No pathology to digits or nails. Extremities move times four. No tenderness or effusion. Range of motion adequate. Strength and tone equal bilaterally, stable."
+      }
+    ]
+  },
+  {
+    "id": "mts_987",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Hello Miss Jane, how are you?\nPatient: I am good, thank you for asking.\nDoctor: So, tell me what brings you here?\nPatient: I have so many issues and problems, where do I start?\nDoctor: Start by telling the one troubling you the most. \nPatient: I have this pain in my toes on the right side and I also feel this numbness there.\nDoctor: Okay and do you feel any tingling sensation? Or feeling like your leg is giving away?\nPatient: Yes, I feel the tingling and sometimes. I feel like my leg has fallen asleep.\nDoctor: Hm, tell me about your pain. Is it mild, moderate, or severe?\nPatient: Well, I will say it's moderate. \nDoctor: Would you define it as sharp shooting pain or dull kind of radiating pain? \nPatient: Maybe sharp pain but I am not sure how to describe it. But it radiates up the leg.\nDoctor: Okay. How long have you had this problem?\nPatient: It's been there for almost one year but now it started to get worst. \nDoctor: I see, does it get worse when you walk?\nPatient: No, mostly when I am in bed. And sometimes I feel it on my left toe as well.\nDoctor: It looks like you have paresthesia in the toes of your right foot and I feel your left toe also has the same problem.\nPatient: Yeah, I thought so. I read over the internet. But anyways, I am also having this shoulder pain on both sides, plus I am not able to sleep at night.\nPatient: I have high blood pressure and hypothyroidism. \nDoctor: Well-\nPatient: Well, that's not it. I have thrombo-\nDoctor: Thrombocythemia.\nPatient: Yeah, that. \nDoctor: How are your allergies by the way?\nPatient: I have no sinus allergies, thankfully."
+      },
+      {
+        "role": "assistant",
+        "content": "The patient is in with several medical problems. She complains of numbness, tingling, and a pain in the toes primarily of her right foot described as a moderate pain. She initially describes it as a sharp quality pain, but is unable to characterize it more fully. She has had it for about a year, but seems to be worsening. She has little bit of paraesthesias in the left toe as well and seem to involve all the toes of the right foot. They are not worse with walking. It seems to be worse when she is in bed. There is some radiation of the pain up her leg. She also continues to have bilateral shoulder pains without sinus allergies. She has hypothyroidism. She has thrombocythemia, insomnia, and hypertension."
+      }
+    ]
+  },
+  {
+    "id": "mts_989",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Guest_family: He is coughing for one week now.\nDoctor: How about any congestion? Is it one week or more?\nGuest_family: No did I say that? I meant two to three weeks. I am so worried. He is just one year.  \nDoctor: Don't worry let me see, can you tell me everything from the beginning?\nGuest_family: Sure. It started off as a congestion, but then he started coughing about a week ago and it is getting worse.\nDoctor: Okay, what else?\nGuest_family: Actually, he had Pop Can just three days ago and I never found the top of that and was wondering if he had swallowed that.\nDoctor: It is possible, have you seen any change in his breathing?\nGuest_family: His breathing has not gotten worse since that happened.\nDoctor: Any fever?\nGuest_family: No. No fever.\nDoctor: Okay."
+      },
+      {
+        "role": "assistant",
+        "content": "This is a 1-year-old male who comes in with a cough and congestion for the past two to three weeks. Started off as a congestion but then he started coughing about a week ago. Cough has gotten worsen. Mother was also worried. He had Pop Can just three days ago and she never found the top of that and was wondering if he had swallowed that, but his breathing has not gotten worse since that happened. He is not running any fevers."
+      }
+    ]
+  },
+  {
+    "id": "mts_1008",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: How's it going X Y Z? I see you're in a walking boot. What happened? \nPatient: I hurt my foot pretty bad yesterday. \nDoctor: How'd it happen? \nPatient: Basketball. I play for the University of Houston. I went up for a three and came down and landed on this guy's foot. I was so pissed. \nDoctor: Dang, that sucks. Were you guys playing a home game? \nPatient: We were traveling to Duke. We could've won the game if I didn't get hurt. \nDoctor: You'll get them next time. Did you keep playing? \nPatient: Yeah, I did. I got taped up by the trainer, and I went back into the game. \nDoctor: I see. Who was the trainer that helped you? \nPatient: His name is John Houston. Do you know him? \nDoctor: Oh, John! He's a good friend of mine. \nPatient: Yeah, he told me to come see you. He checked my foot. Here's the notes he wrote. \nDoctor: It looks like you have some tenderness around your navicular, which is a bone in your ankle. \nPatient: Dang, that's whack. \nDoctor: Which way did you twist your ankle? \nPatient: My foot twisted inwards. Kind of like this. \nDoctor: I see. Your foot inverted. Did it swell up right away? \nPatient: Aw, man. My foot was huge right after it happened. It hurt so much too. \nDoctor: Continue to keep that tape on. Are you limping or anything? \nPatient: Yeah, I am. I can't really put weight on my foot because it'll hurt a lot. \nDoctor: I see. Well, I examined your foot, and it looks like the pain is around the top, back and middle of your foot."
+      },
+      {
+        "role": "assistant",
+        "content": "XYZ is a basketball player for University of Houston who sustained an injury the day prior. They were traveling. He came down on another player's foot sustaining what he describes as an inversion injury. Swelling and pain onset immediately. He was taped but was able to continue playing He was examined by John Houston, the trainer, and had tenderness around the navicular so was asked to come over and see me for evaluation. He has been in a walking boot. He has been taped firmly. Pain with weightbearing activities. He is limping a bit. No significant foot injuries in the past. Most of his pain is located around the dorsal aspect of the hindfoot and midfoot."
+      }
+    ]
+  },
+  {
+    "id": "mts_1015",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Any numbness or tingling? \nPatient: No.\nDoctor: Are your experiencing any muscle weakness?\nPatient: No.\nDoctor: Any problem walking, or did you lose balance or fall?\nPatient: Nope. \nDoctor: So, your gait is fine. Any stroke in the past? \nPatient: No, nothing like that."
+      },
+      {
+        "role": "assistant",
+        "content": "NERVOUS SYSTEM: No gait problems, strokes, numbness or muscle weakness."
+      }
+    ]
+  },
+  {
+    "id": "mts_1054",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Hello, miss. How are you? What brings you to my office today?\nPatient: I am doing well. Just here for a refill on my medication.\nDoctor:  Great. That should be easy. How has the stress management been going to control the acne?\nPatient: It is going well. My husband has been on board with my meditations and yoga. He is very supportive. \nDoctor: Wonderful. Are will still clean from drinking and smoking? That can interact with your medications. \nPatient: Yeah I know. I don't drink or smoke."
+      },
+      {
+        "role": "assistant",
+        "content": "The patient is married. She is a nonsmoker and nondrinker."
+      }
+    ]
+  },
+  {
+    "id": "mts_1085",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Guest_clinician: Hello, doctor. Let me give you a run down as to what we are dealing with today. This patient was last seen in January two thousand and four. She is coming for a follow up on interstitial disease secondary to lupus pneumonitis. I will let her tell you more about what happened yesterday. \nDoctor: Thanks, nurse. How are you feeling today, miss? Welcome back to the Pulmonary Medicine Clinic. What happened yesterday?\nPatient: Well, I was doing fine since last time. My respiratory issues have been great and I have had no major difficulties breathing. \nDoctor: That's good to hear. What happened yesterday that caused you to want to come in so urgently?\nPatient: Yesterday I noticed that I have some back and joint pain.  When I breathe deep my back hurts. \nDoctor: Are you experiencing any coughing?\nPatient: No, coughing at this moment. \nDoctor: Have you been producing any mucus the times that you do cough?\nPatient: No, I already said I didn't cough. \nDoctor: Okay. Any fevers or chills?\nPatient: Nothing so far. \nDoctor: Do you have any other symptoms currently? \nPatient: I do notice that I am more tired than usual. \nDoctor: During physical activity do you seem out of breath or more tired than usual? I want to see if your pulmonary system is inhibited. \nPatient: No. I don't have issues with breathing when I do daily activities."
+      },
+      {
+        "role": "assistant",
+        "content": "The patient returns to the Pulmonary Medicine Clinic for followup evaluation of interstitial disease secondary to lupus pneumonitis. She was last seen in the Pulmonary Medicine Clinic in January 2004. Since that time, her respiratory status has been quite good. She has had no major respiratory difficulties; however, starting yesterday she began with increasing back and joint pain and as a result a deep breath has caused some back discomfort. She denies any problems with cough or sputum production. No fevers or chills. Recently, she has had a bit more problems with fatigue. For the most part, she has had no pulmonary limitations to her activity."
+      }
+    ]
+  },
+  {
+    "id": "mts_1095",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Good morning, Miss X Y Z, correct? \nPatient: Yes, that's me, good morning doctor. \nDoctor: Before we begin, I just need a few pieces of information. How old are you? \nPatient: I'm forty four years young, doctor. \nDoctor: Good, thank you. Next, which hand do you write with? \nPatient: I write with my right hand. \nDoctor: Finally, what do you do for a living? \nPatient: I'm an aircraft mechanic. \nDoctor: Very nice, so, how did you get hurt?\nPatient: Um, I was working on repairing an airplane at work when I fell between the plane and one of the stands.\nDoctor: How big was the gap that you stepped in?\nPatient: Um, it was about a foot and a half. \nDoctor: Which knee did you hurt?\nPatient: It was my left knee.\nDoctor: Did you have surgery after the accident?\nPatient: Yes I did, I had two arthroscopies, and an, um, patellar replacement after those. \nDoctor: Okay, yes, I see.\nPatient: Then, I had a left knee replacement on Month D D, Y Y Y Y.\nDoctor: Do you have any imaging of this knee? \nPatient: I didn't have any x rays done, but I have an MRI report and notes from Doctor A B C D. \nDoctor: Can I see that report?\nPatient: Yes absolutely, here. \nDoctor: Okay, so this M R I from September two thousand six shows some nonspecific edema anterior to the patellar tendon, but thankfully there's no evidence of fracture of ligamentous avulsion or abnormality. \nPatient: What does that mean?\nDoctor: There's some bleeding in the bone there, but nothing is broken or out of alignment. \nPatient: Oh, thank you, that's good. \nDoctor: Oh certainly, yes, it is. What treatments have you had for this knee, aside from surgery? \nPatient: I've done a full course of PT for this. \nDoctor: Where is your knee pain? \nPatient: Mostly, it's here in the front of the knee, and then on both sides, like the inside and outside.\nDoctor: Does the pain go down your leg at all? \nPatient: Yes, it goes down my, is this the femur? \nDoctor: Yes, that's the femur. \nPatient: Then this must be my tibia, it goes down the front of that too. \nDoctor: Does it go into your thigh at all?\nPatient: Yes, it goes into the back of my thigh. I feel numbness and tingling back there. \nDoctor: Do you feel anything in the feet?\nPatient: Nope, my feet are completely normal, thankfully.\nDoctor: Are you having any back pain? \nPatient: A little, I feel something in my lower back, I'm not sure if it's related.\nDoctor: Does anything make your knee pain worse? \nPatient: Yeah, I can hardly walk anymore, it hurts so bad. \nDoctor: What kind of symptoms do you see when you walk on this?\nPatient: I feel popping and grinding, and my knee swells up.\nDoctor: That numbness and tingling you feel in the thigh, do you feel that in the knee at all?\nPatient: Actually yes, it feels like pins and needles there.\nDoctor: What about this, when I touch the knee do you feel any abnormal discomfort or pain over the rest of the knee?\nPatient: No, nothing out of the ordinary there. \nDoctor: What about this, this is the fibular head, which is where you feel the pins and needles. I'm applying pretty heavy pressure here, how would you describe what you're feeling?\nPatient: Um, numbness, tingling, and then that same pins and needles feeling.  \nDoctor: Is there any instability? \nPatient: Yes, and there's pain with it too. \nDoctor: Are you working right now?\nPatient: No, I'm not right now. \nDoctor: Any allergies I should know about? \nPatient: Yes, actually, I'm allergic to a lot of pain medications. \nDoctor: Okay, have there been any changes in how you're walking?\nPatient: Yes, I had to change my walking pattern to take weight off my knee, and I think that has to do with my back pain. \nDoctor: That's certainly a possibility. How would you describe your pain? \nPatient: I'd say its constant, shooting, cramping, aching, throbbing, feels like it's being pulled, sharp, and , um, stabbing. All of those words seem fitting. \nDoctor: Okay, does the pain wake you up at night? \nPatient: Yeah, it does occasionally. \nDoctor: Does anything make this feel better?\nPatient: Yeah, it gets a little better if I lay down or if I keep my leg elevated. \nDoctor: Out of ten, with ten being the worst pain ever, how would you describe your pain on average? \nPatient: Um, I'd say six out of ten. That's how it is right now, too. \nDoctor: What about at its worst?\nPatient: Easily, its ten out of ten. \nDoctor: Finally, what about when the pain is at its least?\nPatient: Um, when it's not too bad, I'd say it's a three out of ten. I also have this other M R I report from September of O six, here. \nDoctor: Thanks. I see. They said that there is nonspecific edema anterior to the patellar tendon, but there is no acute fracture or any ligament abnormalities. That's good."
+      },
+      {
+        "role": "assistant",
+        "content": "Ms. XYZ is an otherwise fairly healthy 44-year-old right-handed aircraft mechanic. On her date of injury, she reports that she was working on an aircraft when she fell between the airplane and a stand with about an 18-inch gap in between. She injured her left knee and underwent two arthroscopic procedures followed by patellar replacement and subsequently a left total knee arthroplasty in Month DD, YYYY. The patient is seen with no outside images, but an MRI report of the left knee and office notes from Dr. ABCD. The patient reports that she has undergone a full course of physical therapy and complains primarily of pain in the anterior aspect of the left knee and primarily over the medial and lateral tibial components with pain extending proximally to the distal femur and distally down into the anterior tibial plateau area. She has intermittent numbness and tingling in the posterolateral thigh and no symptoms at all into her feet. She has axial low back pain as an ancillary symptom. Her pain is worse with walking and is associated with swelling, popping and grinding. She complains of pins and needles sensation over the area of the common peroneal nerve overlying the fibular head. She has no dysesthetic or allodynic symptoms with light touch over the remainder of the knee and the femoral nerve area. Heavy pressure and light percussion of the fibular head produce painful numbness, tingling, and pins and needles sensation. The patient underwent a left knee MRI in September of 2006 revealing nonspecific edema anterior to the patellar tendon, but no evidence of an acute fracture or a femoropatellar ligament avulsion or abnormality. She has continued to complain of persistent instability and pain. She is not working. She has a number of allergies to different pain medications and feels that her back has been bothersome mostly due to her gait disturbances relating to her knee. Her pain is described as constant, shooting, cramping, aching, throbbing, pulling, sharp, and stabbing in nature. It occasionally awakens her at night. It is better in recumbency with her leg elevated. Exacerbating factors include standing, walking, pushing, puling. VAS pain scale is rated as 6/10 for her average and current pain, 10/10 for worst pain, and 3/10 for her least pain."
+      }
+    ]
+  },
+  {
+    "id": "mts_1100",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Hi Mister B, nurse tells me you had a fall?\nPatient: Yes, a pretty bad one. \nDoctor: Okay, tell me what happened? \nPatient: Well, I was running to catch a taxi and stumbled upon a piece of rock, lost my balance and fell. \nPatient: I fell face down and my head hit the sidewalk. The next thing I remember is I am all dazed and people trying to help me. \nDoctor: I see, did you lose consciousness after the fall? \nPatient: No. \nDoctor: So, is your head hurting?\nPatient: Only the right forehead where I have the scrape and my chin. \nDoctor: Okay, any neck or back pain? \nPatient: No. \nDoctor: Any stomach pain? \nPatient: No.\nDoctor: Pain anywhere else, in extremities, hand or leg? \nPatient: No.\nDoctor: Okay, and how old are you? \nPatient: I am forty two.\nDoctor: Okay."
+      },
+      {
+        "role": "assistant",
+        "content": "Mr. B is a 42-year-old man who was running to catch a taxi when he stumbled, fell and struck his face on the sidewalk. He denies loss of consciousness but says he was dazed for a while after it happened. He complains of pain over the chin and right forehead where he has abrasions. He denies neck pain, back pain, extremity pain or pain in the abdomen."
+      }
+    ]
+  },
+  {
+    "id": "mts_1138",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: So let's start from the beginning.\nPatient: Okay.\nDoctor: You're seventy nine years old, correct?\nPatient: Yes.\nDoctor: Right or left handed?\nPatient: Right.\nDoctor: Do you remember when you had your first fall? \nPatient: Hm about a year and a half ago I fell while trying to walk from my bed to the living room.\nDoctor: Did you feel lightheaded prior? \nPatient: Uh yeah I did have some lightheadedness and I was a bit confused. I was aware of my surroundings though. My legs just gave out and the next thing I knew I was on the floor.\nDoctor: I see. Did you lose consciousness? \nPatient: No, thank goodness.\nGuest_family: He got up by himself and felt fine afterwards. The strangest thing.\nPatient: Yeah. I was good until my legs gave out on me July third of O eight. \nDoctor: Did you experience the same lightheadedness as before?\nPatient: Not this time.\nGuest_family: We had to rush him to the hospital after that.\nPatient: I was later diagnosed with pneumonia. The fall was blamed on the pneumonia.\nDoctor: Got it.\nPatient: To be on the safe side, I started using a walker from then on.\nDoctor: Did you need any type of walking assistance prior to your falls?\nPatient: Nope. I used to walk about two miles a day before all of this stuff started happening to me. This isn't even the end of it. My legs gave out on me again August O eight. No lightheadedness beforehand, but they did find that I had pneumonia again. \nGuest_family: They admitted him to the hospital and later sent him for rehab.\nDoctor: Did rehab help?\nPatient: Yeah. I was able to use my walker after that.\nDoctor: Did you return to your previous health?\nPatient: Uh not really, no. I had another fall in October O eight.\nDoctor: Did they diagnose you with pneumonia again?\nPatient: Yeah. I also had shingles.\nDoctor: Are you currently living at home?\nPatient: I'm living in a Chronic Rehab Unit. I can't use my walker anymore. I'm confined to a wheelchair. \nDoctor: I'm sorry to hear that. \nPatient: On top of that, I've noticed that my hands have been numb for the past three weeks.\nDoctor: Is it all of your fingers or only some?\nPatient: All.\nDoctor: Are you noticing any other symptoms along with the numbness in your fingers?\nPatient: Yes. I feel like I've lost quite a bit of muscle in my hands. They're also much weaker than before. My strength hasn't been the same since July O eight. It's definitely getting worse.\nDoctor: I see.\nPatient: I've had muscle twitching in my legs since August O eight.\nDoctor: Fasciculations?\nPatient: Yes. In my lower legs and thighs.\nDoctor: Any cramping or problems swallowing?\nPatient: No.\nDoctor: Any difficulty breathing?\nPatient: No. \nDoctor: Any constipation or diarrhea?\nPatient: Both actually. It tends to alternate.\nDoctor: But no loss of bowel or bladder control?\nPatient: No. I've noticed that my blood pressure has been out of whack. I also feel like I'm about to faint anytime I stand. \nDoctor: Okay.\nPatient: I don't think I have much feeling in my feet. They feel like sponges.\nDoctor: How long has that been going on?\nPatient: Uh nine months or so. I lost joint position sense in my feet around that time, too."
+      },
+      {
+        "role": "assistant",
+        "content": "The patient is a 79-year-old right-handed man who reports that approximately one and a half years ago, he fell down while walking in the living room from the bedroom. At that time, he reports both legs gave away on him and he fell. He reported that he had some lightheadedness just before he fell and was slightly confused, but was aware of what was happening around him. He was able to get up shortly after falling and according to the patient and his son, subsequently returned back to normal. He was then well until the 3rd of July 2008 when his legs again gave way on him. This was not preceded by lightheadedness. He was rushed to the hospital and was found to have pneumonia, and the fall was blamed on the pneumonia. He started using a walker from that time, prior to that he was able to walk approximately two miles per day. He again had a fall in August of 2008 after his legs gave way. Again, there was no lightheadedness associated with this. He was again found to have pneumonia and again was admitted to hospital after which he went to rehabilitation and was able to use his walker again after this. He did not, however, return to the pre-July baseline. In October of 2008, after another fall, he was found to have pneumonia again and shingles. He is currently in a Chronic Rehabilitation Unit. He cannot use a walker and uses a wheelchair for everything. He states that his hands have been numb, involving all the fingers of both hands for the past three weeks. He is also losing muscle bulk in his hands and has noticed some general weakness of his hands. He does, however, note that strength in his hands has not been normal since July 2008, but it is clearly getting worse. He has been aware of some fasciculations in his legs starting in August 2008, these are present both in the lower legs and the thighs. He does not report any cramps, problems with swallowing or problems with breathing. He reports that he has had constipation alternating with diarrhea, although there has been no loss of control of either his bowel or bladder. He has had some problems with blood pressure drops, and does feel presyncopal when he stands. He also reports that he has no feeling in his feet, and that his feet feel like sponges. This has been present for about nine months. He has also lost joint position sense in his feet for approximately nine months."
+      }
+    ]
+  },
+  {
+    "id": "mts_1171",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Welcome in, sir. I am Doctor Gray. \nPatient: Thank you. It's nice to meet you. \nDoctor: What is your past medical history? \nPatient: I had surgery on my shoulder thirteen years ago and after the surgery I lost my sense of smell. I still can't smell. I also can't see very well in my right eye. \nDoctor: How old are you? \nPatient: I am seventy six. \nDoctor: Do you get headaches? \nPatient: No. \nDoctor: Do you have any nasal drainage? \nPatient: No.\nDoctor: Do you ever experience any weakness or numbness throughout or localized to an area of the body. \nPatient: No. \nDoctor: Have you had any resent weight loss?\nPatient: No."
+      },
+      {
+        "role": "assistant",
+        "content": "76 y/o male suddenly became anosmic following shoulder surgery 13 years prior to this presentation. He continues to be anosmic, but has also recently noted decreased vision OD. He denies any headaches, weakness, numbness, weight loss, or nasal discharge."
+      }
+    ]
+  },
+  {
+    "id": "mts_1183",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: Good morning, ma'am. Can you confirm your age for me, please? \nPatient: Good morning, I'm sixty five years old, doctor. \nDoctor: How are you recovering from your operation? \nPatient: I'm doing okay. Can you remind me what operation I had? \nDoctor: Um, we did a left upper lobectomy for your stage I A non small cell lung cancer. \nPatient: Thank you, doctor. \nDoctor: Absolutely, do you have the results of your pelvic C T? \nPatient: Yes, I have the report right here. \nDoctor: Thank you, so this shows an enlarging simple cyst of the left kidney. \nPatient: What can we do about this? \nDoctor: Well, that's why we did the barium swallow, which showed a small hiatal hernia with minimal reflux. \nPatient: Oh, yeah, I remember that. \nDoctor: So, I have your x rays from November twenty third two thousand nine here, we did an A P and lateral view, and they're normal. \nPatient: Oh, well that's good too.  \nDoctor: Are you having any pain with swallowing food? \nPatient: Yes, I get some chest pain, but I'd say it's pretty mild. Look at my calf, doctor, it's much bigger than the right one. \nDoctor: Chest pain is probably due to tertiary contractions with some delayed emptying. Is it tender? \nPatient: No, there's no real tenderness. \nDoctor: How long has this calf been enlarged? \nPatient: Um, it's been several months at this point. \nDoctor: Have you ever had D V T? \nPatient: Yes, um, in nineteen seventy five, and in nineteen eighty five. \nDoctor: Are you having any abnormal weight loss? \nPatient: No, everything is normal there, and I'm eating normally. \nDoctor: What about any cold or flu symptoms? Any fever or chills?  \nPatient: No, that's all fine too. \nDoctor: Any new aches or pains? \nPatient: No, all my muscles feel pretty good. \nDoctor: Have you had a cough, or coughed up any blood. \nPatient: That's a negative, doctor. \nDoctor: What about shortness of breath while at rest or difficulty breathing with exercise? \nPatient: No, that's normal too. I'm breathing just fine."
+      },
+      {
+        "role": "assistant",
+        "content": "The patient is a 65-year-old female who underwent left upper lobectomy for stage IA non-small cell lung cancer. She returns for a routine surveillance visit. She has undergone since her last visit an abdominopelvic CT, which shows an enlarging simple cyst of the left kidney. She underwent barium swallow, which demonstrates a small sliding hiatal hernia with minimal reflux. She has a minimal delayed emptying secondary tertiary contractions. PA and lateral chest x-ray from the 11/23/09 was also reviewed, which demonstrates no lesions or infiltrates. Review of systems, the patient continues to have periodic odynophagia and mid thoracic dysphagia. This most likely is secondary to tertiary contractions with some delayed emptying. She has also had increased size of the left calf without tenderness, which has not resolved over the past several months. She has had a previous DVT in 1975 and 1985. She denies weight loss, anorexia, fevers, chills, headaches, new aches or pains, cough, hemoptysis, shortness of breath at rest, or dyspnea on exertion."
+      }
+    ]
+  },
+  {
+    "id": "mts_1186",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Your task is to write a clinical note summarizing the provided dialogue."
+      },
+      {
+        "role": "user",
+        "content": "Doctor: How are you doing miss? How are your sugar numbers coming along? \nPatient: I'm doing good. Thank you. Sugar has consistently been one hundred and thirty five or under it. \nDoctor: How are you checking it? \nPatient: I have a glucose monitor at home I'm using that only. \nDoctor: Nice. Did you eat anything in the morning today? \nPatient: No, I'm fasting for my test. \nDoctor: Okay, let's see. We have an Accu Chek here in our office. I will do a quick sugar test for you, and this will be a fasting sugar test. It will be just a quick prick on your finger. \nPatient: Don't worry doctor. I'm used to poking my finger all the time. \nDoctor: Let's see what we got here. Your reading says one hundred and twenty. I will write it down for my record. Are you being active? \nPatient: Yes, I'm exercising as a rule three times every week. I don't miss it. \nDoctor: Do you feel any tingling or numbness or any kind of cramps? \nPatient: Nope. \nDoctor: Any kind of blurry vision? \nPatient: Nope. \nDoctor: Any weight loss? \nPatient: Not that I notice."
+      },
+      {
+        "role": "assistant",
+        "content": "Overall, she has been doing well. Her blood sugars have usually been less than or equal to 135 by home glucose monitoring. Her fasting blood sugar today is 120 by our Accu-Chek. She is exercising three times per week. Review of systems is otherwise unremarkable."
+      }
+    ]
+  }
+]

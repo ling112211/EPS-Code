@@ -1,0 +1,3530 @@
+[
+  {
+    "id": "cmexam_single_1",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "某男，40岁。嗜食肥甘厚味，喜好饮酒，形体肥胖，检查结果：总胆固醇8.22mmol/L，引起该指标升高的疾病不包括 A. 高脂血症 B. 消耗性疾病 C. 阻塞性黄疸 D. 肾病综合征 E. 甲状腺功能减退症"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_3",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "关于结核病临床症状正确的是 A. 高热 B. 呼吸困难 C. 食欲旺盛 D. 乏力 E. 向心性肥胖"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_4",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "13岁女孩，欲通过测体脂含量判断其肥胖程度。假设她的体脂占到体重的27%，则她属于 A. 不肥胖 B. 轻度肥胖 C. 中度肥胖 D. 重度肥胖 E. 极重度肥胖"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_5",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "某医师开展心血管疾病的危险因素调查不属于个体因素的危险因素是 A. 遗传 B. 生活方式 C. 生物因素 D. 肥胖 E. 吸烟"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_7",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "男，60岁，腹泻、便秘交替，粪便带血6个月，体重减轻5Kg，查体：T36.5°C，P80次/分，R18次/分，BP120/80mm/Hg，双肺呼吸音清，未闻及干湿性啰音，心率80次/分，律齐，腹软，无压痛，血常规：Hb120g/L，WBC15.6×10⁹/L。N0.86。结肠镜检查于乙状结肠见溃疡性病灶，超声内镜提示病灶侵犯肠壁浆膜，肠周无肿大淋巴结，该病人TNM分期中T分期考虑为 A. T₃ B. T₀ C. T₄ D. T₁ E. T₂"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_9",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "某男，52岁。肥胖，嗜好烟酒。胁肋重着疼痛，口苦口黏，胸闷纳呆，小便色黄，大便不爽；舌红苔黄腻，脉弦滑数。超声检查结果提示中度脂肪肝。血液检验结果：总胆固醇8.2mmol/L，三酰甘油（甘油三酯）3.5mmol/L，高密度0.45mmol/L，低密度脂蛋白7.1mmol/L，血清总蛋白55g/L。中医诊断为胁痛，证属肝胆湿热，宜选用的基础方剂是 A. 柴胡疏肝散 B. 血府逐瘀汤 C. 一贯煎 D. 龙胆泻肝汤 E. 逍遥散"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_10",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "女性，26岁。多血质外观，向心性肥胖，痤疮，下腹及大腿外侧可见紫纹。血皮质醇明显增高。为进一步诊断病变部位，哪项检查最有意义 A. 尿17-羟测定 B. 血ACTH测定 C. 尿游离皮质醇测定 D. 小剂量地塞米松抑制试验 E. 垂体CT"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_11",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "热能过剩主要与以下哪些慢性退行性疾病有关 A. 糖尿病 B. 肥胖 C. 高血脂 D. 以上都是 E. 以上都不是"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_12",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "下列临床表现中，最不常见于慢性粒细胞白血病的是 A. 乏力低热 B. 体重减轻 C. 胸骨中下段压痛 D. 淋巴结肿大 E. 巨脾"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_13",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "2型糖尿病的特点是 A. 都有“三多一少”表现 B. 患者体型均较肥胖 C. 患者空腹血糖都增高 D. 空腹尿糖均呈阳性 E. 少数以酮症酸中毒为首发表现"
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_15",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "下面是关于儿童、青少年单纯性肥胖的描述，错误的表达是 A. 单纯性肥胖是一种营养代谢性疾病 B. 儿童肥胖症相关的一些引起心血管疾病的危险因素和成人肥胖症表现一致 C. 单纯性肥胖对儿童心理健康的影响比生理损害更严重 D. 7~18岁学龄儿童青少年体重指数24和28为超重和肥胖界值点 E. 儿童青少年时期的肥胖大多为单纯性肥胖"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_16",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "若该患者临床2型糖尿病已证实，其首选治疗方案是 A. 饮食管理 B. 体育锻炼 C. 减肥药物 D. 口服磺脲类降糖药 E. 胰岛素"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_17",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "男，50岁，中度肥胖，空腹血糖8mmol/L,餐后2小时血糖12mmol/L，胰岛素基础值50U/ml，应首选何药 A. 格列吡嗪 B. 格列齐特 C. 格列苯脲 D. 双胍类 E. 格列喹酮"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_19",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "女性，13岁。近1年来认为自己过胖，每日专注于自己的体重、体型，严格限制每日饮食，偶有贪食情况，但饱餐之后立即自行呕吐，或服泻剂，先出现畏寒，体温偏低，月经停止，比标准体重减轻25%，经详细询问病史及各种检查既往无躯体疾病史，最可能的诊断是 A. 甲状腺功能不全 B. 癌症 C. 结核症 D. 神经性厌食症 E. 神经性贪食症"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_20",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "男，56岁。尿中泡沫增多2年，间断双下肢水肿，晨轻暮重半年。既往患2型糖尿病15年，目前使用二甲双胍(1.5g/日）联合预混胰岛素30R(早、晚餐前皮下注射）治疗。冠心病病史10年，2年前行PTCA治疗。查体：BP155/85mmHg，腹型肥胖，心肺无显著异常，双下肢轻度凹陷性水肿。尿蛋白(++）。患者24小时尿蛋白定量2.3g，eGPR70ml/min，HbAc7.0%。下一步降糖治疗最恰当的是 A. 停用二甲双胍，改用阿卡波糖联合胰岛素治疗 B. 停用二甲双胍，单独使用胰岛素治疗 C. 停用二甲双胍，改用瑞格列奈联合胰岛素治疗 D. 增加二甲双胍剂量，胰岛素维持原剂量 E. 停用二甲双胍，改用α-葡萄糖苷酶抑制剂联合胰岛素治疗"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_22",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "男，60岁，身高170cm，体重65kg。每日基础能量消耗约是 A. 1000kcal B. 1200kcal C. 1400kcal D. 1600kcal E. 1800kcal"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_23",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "女，45岁，轻度肥胖，无明显口渴多饮和多尿现象，空腹血糖6.8mmol/L。为确定是否有糖尿病，应检查 A. 糖基化血红蛋白 B. 24小时尿糖定量 C. 口服葡萄糖耐量试验 D. 复查空腹血糖 E. 餐后2小时血糖"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_24",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "某家庭，父亲及儿子都抽烟，母亲肥胖，从不进行体育锻炼，女儿上大学，在学校居住，每天坚持锻炼，饮食合理。这家女儿具有 A. 日常健康行为 B. A型行为 C. 预警行为 D. C型行为 E. 不良生活方式"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_25",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "患者，女,69岁，左胸部闷痛4年，近来胸闷频发，痰多气短，肢体沉重，形体肥胖，偶有心悸眩晕，纳呆便溏，咯吐痰涎，舌体胖大边有齿痕，苔白腻，脉滑，其辩证是 A. 气滞心胸证 B. 寒凝心脉证 C. 痰浊闭阻证 D. 心肾阳虚证 E. 心血瘀阻证"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_26",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "女孩，5岁。头痛，呕吐，步行不稳3个月。查体：神志清楚，精神差，双侧视乳头水肿。最可能的诊断是 A. 小脑髓母细胞瘤 B. 颞叶胶质细胞瘤 C. 矢状窦旁脑膜瘤 D. 枕叶星形细胞瘤 E. 顶叶恶性淋巴瘤"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_27",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "血吸虫病流行区的一次调查中，查得93例急性血吸虫病人有如下的疫水接触史：游泳52人，割湖草30人，插秧6人，放牧3人，洗衣2人，由此得出游泳是最危险的接触方式，是否正确 A. 是 B. 不是，应了解他们的既往史 C. 不是，因没设对照 D. 不是，因未作统计学显著性检验 E. 不是，因所做比较不是以率为基础的"
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_28",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "关于高温和低温环境人群营养的叙述不正确的是 A. 高温和低温环境下机体能量消耗都增加 B. 高温环境下，钾的丢失高于钠的丢失 C. 高温和低温环境人群都应摄入充足的水分 D. 豆类食品可提供较多的蛋氨酸，有利于提高耐寒能力 E. 寒带居民增加维生素C、维生素E摄入量有利于提高耐寒能力"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_29",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "男，55岁。高血压5年，头痛频繁发作1年。嗜烟酒，肥胖。血糖轻度升高。超声心动图示左心室壁轻度增厚，降压宜首选的药物是 A. 硝苯地平 B. 普萘洛尔 C. 氢氯噻嗪 D. 依那普利 E. 哌唑嗪"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_31",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "某女，18岁，今年如愿考上了大学，参加新生体检时，身高160cm，体重75kg。根据BMI判断，她的营养状况为 A. 营养不良 B. 正常 C. 超重 D. 肥胖 E. 极度肥胖"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_32",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "某企业针对职工个人卫生习惯较差，参加体育锻炼的人数很少，导致因病缺勤率高的问题，为职工增设了淋浴设备，购置了体育器材，保证职工有淋浴和体育锻炼时间，结果职工体质增强，出勤率提高，此措施属于健康促进的 A. 教育策略 B. 环境策略 C. 资源策略 D. 政策策略 E. 团体策略"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_33",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "27岁的糖尿病患者，极度消瘦，曾有过酮症酸中毒病史，血糖波动大。治疗应首选 A. 饮食疗法 B. 饮食疗法+运动治疗 C. 饮食疗法+短效胰岛素 D. 饮食疗法+长效胰岛素 E. 饮食疗法+二甲双胍"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_34",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "经常性学校卫生监督，是指监督员对学校日常卫生工作进行的现场监督检查工作。监督检查工作的内容不应该包括哪一项 A. 建筑设备卫生 B. 学习和教室卫生 C. 学生用品 D. 体育锻炼和劳动安全 E. 学校食品卫生"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_35",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "骑自行车戴头盔属于预防意外伤害的 A. 主动干预 B. 教育干预 C. 技术干预 D. 强制干预 E. 紧急处置"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_36",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "患者，男，53岁。形体肥胖，胸闷胸痛反复发作1周，含服硝酸甘油1～2分钟可缓解。痰多色白，纳呆，脘胀，形寒肢冷，舌淡苔白滑，脉弦滑。其治法是 A. 通阳泄浊，益气养阴 B. 豁痰散结，益气补血 C. 豁痰化痰，行气止痛 D. 通阳泄浊，豁痰散结 E. 疏肝理气，活血化痰"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_37",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "女，15岁。烦躁怕热，多汗，体重减轻2个月。查体：BP120/60mmHg，体型偏瘦，皮肤潮湿，手有震颤，轻微突眼，甲状腺弥漫I级，质地软，无触痛，可闻及轻度血管杂音，心率108次/分，经甲状腺功能检查确诊Graves病。首选的治疗是 A. 普萘洛尔 B. 碘剂 C. 丙硫氧嘧啶 D. 核素¹³¹I E. 甲状腺大部切除"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_38",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "患者，女，56岁，身高156cm，体重61kg。空血糖7.8mmol/L，餐后血糖11.2mmol/L，糖化血红蛋白6.7%。关于该患者初始治疗，宜采用的方案是 A. 饮食及运动治疗 B. 口服二甲双胍 C. 口服磺酰脲类降糖药 D. 口服α-葡萄糖苷酶抑制剂 E. 皮下注射胰岛素"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_39",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "下列属于冠状动脉粥样硬化性心脏病主要危险因素的是 A. 脑力劳动者 B. 生活节奏快 C. 肥胖 D. 进取心强 E. 长期饮酒"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_40",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "旅店业的供水水质应符合 A. 游泳池水水质卫生标准 B. 生活饮用水卫生标准 C. 地面水卫生标准 D. 水源水卫生标准 E. 工业用水卫生标准"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_41",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "男，55岁，肥胖。餐后发作右上腹部阵发性绞痛，每次发作持续约1～2小时，疼痛向右肩背部放射，伴有饱胀感。首选的检查方法是 A. B超 B. CT C. MRI D. 上消化道钡餐 E. 口服胆囊造影"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_42",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "男，35岁。半小时前被自行车撞伤左胸，伤后疼痛，活动后加重，呼吸困难逐渐加重，查体：脉搏110次/分，气管向右移位，皮下气肿（+），其诊断可能性最大为 A. 闭合性气胸 B. 张力性气胸 C. 肋骨骨折合并单纯性气胸 D. 肋骨骨折 E. 肋骨骨折并张力性气胸"
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_43",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "骑车带人 A. 易导致非故意伤害的行为 B. 易导致故意伤害的行为 C. 物质滥用行为 D. 不良饮食和体重控制行为 E. 缺乏体力活动行为"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_44",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "患者，男，28岁，游泳后回到家中，发现眼睛出现瘙痒、异物感，并有黄色黏液性分泌物，该患者适宜选用药物是 A. 左氧氟沙星滴眼液 B. 毛果芸香碱滴眼液 C. 玻璃酸钠滴眼液 D. 色甘酸钠滴眼液 E. 阿昔洛韦滴眼液"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_45",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "男，32岁。因十二指肠溃疡行BillrothⅡ式胃大部切除术后6个月。术后出现反酸、烧心症状。应用抑酸剂治疗无效。上述症状逐渐加重，并呕吐胆汁样物，上腹部及胸骨后烧灼样疼痛，体重减轻。查体：贫血貌，消瘦，营养不良，巩膜无黄染。胃液中无游离酸。胃镜检查见黏膜充血、水肿、糜烂。最适当的治疗措施是 A. 采用少食多餐方式 B. 行Roux-en-Y胃空肠吻合术 C. 长期应用消胆胺治疗 D. 注意餐后勿平卧 E. 应用H₂受体拮抗剂"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_46",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "痰浊中阻，胃失和降的临床表现是 A. 咳嗽痰多，胸闷 B. 神昏，喉中痰鸣 C. 形体肥胖 D. 脘痞纳呆 E. 肌肤见圆滑包块"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_48",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "我国艾滋病防治工作坚持的方针是 A. 预防为主，防治结合 B. 政府领导，全社会共同参与 C. 宣传教育，行为干预 D. 行为干预，关怀救助 E. 统一协调，综合防治"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_49",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "下面关于儿童葡萄糖耐量下降（IGT）的说法，错误的表达是 A. 儿童（IGT）的影响因素主要是遗传 B. 儿童（IGT）的影响因素主要是肥胖和不良生活方式 C. 儿童（IGT）单纯而病程短、程度轻 D. 儿童（IGT）具有一定的可逆性 E. 儿童（IGT）应作为早期预防糖尿病的重点"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_51",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "关于高血压的病因，哪一种说法是错误的 A. 与神经精神因素有关 B. 与肥胖有关 C. 与嗜盐习惯无关 D. 与吸烟有关 E. 与遗传有关"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_52",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "女性，60岁。发现主动脉瓣狭窄10年，快走时心前区憋闷3年．心电图示左心室肥厚，该患者治疗宜首选 A. 主动脉瓣瓣膜置换术 B. 主动脉瓣球囊成形术 C. 心脏移植 D. 冠状动脉搭桥术 E. 主动脉瓣修补术"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_53",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "肠外营养时，使用大量高渗葡萄糖作为单一的能源会引起 A. 糖异生活跃 B. 静息能量消耗降低 C. 肝脏脂肪浸润 D. 去甲肾上腺素分泌减少 E. 蛋白质分解减少"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_54",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "作为上身肥胖的标准，我国提出的腰围标准为 A. 男性≥75cm，女性≥70cm B. 男性≥80cm，女性≥70cm C. 男性≥85cm，女性≥75cm D. 男性≥85cm，女性≥80cm E. 男性≥90cm，女性≥80cm"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_55",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "患者，男，36岁，肥胖，2型糖尿病，肝肾功能正常，在饮食和运动管理基础上长期服用二甲双胍2g/d，血糖控制不理想。为控制血糖，且不增加患者体重可加用的降糖药物是 A. 格列喹酮 B. 瑞格列奈 C. 利拉鲁肽 D. 胰岛素 E. 罗格列酮"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_56",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "自来水及游泳池水的消毒可用 A. 0.01%～0.1%硫柳汞 B. 1%硝酸银 C. 3%～6%过氧化氢 D. 含有0.2～0.5ppm氯 E. 生石灰"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_57",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "患者，男，66岁，身高176cm，体重79kg，BMI25.5kg/m²，腰围88cm，高血压病史3年，规律服药，血压控制良好，有冠心病和糖尿病家族史。该患者目前的营养状况和应采取的措施是 A. 肥胖，首选控制饮食和增加运动 B. 超重，首选控制饮食和增加运动 C. 腹型肥胖，首选药物辅助减重 D. 超重，首选药物辅助减重 E. 体重正常，应控制体重，不可超过81kg"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_58",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "女性，26岁。左颈及腋下有无痛性肿块，体检时发现在左侧颈部、锁骨上和腋窝等处有肿大的无痛性孤立的淋巴结。可以归为B组的是 A. 乏力 B. 瘙痒 C. 疼痛 D. 体重减轻10% E. 盗汗"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_59",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "男，65岁。排便次数增加6个月，伴里急后重、排便不尽感。1个月来大便变细，偶有大便表面带血，自觉乏力，体重减轻4Kg。决定该病人手术方式的要点是 A. 是否合并肠周淋巴结转移 B. 病灶浸润肠壁的深度 C. 病灶下缘距齿状线距离 D. 病灶浸润肠壁的周长 E. 病灶浸润肠壁的长度"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_60",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "女，45岁。肢体软弱无力，夜尿多2年余，今晨起双下肢不能活动。查：血压170/100mmHg，均匀性轻度肥胖，双下肢松弛性瘫痪，血钾2.4mmol/L。最可能的诊断为 A. 原发性高血压 B. 嗜铬细胞瘤 C. 肾性高血压 D. 原发性醛固酮增多症 E. 库欣病"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_61",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "男，55岁，反复活动时胸痛，快步行走及上楼梯可诱发，休息可缓解。冠状动脉造影见前降支阻塞80%。血管病变的始动环节是 A. 巨噬细胞形成泡沫细胞 B. 纤维帽破裂、血栓形成 C. 平滑肌细胞增殖和迁移 D. 内皮细胞受损及功能失调 E. 内皮下脂质沉积"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_63",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "男，50岁。近半年来每于饱餐后快步行走时出现剑突下闷痛，停止活动后数分钟自行缓解。缓步行走时无类似症状发作，既往有糖尿病病史10余年，未规范治疗。查体：BP120/80mmHg，双肺呼吸音清，未闻及干湿性啰音，心率76次/分，律齐，各瓣膜听诊区未闻及杂音，腹软，无压痛。该患者最可能的诊断是 A. 急性心肌梗死 B. 稳定性心绞痛 C. 慢性胃炎 D. 糖尿病胃轻瘫 E. 消化性溃疡"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_64",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "患者，女，40岁。仰卧时腹部呈蛙状，侧卧时下侧腹部明显膨出。应首先考虑的是 A. 胃肠胀气 B. 腹腔积液 C. 巨大卵巢囊肿 D. 肥胖 E. 子宫肌瘤"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_67",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "小儿蛋白质-能量营养不良最早期的临床表现是 A. 体重减轻 B. 皮下脂肪消失 C. 体重不增 D. 肌肉松弛 E. 身高增长停滞"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_68",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "某男，52岁。肥胖，嗜好烟酒。胁肋重着疼痛，口苦口黏，胸闷纳呆，小便色黄，大便不爽；舌红苔黄腻，脉弦滑数。超声检查结果提示中度脂肪肝。血液检验结果：总胆固醇8.2mmol/L，三酰甘油（甘油三酯）3.5mmol/L，高密度0.45mmol/L，低密度脂蛋白7.1mmol/L，血清总蛋白55g/L。与脂肪肝发病关系密切的检验指标是 A. 高密度脂蛋白 B. 总胆固醇 C. 低密度脂蛋白 D. 三酰甘油 E. 血清总蛋白"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_69",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "下列哪项不是月经过少痰湿证的主要临床表现 A. 形体肥胖 B. 胸闷呕恶 C. 带下量多、质粘腻 D. 经期延后、量少 E. 经色黯红、质稠"
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_70",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "女性，30岁，4小时前跌伤后昏迷5分钟，清醒后步行回家。1小时前因剧烈头痛，呕吐3次送来急诊。查体：昏迷，P64次/分，BP180/90mmHg，R18次份，左瞳3mm，右瞳2mm，右上下肢肌力Ⅲ级。应立即采取的急救措施是 A. 应用促苏醒剂 B. 应用降血压药 C. 亚低温治疗 D. 严密观察病情变化 E. 静滴甘露醇，同时作开颅准备"
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_71",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "男，30岁，间断右下腹痛一年。加重伴腹泻一月，大便每日4-5次，黄色稀便，无黏液脓血，伴低热，体重减轻4kg。既往反复发作肛瘘1年，曾手术治疗。查体：T37.5℃，右下腹轻压痛，肛门视诊可见肛瘘开口，粪隐血（+++），肠镜检查发现回肠末端、回盲瓣多发溃疡，病变间黏膜基本正常。结肠、直肠未见明显异常。黏膜活检病理检查最有助于诊断的发现是 A. 抗酸抗体阳性 B. 淋巴细胞浸润 C. 含铁血红素沉积 D. 隐窝脓肿 E. 非干酪样肉芽肿"
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_73",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "关于老年人营养叙述正确的是 A. 因肝肾功能下降，应降低蛋白质的供能比 B. 宜多吃果糖和蜂蜜等富含果糖的食物 C. 由于消化吸收率降低，蛋白质的摄入量应高于中年人的RNI值 D. 为防止超重和肥胖，老年人应保持能量负平衡 E. 易出现维生素摄入不足"
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_74",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "下列属于宫体癌综合征的高危因素是 A. 肥胖 B. 高血压 C. 未婚 D. 少产的妇女 E. 以上均是"
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_75",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "多饮、多尿、多食、体重减轻属于 A. 高血压的临床表现 B. 糖尿病的临床表现 C. 高脂血症的临床表现 D. 消化性溃疡的临床表现 E. 支气管哮喘的临床表现"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_76",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "评价体力劳动强度大小的主要依据是 A. 心排出量 B. 排汗量 C. 能量消耗量 D. 心率 E. 直肠温度"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_77",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "亚慢性及慢性毒性试验中，必须观察记录动物饮食情况，每5天称一次体重，了解受试物对动物体重的影响，如各实验组体重减轻并有剂量反应关系，就可以肯定是一种综合毒性效应 A. 称动物体重的目的 B. 食物利用率 C. 症状 D. 脏器系数 E. 一般综合性观察指标"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_78",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "不促进胰岛素释放，不加重肥胖的降糖药为 A. 甲福明 B. 甲苯磺丁脲 C. 格列本脲 D. 格列吡嗪 E. 氯磺丙脲"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_80",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "某女，40岁。体硕肥胖，瘀热痰湿内生，导致脾胃气郁，症见胸脘痞胀满，饮食滞停。治当理气解郁、宽中除满，宜选用的成药是 A. 越鞠丸 B. 左金丸 C. 胃苏颗粒 D. 健脾消食丸 E. 木香顺气颗粒"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_81",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "从疾病生态学的角度来看，与疾病发生有关的三大因素是 A. 病原携带者、病人、非病人 B. 遗传因素、营养因素、体育锻炼 C. 宿主、环境、病原物 D. 传染源、易感人群、传播途径 E. 理化因素、生物学因素、社会经济因素："
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_82",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "女，35岁。脸圆脸红向心性肥胖1年余。患者感明显的乏力与口干，腹部皮肤可见紫纹，皮肤薄，血压160/80mmHg，闭经1年。对定性诊断足有帮助的试验 A. 24小时游离皮质醇测定 B. 大剂量地塞米松抑制试验 C. 小剂量地塞米松抑制试验 D. 早晨8点血皮质醇检测 E. 下午4点血皮质醇水平检测"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_83",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "影响骨折愈合的全身因素是 A. 年龄 B. 发热 C. 休克 D. 血压 E. 肥胖"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_85",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "儿童、青少年期哪种疾病与成年期心血管疾病的发生密切相关 A. 贫血 B. 肥胖 C. 龋齿 D. 近视 E. 营养不良"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_86",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "关于红外线的叙述哪一项是错误的 A. 红外线是太阳辐射波长最长的一种电磁波 B. 红外线主要生物学作用是使机体产生热效应 C. 红外线可促进新陈代谢，有消炎、镇痛作用 D. 红外线为可见的红光 E. 过量的红外线照射可引起皮肤烧伤、白内障及中暑"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_87",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "某男，35岁。形体肥胖，嗜食肥甘，口中黏腻，来院进行血糖、血脂等相关检查。检查结果：FBG5.6mmol/L，TC5.16mmol/L，TG2.45mmol/L，HDL-C1.4mmol/L，LDL-C2.27mmol/L。其中，指标异常的是 A. FBG B. TG C. TC D. HDL-C E. LDL-C"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_89",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "聚众斗殴 A. 易导致非故意伤害的行为 B. 易导致故意伤害的行为 C. 物质滥用行为 D. 不良饮食和体重控制行为 E. 缺乏体力活动行为"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_93",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "60岁男性，活动中突感眩晕，枕部疼痛、呕吐、步行不稳，20分钟后昏迷，呼吸节律不整，诊断脑出血，其部位是 A. 脑颞叶 B. 基底节 C. 脑室 D. 脑桥 E. 小脑"
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_94",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "开展社区预防慢性非传染性疾病的健康教育，从健康传播效果的层次看，以下表述属于健康信念认同的是 A. 经常参加有氧健身活动 B. 相信合理膳食有利预防疾病 C. 不能经常吃新鲜水果蔬菜 D. 知晓肥胖对健康的危害 E. 愿意接受健康指导"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_96",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "下列有益健康的身体活动的推荐量，错误的搭配是 A. 5～17岁儿童青少年应每天累计至少60分钟中等到高强度体力活动 B. 5～17岁儿童青少年每天累计大于60分钟的体力活动可以提供更多的健康效益 C. 18～64岁成年人每周至少150分钟中等强度有氧体力活动 D. 18～64岁成年人有氧活动应该每次至少持续10分钟 E. 老年人应每周完成至少120分钟中等强度有氧体力活动"
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_97",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "某单位从1985年起对职工心脏病的发病情况进行研究。在1985年每位职工填写了一份关于体育锻炼的调查表，然后对其随访直至2000年。研究者发现：对于调查表中填有每天有规律地锻炼30分钟的职工，在总共4000个观察人年中发生心脏病50例，而锻炼没有规律的职工，在总共3000个观察人年中发生心脏病200例。测量职工心脏病发病危险最合适的指标是 A. 累积发病率 B. 发病密度 C. 标准化发病率 D. 年发病危险 E. 标化发病比"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_98",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "以下关于脑发育说法错误的是 A. 小儿进行早期教养的关键年龄在3岁以前 B. 外界刺激越频繁，脑细胞发育速度越快 C. 大脑发育需要新陈代谢所需的营养物质 D. 大脑发育随婴儿年龄增长而自然成熟 E. 大脑需要外界环境的刺激和影响"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_99",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "WHO已将下列哪种儿童常见病列为需重点防治的第三位非传染病 A. 近视 B. 沙眼 C. 龋齿 D. 肥胖 E. 蛔虫感染"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_100",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "诊断抑郁症的首要症状是 A. 精力明显减退疲乏 B. 思维困难、联想缓慢 C. 情绪低落，兴趣下降 D. 自卑、自责、自杀观念 E. 失眠、早醒、体重减轻"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_102",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "男，45岁。体检发现“转氨酶”升高。既往体健，吸烟史25年，约20支/日，饮酒史15年，每日饮高度白酒6两。查体：BP125/75mmHg，身高170cm，体重65kg。实验室检查：ALT68U/L，AST200U/L。肝炎病毒标志物阴性，自身免疫抗体阴性。腹部B超示肝脏轻度增大，回声增强，后部衰减。最基本的治疗措施是 A. 戒酒 B. 控制饮食和加强体育锻炼 C. 应用保肝药物 D. 休息并减少体力活动 E. 应用调脂药物"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_103",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "通过游泳使机体散热的方式属于 A. 辐射散热 B. 对流散热 C. 传导散热 D. 蒸发散热 E. 传导和蒸发散热"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_106",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "静态作业的特点是 A. 能量消耗水平高 B. 能量消耗水平不高 C. 能量消耗水平因人而异 D. 能量消耗水平不高，不易疲劳 E. 能量消耗水平不高，易疲劳"
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_107",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "青春期保健 A. 保健的原则是对胎儿有利因素要保证，不利因素要尽量避免和减少 B. 主要保健重点是清理呼吸道，建立呼吸，保温，预防脐带断端、眼和皮肤感染，母乳喂养等 C. 约为10年，是身体和智力发展很快的时期。要加强营养，合理营养，避免儿童期肥胖的发生。避免女童发生外阴阴道炎 D. 是从儿童期末到性成熟期之间的一段生命时期，在此时期内身体和心理发生巨大的变化 E. 是妇女一生中生育和劳动生产的鼎盛时期"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_108",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "男，60岁，间断心前区压榨感及咽部不适，尝试步行200米后，需停下休息5分钟，平板实验阳性。诊断为 A. 变异型心绞痛 B. 稳定型心绞痛 C. 初发型心绞痛 D. 不稳定性心绞痛 E. 心肌梗死"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_109",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "肥胖是下列哪种风湿病的易感因素 A. 强直性脊柱炎 B. 骨性关节炎 C. 类风湿关节炎 D. 反应性关节炎 E. 银屑病性关节炎"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_110",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "患者，女，28岁。近2个月经量渐减，点滴即止，胸闷呕恶，带下量多，形体肥胖，舌淡苔白腻，脉滑。其诊断是 A. 月经过少血瘀证 B. 带下病脾虚证 C. 月经过少痰湿证 D. 月经过少阴虚证 E. 月经过少血虚证"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_111",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "男性，45岁。较肥胖，因面颈部反复疖肿2个月就诊，无明显“三多一少”症状，空腹血糖7.6mmol/L，父母均为2型糖尿病患者，此时首选具有诊断意义的检查是 A. 100g法葡萄精耐量﹢C肽释放试验 B. 75g法葡萄糖耐量﹢胰岛素释放试验 C. 尿糖测定 D. 空腹血糖测定 E. 糖化血红蛋白测定"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_113",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "李某，某公司经理，体型肥胖，初诊痛风患者，如果为其选择优质蛋白质，适宜的食物为 A. 动物内脏 B. 蛋类 C. 肉类 D. 禽类 E. 鱼类"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_114",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "痰泛于肌肤的临床表现 A. 咳嗽痰多，胸闷 B. 神昏，喉中痰鸣 C. 形体肥胖 D. 脘痞纳呆 E. 肌肤见圆滑包块"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_116",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "患者，男，40岁。发现血压高半年，最高达150/100mmHg，伴乏力，肌痛，口渴。吸烟20年。查体：血压170/100mmHg，肥胖，心脏不大，心律整齐，心率：76次/分，双下肢不肿。尿常规：尿蛋白（+），比重1.018，血钾3.1mmol/L。最可能的诊断是 A. 原发性醛固酮增多症 B. 原发性高血压 C. 肾性高血压 D. 肾血管性髙血压 E. 嗜铬细胞瘤"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_117",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "动态作业的特点是 A. 能量消耗水平高 B. 易疲劳 C. 能量消耗水平不高 D. 不易疲劳 E. 能量消耗水平高，不易疲劳"
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_118",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "营养学上所指的人体能量消耗包括 A. 基础代谢 B. 体力活动 C. 食物热效应 D. 以上都是 E. 以上都不是"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_119",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "患者，女，57岁，BMI31.2，诊断为2型糖尿病，经生活方式干预，未能有效控制血糖，肝肾功能未见异常，初始治疗首选的药物是 A. 二甲双胍 B. 吡格列酮 C. 阿卡波糖 D. 格列齐特 E. 西格列汀"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_120",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "患儿着凉感冒后胸闷气短，恶心呕吐，心悸，乏力，低热，心率快，心音低钝，心肌酶升高，心电图示ST段抬高，低电压，下列处理错误的是 A. 安静卧床 B. 避免情绪波动 C. 予以易消化富营养饮食 D. 加强体育锻炼，增加运动量 E. 营养心肌，改善心肌代谢，稳定心功能"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_123",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "女，65岁，右膝关节内侧严重疼痛，下蹲和下楼困难，步行距离500米。查体：右膝关节明显内翻畸形，伸展受限，关节活动度（ROM）：100°-20°-0°，负重位双膝关节X线片显示右膝内侧间隙明显狭窄，关节周边骨质增生，髌骨关节软骨磨损，关节面硬化，髌骨上下极骨赘生物形成。最适合的治疗方案是 A. 人工膝关节置换术 B. 关节镜清理术 C. 关节腔药物注射 D. 关节融合术 E. 口服非甾体抗炎药"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_124",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "成人每周应至少参加多少分钟中等强度的身体活动 A. 90 B. 120 C. 150 D. 200 E. 250"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_125",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "女，26岁。产后面色变红、肥胖1年半，乏力、头痛加重半年，并口渴多饮，夜间尿量达1700ml比白天多。查体：血压180/126mmHg、脉率104次/分，向心性肥胖，面色红黑有痤疮，皮肤薄乳晕及指关节伸侧色较深，腹壁胭窝及腋窝周围有紫纹，双下肢有可凹性水肿。最可能的诊断是 A. 产后高血压伴肥胖 B. 2型糖尿病 C. 醛固酮增多症 D. 库欣综合征 E. 肾上腺嗜铬细胞瘤"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_126",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "下列不属于团体行为干预方法的是 A. 应用竞争机制 B. 动员群众参与 C. 树立典型和培养骨干 D. 行为矫正技术 E. 开发领导"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_127",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "从健康传播效果的层次看，以上表述属于最低层次效果的是 A. 不能经常吃新鲜蔬菜、水果 B. 经常参加步行、游泳、打太极拳、跳秧歌舞等健身活动 C. 反感他人在自己身边吸烟 D. 相信低钠盐有利于健康 E. 能指出酗酒对健康的危害"
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_129",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "某大学二年级学生，因爸爸经常在家抽烟，他从高中就开始尝试吸烟，现在每天都会抽上1-2支。新学期一开始，学校就公布了新的奖励制度，明确规定吸烟学生不得授予奖学金和优秀称号。他便成功戒烟。吸烟行为属于 A. 易导致非故意伤害的行为 B. 易导致故意伤害的行为 C. 物质滥用行为 D. 不良饮食和体重控制行为 E. 缺乏体力活动行为"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_131",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "我国的《游泳场所卫生标准》对人工游泳池水质的以下项目作了具体规定，除了 A. pH B. 浑浊度 C. 尿素 D. 溶解氧 E. 细菌学指标"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_132",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "男性，30岁，腹部被自行车碾过，尚未明确诊断，观察期间错误的处理是 A. 禁饮禁食 B. 注射吗啡止痛 C. 反复检查腹部 D. 绝对卧床休息 E. 检测血压、脉搏"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_135",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "艾滋病健康教育的行为干预目标是 A. 降低高危性行为 B. 提高对STD的规则治疗需求 C. 对HIV感染和STD预防的规范寻求政策支持 D. 减少对AIDS患者和HIV感染者的冷漠和歧视 E. 以上各项都正确"
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_136",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "学龄儿肥胖症主要是 A. 脂肪细胞数目增加 B. 骨骼肌细胞数目增加 C. 脂肪细胞体积增加 D. 骨骼肌细胞体积增加 E. 体内液体量增加"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_138",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "不是Ⅰ型子宫内膜癌的高危因素 A. 高血压 B. 糖尿病 C. 肥胖 D. 多产 E. 绝经延迟"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_140",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "女，48岁。近一个月感口渴饮水量增至每天2000毫升。身高156厘米、体重71公斤。空腹血糖180mg/dl（10.0mmol/L），餐后血糖252mg/dl（14.0mmol/L）。系初次发现血糖高，过去无糖尿病史。给患者的治疗建议是 A. 饮食及运动治疗 B. 双胍类降血糖药 C. 磺脲类降血糖药 D. α-葡萄糖苷酶抑制剂 E. 胰岛素"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_141",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "女，35岁。腹泻、纳差、乏力、发热5月余。大便为黄色糊状，无粘液及脓血，3～5次/日，体温37.5～38℃。发病以来体重减轻约8kg。最可能的诊断是 A. 阿米巴肠病 B. 结肠癌 C. 溃疡性结肠炎 D. 肠结核 E. 克罗恩病"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_144",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "在居民小区建设健康步道，改善小区中绿化环境，以鼓励他们参加体育锻炼，这种方法属于 A. 健康促进 B. 卫生宣传 C. 社区启蒙 D. 健康教育 E. 临床预防服务"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_145",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "男性，18岁，BMI=24。其体重属于 A. 正常 B. 偏轻 C. 超重 D. 肥胖 E. 无法判断"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_146",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "女，40岁。向心性肥胖伴乏力3年。查体：BP180/110mmHg，满月脸、多血质，皮肤可见宽大紫纹，血糖12.8mmol/L，血钾3.8mmol/L，尿皮质醇增高，小剂量地塞米松试验不能抑制，但大剂量地塞米松试验能抑制。为明确病因，除肾上腺CT检查外，最需要进行的检查是 A. 鞍区MRI B. 肾区B超 C. 胸部CT D. 肾动脉造影 E. 头颅X线平片"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_150",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "女，35岁。脸变圆、向心性肥胖2年，皮肤紫纹半年。最可能的诊断是 A. 特发性醛固酮增多症 B. 肾上腺皮质功能减退症 C. 单纯性肥胖 D. 糖尿病 E. 库欣综合征"
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_152",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "男，30岁。低热、腹痛、腹胀2个月，体温最高38℃，一般发生在下午。2个月来体重减轻5kg。查体：腹部压痛，右下腹可触及边界不清、质地柔韧的包块，移动性浊音（＋）。腹腔穿刺抽出暗黄色浑浊液体。腹水化验：比重1.026，蛋白31g/L，白细胞710×10⁹/L，单个核细胞0.85。适当的治疗措施是 A. 抗结核治疗 B. 腹腔探查术 C. 静脉应用广谱抗生素 D. 静脉应用免疫抑制剂 E. 腹腔灌洗"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_153",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "长期服用糖皮质激素可出现类皮质醇增多症，其表现不包括 A. 满月脸 B. 向心性肥胖 C. 低血钾 D. 低血钠 E. 多毛、痤疮"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_154",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "160/100mmHg，向心性肥胖，满月脸，水牛背，腹部见宽大紫纹，双下肢水肿。实验室检査：血钠149mmol/L，血钾3.2mmol/L。该患者最可能的诊断是 A. 单纯性肥胖 B. 原发性醛固酮增多症 C. 库欣综合征 D. 妊娠 E. 嗜铬细胞瘤"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_155",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "王女士，44岁。体质指数为27.1kg/m²，她意识到自己体重超重，打算通过运动控制体重，但总是觉得没有适合自己的运动方式，迟迟没有开始行动。按照行为改变阶段理论划分，王女士处于行为改变的 A. 行动阶段 B. 无打算阶段 C. 准备阶段 D. 打算阶段 E. 行为维持阶段"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_156",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "使用BMI指数评价儿童的营养状况，18岁时肥胖该指数的评价标准是 A. BMI大于20 B. BMI大于24 C. BMI大于25 D. BMI大于28 E. BMI大于30"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_157",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "某患者，竞争意识强，总想胜过他人：老觉得时间不够用，说话快走路快：脾气暴躁，容易激动：常与他人的意见不一致。其行为类型属于 A. A型行为 B. B型行为 C. C型行为 D. AB混合型行为 E. BC混合型行为"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_158",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "男，65岁。排便次数增加6个月，伴里急后重、排便不尽感。1个月来大便变细，偶有大便表面带血，自觉乏力，体重减轻4Kg。首选的检查方法是 A. 粪隐血 B. 直肠指检 C. 腹部超声 D. 结肠镜 E. 腹部CT"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_159",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "按照WHO标准，判断超重的BMI范围为 A. 18.5～24.9 B. 18.5～22.9 C. 18.5～23.9 D. 23.0～24.9 E. 25.0～29.9"
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_160",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "女，35岁。脸圆脸红向心性肥胖1年余。患者感明显的乏力与口干，腹部皮肤可见紫纹，皮肤薄，血压160/80mmHg，闭经1年。要明确左肺占位性病变与本病是否相关，需要的检查是 A. 大剂量地塞米松抑制试验 B. 测定血ACTH浓度 C. 过夜皮质醇节律加抑制试验 D. 生长抑素显像 E. 胸部MRI"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_161",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "女，40岁。肥胖、高血压、闭经2年。查体：BP160/90mmHg，向心性肥胖、脸圆、多血质外貌，腹部可见宽大紫纹。血糖11.8mmol/l。该患者最可能的诊断是 A. 库欣综合征 B. 糖尿病 C. 代谢综合征 D. 肥胖症 E. 高血压"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_162",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "患者近3年来，反复发作性胸部疼痛，胸闷不适，昨日因与人争吵诱发胸部疼痛，痛引肩背，气喘短促，肢体沉重，休息5分钟后缓解。病人形体肥胖，痰多舌淡，苔浊腻，脉滑，其病证结合诊断是 A. 不稳定型劳累性心绞痛，心血瘀阻证 B. 稳定型劳累性心绞痛，痰浊痹阻证 C. 不稳定型劳累性心绞痛，痰浊痹阻证 D. 心脏神经官能症，痰浊痹阻证 E. 稳定型劳累性心绞痛，心血瘀阻证"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_164",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "某女，66岁。形体肥胖，既患痰湿壅肺之咳嗽气喘，又见脾胃气滞之脘腹胀满、嗳气、恶心呕吐。宜选用的药是 A. 陈皮 B. 川楝子 C. 香附 D. 甘松 E. 乌药"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_165",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "18～64岁年龄组人群中推荐的身体活动量为 A. 每周至少3次高强度体力活动 B. 每天累计至少60分钟中等强度体力活动 C. 每周最多120分钟中等强度体力活动 D. 每周至少75分钟高强度有氧体力活动 E. 每周最多2天进行大肌群参与的强壮肌肉的活动"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_166",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "新生儿期保健 A. 保健的原则是对胎儿有利因素要保证，不利因素要尽量避免和减少 B. 主要保健重点是清理呼吸道，建立呼吸，保温，预防脐带断端、眼和皮肤感染，母乳喂养等 C. 约为10年，是身体和智力发展很快的时期。要加强营养，合理营养，避免儿童期肥胖的发生。避免女童发生外阴阴道炎 D. 是从儿童期末到性成熟期之间的一段生命时期，在此时期内身体和心理发生巨大的变化 E. 是妇女一生中生育和劳动生产的鼎盛时期"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_167",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "与高血压发生有关的因素不包括哪项 A. 高钠盐饮食 B. 肥胖 C. 吸烟、饮酒 D. 长期的紧张、缺少锻炼 E. 饮食过多"
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_168",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "160/100mmHg，向心性肥胖，满月脸，水牛背，腹部见宽大紫纹，双下肢水肿。实验室检査：血钠149mmol/L，血钾3.2mmol/L。为明确诊断，该患者首先要做的检查是 A. 肾素、醛固酮 B. 泌乳素 C. 尿绒毛膜促性激素 D. 促肾上腺皮质激素、皮质醇 E. 肾上腺素"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_169",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "59.男性，21岁。骑自行车摔伤右腰部，伤后腰部疼痛，无肉眼血尿。查体：血压，脉搏正常。右腰部无包块，但叩击痛明显。尿常规：显微镜下红细胞充满视野。诊断哪种损伤确切 A. 重度肾损伤 B. 肾挫伤 C. 中度肾损伤 D. 血管损伤 E. 输尿管损伤"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_170",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "女，26岁。产后面色变红、肥胖1年半，乏力、头痛加重半年，并口渴多饮，夜间尿量达1700ml比白天多。查体：血压180/126mmHg、脉率104次/分，向心性肥胖，面色红黑有痤疮，皮肤薄乳晕及指关节伸侧色较深，腹壁胭窝及腋窝周围有紫纹，双下肢有可凹性水肿。对诊断最有提示意义的是血中 A. 血脂↑ B. 血糖↑ C. 醛固酮↑ D. 皮质醇↑ E. 儿茶酚胺↑"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_173",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "我国判断肥胖的标准是BMI值大于或等于 A. 18.5 B. 24 C. 25 D. 28 E. 30"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_176",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "从健康传播效果的层次看，以下表述属于采纳健康的行为和生活方式的是 A. 能指出酗酒对健康的危害 B. 经常参加步行、游泳、打太极拳、群众大秧歌舞等健身活动 C. 相信低钠盐有利于健康 D. 反对家人或他人在自己身边吸烟 E. 不能经常吃新鲜的蔬菜、水果"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_177",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "关于脂/水分配系数，下列说法正确的是 A. 在同系化合物中，对于在水中溶解度越大的化合物，由于其较易随尿排出体外，故毒性越小 B. 化学物的脂/水分配系数越大，则越容易以简单扩散的方式通过细胞膜。 C. 解离的无极性化合物脂/水分配系数较非解离化合物的大 D. 脂溶性物质易在脂肪蓄积，故肥胖者对脂溶性毒物的耐受性总是较强的"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_179",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "下列关于疯牛病的相关叙述中，不正确的是 A. 是1986年首先在英国报道的一种传染性脑病 B. 该病潜伏期很短，传播迅速，曾在欧洲很多国家都有蔓延 C. 该病由朊病毒引起 D. 发病初期，病牛体重减轻，产奶下降 E. 病原体来源于牛或羊内脏肉骨粉制作的饲料"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_180",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "下列哪项属于伤害的一级预防措施 A. 安全带 B. 救生衣 C. 防弹衣 D. 心肺复苏 E. 游泳池周围的栅栏"
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_181",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "患者，男，55岁，间歇性胃痛发作5年，近2个月发作频繁，无规律，同时体重减轻，大便隐血试验持续阳性。应首先考虑的是 A. 食管癌 B. 胃溃疡穿孔 C. 胃癌 D. 十二指肠溃疡穿孔 E. 瘢痕性幽门梗阻"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_182",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "以下哪项与痛风无关 A. 过量饮酒 B. 超重及肥胖 C. 高嘌呤食物摄入过量 D. 遗传因素 E. 蛋白类食物"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_184",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "某男，64岁。因多饮，多食，多尿，体重减轻3年余就诊。3年来患者无明显诱因出现烦渴引饮，消谷善饥，小便频数而量多，尿液浑浊而黄，大便干燥密结，舌红，苔薄黄，脉滑数。平素嗜食肥甘厚味，长期饮酒，每日饮白酒250g，运动量少。体重从100kg下降至80kg。查空腹血糖9.0mmol/L，西医诊断为糖尿病，中医诊所为消渴病，辨证为阴虚燥热证，处方如下：中药汤剂：玉女煎加味：煅石膏30g，熟地黄20g，麦冬15g，知母10g，怀牛膝10g，天花粉15g，共5剂，水煎服，每日1剂，早、晚分服。西药：盐酸二甲双胍片500mg×20片，每次500mg，3次/日。中成药：清胃黄连丸9g×10丸，1丸/次，2次/日。执业药师审核处方时应指出玉女煎加味处方存在的问题是 A. 煅石膏应是生石膏 B. 熟地黄应是生地黄 C. 麦冬应是天冬 D. 怀牛藤应是川牛膝 E. 知母应是浙贝母"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_185",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "儿童期保健 A. 保健的原则是对胎儿有利因素要保证，不利因素要尽量避免和减少 B. 主要保健重点是清理呼吸道，建立呼吸，保温，预防脐带断端、眼和皮肤感染，母乳喂养等 C. 约为10年，是身体和智力发展很快的时期。要加强营养，合理营养，避免儿童期肥胖的发生。避免女童发生外阴阴道炎 D. 是从儿童期末到性成熟期之间的一段生命时期，在此时期内身体和心理发生巨大的变化 E. 是妇女一生中生育和劳动生产的鼎盛时期"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_187",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "男，49岁。骑自行车于路口转弯处，扭头后视时突觉全身松软无力，犹如“骨架消失”，人和车倒地。神志清楚，四肢无法动弹，持续约3分钟后缓解。最可能的诊断是 A. 脑梗死 B. 偏头痛 C. TIA跌倒发作 D. 神经官能症 E. 内耳眩晕症"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_188",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "18岁女学生，骑自行车与三轮车相撞，自觉外阴疼痛难忍并肿胀就诊。根据女性外阴解剖学特点，可能发生的是 A. 小阴唇致伤 B. 处女膜破裂 C. 大阴唇血肿 D. 阴道前庭损伤 E. 前庭大腺肿大伴出血"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_191",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "人群健康水平的提高有利于 A. 出生率提高 B. 平均期望寿命提高 C. 劳动力的工作时间延长 D. 人均摄入的热量增加 E. 儿童肥胖率提高"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_194",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "营养、体育锻炼、疾病属于影响生长发育的 A. 遗传因素 B. 生物性因素 C. 非生物性因素 D. 生物性因素与非生物性因素 E. 家庭生活质量"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_195",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "下列关于利用儿童生长发育的环境因素，错误的建议是 A. 提供儿童充足的高糖、高脂、高蛋白食品 B. 让儿童青少年远离装修等污染源 C. 避免儿童膳食热能供给大幅度波动 D. 避免儿童从事剧烈的体育锻炼 E. 合理安排儿童的作息时间"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_196",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "患者，女，32岁。左臀部出现硬结，红热不显，有触痛，步行不便，有患部肌肉注射史。应首先考虑的是 A. 无头疽 B. 有头疽 C. 臀痈 D. 痈 E. 肉瘤"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_198",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "在全身麻醉气管插管时，造成插管困难的常见原因有 A. 口底肿瘤 B. 小颌畸形 C. 颞下颌关节强直 D. 肥胖 E. 以上都是"
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_200",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "女，28岁。婚后5年未孕，月经稀发、肥胖，多毛。妇科检查：子宫未见异常，双侧卵巢稍大。基础体温单相。该患者最可能的诊断是 A. 多囊卵巢综合征 B. 生殖器结核 C. 无排卵性功能失调性子宫出血 D. 卵巢早衰 E. 子宫内膜异位症"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_201",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "下列关于糖尿病影响因素的说法，不正确的是 A. 1型糖尿病的遗传倾向比2型糖尿病更明显 B. 1型糖尿病占我国糖尿病患者的85%以上 C. 肥胖是糖尿病的重要影响因素之一。 D. 重度肥胖儿童10岁左右即可发展成2型糖尿病 E. 高血压是2型糖尿病的一个独立的危险因素"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_202",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "女，68岁。上腹部不适1个月，伴皮肤黄染、食欲不振、厌油腻饮食，体重减轻5kg。查体：巩膜明显黄染，肝肋下未触及，右肋缘下可触及肿大的胆囊底部，无触痛。实验室检查：血胆红素340μmol/L。首先考虑的诊断是 A. 肝癌 B. 胆总管结石 C. 胆囊结石 D. 胃癌 E. 胆管癌"
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_204",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "根据《中国成人超重和肥胖症预防控制指南》，体重指数（BMI）判断为肥胖的标准是 A. BMI≤18.5 B. BMI≥28.0 C. BMI≤21.5 D. BMI≥24.0 E. BMI≥25.0"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_206",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "男，56岁。反复上腹痛2年，加重3个月。腹痛无明显规律性，伴乏力，间断黑便。3个月以来体重减轻10Kg，查体：T36.5℃，P80次／分，R18次／分，BP120/80mmHg。皮肤巩膜无黄染，双肺呼吸音清，未闻及干湿性啰音，心律齐，腹软，无压痛。血常规：Hb110g/L，WBC9.6×10⁹/L，N0.86，Plt158×10⁹/L。对明确诊断最有价值的检查是 A. 胃液分析 B. 胃镜 C. 腹部B超 D. 腹部CT E. 胃脱落细胞检查"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_207",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "某单位从1985年起对职工心脏病的发病情况进行研究。在1985年每位职工填写了一份关于体育锻炼的调查表，然后对其随访直至2000年。研究者发现：对于调查表中填有每天有规律地锻炼30分钟的职工，在总共4000个观察人年中发生心脏病50例，而锻炼没有规律的职工，在总共3000个观察人年中发生心脏病200例。规律锻炼与心脏病之间的关联强度是 A. 3.2 B. 0.4 C. 0.19 D. 5.3 E. 0.26"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_208",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "1型糖尿病的主要特点是 A. 多见于40岁以上的成年人 B. 易发生高渗性非酮症性糖尿病昏迷 C. 自身免疫介导的胰岛β细胞破坏 D. 早期常不需要胰岛素治疗 E. 大部分有体重超重或肥胖"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_209",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "常用的减肥膳食包括 A. 低脂、低碳水化合物和低蛋白膳食 B. 低脂、低碳水化合物和高蛋白膳食 C. 低脂、高碳水化合物和低蛋白膳食 D. 低脂、高碳水化合物和高蛋白膳食 E. 高脂、低碳水化合物和低蛋白膳食"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_210",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "女，26岁。产后面色变红、肥胖1年半，乏力、头痛加重半年，并口渴多饮，夜间尿量达1700ml比白天多。查体：血压180/126mmHg、脉率104次/分，向心性肥胖，面色红黑有痤疮，皮肤薄乳晕及指关节伸侧色较深，腹壁胭窝及腋窝周围有紫纹，双下肢有可凹性水肿。为明确诊断应选择 A. CRH兴奋试验 B. 小剂量地塞米松抑制试验 C. 糖耐量试验 D. 螺内脂（安体舒通）试验 E. 24小时尿儿茶酚胺测定"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_211",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "体育锻炼能促进哪些器官组织的发育 A. 心肺功能 B. 神经精神发育 C. 全面促进身体发育 D. 免疫系统 E. 骨骼系统"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_214",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "小儿肥胖应限制饮食，但下列哪项是不正确的 A. 快速进食 B. 克服偏食 C. 睡前不进食 D. 早餐合理 E. 不吃零食"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_216",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "男，55岁。右上腹疼痛3个月。呈持续性钝痛，向右肩背部放射，伴乏力，发病以来体重减轻6kg。查体：T36.5℃，P80次/分，R18次/分，BP120/80mmHg，巩膜无黄染，双肺呼吸音清，未闻及干湿性啰音，心律齐，肝肋下3cm，质地稍硬，有结节感。实验室检查AFP800μg/L，CEA正常。腹部B超：肝右叶8cm×6cm占位性病变，向外生长，周边血流量增强；门静脉正常。最理想的治疗方法是 A. 肿瘤切除加放疗 B. 姑息性肝切除术 C. 根治性肝切除术 D. 局部射频治疗 E. 经肝动脉化疗栓塞"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_217",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "不是妊娠期高血压疾病的高危因素的是 A. 孕妇年龄过小或大于40岁 B. 过期妊娠 C. 多胎妊娠 D. 糖尿病与肥胖 E. 抗磷脂抗体综合征"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_219",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "治疗高脂蛋白血症，首先应该 A. 确定原发、继发 B. 消除危险因素 C. 减肥、戒酒、忌烟 D. 采取膳食控制 E. 进行药物治疗"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_220",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "女，39岁。因胆结石行胆囊切除术后1天。静息能量消耗（REE）比正常约增加 A. 50% B. 10% C. 30% D. 5% E. 20%"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_221",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "下列措施中属于三级预防的是 A. 心理康复 B. 戒烟限酒 C. 体育锻炼 D. 合理营养 E. 早期治疗"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_222",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "男，58岁。反复上腹痛20年，近2个月出现进食后腹胀，恶心，呕吐隔夜宿食，体重减轻15kg。为明确诊断，应首选的检查方法是 A. 腹部CT B. 腹部B型超声 C. 立位腹部透视 D. 胃镜 E. 腹部ECT"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_223",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "体现经济发展和居民健康状况的综合指标是 A. 出生率提高 B. 平均期望寿命提高 C. 劳动力的工作时间延长 D. 人均摄入的热量增加 E. 儿童肥胖率提高"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_224",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "某学生参加小学入学体检，远视力左眼0.5，右眼1.0。到眼科医院就诊，医生对他进行屈光矫正后，远视力为0.7。按照程度，所患眼病属于 A. 轻度 B. 中度 C. 重度 D. 极重度 E. 超重度"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_225",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "教育部颁布的“学校体育工作条例”规定，中小学生每天体育锻炼的时间应该不低于 A. 30分钟 B. 45分钟 C. 1小时 D. 1.5小时 E. 2小时"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_226",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "紫癜腹纹可见于 A. 经产妇 B. 曾经肥胖者 C. 腹水 D. 肾上腺皮质功能亢进 E. 小儿"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_227",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "下列哪项不是学校体育锻炼的主要目标 A. 向学生传授体育卫生基本知识和技能 B. 促进儿童青少年生长发育 C. 指导学生掌握基本的运动技巧 D. 培养学生对体育锻炼的兴趣 E. 选拔体育竞技人才"
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_228",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "对单纯性肥胖患者的身体活动建议，不正确的是 A. 起始运动强度应保持在高强度运动 B. 减轻体重过程中应强调肌肉力量训练 C. 先对患者进行运动前风险评估 D. 以增加能量留耗、减轻体重为目的 E. 运动形式以大肌肉群参加与的有氧耐力运动为主"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_229",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "男，30岁，间断右下腹痛一年。加重伴腹泻一月，大便每日4-5次，黄色稀便，无黏液脓血，伴低热，体重减轻4kg。既往反复发作肛瘘1年，曾手术治疗。查体：T37.5℃，右下腹轻压痛，肛门视诊可见肛瘘开口，粪隐血（+++），肠镜检查发现回肠末端、回盲瓣多发溃疡，病变间黏膜基本正常。结肠、直肠未见明显异常。可诊断为 A. 贝赫切特病 B. 溃疡性结肠炎 C. 克罗恩病 D. 淋巴瘤 E. 肠结核"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_230",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "以下关于癌症与营养的关系描述错误的是 A. 能量摄入过多、超重、肥胖者罹患乳腺癌、结肠癌、胰腺癌、子宫内膜癌和前列腺癌的概率高 B. 低蛋白质摄入与食管癌、胃癌的发生相关 C. 脂肪的摄入量与结肠癌、直肠癌、乳腺癌的发生呈负相关 D. 高淀粉摄入人群胃癌和食管癌发病率较高 E. 高钙、高维生素D膳食与结肠癌发病呈负相关"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_231",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "某男，64岁。因多饮，多食，多尿，体重减轻3年余就诊。3年来患者无明显诱因出现烦渴引饮，消谷善饥，小便频数而量多，尿液浑浊而黄，大便干燥密结，舌红，苔薄黄，脉滑数。平素嗜食肥甘厚味，长期饮酒，每日饮白酒250g，运动量少。体重从100kg下降至80kg。查空腹血糖9.0mmol/L，西医诊断为糖尿病，中医诊所为消渴病，辨证为阴虚燥热证，处方如下：中药汤剂：玉女煎加味：煅石膏30g，熟地黄20g，麦冬15g，知母10g，怀牛膝10g，天花粉15g，共5剂，水煎服，每日1剂，早、晚分服。西药：盐酸二甲双胍片500mg×20片，每次500mg，3次/日。中成药：清胃黄连丸9g×10丸，1丸/次，2次/日。执业药师对该患者进行用药指导时，用药建议错误的是 A. 中药汤剂与西药隔开30分钟以上服用 B. 应戒酒，以免影响盐酸二甲双胍的疗效 C. 清胃黄连丸为蜜丸，宜改用清胃黄连片 D. 盐酸二甲双胍片与清胃黄连丸同时服用 E. 清胃黄连丸苦寒伤胃，不可过量或久服"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_232",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "使用体质量指数（BMI）指数评价儿童的营养状况，18岁时超重该指数的评价标准是 A. BMI大于20 B. BMI大于24 C. BMI大于25 D. BMI大于28 E. BMI大于30"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_233",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "合成甘油三酯所需的脂肪酸及3-磷酸甘油的原料主要是 A. 葡萄糖代谢提供 B. 脂肪分解提供 C. 肝脏提供好 D. 新陈代谢提供 E. 小肠提供"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_234",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "男，56岁。尿中泡沫增多2年，间断双下肢水肿，晨轻暮重半年。既往患2型糖尿病15年，目前使用二甲双胍(1.5g/日）联合预混胰岛素30R(早、晚餐前皮下注射）治疗。冠心病病史10年，2年前行PTCA治疗。查体：BP155/85mmHg，腹型肥胖，心肺无显著异常，双下肢轻度凹陷性水肿。尿蛋白(++）。入院后监测血压波动于140～150/75～85mmHg，首选的降压药物是 A. α受体拮抗剂 B. ACEI或ARB类 C. β受体拮抗剂 D. 利尿剂 E. 钙通道阻滞剂"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_235",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "影响生长发育的环境因素中哪一个是最重要的 A. 营养因素 B. 体育锻炼 C. 疾病 D. 环境污染 E. 社会心理因素"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_236",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "男，46岁，右颈部无痛性淋巴结肿大4个月，伴上腹疼痛，食欲不佳，发热盗汗，体重减轻。行剖腹探查见胃与胰头及腹膜有粘连，周围有多个肿大的淋巴结，病理检查为霍奇金淋巴瘤，T细胞来源。临床分期属 A. Ⅱ B. ⅢA C. ⅢB D. ⅣA E. ⅣB"
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_237",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "冠心病最常见的原因是 A. 高血压 B. 冠状动脉粥样硬化性狭窄 C. 脂代谢紊乱 D. 糖尿病 E. 肥胖"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_238",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "女性，36岁。肥胖，面如满月，红润，四肢相对瘦小，腹部及大腿内侧可见宽大的紫色条纹。此患者一般不会出现以下哪种病史 A. 月经少 B. 易感染 C. 有口干，多尿 D. 精神神经障碍 E. 肾绞痛，血尿"
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_239",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "女，28岁。婚后5年未孕，月经稀发肥胖，多毛。妇科检查子宫未见异常，双侧卵巢稍大。基础体温单相。该患者促排卵治疗，需要注意防止的并发症是 A. 肝脏损害 B. 卵巢早衰 C. 卵泡黄素化未破裂综合征 D. 卵巢过度刺激综合征 E. 肾功能损害"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_240",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "某家庭，父亲及儿子都抽烟，母亲肥胖，从不进行体育锻炼，女儿上大学，在学校居住，每天坚持锻炼，饮食合理。这家父亲、母亲及儿子具有 A. 日常健康行为 B. 避开环境危害行为 C. 预警行为 D. 预防性行为 E. 不良生活方式"
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_242",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "患者，女，24岁，已婚。闭经7个月，形体肥胖，胸胁满闷，呕恶痰多，面浮足肿，舌淡苔白腻，脉沉滑。其证候是 A. 肝肾不足 B. 气血虚弱 C. 痰湿阻滞 D. 肝血不足 E. 肺肾阴虚"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_244",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "一般的择期手术病人的静息能量消耗值（REE）约增加 A. 10% B. 20% C. 30% D. 40% E. 50%"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_245",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "男，60岁，间歇性跛行6年。下蹲时疼痛减轻，骑自行车正常。直腿抬高试验阴性。X线片示：腰椎骨质增生明显。最可能的诊断是 A. 腰椎管狭窄症 B. 腰椎间盘突出症 C. 慢性腰肌劳损 D. 棘间韧带损伤 E. 腰椎结核"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_246",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "男，65岁。排便次数增加6个月，伴里急后重、排便不尽感。1个月来大便变细，偶有大便表面带血，自觉乏力，体重减轻4Kg。该疾病最常见的远处转移部位是 A. 脾 B. 肝脏 C. 骨骼 D. 脑 E. 肺"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_247",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "对于普通中小学、农业中学、职业中学学生的体育锻炼时间，教育部颁布的“学校体育工作条例”中有明确的规定。以下说法错误的是 A. 每天应当安排课间操 B. 每周安排3次以上课外体育活动 C. 保证中学生每天至少有1小时的体育锻炼时间 D. 保证小学生每天有0.5小时的体育锻炼时间 E. 饭前、饭后1小时内不宜组织剧烈运动"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_248",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "男，45岁。间断头晕1月余。1个月前在—次情绪激动后自觉头晕，休息后缓解，当时测血压150/95mmHg，自测血压有时增高，有时正常。建议采取的措施为 A. 进行低或中等强度的等张运动 B. 每日食盐量不少于6g C. 膳食中脂肪量控制在总热量的50%以下 D. 体质指数控制在36kg/m²以内 E. 减少体育锻炼"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_250",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "男，低热，体重减轻5kg，右下腹可疑肿块，回盲部跳跃征，盲肠及结肠短缩。考虑为什么病 A. 肠结核 B. 克罗恩病 C. 溃疡性结肠炎 D. 结肠癌 E. 肠易激综合征"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_251",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "女，35岁。腹泻、纳差、乏力、发热5月余。大便为黄色糊状，无粘液及脓血，3～5次/日，体温37.5～38℃。发病以来体重减轻约8kg。下列辅助检查最有助于明确诊断的是 A. 腹部CT B. 结肠镜及黏膜活组织病理检查 C. 胶囊内镜 D. 下消化道X线钡剂造影 E. PPD试验"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_252",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "（117～119共用题干）某女性患者，45岁，体检结果显示：血压180/100mmHg，体重68Kg，身高160cm（BMI=26.6），甘油三酯4.5mmol/L，胆固醇5.1mmol/L。针对该患者开出运动处方中，不适合的是 A. 运动频率每周2次，每次20分钟 B. 鼓励参加自行车、游泳等下肢关节承重小的运动 C. 运动中合理补液 D. 中等至高等强度运动 E. 减重同时加强肌肉力量锻炼"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_253",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "有关Cushing综合征（皮质醇增多症）的叙述哪项是错误的 A. 向心性肥胖，多毛，紫纹 B. 病程长者可肌肉萎缩，骨质疏松 C. 血中淋巴细胞及嗜酸性粒细胞增多 D. 葡萄糖耐量异常 E. 血压增高"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_254",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "从健康传播效果的层次看，以上表述属于态度向有利于健康转变的是 A. 不能经常吃新鲜蔬菜、水果 B. 经常参加步行、游泳、打太极拳、跳秧歌舞等健身活动 C. 反感他人在自己身边吸烟 D. 相信低钠盐有利于健康 E. 能指出酗酒对健康的危害"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_257",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "痤疮发生主要是由于 A. 面部不清洁 B. 遗传 C. 肥胖 D. 雄激素分泌过多 E. 喜欢油腻"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_259",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "身体活动中或活动后发生的最常见的运动伤害是 A. 脑出血 B. 外伤和急性心血管疾病 C. 癫痫 D. 肠梗阻 E. 阑尾炎"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_260",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "健康教育在帮助个人和群体掌握卫生保健知识、树立健康观念、自愿采纳有利于健康行为与生活方式的教育活动中，运用的两大手段是 A. 信息传播与网络咨询 B. 行为干预与健康监督 C. 信息传播与行为干预 D. 卫生监督与追踪观察 E. 专业指导与行为干预"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "cmexam_single_261",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "男，60岁，上腹胀隐痛伴有皮肤黄染，食欲不振厌油腻饮食1个月，症状进行性加重，体重减轻5kg，10天前开始出现大便颜色变浅，近2天大便呈陶土样，查体：巩膜明显黄染，肝脾肋下未触及，右肋下缘可触及肿大的胆囊底部，无压痛，实验室检查：血总胆红素340μmol/L.血AFP5ng/ml，最可能的诊断为 A. 胆囊结石 B. 肝门部胆管癌 C. 肝癌 D. 胆总管下段癌 E. 胆总管结石"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  }
+]

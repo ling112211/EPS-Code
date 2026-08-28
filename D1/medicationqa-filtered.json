@@ -1,0 +1,291 @@
+[
+  {
+    "id": "medicationqa_18",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful medical knowledge assistant. Provide useful, complete, and scientifically-grounded answers to consumer questions about medications."
+      },
+      {
+        "role": "user",
+        "content": "results of stopping terazosin?"
+      },
+      {
+        "role": "assistant",
+        "content": "The effect of withdrawal of terazosin therapy in patients with mild to moderate hypertension was assessed in two double-blind, placebo-controlled studies. All patients had demonstrated a stable blood pressure response to terazosin prior to withdrawal of the drug. Patients were randomly assigned either to continue treatment with terazosin at a previously established dose that had brought blood pressure under control (dose range: 1 to 40 mg daily) or to receive a matching placebo. At the end of a six- or eight-week withdrawal period, placebo-treated patients experienced mean increases of 7.3 and 12.4 mm Hg in supine diastolic blood pressure (studies M81-020 and M81-028 site 1, respectively). These increases were significantly greater than those observed for patients who continued to receive terazosin. Similar results were observed in other blood pressure variables. Withdrawal of terazosin was accompanied by a significant weight loss (2.8 and 3.6 pounds in studies M81-020 and M81-028, respectively). There were no clinically significant changes in pulse rates, physical examinations, laboratory test results, or electrocardiograms. Headache was the most common adverse experience reported by those who received placebo during the drug withdrawal period. These studies demonstrate that withdrawal of terazosin therapy is associated with an increase in supine diastolic blood pressure, often to hypertensive levels, without signs of a withdrawal syndrome."
+      }
+    ]
+  },
+  {
+    "id": "medicationqa_38",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful medical knowledge assistant. Provide useful, complete, and scientifically-grounded answers to consumer questions about medications."
+      },
+      {
+        "role": "user",
+        "content": "how to prep and administer insulin"
+      },
+      {
+        "role": "assistant",
+        "content": "Humulin R U-100 may be administered by subcutaneous injection in the abdominal wall, the thigh, the gluteal region or in the upper arm. Subcutaneous injection into the abdominal wall ensures a faster absorption than from other injection sites. Injection into a lifted skin fold minimizes the risk of intramuscular injection. Injection sites should be rotated within the same region. As with all insulin, the duration of action will vary according to the dose, injection site, blood flow, temperature, and level of physical activity. Intravenous administration of Humulin R U-100 is possible under medical supervision with close monitoring of blood glucose and potassium levels to avoid hypoglycemia and hypokalemia. For intravenous use, Humulin R U-100 should be used at concentrations from 0.1 unit/mL to 1 unit/mL in infusion systems with the infusion fluids 0.9% sodium chloride using polyvinyl chloride infusion bags."
+      }
+    ]
+  },
+  {
+    "id": "medicationqa_39",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful medical knowledge assistant. Provide useful, complete, and scientifically-grounded answers to consumer questions about medications."
+      },
+      {
+        "role": "user",
+        "content": "what is medical marijuana"
+      },
+      {
+        "role": "assistant",
+        "content": "Some states have approved \"medical marijuana\" to ease symptoms of various health problems. The U.S. Food and Drug Administration (FDA) has not approved the marijuana plant as a medicine. However, there have been scientific studies of cannabinoids, the chemicals in marijuana. This has led to two FDA-approved medicines. They contain THC, the active ingredient in marijuana. They treat nausea caused by chemotherapy and increase appetite in patients who have severe weight loss from HIV/AIDS. Scientists are doing more research with marijuana and its ingredients to treat many diseases and conditions."
+      }
+    ]
+  },
+  {
+    "id": "medicationqa_75",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful medical knowledge assistant. Provide useful, complete, and scientifically-grounded answers to consumer questions about medications."
+      },
+      {
+        "role": "user",
+        "content": "can you take these tow medications at the same time of day concerta and lexapro?"
+      },
+      {
+        "role": "assistant",
+        "content": "Human pharmacologic studies have shown that methylphenidate may inhibit the metabolism of ... selective serotonin reuptake inhibitors). Downward dose adjustment of these drugs may be required when given concomitantly with methylphenidate. It may be necessary to adjust the dosage and monitor plasma drug concentrations (or, in the case of coumarin, coagulation times), when initiating or discontinuing concomitant methylphenidate."
+      }
+    ]
+  },
+  {
+    "id": "medicationqa_161",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful medical knowledge assistant. Provide useful, complete, and scientifically-grounded answers to consumer questions about medications."
+      },
+      {
+        "role": "user",
+        "content": "amiodarone for \"afib what\" are side effects"
+      },
+      {
+        "role": "assistant",
+        "content": "Amiodarone may cause side effects. Tell your doctor if any of these symptoms are severe or do not go away:\nconstipation\nloss of appetite\nheadache\ndecreased sex drive\ndifficulty falling asleep or staying asleep\nflushing\nchanges in ability to taste and smell\nchanges in amount of saliva\nSome side effects can be serious. If you experience any of the following symptoms, or those listed in the IMPORTANT WARNING section, call your doctor immediately or get emergency medical treatment:\nrash\nweight loss or gain\nrestlessness\nweakness\nnervousness\nirritability\nintolerance to heat or cold\nthinning hair\nexcessive sweating\nchanges in menstrual cycle\nswelling in the front of the neck (goiter)\nswelling of the hands, feet, ankles, or lower legs\nuncontrollable shaking of a part of the body\ndecreased concentration\nmovements that you cannot control\npoor coordination or trouble walking\nnumbness or tingling in the hands, legs, and feet\nmuscle weakness\nAmiodarone may cause other side effects. Call your doctor if you have any unusual problems while taking this medication.\n\nIf you experience a serious side effect, you or your doctor may send a report to the Food and Drug Administration's (FDA) MedWatch Adverse Event Reporting program online (http://www.fda.gov/Safety/MedWatch) or by phone (1-800-332-1088)."
+      }
+    ]
+  },
+  {
+    "id": "medicationqa_175",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful medical knowledge assistant. Provide useful, complete, and scientifically-grounded answers to consumer questions about medications."
+      },
+      {
+        "role": "user",
+        "content": "what type of drug is amphetamine"
+      },
+      {
+        "role": "assistant",
+        "content": "Amphetamine (Adzenys ER, Adzenys XR, Dyanavel XR, Evekeo) is used as part of a treatment program to control symptoms of attention deficit hyperactivity disorder (ADHD; more difficulty focusing, controlling actions, and remaining still or quiet than other people who are the same age) in adults and children. Amphetamine (Evekeo) is used to treat narcolepsy (a sleep disorder that causes excessive daytime sleepiness and sudden attacks of sleep). Amphetamine (Evekeo) is also used for a limited period of time (a few weeks) along with a reduced calorie diet and an exercise plan for weight loss in obese people unable to lose weight. Amphetamine is in a class of medications called central nervous system stimulants. It works by changing the amounts of certain natural substances in the brain."
+      }
+    ]
+  },
+  {
+    "id": "medicationqa_228",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful medical knowledge assistant. Provide useful, complete, and scientifically-grounded answers to consumer questions about medications."
+      },
+      {
+        "role": "user",
+        "content": "what is the side effect of bp medicine on brain?"
+      },
+      {
+        "role": "assistant",
+        "content": "Cough\n    Diarrhea or constipation\n    Dizziness or lightheadedness\n    Erection problems\n    Feeling nervous\n    Feeling tired, weak, drowsy, or a lack of energy\n    Headache\n    Nausea or vomiting\n    Skin rash\n    Weight loss or gain without trying"
+      }
+    ]
+  },
+  {
+    "id": "medicationqa_265",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful medical knowledge assistant. Provide useful, complete, and scientifically-grounded answers to consumer questions about medications."
+      },
+      {
+        "role": "user",
+        "content": "how long does ecstasy or mda leave your body"
+      },
+      {
+        "role": "assistant",
+        "content": "In terms of its metabolism, research suggests that MDMA taken by mouth reaches its maximal blood concentration in about two hours. As ecstasy is metabolized, it is secreted into the urine and can be present for up to two days."
+      }
+    ]
+  },
+  {
+    "id": "medicationqa_314",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful medical knowledge assistant. Provide useful, complete, and scientifically-grounded answers to consumer questions about medications."
+      },
+      {
+        "role": "user",
+        "content": "how long is mda or ecstasy take to leave your \"body?\""
+      },
+      {
+        "role": "assistant",
+        "content": "In terms of its metabolism, research suggests that MDMA taken by mouth reaches its maximal blood concentration in about two hours. As ecstasy is metabolized, it is secreted into the urine and can be present for up to two days."
+      }
+    ]
+  },
+  {
+    "id": "medicationqa_386",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful medical knowledge assistant. Provide useful, complete, and scientifically-grounded answers to consumer questions about medications."
+      },
+      {
+        "role": "user",
+        "content": "how does it take phentermine to clear a drug screen?"
+      },
+      {
+        "role": "assistant",
+        "content": "Since phentermine has a similar structure to amphetamines, a urine drug screen can test positive for amphetamines. This will signal the need for a confirmatory test, which will then show that it was phentermine and not amphetamine or methamphetamine. The original result will then be ruled a false positive. If you have a prescription for phentermine, you should disclose that to the testing lab so your results can be appropriately interpreted. Phentermine is likely to be detected in the urine for one to four days after a dose, up to 24 hours in the blood, and up to one month in hair tests. The amount of phentermine detected in tests and how long it stays in your system is dependent on a number of factors. These include your age, the dose and how long you've been taking it, and your metabolism. For instance, a person of average build and metabolism can expect phentermine to be present in urine for three to five days. It may be faster for someone of a small build or longer for an older person."
+      }
+    ]
+  },
+  {
+    "id": "medicationqa_429",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful medical knowledge assistant. Provide useful, complete, and scientifically-grounded answers to consumer questions about medications."
+      },
+      {
+        "role": "user",
+        "content": "how long will suboxone block opioid"
+      },
+      {
+        "role": "assistant",
+        "content": "Suboxone typically lasts up to 3 days. Most doctors ask their patients to take the drug once per day, typically at the same time each day. A person’s weight, metabolism, and history of drug abuse can lengthen or shorten the action of Suboxone. It’s best to work with a doctor on a customized dose, based on your medical history."
+      }
+    ]
+  },
+  {
+    "id": "medicationqa_463",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful medical knowledge assistant. Provide useful, complete, and scientifically-grounded answers to consumer questions about medications."
+      },
+      {
+        "role": "user",
+        "content": "what is cortisol"
+      },
+      {
+        "role": "assistant",
+        "content": "Cortisol is a steroid hormone, in the glucocorticoid class of hormones. When used as a medication, it is known as hydrocortisone. It is produced in humans by the zona fasciculata of the adrenal cortex within the adrenal gland.[1] It is released in response to stress and low blood-glucose concentration. It functions to increase blood sugar through gluconeogenesis, to suppress the immune system, and to aid in the metabolism of fat, protein, and carbohydrates.[2] It also decreases bone formation.[3]"
+      }
+    ]
+  },
+  {
+    "id": "medicationqa_621",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful medical knowledge assistant. Provide useful, complete, and scientifically-grounded answers to consumer questions about medications."
+      },
+      {
+        "role": "user",
+        "content": "exercise restrictions with taking moxifloxacin?"
+      },
+      {
+        "role": "assistant",
+        "content": "Fluoroquinolones, including Moxifloxacin Tablets, have been associated with an increased risk of tendinitis and tendon rupture in all ages [see Warnings and Precautions ( 5.1) and Adverse Reactions ( 6.2)] . This adverse reaction most frequently involves the Achilles tendon, and has also been reported with the rotator cuff (the shoulder), the hand, the biceps, the thumb, and other tendons. Tendinitis or tendon rupture can occur within hours or days of starting moxifloxacin or as long as several months after completion of therapy. Tendinitis and tendon rupture can occur bilaterally.\n\nThe risk of developing fluoroquinolone-associated tendinitis and tendon rupture is increased in patients over 60 years of age, in patients taking corticosteroid drugs, and in patients with kidney, heart or lung transplants. Other factors that may independently increase the risk of tendon rupture include strenuous physical activity, renal failure, and previous tendon disorders such as rheumatoid arthritis. Tendinitis and tendon rupture have also occurred in patients taking fluoroquinolones who do not have the above risk factors. Discontinue Moxifloxacin Tablets immediately if the patient experiences pain, swelling, inflammation or rupture of a tendon. Patients should be advised to rest at the first sign of tendinitis or tendon rupture, and to contact their healthcare provider regarding changing to a non-quinolone antimicrobial drug. Avoid fluoroquinolones, including Moxifloxacin Tablets, in patients who have a history of tendon disorders or who have experienced tendinitis or tendon rupture [see Adverse Reactions"
+      }
+    ]
+  },
+  {
+    "id": "medicationqa_622",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful medical knowledge assistant. Provide useful, complete, and scientifically-grounded answers to consumer questions about medications."
+      },
+      {
+        "role": "user",
+        "content": "what are fat soluable vitamins."
+      },
+      {
+        "role": "assistant",
+        "content": "As is the case with all dietary supplements, the decision to use supplemental vitamins should not be taken lightly, says Vasilios Frankos, Ph.D., Director of FDA's Division of Dietary Supplement Programs.\n\"Vitamins are not dangerous unless you get too much of them,\" he says. \"More is not necessarily better with supplements, especially if you take fat-soluble vitamins.” For some vitamins and minerals, the National Academy of Sciences has established upper limits of intake (ULs) that it recommends not be exceeded during any given day. (For more information, visit www.nap.edu/catalog.php?record_id=6432#toc\n\nAlso, the AAFP lists the following side effects that are sometimes associated with taking too much of a vitamin.\n\nFat-soluble Vitamins\n\nA (retinol, retinal, retinoic acid): Nausea, vomiting, headache, dizziness, blurred vision, clumsiness, birth defects, liver problems, possible risk of osteoporosis. You may be at greater risk of these effects if you drink high amounts of alcohol or you have liver problems, high cholesterol levels or don't get enough protein.\nD (calciferol): Nausea, vomiting, poor appetite, constipation, weakness, weight loss, confusion, heart rhythm problems, deposits of calcium and phosphate in soft tissues.\nIf you take blood thinners, talk to your doctor before taking vitamin E or vitamin K pills."
+      }
+    ]
+  },
+  {
+    "id": "medicationqa_652",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful medical knowledge assistant. Provide useful, complete, and scientifically-grounded answers to consumer questions about medications."
+      },
+      {
+        "role": "user",
+        "content": "what is insuline and glucagon"
+      },
+      {
+        "role": "assistant",
+        "content": "Glucagon is a peptide hormone, produced by alpha cells of the pancreas. It works to raise the concentration of glucose and fatty acids in the bloodstream, and is considered to be the main catabolic hormone of the body.[3] It is also used as a medication to treat a number of health conditions. Its effect is opposite to that of insulin, which lowers the extracellular glucose.[4]\nThe pancreas releases glucagon when the concentration of insulin (and indirectly glucose) in the bloodstream falls too low. Glucagon causes the liver to convert stored glycogen into glucose, which is released into the bloodstream.[5] High blood-glucose levels, on the other hand, stimulate the release of insulin. Insulin allows glucose to be taken up and used by insulin-dependent tissues. Thus, glucagon and insulin are part of a feedback system that keeps blood glucose levels stable. Glucagon increases energy expenditure and is elevated under conditions of stress.[6] Glucagon belongs to the secretin family of hormones."
+      }
+    ]
+  },
+  {
+    "id": "medicationqa_673",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful medical knowledge assistant. Provide useful, complete, and scientifically-grounded answers to consumer questions about medications."
+      },
+      {
+        "role": "user",
+        "content": "chlorpheniramine how long in system"
+      },
+      {
+        "role": "assistant",
+        "content": "Chlorpheniramine has a serum half-life of approximately 20 hours in adults, and elimination from the body is primarily by metabolism to monodesmethyl and didesmethyl compounds. The half-life is increased in the presence of renal dysfunction and decreased in children. The exact mechanism of the presystemic first-pass elimination and the effects of dose levels on the process presently are unclear. Biopharmaceutical and pharmacokinetic studies after single or multiple doses in humans reveal wide interindividual variations in pharmacokinetics. Age, dialysis, urinary pH and flow influence the elimination kinetics of chlorpheniramine."
+      }
+    ]
+  },
+  {
+    "id": "medicationqa_675",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful medical knowledge assistant. Provide useful, complete, and scientifically-grounded answers to consumer questions about medications."
+      },
+      {
+        "role": "user",
+        "content": "what is marijuana?"
+      },
+      {
+        "role": "assistant",
+        "content": "Marijuana is a green, brown, or gray mix of dried, crumbled parts from the marijuana plant. It can be rolled up and smoked like a cigarette or cigar or smoked in a pipe. Sometimes people mix it in food or inhale it using a vaporizer.\n\nMarijuana can cause problems with memory, learning, and behavior. Smoking it can cause some of the same coughing and breathing problems as smoking cigarettes. Some people get addicted to marijuana after using it for a while. It is more likely to happen if they use marijuana every day, or started using it when they were teenagers.\n\nSome states have approved \"medical marijuana\" to ease symptoms of various health problems. The U.S. Food and Drug Administration (FDA) has not approved the marijuana plant as a medicine. However, there have been scientific studies of cannabinoids, the chemicals in marijuana. This has led to two FDA-approved medicines. They contain THC, the active ingredient in marijuana. They treat nausea caused by chemotherapy and increase appetite in patients who have severe weight loss from HIV/AIDS. Scientists are doing more research with marijuana and its ingredients to treat many diseases and conditions."
+      }
+    ]
+  }
+]

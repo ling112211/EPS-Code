@@ -1,0 +1,2972 @@
+[
+  {
+    "dataset": "medmcqa",
+    "question": "Source of energy for a running race athlete for the initial 3 minutes of running",
+    "options": {
+      "A": "Free fatty acid",
+      "B": "Creatine phosphate",
+      "C": "Muscle glycogen",
+      "D": "Blood Glucose"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Ligand for peroxisome proliferation activating receptor (PPAR), a group of nuclear hormone receptors that are involved in the regulation of genes related to glucose and lipid metabolism is",
+    "options": {
+      "A": "Repaglinide",
+      "B": "Voglibose",
+      "C": "Exanatide",
+      "D": "Rosiglitazone"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "In cyclooxygenase (COX) pathway of the arachidonic acid (AA') metabolism, which of the following products helps to promote the platelet aggregation and vasoconstriction",
+    "options": {
+      "A": "C5a",
+      "B": "Thromboxane A2",
+      "C": "Leukotriene B4",
+      "D": "C1 activators"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "In the metabolism of alcohol, high doses of aspirin & phenytoin, mechanism is -",
+    "options": {
+      "A": "First pass kinetics",
+      "B": "First order kinetics",
+      "C": "Zero order kinetics",
+      "D": "Second order kinetics"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Obesity is not a feature of-",
+    "options": {
+      "A": "Hypothyroidism",
+      "B": "Pheochromocytoma",
+      "C": "Hypogonadism",
+      "D": "Cushing's syndrome"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Chloride shift is due to",
+    "options": {
+      "A": "Generation of HCO-3 in RBCs",
+      "B": "Metabolism of glucose in RBCs",
+      "C": "Formation of O2-Hb complex in RBCs",
+      "D": "None"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Binge eating disorder is characterized by",
+    "options": {
+      "A": "Normal weight",
+      "B": "Weight loss",
+      "C": "Obesity",
+      "D": "Self induced vomiting"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A patient with history of running nose and pain over medial aspect of the eye presents with sudden onset of high grade fever, prostration, chemosis, proptosis and diplopia on lateral gaze with congestion of the optic disc. Which of the following is the most likely diagnosis",
+    "options": {
+      "A": "Acute ethmoidal sinusitis",
+      "B": "Orbital cellulitis",
+      "C": "Cavernous sinus thrombosis",
+      "D": "Orbital apex syndrome"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "All of the following are known risk factors for development of endometrial carcinoma except:",
+    "options": {
+      "A": "Obesity",
+      "B": "Family history",
+      "C": "Use of hormone replacement therapy",
+      "D": "Early menopause"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Mauriac's syndrome is characterized by the following except -",
+    "options": {
+      "A": "Diabetes",
+      "B": "Obesity",
+      "C": "Dwarfism",
+      "D": "Cardiomegaly"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "the mitochondrial enzyme involved in the metabolism of clopidorgel and proton pump inhibitors is",
+    "options": {
+      "A": "CYP 2A",
+      "B": "CYP 2B",
+      "C": "CYP 2C19",
+      "D": "CYP 2C20"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Which of the following is not seen with corpus cancer syndrome in cancer endometrium",
+    "options": {
+      "A": "Multiparity",
+      "B": "Diabetes mellitus",
+      "C": "Hypertension",
+      "D": "Obesity"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A severely depressed 32-year-old man commits suicide by running his car motor in his closed garage for several hours. The mechanism of death in this case of carbon monoxide (CO) poisoning is through which of the following mechanisms",
+    "options": {
+      "A": "Displacement of oxygen on hemoglobin by CO",
+      "B": "Hepatocellular necrosis",
+      "C": "Inhibition of protein synthesis",
+      "D": "Inhibition of the respiratory chain enzymes"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Commonest presentation of infant with bilateral choanal atresia -",
+    "options": {
+      "A": "Difficulty in breathing",
+      "B": "Dysphagia",
+      "C": "Smiling",
+      "D": "Difficulty in walking"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "In a young female of reproductive age an absolute contraindication for prescribing oral contraceptive pills is:",
+    "options": {
+      "A": "Diabetes",
+      "B": "Hypertension",
+      "C": "Obesity",
+      "D": "Impaired liver function"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "End product of progesterone metabolism found in urine",
+    "options": {
+      "A": "Pregnenolone",
+      "B": "17-OH Pregnenolone",
+      "C": "Pregnanetriol",
+      "D": "Pregnanediol"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "The mitochondrial enzyme involved in the metabolism of clopidogrel and proton pump inhibitors is:",
+    "options": {
+      "A": "CYP3A4",
+      "B": "CYP2D6",
+      "C": "CYP 2C19",
+      "D": "CYP 2C9"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Hypercoagulation in nephrotic syndrome is caused by",
+    "options": {
+      "A": "Loss of antithrombin III",
+      "B": "Decreased fibrinogen",
+      "C": "Decreased metabolism of Vitamin K",
+      "D": "Increase in protein C"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 19-year-old man has early fatigue and muscle cramps while playing sports. He is fine when walking or doing light levels of work. On examination, he appears well and the muscle strength in the proximal muscles is normal. There is no muscle fatigue with repetitive arm grip exercises. After an exercise stress test, his serum creatine kinase (CK) is elevated and lactate level is normal. Which of the following is the most likely diagnosis",
+    "options": {
+      "A": "Gaucher's disease",
+      "B": "Tay-Sachs disease",
+      "C": "McArdle's disease (glycogen storage disease)",
+      "D": "hemochromatosis"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 16-year-old girl is referred to the office because of chronic diarrhea and weight loss. She is experiencing large-volume watery diarrhea that is painless. The symptoms persist even when she is fasting, and there is no relationship to foods or liquids. She is not on any medications, and there is no travel history or other constitutional symptoms. Her physical examination is normal. Which of following is the most likely diagnosis",
+    "options": {
+      "A": "partial small bowel obstruction",
+      "B": "partial large bowel obstruction",
+      "C": "osmotic diarrhea",
+      "D": "secretory diarrhea"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "All of the following are primarily restrictive operation for morbid obesity, Except",
+    "options": {
+      "A": "Veical band gastroplasty",
+      "B": "Switch duodenal operation",
+      "C": "Rouxen Y operation",
+      "D": "Laparoscopic adjustable gastric banding"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 45 yr old patient presents with fever, night sweats, weight loss. On X ray a mass in apical lobe of lung is seen. On histopathology found to have caseous necrosis. What is the underlying process",
+    "options": {
+      "A": "Enzymatic degeneration",
+      "B": "Hypersensitivity reaction with modified macrophages, lymphocytes and giant cells",
+      "C": "Acute decrease in blood supply",
+      "D": "decreased growth factors"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "All are obesity syndromes, EXCEPT:",
+    "options": {
+      "A": "Carpenter",
+      "B": "Ahlstrom's",
+      "C": "Cohen's",
+      "D": "Caroli"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "In Hartnup disorder, metabolism of which of the following amino acids is affected",
+    "options": {
+      "A": "Tyrosine",
+      "B": "Tryptophan",
+      "C": "Phenylalanine",
+      "D": "Homocysteine"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "All of the following are the diseases occurring due to disturbance in lipid metabolism except:",
+    "options": {
+      "A": "Gaucher’s Disease",
+      "B": "Niemann-Pick Disease .",
+      "C": "Hurler syndrome.",
+      "D": "Letterer-Siwe Disease."
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Phenobarbitone and warfarin interaction results in: March 2005",
+    "options": {
+      "A": "Increased absorption of warfarin",
+      "B": "Increased metabolism of warfarin",
+      "C": "Displacement of warfarin from the binding site",
+      "D": "All of the above"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Which of the following condition increase chance of hyponatremia in patient treated with antidepressant:",
+    "options": {
+      "A": "Old age",
+      "B": "Low weight",
+      "C": "Cold climate",
+      "D": "Obesity"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Protein metabolism after trauma is characterized by the following except -",
+    "options": {
+      "A": "Increased liver gluconeogenesis",
+      "B": "Inhibition of skeletal muscle breakdown by interleukin 1 and tumour necrosis factor",
+      "C": "Increased urinary nitrogen loss",
+      "D": "Hepatic synthesis of acute phase reactants"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 60-year-old male patient presented to OPD with right upper quadrant abdominal pain, jaundice, fever with a significant history of weight loss, loss of appetite and lethargy. On examination a mass was palpable in the right hypochondrium which was firm in consistency and about 5x5 cm on palpation along with severe hepatomegaly. On seeing the previous records, patient was found to be a known case of Hepatitis C and was on medication for the same. Lab studies, Raised AFP levels Hypercalcemia Erythrocytosis No cirrhotic changes were evident on USG abdomen. Triple phase CT, Liver biopsy were performed. . Which of the following drug has been approved for the above condition: - Sorafenib Imatinib Dasatinib Regorafenib Ramucirumab",
+    "options": {
+      "A": "1 and 3",
+      "B": "1, 2 and 5",
+      "C": "1, 2 and 4",
+      "D": "1, 4 and 5"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Energy expenditure in resting state depends on",
+    "options": {
+      "A": "Lean body mass",
+      "B": "Adipose tissue",
+      "C": "Resting hea rate",
+      "D": "Exercise"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "All are measures of primordial prevention of hypeension, except -",
+    "options": {
+      "A": "Dietary changes",
+      "B": "Restrain smoking",
+      "C": "Identification of hypeensive",
+      "D": "Regular physical exercise"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 56-year-old man is brought to the emergency department by his wife because of memory loss and difficulty walking. She has noticed personality changes, truancy from work, and lack of personal care over the past 1 year. On examination he appears unkempt, smells of urine, and is uncooperative. He cannot recall the date or season, and gets angry when asked questions. His answers are often fabricated when checked with his wife. The blood pressure is 150/90 mm Hg, pulse 100/min, and he is diaphoretic and tremulous. His gait is wide based, and motor strength and reflexes are normal. His ocular movements are normal but there is nystagmus on lateral gaze. In the past he has had multiple admissions for alcohol withdrawal. Which of the following is the most appropriate next step in management",
+    "options": {
+      "A": "prophylactic phenytoin administration",
+      "B": "prophylactic diazepam administration",
+      "C": "prophylactic carbamazepine administration",
+      "D": "calcium administration"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Most effective treatment of frostbite on lower extremities is-",
+    "options": {
+      "A": "Rewarming with friction and/or massage",
+      "B": "Rewarming with blankets",
+      "C": "Rewarming with immersion in warm water",
+      "D": "Rewarming with encouragement of walking on warm surfaces"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 40-year-old woman treated for many years for gastroesophageal reflux develops dysphagia and weight loss. Previous esophagoscopy has revealed cellular atypia. An esophagoscopy is about to be performed. What is it most likely to reveal",
+    "options": {
+      "A": "Leiomyoma arising from the long esophageal muscular layer",
+      "B": "Squamous cell carcinoma arising from esophageal mucosal lining",
+      "C": "Adenocarcinoma originated from islands of Barrett's esophagus",
+      "D": "Adenocarcinoma extending from the stomach"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Major signs included by WHO for AIDS diagnosisa) Chronic diarrhea > 1 monthb) Chronic cough > 1 monthc) Chronic fever  > 1 month  d) Weight loss of at least 10% of body weighte) Generalized Lymphadenopathy",
+    "options": {
+      "A": "abc",
+      "B": "acd",
+      "C": "bc",
+      "D": "bde"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Predisposing factors of carcinoma endometrium are all EXCEPT",
+    "options": {
+      "A": "Obesity",
+      "B": "Late menopause",
+      "C": "Multiparity",
+      "D": "Unopposed administration of estrogen"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "The most impoant risk factor for development of post paum uterine infection/sepsis is:",
+    "options": {
+      "A": "Anemia",
+      "B": "Route of delivery",
+      "C": "Diabetes",
+      "D": "Obesity"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Aryan, a 14-year-old boy presented with chronic diarrhea and weight loss. History reveals thathe has repeated attacks of respiratory tract infections with Pseudomonas aeruginosa. His younger brother died from a severe respiratory infection at the age of 7. Which of the following agents is most likely to improve this patient's condition",
+    "options": {
+      "A": "Octreotide",
+      "B": "Pancreatic lipase",
+      "C": "Metronidazole",
+      "D": "Loperamide"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Urea is end product of",
+    "options": {
+      "A": "Aminoacid-nitrogen metabolism",
+      "B": "HMP. Pathway",
+      "C": "Fatty acid- oxidation",
+      "D": "Glycogenolysis"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Corpulence index is a measure of:",
+    "options": {
+      "A": "Copper level in the serum",
+      "B": "Iron loss in faeces",
+      "C": "Obesity",
+      "D": "Income inequality"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Risk of endometrial cancer is least in:",
+    "options": {
+      "A": "A positive family history",
+      "B": "Obesity",
+      "C": "Late menopause",
+      "D": "Multigravida"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 65 year man presented with an episode of syncope. He said he felf dizzy during defection and noticed gross bleeding in the pan. Fecal occult blood test done cancer was negative. There is no history of recent weight loss. What is the likely colonoscopic finding",
+    "options": {
+      "A": "Microscopic colitis",
+      "B": "Dilated mucosal and submucosal vein in colon",
+      "C": "Early colonic carcinoma",
+      "D": "Sigmoid diveiculitis"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Which ester local anesthetic undergoes significant liver metabolism -",
+    "options": {
+      "A": "Tetracaine",
+      "B": "Cocaine",
+      "C": "Procaine",
+      "D": "Chloroprocaine"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "In which of the following pathologic calcification the normal calcium metabolism is seen",
+    "options": {
+      "A": "Metastatic calcification",
+      "B": "Dystrophic calcification",
+      "C": "Ionotropic calcification",
+      "D": "Radiation calcification"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Normal pressure in superficial venous system of leg while walking is",
+    "options": {
+      "A": "80 mmHg",
+      "B": "60 mmHg",
+      "C": "50 mmHg",
+      "D": "30 mmHg"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Niacin must be used in diabetics cautiously because",
+    "options": {
+      "A": "It causes hypoglycemia",
+      "B": "It impairs Insulin sensitivity",
+      "C": "Increases metabolism of oral hypoglycemic agents",
+      "D": "It increases skin thickness"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Evidence of decreased risk of cardiovascular disease is associated with all of the following except-",
+    "options": {
+      "A": "Vitamin E Supplementation",
+      "B": "Low to moderate daily alcohol consumption",
+      "C": "Regular physical activity",
+      "D": "Potassium"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "DOC for rapid cycling MDP",
+    "options": {
+      "A": "Li",
+      "B": "Valproate",
+      "C": "Calcium Channel Blocker",
+      "D": "All"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "About Mallory Weiss syndrome true is -",
+    "options": {
+      "A": "Gastrointestinal reflux",
+      "B": "Obesity",
+      "C": "Tumour at gastroesophageal junction",
+      "D": "Seen in alcoholics"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Which of the following is not a cycling dependant kinase (CRK) inhibitor",
+    "options": {
+      "A": "P21",
+      "B": "P27",
+      "C": "P53",
+      "D": "P57"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Obesity is associated with all except",
+    "options": {
+      "A": "Growth hormone deficiency",
+      "B": "Thyroid hormone deficiency",
+      "C": "Diabetes mellitus",
+      "D": "Oestrogen deficiency"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Calcification of soft tissues without any distrubance of calcium metabolism is called -",
+    "options": {
+      "A": "Ionotrophic calcification",
+      "B": "Monotrophic calcification",
+      "C": "Dystrophic calcification",
+      "D": "Calcium induced calcification"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Regarding termination of drug action",
+    "options": {
+      "A": "Drugs must be excreted from the body to terminate their action",
+      "B": "Metabolism of drugs always abolishes their Pharmalogical activity",
+      "C": "Hepatic metabolism and renal excretion are the two most impoant mechanism involved",
+      "D": "Distribution of a drug out of bloodstream terminated drugs effect"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Oxidative or Respiratory burst phenomenon",
+    "options": {
+      "A": "Due to antimicrobial proteins called defensins",
+      "B": "Occurs during diapedesis",
+      "C": "Activation of NADPH oxidase associated with increase in oxygen uptake and metabolism in neutrophils",
+      "D": "Production of HOCl, HOBr from Cl-, Br- respectively by the action of myeloperoxidase"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 40-year-old female previous case history of fever, weight loss polyahralgia. The radiological findings given below, what may be your diagnosis",
+    "options": {
+      "A": "Osteoahritis",
+      "B": "Rheumatoid ahritis",
+      "C": "Gout",
+      "D": "Psoriatic Ahritis"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "True about propranalol is",
+    "options": {
+      "A": "Metabolism of propranolol is not dependent on the hepatic blood flow",
+      "B": "Undergoes extensive first pass metabolism",
+      "C": "Hydroxylated product of propranolol has alpha blocking propey",
+      "D": "Propranolol is lipophobic"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Protein metabolism after trauma is characterized by the following except",
+    "options": {
+      "A": "Increased liver gluconeogenesis",
+      "B": "Inhibition of skeletal nuscle breakdown by IL-1 and TNF",
+      "C": "Increased urinary nitrogen loss",
+      "D": "Hepatic synthesis of acute phase reactants"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "An obese, 25-year-old G1P0 comes to your office at 8 weeks gestational age for her first prenatal visit. She is delighted to be pregnant and wants to do whatever is necessary to ensure a healthy pregnancy. She is currently 5 ft, 2 in. tall and weighs 300 lb. She is concerned because she is overweight and wants you to help her with a strict exercise and diet regimen so that she can be healthier during the pregnancy. During your counseling session with the patient, you advise her of all of the following except",
+    "options": {
+      "A": "Marked obesity in pregnancy increases the risk of developing diabetes, hypertension, and fetal macrosomia",
+      "B": "She should gain at least 25 lb during the pregnancy because nutritional deprivation can result in impaired fetal brain development and intrauterine fetal growth retardation",
+      "C": "Obese women will still have adequate fetal growth in the absence of any weight gain during pregnancy",
+      "D": "She should avoid initiating a vigorous exercise program to get in shape"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 47-year-old woman is seen with a 1-wk history of progressive shoness of breath, increasing pedal edema, weight loss, and low-grade fever. She has a 40-pack-year smoking history. Physical examination: pulse 138 bpm; respirations 34/min; blood pressure 100/88 mm Hg with pulsus paradoxus of 22 mm. Peinent findings: increased jugular venous distension, normal sinus rhythm with distant hea sounds, and an apex beat that is difficult to palpate. Chest x-ray is shown below.What is the most likely diagnosis",
+    "options": {
+      "A": "Cardiac tamponade",
+      "B": "Cardiomyopathy",
+      "C": "Pericardial effusion without tamponade",
+      "D": "Cor pulmonale"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Which of the following is NOT an oxidative type of drug metabolism",
+    "options": {
+      "A": "Deamination",
+      "B": "N–oxidation",
+      "C": "N–dealkylation",
+      "D": "Glucuronidation"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "which of the following is not a side effect of amitriptyline:",
+    "options": {
+      "A": "Constipation",
+      "B": "Fine tremors",
+      "C": "Weight loss",
+      "D": "Dry mouth"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "a patient of age 65 years , who is obesity of bmi >40 , known diabetic and hypeensive .patient complaints of breathlessness , excessive sleeping during morning time with headache and with mood swings, what is drug that helps in resolving the symptoms",
+    "options": {
+      "A": "salbutamol",
+      "B": "amoxitine",
+      "C": "phenylephrine",
+      "D": "modafinil"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Not seen in anorexia nervosa:",
+    "options": {
+      "A": "Osteoporosis",
+      "B": "Refusal to feeds",
+      "C": "Weight loss",
+      "D": "Menorrhagia"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 54-year-old male nonsmoker is seen with complaints of a flulike illness. Initial symptomatic treatment is provided. Two days later, he returns, as he is still not feeling well. His primary physician prescribes a macrolide along with the symptomatic treatment. After 5 days of this treatment, the patient says he is running a fever and has increasing fatigue, weakness, and cough. He also complains of pain in the right wrist with some difficulty in motion. He has left groin pain and is unable to walk more than a few steps. On physical exam, vital signs are: pulse 110 bpm; temperature 102degF; respirations 24/min; blood pressure 10/68 mm Hg. He looks weak and says he has lost about 8 lb in the last 10 days. Peinent findings: lung exam reveals area of egophony, and E to A changes in the left anterior and posterior lung field. The patient has swelling with some areas of skin sloughing in the right wrist and tenderness with limitation of movement in the left groin area. Laboratory data: Hb 11 g/dL; Hct 33%; WBCs 16.0/uL; differential 90% segmented neutrophils; BUN 42 mg/dL; creatinine 1.1 mg/dL; sodium 142 mEq/L; potassium 3.4 mEq/L. ABGs on room air: pH 7.45, PCO2 34 mm Hg; PO2 65 mm Hg. CXR is shown.Associated findings may include all of the following except",
+    "options": {
+      "A": "Septic ahritis",
+      "B": "Endocarditis",
+      "C": "Brain abscess",
+      "D": "Reye syndrome"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Mesna is given with cyclophosphamide to :",
+    "options": {
+      "A": "Increase absorption",
+      "B": "Decreased excretion",
+      "C": "Ameliorate hemorrhagic cystitis",
+      "D": "Decrease metabolism"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 22 year old woman developed small itchy wheals after physical exertion, walking in the sun, eating hot spicy food and when she was angry. The most likely diagnosis is –",
+    "options": {
+      "A": "Chronic idiopathic utricaria",
+      "B": "Heat urticaria",
+      "C": "Solar urticaria",
+      "D": "Cholinergic urticaria"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "All the following enzymes are involved in the metabolism of xenobiotics except",
+    "options": {
+      "A": "Hydroxylase",
+      "B": "Cytochrome oxidase",
+      "C": "Cytochrome P450",
+      "D": "Methylase"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Drug used for obesity: (PGI June 2008)",
+    "options": {
+      "A": "Orlistat",
+      "B": "Rivatat",
+      "C": "Nitous oxide",
+      "D": "Phenyiepherine"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Obesity is ordinarily associated with low ghrelin levels. The example of a condition where obesity associated with high ghrelin level is:",
+    "options": {
+      "A": "Hypothyroidism",
+      "B": "Prader willi syndrome",
+      "C": "Hypoadrenalism",
+      "D": "Insulinoma"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 73-year-old woman has noticed a 10-kg weight loss in the past 3 months. She is becoming increasingly icteric and has constant vague epigastric pain, nausea, and episodes of bloating and diarrhea. On physical examination, she is afebrile. There is mild tenderness to palpation in the upper abdomen, but bowel sounds are present. Her stool is negative for occult blood. Laboratory findings include a total serum bilirubin concentration of 11.6 mg/dL and a direct bilirubin level of 10.5 mg/dL. Which of the following conditions involving the pancreas is most likely to be present",
+    "options": {
+      "A": "Adenocarcinoma",
+      "B": "Chronic pancreatitis",
+      "C": "Cystic fibrosis",
+      "D": "Islet cell adenoma"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "The symptoms of Hyperparathyroidism include",
+    "options": {
+      "A": "Constipation & muscle weakness",
+      "B": "Anorexia & weight loss",
+      "C": "Polydipsia & polyuria",
+      "D": "All of the above"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 56-year-old woman has had weight loss accompanied by abdominal enlargement for the past 5 months. There is a family history of breast and ovarian carcinoma. On physical examination, there are no lesions of the cervix, and the uterus is normal in size, but there is a left adnexal mass. An abdominal ultrasound scan shows a 10-cm cystic mass in the left adnexal region, with scattered 1-cm peritoneal nodules, and ascites. Cytologic studies of peritoneal fluid show malignant cells. Which of the following mutated genes is most likely a factor in the development of this neoplasm",
+    "options": {
+      "A": "BRCA1",
+      "B": "ERBB2 (HER2)",
+      "C": "MYC",
+      "D": "KRAS"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Fluconazole differs from ketoconazole in that :",
+    "options": {
+      "A": "It is not active by the oral route",
+      "B": "It is a more potent inhibitor of drug metabolism",
+      "C": "It is not effective in cryptococcal meningitis",
+      "D": "It is unlikely to produce anti–androgenic side effects"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "If alternate of medicine were accepted as a modality of therapy, then 'Yoga' would be best described as a form of-",
+    "options": {
+      "A": "Physiotherapy",
+      "B": "Preventive Medicine",
+      "C": "Emergency Medicine",
+      "D": "Caloric usurper"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Which of the following is not an extra articular feature of Rheumatoid arthritis",
+    "options": {
+      "A": "Weight loss",
+      "B": "Pleural effusion",
+      "C": "Conjunctivitis",
+      "D": "Proteinuria"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A hypeensive primigravida developed Sheehan's syndrome after the delivery. All of the following are seen with Sheehan's syndrome, EXCEPT:",
+    "options": {
+      "A": "Obesity",
+      "B": "Amenorrhoea",
+      "C": "Failure to lactate",
+      "D": "Absence of secondary sexual characteristics"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 33-year-old woman complains of generalized, throbbing headache that is worse in the morning and with coughing. She occasionally feels dizzy and nauseated. Examination is significant only for obesity and bilateral papilledema. CT scan of the head is nominal. At lumbar puncture the opening pressure is 220 mm H2O; CSF is clear, with protein of 12 mg/100 mL (normal is 15 to 45), glucose of 68 mg/100 mL (normal is 45 to 80), an d no cells are seen. The most likely diagnosis is:",
+    "options": {
+      "A": "Migraine headache",
+      "B": "Multiple Sclerosis",
+      "C": "Malignant carcinomatosis",
+      "D": "Pseudotumor cerebri"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Not a feature of paradoxical sleep is :",
+    "options": {
+      "A": "Decreased muscle tone",
+      "B": "Rapid eye movements",
+      "C": "Brain shows increased metabolism",
+      "D": "EEG shows decreased activity"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 3 year old child can do all, except –",
+    "options": {
+      "A": "Eat with a spoon",
+      "B": "Climb stairs running",
+      "C": "Walk properly",
+      "D": "Vocabulary of 20–100 words"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Cholesterosis is -",
+    "options": {
+      "A": "Disease of defective metabolism of choline",
+      "B": "Concerned with epithelial tumours of brain",
+      "C": "Diffuse depositon of cholesterol in mucosa of gall bladder",
+      "D": "Disease concerned with obstructive jaunidce"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "All are seen in gestational diabetes except aEUR'",
+    "options": {
+      "A": "Previous macrosomic baby",
+      "B": "Obesity",
+      "C": "Malformations",
+      "D": "Polyhydramnious"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A patient presents with fever, cough with sputum and weight loss. He has a history of not completing treatment for tuberculosis thrice in the past. XDR-TB is suspected. How is XDR-Tb defined",
+    "options": {
+      "A": "Resistant to INH + Rifampicin + Amikacin",
+      "B": "Resistant to INH + Amikacin + Ofloxacin + Ethambutol",
+      "C": "Resistant to INH + Rifampicin + Amikacin + Ofloxacin",
+      "D": "Resistant to Rifampicin + Amikacin+ Ofloxacin"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "All are the risk factors associated with macrosomia, EXCEPT:",
+    "options": {
+      "A": "Maternal obesity",
+      "B": "Prolonged Pregnancy",
+      "C": "Previous large infant",
+      "D": "Sho Stature"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Which of the following is caused by defective tyrosine metabolism",
+    "options": {
+      "A": "Richner-Hanha syndrome",
+      "B": "Neonatal tyrosinemia",
+      "C": "Alkaptonuria",
+      "D": "All of the above"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Corpulence index means",
+    "options": {
+      "A": "Measurement of copper level in the serum",
+      "B": "Measurement of obesity",
+      "C": "Measurement of iron loss in faeces",
+      "D": "Pressure difference between various chambers of the hea"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Which vitamin is essential for metabolism of sulphur containing amino acids",
+    "options": {
+      "A": "Biotin",
+      "B": "Folic acid",
+      "C": "Vitamin C",
+      "D": "Thiamine"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Which of the following statements regarding rapid cycling bipolar disorder is true",
+    "options": {
+      "A": "Alcohol, stimulants, and caffeine use are risk factors.",
+      "B": "Defined as at least four episodes per month.",
+      "C": "Hospitalization is rare.",
+      "D": "More common in men than women."
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Which of the following is the best-known metabolic function of the lung:",
+    "options": {
+      "A": "Inactivation of serotonin",
+      "B": "Conversion of angiotensin-I to angiotensin-II",
+      "C": "Inactivation of bradykinin",
+      "D": "Metabolism of basic drugs by cytochrome P450 system"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "All are true about syndrome X except",
+    "options": {
+      "A": "Hyperglycemia",
+      "B": "Hypoinsulinemia",
+      "C": "Abdominal obesity",
+      "D": "Hyperiglyceridemia"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "46-year-old woman with prominent splenomegaly presents with a 3-month history of malaise, easy fatigability, weakness, weight loss, and anorexia. A complete blood count and differential demonstrates a white blood cell count of 250,000/mm3 (normal 3,000 to 10,000/mm3 ) with a predominance of myelocytes, metamyelocytes, band cells, and segmented neutrophils. Cytogenetic analysis is most likely to reveal which of the following translocations",
+    "options": {
+      "A": "t(8;14)",
+      "B": "t(9;22)",
+      "C": "t(11;22)",
+      "D": "t(14;18)"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "In hepatic metabolism, phase II reactions are:",
+    "options": {
+      "A": "Sulfation",
+      "B": "Methylation",
+      "C": "Glucuronidation",
+      "D": "All of these"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Commonest cause for acute sinusitis is:",
+    "options": {
+      "A": "Swimming/Diving",
+      "B": "Acute rhinitis",
+      "C": "Nasal tumours",
+      "D": "Deviated nasal septum"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "All are causes of pulmonary hypeension except",
+    "options": {
+      "A": "Hyperventilation",
+      "B": "Morbid obesity",
+      "C": "High altitude",
+      "D": "Fenfluramine"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 36-year-old woman presents with a 6-month history of progressive generalized itching, weight loss, fatigue, and yellow sclerae. She denies use of oral contraceptives or any other medication. Physical examination reveals mild jaundice and steatorrhea. Blood studies show a high cholesterol level of 350 mg/dL, elevated serum alkaline phosphatase (240 U/L), and normal levels of AST and ALT. An intravenous cholangiogram shows no evidence of obstruction. An antimitochondrial antibody test is positive; antinuclear antibodies are not present. For the patient, a liver biopsy would most likely show which of the following pathologic findings",
+    "options": {
+      "A": "Central hyaline sclerosis",
+      "B": "Cholangiocarcinoma",
+      "C": "Hemosiderosis",
+      "D": "Intrahepatic bile duct damage"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Absolute contraindication of combined oral contraceptive pill is:",
+    "options": {
+      "A": "Epilepsy",
+      "B": "Obesity",
+      "C": "Smoking 10 cigars/day",
+      "D": "Active liver disease"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 55-year-old male presents with features of obstructive jaundice. He also reports a weight loss of seven kilograms in last two months. On CT scan, the CBD is dilated till the lower end and the main pancreatic duct is also dilated. Pancreas is normal. The most likely diagnosis is:",
+    "options": {
+      "A": "Choledocholithiasis",
+      "B": "Carcinoma gallbladder",
+      "C": "Hilar cholangiocarcinoma",
+      "D": "Periampullary carcinoma"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "During CPCR in ACLS the waveform of capnograph shows following change. This indicates:-",
+    "options": {
+      "A": "Return of spontaneous circulation",
+      "B": "Inadequate ventilation",
+      "C": "Inadequate metabolism",
+      "D": "Check position of Endotracheal tube"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Theophylline metabolism interaction with ciprofloxacin",
+    "options": {
+      "A": "Increases theophylline metabolism",
+      "B": "Decreases theophylline metabolism",
+      "C": "Increases ciproflexacin metabolism",
+      "D": "Decreases ciprofloxacin metabolism"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Phenylbutazone use as an NSAID is restricted because :",
+    "options": {
+      "A": "It has lower anti-inflammatory efficacy than other NSAIDs",
+      "B": "It has potential to cause agranulocytosis",
+      "C": "It has weak analgesic action",
+      "D": "It alters the protein binding and metabolism of many drugs"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Anion-gap Metabolism with decreased vision occurs with the following poisoning",
+    "options": {
+      "A": "Cadmium",
+      "B": "Mercury",
+      "C": "Ethanol",
+      "D": "Methanol"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Surya kant is prescribed with first generation antihistaminic. He should be advised to avoid:",
+    "options": {
+      "A": "Driving motor cycle",
+      "B": "Consuming cheese",
+      "C": "Physical exercise",
+      "D": "All of the above"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 30yr old patient complaints of easy fatigability exotional dyspnea and weight loss She also complaints of frequent fall There is B12 decrease in vibration sense Her Hb levels were low She was treated with folate Her anemia improved but neurological symptoms worsen d Which of the following is most probable reason of her condition",
+    "options": {
+      "A": "Folate not absorbed",
+      "B": "Deficiency of folate reductase in CNS",
+      "C": "Unmasked pyridoxine defficiency",
+      "D": "Folate therapy caused rapid use of B12 stores aggravating symptoms"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "About Cushing syndrome all are true except:",
+    "options": {
+      "A": "Purple striae",
+      "B": "Plethora",
+      "C": "Hypoglycemia",
+      "D": "Obesity"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 50year old male presents with pain upper abdomen, Pruritus, jaundice and weight loss, elevated ANA, the likely diagnosis is",
+    "options": {
+      "A": "Primary sclerosing cholangitis",
+      "B": "Klatskin tumor",
+      "C": "Secondary sclerosing cholangitis",
+      "D": "Choledocholithiasis"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "True about Pseudoclaudication is",
+    "options": {
+      "A": "Pain increases on walking uphill",
+      "B": "Pain decreases on standing still",
+      "C": "Leaning forward reduces pain",
+      "D": "Pulses may be feeble or absent"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "As a pa of a research, a person undergoes two fine needle muscle biopsies to obtain small amounts of tissue for biochemical analysis. The first is taken at the beginning of the experiment while the subject is at rest. The second is taken at the end of 30 minutes of aerobic exercise on a stationary bicycle. The activity of the muscle pyruvate dehydrogenase complexes is found to be much higher in the second measurement. Which of the following biochemical changes would be most likely to produce this effect",
+    "options": {
+      "A": "Decreased ADP",
+      "B": "Decreased intracellular Ca2+",
+      "C": "Increased acetyl CoA",
+      "D": "Increased pyruvate concentration"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A28 year old female weighs 35 kg. She is hesitated to take food telling that she is already fatty. On fuher evaluation, diagnosis of anorexia nervosa is made. The following symptoms are common in anorexia nervosa, EXCEPT:",
+    "options": {
+      "A": "Weight loss",
+      "B": "Hypothermia",
+      "C": "Mood changes",
+      "D": "Menorrhagia"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 45 year old male presented to emergency with complaint of chest pain associated with swallowing a piece of meat. He repos similar episodes over the past 3 years. But today's episode was the most severe. He doesn't give a history of regurgitation other than these episodes or heaburn symptoms. There is no difficulty in liquid intake and has not had any weight loss. Probable diagnosis in this case is",
+    "options": {
+      "A": "Schatzki ring",
+      "B": "Adenocarcinoma of the esophagus",
+      "C": "Achalasia",
+      "D": "Plummer-Vinson syndrome"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "The pharmakokinetic change occurring in geriatric patient is due to",
+    "options": {
+      "A": "Gastric absorption",
+      "B": "Liver metabolism",
+      "C": "Renal clearance",
+      "D": "Hypersensitivity"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "The kinetic energy of the body is least in one of the following phases of the walking cycle -",
+    "options": {
+      "A": "Heel strike",
+      "B": "Mid-stance",
+      "C": "Double support",
+      "D": "Toe-off"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Which of the following inborn errors of metabolism is associated with mental retardation -",
+    "options": {
+      "A": "Alkaptonuria",
+      "B": "Homocystinuria",
+      "C": "Pentosuria",
+      "D": "All"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 22 year old woman developed small itchy wheals after physical exertion, walking in the sun, eating hot spicy food and when she was angry. The most likely diagnosis is:",
+    "options": {
+      "A": "Chronic idiopathic utricaria",
+      "B": "Heat urticarial",
+      "C": "Solar urticarial",
+      "D": "Cholinergic urticaria"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 45-year-old male presents to the emergency depament with 2 days of haemoptysis. He repos that he has been coughing up 1-3 tablespoons of blood each day. He does repo mild chest pain, low-grade fevers, and weight loss. He has had about 1 year of severe upper respiratory symptoms including frequent epistaxis and purulent discharge treated with several courses of antibiotics. His only medications are daily aspirin and lovastatin. On examination, he has normal vital signs, and upper airway is notable for saddle nose deformity and clear lungs. A CT scan of the chest shows multiple cavitating nodules, and urinalysis shows RBCs . Which of the following tests offers the highest diagnostic yield to make the appropriate diagnosis",
+    "options": {
+      "A": "Deep skin biopsy",
+      "B": "Percutaneous kidney biopsy",
+      "C": "Pulmonary angiogram",
+      "D": "Surgical lung biopsy"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Radiocontrast is contraindicated in all except -",
+    "options": {
+      "A": "Renal failure",
+      "B": "Patient on metformin",
+      "C": "Dehydration",
+      "D": "Obesity"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Which is not associated with GDM (Gestational DM)",
+    "options": {
+      "A": "Past history of fetal abnormality",
+      "B": "Obesity",
+      "C": "Hypeension",
+      "D": "Macrosomia"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Macrosomia is seen in all except",
+    "options": {
+      "A": "Diabetes mellitus",
+      "B": "Obesity",
+      "C": "Hydrocephalus",
+      "D": "Post maturity"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "All are seen in Marasmus Except",
+    "options": {
+      "A": "Hepatomegaly",
+      "B": "Muscle wasting",
+      "C": "Voracious appetite",
+      "D": "Weight loss"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "The first step in liver’s metabolism of fructose is",
+    "options": {
+      "A": "Isomerization of glucose",
+      "B": "Phosphorylation to fructose 1, 6 bisphosphate by ATP",
+      "C": "Phosphorylation to fructose 6 phosphate by ATP",
+      "D": "Phosphorylation to fructose 1 phosphate by ATP"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "An obese man complaints of burning pain on his right outer thigh. Pain increases while standing, walking or rubbing that area and relieved after sitting. Meralgia paresthetica is diagnosed clinically. Which nerve lesion is seen in Meralgia paresthetica",
+    "options": {
+      "A": "Lateral cutaneous nerve of thigh",
+      "B": "Sciatic nerve",
+      "C": "Radial nerve",
+      "D": "Cutaneous branches of obturator nerve"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A girl complained of pain abdomen with the passage of foul smelling stool. The stool doesn't wash away easily. There is a history of swimming in bad water. What could be the causative organism",
+    "options": {
+      "A": "Giardia lambia",
+      "B": "Naegleria",
+      "C": "Amoeba",
+      "D": "Shigella"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 77-year-old woman presents with headaches and difficulty walking. She has an unbalanced gait and falls easily, especially when trying to walk upstairs. The tone is normal and there are no cerebellar findings. A CT scan reveals enlarged ventricles.For the above patient with neurologic symptoms, select the most likely structural pathology",
+    "options": {
+      "A": "aqueductal stenosis",
+      "B": "infectious process",
+      "C": "enlarged foramina of Luschka",
+      "D": "nutritional deficiency"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "For obesity BMI should be -",
+    "options": {
+      "A": ">=20",
+      "B": ">=50",
+      "C": ">=40",
+      "D": ">=30"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 27-year-old female presents to the emergency room with a temperature of 103degF, severe fatigue, weight loss, and joint pain. During the history and physical examination, the patient reports that she stopped taking her aspirin and corticosteroids to control her condition. A butterfly-type rash over her cheeks, sensitivity to light, and a heart murmur are apparent. The patient also reports a history of a progressively developing arthritis and glomerulonephritis. Laboratory tests further indicate anemia, leukopenia, and thrombocytopenia. This condition is best diagnosed by the presence of which of the following",
+    "options": {
+      "A": "Anticentromere antibodies",
+      "B": "Anti-dsDNA antibodies",
+      "C": "Antimitochondrial antibodies",
+      "D": "Antineutrophil antibodies"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 60-year-old male complains of pain in both knees coming on gradually over the past 2 years. The pain is relieved by rest and worsened by the movement. There is bony enlargement of the knees with mild inflammation. Crepitation is noted on motion of the knee joint. There are no other findings except for bony enlargement at the distal interphalangeal joint. The patient is 5 feet 9 in. tall and weighs 88 kgs. The best way to prevent disease progression is",
+    "options": {
+      "A": "Weight reduction",
+      "B": "NSAID's and Calcium supplementation",
+      "C": "Total knee replacement",
+      "D": "Oral prednisone"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 40-year-old patient complains of chronic pain abdomen and diarrhea. She gives history of passing 22-25 stools per day. She also complains of weight loss. On examination, patient is noted to have mild fever with right lower quadrant tenderness. Lower GI endoscopy was done with the following findings: HPE reveals the following findings: An intern posted in the medicine ward makes a list of differential diagnosis for this patient. Which of the given option is most likely the diagnosis",
+    "options": {
+      "A": "Ulcerative colitis",
+      "B": "Crohn disease",
+      "C": "Infective enteritis",
+      "D": "Mesenteric ischemia"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Iron metabolism and regulation are important for RBC precursor cell. Which of the following helps in regulation of iron metabolism but is not specific for iron",
+    "options": {
+      "A": "Hepcidin",
+      "B": "DMT-1",
+      "C": "Ferroportin",
+      "D": "Ferritin"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Which of the following drugs used to treat type II diabetes mellitus causes weight loss:",
+    "options": {
+      "A": "Metformin",
+      "B": "Glimepiride",
+      "C": "Repaglinide",
+      "D": "Gliclazide"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Hyper triglyceridemia is not caused by-",
+    "options": {
+      "A": "Diabetes Mellitus",
+      "B": "Obesity",
+      "C": "Alcohol",
+      "D": "Cigarette smoking"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "In a young female of reproductive age an absolute contraindication for prescribing OCP&;s is",
+    "options": {
+      "A": "Diabetes",
+      "B": "Hypeension",
+      "C": "Obesity",
+      "D": "Impaired liver function"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "not seen in ACTH deficiency",
+    "options": {
+      "A": "hyperpigmentation",
+      "B": "weight loss",
+      "C": "hyponatremia",
+      "D": "hypoglycemia"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Poor prognostic factor of non Hodgkin's lymphoma is -",
+    "options": {
+      "A": "Age > 60 years",
+      "B": "Weight loss > 10%",
+      "C": "Night sweats with loss of weight",
+      "D": "All of the above"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Which of the following is false about pioglifazone",
+    "options": {
+      "A": "It PPARY g agonist",
+      "B": "It is metabolized in liver",
+      "C": "Not given in case of diastolic dysfunction",
+      "D": "It acts on insulin gene and even in absence of insulin helps in metabolism of carbohydrate"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Which is not true regarding Insulinoma",
+    "options": {
+      "A": "Hypoglycemic attacks",
+      "B": "Weight loss",
+      "C": "Usually Solitary tumour",
+      "D": "Mostly benign tumour"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Which of the following differentiates Hodgkin's lymphoma from non Hodgkins lymphoma",
+    "options": {
+      "A": "Fever, night sweat, weight loss",
+      "B": "Generalized lymphadenopathy",
+      "C": "Elderly",
+      "D": "Reed stem berg cells"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 45-year-old woman complains of right upper quadrant abdominal pain, weight loss, dry mouth, increased urine production, and foul-smelling fatty stools. She has a recent history of mild diabetes mellitus. Abdominal ultrasound examination reveals gallstones and a solitary 1.5-cm mass in the pancreas. Which of the following hormones would most likely be elevated in the blood of this patient",
+    "options": {
+      "A": "Calcitonin",
+      "B": "Gastrin",
+      "C": "Insulin",
+      "D": "Somatostatin"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "The rationale for using ethanol in methanol poisoning is that it :",
+    "options": {
+      "A": "Antagonises the actions of methanol",
+      "B": "Stimulates the metabolism of methanol and reduces its blood level",
+      "C": "Inhibits the metabolism of methanol and generation of toxic metabolite",
+      "D": "Replenishes the folate stores depleted by methanol"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Most important features in cushing syndrome is",
+    "options": {
+      "A": "Centripetal obesity",
+      "B": "Hypertension",
+      "C": "Menorrhagia",
+      "D": "Polyurea"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Most common mitochondrial enzyme for metabolism detoxification reaction is",
+    "options": {
+      "A": "CYP 3A4",
+      "B": "CYP 1A2",
+      "C": "CYP 2A6",
+      "D": "CYP 2B6"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Rifampicin is a powerful enzyme inducer. It is most likely to induce the metabolism of which of the following anti-retroviral drugs",
+    "options": {
+      "A": "Tenofovir",
+      "B": "Nevirapine",
+      "C": "Abacavir",
+      "D": "Zidovudine"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Fluconazole differs from ketoconazole in all the following except (REPEAT)",
+    "options": {
+      "A": "Route of administration",
+      "B": "Metabolism inhibition",
+      "C": "Anti androgenic side effects",
+      "D": "Usage in candidiasis"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 63-year-old man recently treated for renal tuberculosis presents with weight loss, diarrhea, hypoglycemia, hypotension, and is noted to have hyperpigmented buccal mucosa, palmar and hand creases. Which investigation is most suitable for this clinical presentation",
+    "options": {
+      "A": "Serum iron and ferritin",
+      "B": "Serum copper and ceruloplasmin",
+      "C": "Plasma ACTH and cortisol",
+      "D": "Gene XPERT and Intravenous pyelography"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Unilateral elevation of diaphragm is commonly due to",
+    "options": {
+      "A": "Obesity",
+      "B": "Large Liver",
+      "C": "Scoliosis",
+      "D": "Congenital causes"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Narcolepsy is",
+    "options": {
+      "A": "Sleep walking",
+      "B": "Sleeptalking",
+      "C": "Increased day time sleep",
+      "D": "Sleep terrors"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "pulmonary hypeension is caused by all except",
+    "options": {
+      "A": "hyperventilation",
+      "B": "morbid obesity",
+      "C": "fenfluramine",
+      "D": "high altitude"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "True statement regarding mechanism of action of sulfonylureas is: March 2008, September 2010",
+    "options": {
+      "A": "Increased peripheral utilization of glucose",
+      "B": "Reduce hepatic glucose output",
+      "C": "Act on SURI receptors on pancreatic beta cell membrane",
+      "D": "Transcription of genes regulating glucose metabolism"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Final common pathway of metabolism of carbohydrates, lipids and protein metabolism is",
+    "options": {
+      "A": "TCA cycle",
+      "B": "Glycogenesis",
+      "C": "Gluconeogenesis",
+      "D": "None of the above"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Which of the following organelles is the major site for anaerobic metabolism",
+    "options": {
+      "A": "Centrioles",
+      "B": "Mitochondria",
+      "C": "Golgi apparatus",
+      "D": "Cytoplasm"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Prader-Willi syndrome includes the following except-",
+    "options": {
+      "A": "Congenital hypotonia",
+      "B": "Obesity and hyperphagia",
+      "C": "Mental retardation",
+      "D": "Cafe-au-lait spots"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Obesity is associated with decreased risk of",
+    "options": {
+      "A": "Hypeension",
+      "B": "Hyperuricemia",
+      "C": "Osteoporosis",
+      "D": "Hea disease"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Anti obesity drug withdrawn due to psychiatric side effect -",
+    "options": {
+      "A": "Rimonabant",
+      "B": "Orlistat",
+      "C": "Bupropion",
+      "D": "Sibutramine"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "What is role of insulin in lipid metabolism:",
+    "options": {
+      "A": "Active lipoprotein lipase",
+      "B": "Increase lipolysis",
+      "C": "Activate hormone sensitive lipase",
+      "D": "All"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "All are true for sublingual route except",
+    "options": {
+      "A": "Escape first pass metabolism",
+      "B": "All drugs can be given",
+      "C": "Action can be terminated any time",
+      "D": "Rapid absorption"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "In UNICEF's GOBI campaign, 'O' stands for:",
+    "options": {
+      "A": "Oral contraceptives",
+      "B": "Oral rehydration therapy",
+      "C": "Obesity",
+      "D": "Occupational hazards"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "All are seen in gestational diabetes except",
+    "options": {
+      "A": "Previous macrosomic baby",
+      "B": "Obesity",
+      "C": "Malformations",
+      "D": "Polyhydramnios"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A patient with low-grade fever and weight loss has a poor excursion on the right side of the chest with decreased fremitus, dullness to percussion, and decreased breath sound all on the right. The trachea has deted to the left. The most likely diagnosis is",
+    "options": {
+      "A": "Pneumothorax",
+      "B": "Pleural effusion",
+      "C": "Consolidated pneumonia",
+      "D": "Atelectasis"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "In traumatic brain injury, changes in brain metabolism are seen. All are true EXCEPT",
+    "options": {
+      "A": "There is a decrease of pyruvate dehydrogenase activity",
+      "B": "There is accumulation of lactate in brain",
+      "C": "There is | lactate uptake from circulation",
+      "D": "| CSF lactate is associated with good prognosis"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "When an individual is resting in a room with the air temperature 21°C and the humidity of 80%, the greatest amount of heat loss from the body is by",
+    "options": {
+      "A": "Elevation of body metabolism",
+      "B": "Vaporisation of sweat",
+      "C": "Respiration",
+      "D": "Radiation and conduction"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 45-year old patient presented with fever, night sweats and weight loss. On X-ray, a mass was seen in apical lobe. On histopathology, caseous necrosis was present. What is the name of underlying process",
+    "options": {
+      "A": "Enzymatic degeneration",
+      "B": "Acute decrease in blood supply",
+      "C": "Decreased supply of growth factor",
+      "D": "Hypersensitivity reaction with modified macrophages, lymphocytes and giant cells"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Patient X is diagnosed with constipation. As a knowledgeable nurse, which nursing intervention is appropriate for maintaining normal bowel function",
+    "options": {
+      "A": "Assessing dietary intake",
+      "B": "Decreasing fluid intake",
+      "C": "Providing limited physical activity",
+      "D": "Turning, coughing, and deep breathing"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Phenylalanine metabolism products are all except",
+    "options": {
+      "A": "Epinephrine",
+      "B": "Dopamine",
+      "C": "Melanin",
+      "D": "Melatonin"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A chronic smoker presented with mild haemoptysis. He also gave a history of hypeension and obesity. Lab data showed raised ACTH levels, which were not suppressed by high dose dexamethasone. The cause for the Cushing's syndrome in the patient is :",
+    "options": {
+      "A": "MEN I",
+      "B": "Pituitary adenoma",
+      "C": "Adrenal coical adenoma",
+      "D": "Ectopic ACTH secreting tumor"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 52-year-old woman presents with a 1-year history of upper truncal obesity and moderate depression. Physical examination shows hirsutism and moon facies. A CT scan of the thorax displays a hilar mass. A transbronchial lung biopsy discloses small cell carcinoma. Electron microscopy of this patient's lung tumor will most likely reveal which of the following cytologic features",
+    "options": {
+      "A": "Councilman bodies",
+      "B": "Hyperplasia of endoplasmic reticulum",
+      "C": "Mitochondrial calcification",
+      "D": "Neuroendocrine granules"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Major functions of Vitamin E in the body",
+    "options": {
+      "A": "Regulation of energy metabolism",
+      "B": "Carboxylation reaction",
+      "C": "Blood clotting",
+      "D": "Protection of biological membrane from free radical damage"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Marathon runner had pain in anteromedial tibia on regular walking/jogging for long hours. X ray is normal. Doctor orders a bone scan. What may be the probable diagnosis",
+    "options": {
+      "A": "Jones fracture",
+      "B": "Shin splint",
+      "C": "Lisfranc fracture",
+      "D": "Nutcracker"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "The kinetic energy of the body is least in one of the following phases of the walking cycle",
+    "options": {
+      "A": "Heel strike",
+      "B": "Mid-stance",
+      "C": "Double suppo",
+      "D": "Toe-off"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Mechanism of action of chlortetracycline:",
+    "options": {
+      "A": "Interfere with metabolism",
+      "B": "Inhibition of protein synthesis",
+      "C": "Inhibition of cell wall formation",
+      "D": "Interfere with DNA function"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Which of the following is not seen after moderate injury/ severe injury or major surgery",
+    "options": {
+      "A": "Negative nitrogen balance",
+      "B": "Tachypnoea",
+      "C": "Hyper metabolism",
+      "D": "Hyperphagia"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "70 kg man with height of 1.75 m will have BMI in the range of -",
+    "options": {
+      "A": "Underweight",
+      "B": "Overweight",
+      "C": "Obese",
+      "D": "Normal"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Which of the following metabolic pathway in carbohydrate metabolism is required for synthesis of nucleic acids -",
+    "options": {
+      "A": "Gluconeogenesis",
+      "B": "Glycolysis",
+      "C": "HMP shunt",
+      "D": "Glycogenesis"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Digibind is used to:",
+    "options": {
+      "A": "Potentiate the action of Digoxin",
+      "B": "Decrease the metabolism of Digoxin",
+      "C": "Treat Digoxin toxicity",
+      "D": "Rapidly digitalize the patient"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "True about endometrial carcinoma:",
+    "options": {
+      "A": "Predisposed by diabetes mellitus, hypertension and obesity.",
+      "B": "Adenosquamous type is most common.",
+      "C": "Commonly associated with Ca cervix.",
+      "D": "Common age group affected is between 20 and 40 years."
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Which of the following is least characteristic of anorexia nervosa –  a) Lowered vital signs when the weight is low  b) Decreased physical activity  c) history of obestity  d) Denial of illness",
+    "options": {
+      "A": "ab",
+      "B": "bc",
+      "C": "cd",
+      "D": "bd"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Not a risk for development of DM",
+    "options": {
+      "A": "Obesity",
+      "B": "Sedentary life style",
+      "C": "High intake of vitamin A",
+      "D": "Excess fat intake"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 55 year male with complaints of urinary incontinence, severe back pain for 10days imaging shows lumbar disc prolapsed, no history of weight loss and fever. What is the diagnosis",
+    "options": {
+      "A": "Potts spine",
+      "B": "Cauda equina syndrome",
+      "C": "Multiple myeloma",
+      "D": "GBS"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 14-year-old girl with history of abdominal pain (periumbilical), postprandial, passing blood in stools, fever, weight loss since ten months. She also has episodes of passing blood in stools. What may be the likely diagnosis",
+    "options": {
+      "A": "Chronic appendicitis",
+      "B": "Chronic pancreatitis",
+      "C": "Crohn's disease",
+      "D": "Bulimia"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Not true about somnambulism among the following is",
+    "options": {
+      "A": "Low level motor skill/function is present",
+      "B": "Sleep walking",
+      "C": "Disorder of sleep arousal",
+      "D": "Patient consciousness is not preserved"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Hemochromatosis is a defect in metabolism of -",
+    "options": {
+      "A": "Iron",
+      "B": "Copper",
+      "C": "Magnesium",
+      "D": "Calcium"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Which antitubercular drug metabolism is under genetic control -",
+    "options": {
+      "A": "Rifampicin",
+      "B": "INH",
+      "C": "Cyclosporine",
+      "D": "PZM"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Which of the following is used for sequencing a long DNA fragment :",
+    "options": {
+      "A": "Sanger's technique",
+      "B": "Chain termination method",
+      "C": "Chromosome Walking",
+      "D": "RFLP"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Final product of purine metabolism is:",
+    "options": {
+      "A": "Uric acid",
+      "B": "Creatinine",
+      "C": "Xanthine",
+      "D": "Phoshphates"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "All of the following are seen in pheochromocytoma. Except",
+    "options": {
+      "A": "Headache",
+      "B": "Sweating episodes",
+      "C": "Weight loss",
+      "D": "Hypocalcemia"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 68-year-old man has a long history of prostate cancer that was metastatic at the time of diagnosis. Over the past 2 months, he has had significant weight loss, loss of appetite, and loss of energy. His current spectrum of conditions can be attributed to which of the following",
+    "options": {
+      "A": "Platelet-derived growth factor",
+      "B": "Fibroblast growth factor",
+      "C": "Interleukin-2",
+      "D": "Tumor necrosis factor-a"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Which of the following is not true about newborn assessment -",
+    "options": {
+      "A": "APGAR at 7 min indicates neonatal moality depression",
+      "B": "APGAR at 1 min, indicators for neonatal resuscitation",
+      "C": "Fetus can rapidly washout CO2 through placenta",
+      "D": "Anaerobic metabolism causes acidemia"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Maintenance dose depends on",
+    "options": {
+      "A": "Clearance",
+      "B": "Volume of distribution",
+      "C": "Metabolism",
+      "D": "Absorption"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 15 year old boy with cystic fibrosis presents with a 3-6kg weight loss over the past month unaccompanied by changes in his pulmonary and gastrointestinal symptoms. You suspect that he has developed which of the following",
+    "options": {
+      "A": "Bronchogenic carcinoma",
+      "B": "Eating disorder",
+      "C": "Biliary cirrhosis",
+      "D": "Diabetes mellitus"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Valproic acid causes all except:",
+    "options": {
+      "A": "It is an enzyme inducer",
+      "B": "It causes obesity",
+      "C": "It causes hepatotoxicity",
+      "D": "It causes neural tube defects"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Epiphora is:",
+    "options": {
+      "A": "Cerebrospinal fluid running from the nose after fracture of anterior cranial fossa",
+      "B": "An epiphenomenon of a cerebral tumor",
+      "C": "An abnormal overflow of tears due to obstruction of lacrimal duct",
+      "D": "Eversion of lower eyelid following injury"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Most common mitochondrial enzyme for metabolism detoxification reaction is -",
+    "options": {
+      "A": "CYP 3A4",
+      "B": "CYP 1A2",
+      "C": "CYP 2A6",
+      "D": "CYP 2B6"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Parkinson disease can be caused by a problem with the metabolism of which particular compound.",
+    "options": {
+      "A": "Glycogen",
+      "B": "Collagen",
+      "C": "Dopamine",
+      "D": "Valine"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "All of the following about Vitamin D metabolism are true except",
+    "options": {
+      "A": "25–α hydroxylation takes place in liver",
+      "B": "1–α hydroxylation takes place in kidney",
+      "C": "Daily requirement in the absence of sun–light is 450-6001U/day",
+      "D": "Williams syndrome is associated with obesity, mental retardation, precocious puberty"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 25-year-old female presented to the OPD with painless cervical lymphadenopathy for 2 months. On examination the lymph nodes were firm in consistency. Epitrochlear lymph nodes were also involved. There was also history of fever, night sweats and significant weight loss. A lymph node biopsy was conducted and sent for HPE examination. Flow cytometry studies were also done. Which of the following gene is involved in the above condition: -",
+    "options": {
+      "A": "Bcl-1",
+      "B": "Bcl-2",
+      "C": "Bcl-6",
+      "D": "Bcl-4"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 45 year old female patient comes to the clinic for routine general checkup. She is a known diabetic and is on insulin therapy. On general examination, truncal obesity is seen. The sensitivity of the agent used in the treatment of this patient is enhanced by which of the following",
+    "options": {
+      "A": "Leptin",
+      "B": "Adiponectin",
+      "C": "Glucagon",
+      "D": "Insulin"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Which of the following statements is TRUE regarding termination of action of a drug",
+    "options": {
+      "A": "Drugs must be excreted from the body to terminate their action",
+      "B": "Metabolism of drugs always abolishes their pharmacologic activity",
+      "C": "Hepatic metabolism and renal excretion are the two most impoant mechanisms involved",
+      "D": "Distribution of a drug out of blood stream terminates the drug's effects"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Lalloo 50 yrs, a chronic smoker presents with a history of hemoptysis. He was having truncal obesity and hypertension. He had an elevated ACTH level which was not suppressible with high dose dexamethasone. What would be the most probable diagnosis -",
+    "options": {
+      "A": "Bilateral adrenal hyperplasia",
+      "B": "Adrenal adenoma",
+      "C": "Pituitary tumor",
+      "D": "Ectopic ACTH producing lung cancer"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 50-year-old drug abuser presents with fever and weight loss. Exam shows hypeension, nodular skin rash, and peripheral neuropathy. ESR is 100 mm/L, and RBC casts are seen on urinalysis. (SELECT 1 DIAGNOSIS)",
+    "options": {
+      "A": "Behcet syndrome",
+      "B": "Ankylosing spondylitis",
+      "C": "Polymyalgia rheumatic",
+      "D": "Polyaeritis nodosa"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "In Intermittent claudication, the crampy pain in muscles is",
+    "options": {
+      "A": "Brought on by walking",
+      "B": "Not present on taking the first step.",
+      "C": "Relieved by standing still/rest.",
+      "D": "All of the above"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Which drug interfers with pyridoxine metabolism -",
+    "options": {
+      "A": "INH",
+      "B": "Tetracycline",
+      "C": "Erthromycin",
+      "D": "Rifampicin"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "In UNICEF’s GOBI campaign, O stands for:",
+    "options": {
+      "A": "Oral Contraceptives",
+      "B": "Oral Rehydration Therapy",
+      "C": "Obesity",
+      "D": "Occupational hazards"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 50-year-old drug abuser presents with fever and weight loss. Exam shows hypeension, nodular skin rash, and peripheral neuropathy. ESR is 100 mm/L, and RBC casts are seen on urinalysis. The most likely condition is:",
+    "options": {
+      "A": "Reiter syndrome",
+      "B": "Drug-induced lupus erythematosus",
+      "C": "Polyaeritis nodosa",
+      "D": "Behcet syndrome"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Measure of primary prevention of hypeension include all of the following except -",
+    "options": {
+      "A": "Weight reduction",
+      "B": "Exercise promotion",
+      "C": "Reduction of salt intake",
+      "D": "Early diagnosis of hypeension"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Factors impoant in the formation of gall stones include all of the following except",
+    "options": {
+      "A": "Cholesterol saturation in bile",
+      "B": "Gall bladder motility",
+      "C": "The size of micelles",
+      "D": "Obesity"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Deficiency of enzyme α–keto acid decarboxylase leading to a block in the metabolism of branch chain amino acids is observed in –",
+    "options": {
+      "A": "Maple syrup urine disease",
+      "B": "Hartnup's disease",
+      "C": "Alkaptonuria",
+      "D": "Phenylketonuria"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Abnormalities of bone metabolism is associated with excess of which vitamins",
+    "options": {
+      "A": "Vitamin A",
+      "B": "Thiamine",
+      "C": "Vitamin B12",
+      "D": "All"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Measure of primary prevention of hypertension include all of the following except -",
+    "options": {
+      "A": "Weight reduction",
+      "B": "Exercise promotion",
+      "C": "Reduction of salt intake",
+      "D": "Early diagnosis of hypertension"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Which of the following best describes an attribute of visceral smooth muscle not shared by skeletal muscle",
+    "options": {
+      "A": "Contraction is ATP dependent",
+      "B": "Contracts in response to stretch",
+      "C": "Does not contain actin filaments",
+      "D": "High rate of cross-bridge cycling"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 42-year-old man presents with central, crushing chest pain that radiates to the jaw. The pain occurred while jogging around the local park. The pain was alleviated with rest. The ECG is normal. Diagnosis is",
+    "options": {
+      "A": "Angina pectoris",
+      "B": "Acute Pericarditis",
+      "C": "STEMI",
+      "D": "NSTEMI"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 57-year-old woman experiences frequent symptoms of heartburn. She reports no weight loss, diarrhea, or dysphagia symptoms. Past medical history is significant for vitamin B12 deficiency treated with monthly injections. She appears well, and the examination is normal, except for some patches on her arms where she has lost all the skin pigmentation. Her upper endoscopy is normal, except for gastric biopsies commenting on gastritis.For the above patient with gastritis, select the most likely mechanism of injury.",
+    "options": {
+      "A": "bile acid reflux implicated in pathogenesis",
+      "B": "immune or autoimmune pathogenesis suspected",
+      "C": "ischemia of the gastric mucosa implicated in the pathogenesis",
+      "D": "associated with Helicobacter pylori infection"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A patient of HIV is on treatment with indinavir, zidovudine, lamivudine and ketoconazole. He developed nephrolithiasis, hyperlipidemia, central obesity, hyperglycemia and insulin resistance. Which of the following drug is likely to produce above adverse effects",
+    "options": {
+      "A": "Lamivudine",
+      "B": "Indinavir",
+      "C": "Zidovudine",
+      "D": "Ketoconazole"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Final common metabolism of atracurium, mivacurium and succinylcholine are by:",
+    "options": {
+      "A": "Conjugation",
+      "B": "Reduction",
+      "C": "Hydrolysis",
+      "D": "Acetylation"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "THEME AND FOCUS: METABOLISM OF CARBOHYDRATES Case Study: A 3 year old boy was brought to the emergency depament after several episodes of vomiting and lethargy. He was also found to have hypoglycemia. His pediatrician was concerned about possible hepatic failure along with recurrent episodes of vomiting and lethargy. After a careful history, it was observed that these episodes occur after ingestion of sweets or fruits. Lead Question: What is the most likely diagnosis",
+    "options": {
+      "A": "Hereditary Fructose Intolerance",
+      "B": "Glucose Homeostasis",
+      "C": "Glycogen storage disease type III",
+      "D": "Galactosemia"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "The drug antabuse acts by-",
+    "options": {
+      "A": "Decreasing ethanol absorption",
+      "B": "Enhancing urinary excretion of ethanol",
+      "C": "Increasing pulmonary excretion of ethanol",
+      "D": "Blocking metabolism of ethanol"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 24-year-old man with a history of depression is brought to the emergency room because of a drug overdose. He is experiencing some nausea and vomiting, but no other symptoms. Physical examination and vital signs are normal. Six hours prior to presentation, he intentionally took 40 tablets of acetaminophen (500 mg/tablet). Which of the following is the most appropriate next step in management",
+    "options": {
+      "A": "give ethanol to compete with the parent drug for metabolism, therefore preventing formation of toxic metabolites",
+      "B": "give Narcan to block its actions directly",
+      "C": "give intravenous prostacyclin's to maintain cellular integrity",
+      "D": "give N-acetylcysteine to allow binding of the toxic metabolite"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Primary prevention in coronary hea diseases-",
+    "options": {
+      "A": "Regular physical exercise",
+      "B": "BP monitoring",
+      "C": "Salt restriction",
+      "D": "Statins"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "The symptoms of hyperparathyroidism include:",
+    "options": {
+      "A": "Constipation and muscle weakness",
+      "B": "Anorexia and weight loss",
+      "C": "Polydipsia and polyuria",
+      "D": "All of the above"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "True about Moderate aerobic exercise is",
+    "options": {
+      "A": "Decrease in blood pH",
+      "B": "Increase PaO2",
+      "C": "Decrease PaCO2",
+      "D": "Increased core termerature"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A person who is running, the main source of energy he will be using in 1st min is:",
+    "options": {
+      "A": "Glucose",
+      "B": "Glycogen",
+      "C": "Fat",
+      "D": "Phosphagen"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Combination of sulfamethoxazole and trimethoprim is synergistic due to",
+    "options": {
+      "A": "Enhanced entry into bacteria",
+      "B": "Sequential blockade in folate metabolism",
+      "C": "Inhibition of drug inactivation enzymes",
+      "D": "Inhibition of drug efflux"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 52-year-old woman is experiencing abdominal discomfort after meals as well as early in the morning. There is no weight loss or constitutional symptoms, and she has tried antacids but experiences minimal relief. Upper endoscopy reveals a duodenal ulcer and the biopsy is negative for malignancy. Which of the following is the most appropriate next step in management",
+    "options": {
+      "A": "6-8 weeks of omeprazole or ranitidine",
+      "B": "long-term acid suppression with omeprazole",
+      "C": "antibiotic therapy",
+      "D": "antibiotic therapy and omeprazole"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Causes for reduced bioavailability include:",
+    "options": {
+      "A": "High first pass metabolism",
+      "B": "Increased absorption",
+      "C": "IV drug administration",
+      "D": "High lipid solubility"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Taking of ones clothes and running in public is called",
+    "options": {
+      "A": "Mooning",
+      "B": "Exhibitionism",
+      "C": "Voyeurism",
+      "D": "Undinism"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Prolonged use of one of the following anticonvulsant can produce weight loss -",
+    "options": {
+      "A": "Gabapentin",
+      "B": "Oxcarbazepine",
+      "C": "Topiramate",
+      "D": "Valproic acid"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 50 years labourer, smoker presented with repeated episodes of epigastric pain, associated with ocassional vomiting and weight loss. What is the diagnosis",
+    "options": {
+      "A": "Hiatus hernia",
+      "B": "Gastric ulcer",
+      "C": "Gastric volvulus",
+      "D": "Barret's esophagus"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 61-year-old man with a history of chronic viral hepatitis has noted a 6-kg weight loss over the past 5 months. Physical examination shows no masses or palpable lymphadenopathy. An abdominal CT scan shows a nodular liver with a 10-cm mass in the right lobe. A stool guaiac test result is negative. An elevation in which of the following laboratory tests is most likely to be present in this man",
+    "options": {
+      "A": "Alpha-fetoprotein",
+      "B": "CA-19-9",
+      "C": "Calcitonin",
+      "D": "Carcinoembryonic antigen"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "All are risk factors for Carcinoma breast except",
+    "options": {
+      "A": "Nulliparity",
+      "B": "Obesity",
+      "C": "Early menopause",
+      "D": "Lack of breast feeding"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Which of the following is not true about newborn assessment",
+    "options": {
+      "A": "APGAR at 7 min indicates neonatal moality depression",
+      "B": "APGAR at 1 min, indicators for neonatal resuscitation",
+      "C": "Fetus can raoidly washout CO2 through placenta",
+      "D": "Anaerobic metabolism causes acidemia"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "In patients depending entirely on parenteral fluids,there is weight loss of .... daily -",
+    "options": {
+      "A": "50 gm",
+      "B": "150 gm",
+      "C": "200 gm",
+      "D": "250 gm"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "According to the new guidelines, the body mass index cut off for overweight is -",
+    "options": {
+      "A": ">= 18",
+      "B": ">= 25",
+      "C": ">= 30",
+      "D": ">= 35"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "What percentage of weight loss in infants constitutes severe dehydration",
+    "options": {
+      "A": ">10% loss of body weight",
+      "B": "> 6%' loss of body weight",
+      "C": "5%' loss of body weight",
+      "D": "7% loss of body weight"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Which of the following is not the criteria for diagnosis of Metabolic syndrome",
+    "options": {
+      "A": "Hypeension",
+      "B": "Central obesity",
+      "C": "Hyperiglyceridemia",
+      "D": "High LDL"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 55-year-old man complains of anorexia, weight loss, and fatigue. A UGI study demonstrates an ulcerated lesion at the incisura. Where is the incisura",
+    "options": {
+      "A": "Cardia",
+      "B": "Fundus",
+      "C": "Greater curvature",
+      "D": "Lesser curvature"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Estrogen action on carbohydrate metabolism",
+    "options": {
+      "A": "Increases uptake of glucose through increase in insulin sensitivity",
+      "B": "Glycolysis increases",
+      "C": "Increasing central adipose deposition",
+      "D": "Worsening of NIDDM"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "All of the following are advantages of transdermal drug delivery systems except",
+    "options": {
+      "A": "They produce high peak plasma concentration of the drug",
+      "B": "They produce smooth and nonfluctuating plasma concentration of the drug",
+      "C": "They minimize interindividual variation in the achieved plasma drug concentration",
+      "D": "They avoid hepatic first pass metabolism of the drug"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "End product of purine metabolism is",
+    "options": {
+      "A": "Alanine",
+      "B": "Uric acid",
+      "C": "Ammonia",
+      "D": "Allantoin"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "All are the risk factors for endometrial carcinoma except :",
+    "options": {
+      "A": "Multiparity",
+      "B": "Obesity",
+      "C": "Early menarche",
+      "D": "Unopposed estrogen therapy"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Non-modifiable risk factor for hypertension",
+    "options": {
+      "A": "Gender",
+      "B": "Obesity",
+      "C": "Salt intake",
+      "D": "Cultural characteristic acquired over time"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A female presents with anorexia, weight loss, hyperpigmentation, bowel changes, and light headedness on standing. The cosyntropin stimulation test shows random serum coisol of 11 mcg/dL (normal is greater than or equal to 20 mcg/dL). Serum coisol 1 hour after 0.25 mg cosyntropin N is 14 mcg/dL. (The rise in coisol is expected to be > 7 mcg/dL). Aldosterone level is 10 ng/dL. Which of the following is an appropriate treatment for this patient",
+    "options": {
+      "A": "Hydrocoisone 15 mg daily for life",
+      "B": "Prednisone 5 mg daily for life",
+      "C": "Hydrocoisone 15 mg and fludrocoisone 0.1 mg daily for life",
+      "D": "Prednisone 60 mg daily tapering to 10 mg a day and fludrocoisone 0.1 daily mg for life"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 34-year-old female cab driver, a smoker, is admitted with acute shoness of breath and mild hemoptysis. Her review of systems is otherwise unremarkable. Physical examination: pulse 100 bpm; temperature 99degF; respirations 21/min; blood pressure 160/84 mm Hg. The patient is overweight with a BMI of 30. Other peinent findings: lungs have decreased breath sounds with crackles in both bases. Hea: NSR with loud P2 and grade 2/6 systolic murmur in the left parasternal area. Extremities reveal trace bilateral pedal edema. Laboratory data: Hb 15 g/dL; Hct 45%; WBCs 7.0/uL. EKG shows mild LV strain with no acute current of injury. ABGs on room air: pH 7.38; PCO2 45 mm Hg; PO2 70 mm Hg. CXR is shown in . The likely diagnosis is",
+    "options": {
+      "A": "Mycoplasma/atypical pneumonia",
+      "B": "Obstructive sleep apnea",
+      "C": "Chronic bronchitis",
+      "D": "Pulmonary embolism"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Patient presented with imbalance on walking with eyes closed and has to lift up foot and stomp on ground to walk. The tract involved is:-",
+    "options": {
+      "A": "Spinocerebellar tract",
+      "B": "Dorsal column tract",
+      "C": "Lateral spinothalamic tract",
+      "D": "Vestibulospinal tract"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "In 1st week of parenteral nutrition, patient becomes: March 2013 (f)",
+    "options": {
+      "A": "Overweight",
+      "B": "Underweight",
+      "C": "Normal weight",
+      "D": "Variable"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Thiopentone action is terminated by:",
+    "options": {
+      "A": "Excretion",
+      "B": "Metabolism",
+      "C": "Redistribution",
+      "D": "Recycling"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Which of the following is not true about diabetes mellitus",
+    "options": {
+      "A": "Free fatty acids in the blood increase the risk of DM",
+      "B": "Patients may have high insulin levels in some conditions",
+      "C": "Commonest cause of death is renal failure",
+      "D": "Regular physical activity improves the glycemic control"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Non modifiable risk factor for hypeension -",
+    "options": {
+      "A": "Gender",
+      "B": "Obesity",
+      "C": "Salt intake",
+      "D": "Cultural characteristic acquired over time"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 22-year-old female came with the chief complaint of significant weight loss and secondary amenorrhea. She has a high-intensity exercise regimen, is preoccupied with food, and seems to have an irrational fear of gaining weight. Decreased production of which of the following hormones leads to amenorrhea in anorexia nervosa",
+    "options": {
+      "A": "Gonadotropin releasing hormone (GnRH)",
+      "B": "Progesterone",
+      "C": "Human chorionic gonadotropin (hCG)",
+      "D": "Estradiol"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "An 81-year-old female presents to ER. Her son gives a collateral history, as the patient is very difficult to understand. He repos that the patient has had difficulty walking and could not lift her left arm for the past hour. He has also noticed the patient's speech doesn't make sense. O/E-The patient is right-handed. There is reduced power (MRC 2/5) and flaccidity in the left arm and leg. Light touch sensation is also decreased on the left arm and leg. The right arm and leg appear normal. Visual fields are normal, but there is a detion of both eyes to right. According to the Oxford Classification of Stroke, what type of stroke is this",
+    "options": {
+      "A": "Total Anterior Circulation Infarction",
+      "B": "Paial Anterior Circulation Infarction",
+      "C": "Superior Cerebellar Aery Infarction",
+      "D": "Lacunar Infarction"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Most common presentation of gastrinoma/ZES: March 2013 (f, h)",
+    "options": {
+      "A": "Abdominal pain",
+      "B": "Duodenal ulcer",
+      "C": "Weight loss",
+      "D": "Nausea"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Rapid cycling Bipolar disorder is characterized by",
+    "options": {
+      "A": "More than 4 episodes per year",
+      "B": "More common in males",
+      "C": "High thyroxine levels",
+      "D": "Bipolar 1 pattern of illness"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "An 18-year-old man who is known to have non penicillinase producing gonococcal urethritis is given an injection of penicillin and probenecid. What is the mechanism used by probenecid that makes penicillin more efficacious",
+    "options": {
+      "A": "Promotes entry of the penicillin into the bacteria",
+      "B": "Prolongs the duration of action by affecting the liver metabolism of penicillin",
+      "C": "Decreases the bacterial resistance by inhibiting penicillinase production",
+      "D": "Increases the half-life and serum level by decreasing the renal excretion of penicillin"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Disease described as \"Silent Epidemic\" of the century",
+    "options": {
+      "A": "Ischeamic hea disease",
+      "B": "Road traffic accident",
+      "C": "Alzheimers disease",
+      "D": "Obesity"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "All of the following enzymes and their reactions are involved in the metabolism of Xenobiotics, EXCEPT:",
+    "options": {
+      "A": "Cytochrome oxidase",
+      "B": "Cytochrome p 450",
+      "C": "Methylation",
+      "D": "Hydroxylation"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Which of the gland secretes calcitonin for regulation of calcium metabolism",
+    "options": {
+      "A": "Thyroid gland",
+      "B": "Parathyroid gland",
+      "C": "Both of the above",
+      "D": "None of the above"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Resistance to zidovudne develops due to:",
+    "options": {
+      "A": "Mutation at reverse transcriptase",
+      "B": "Increased efflux of the drug from inside the cell",
+      "C": "Increased metabolism of the drug",
+      "D": "Decreased zidovudine 5 triphosphate formation"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "If the life style factor that is causing infertility in a young male is identified. Which of the following life style modification will have no effect",
+    "options": {
+      "A": "Weight gain",
+      "B": "Less exercise",
+      "C": "Vegetarian diet",
+      "D": "Weight loss"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 20 year old male goes swimming . After a few days he develops itching with rashes over his body diffusely. He ignores it until several weeks later he develops lancinating pain down his legs and all of his toes. Within a few days he develops paraparesis and problems with bowel and bladder control with resultant urinary retention. What is your approach to this patient",
+    "options": {
+      "A": "Initiate anticoagulation",
+      "B": "Do spinal angiography",
+      "C": "Order an MRI scan",
+      "D": "Perform sensory evoked potential testing"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Thiopentone has cerbroprotective effect because of –",
+    "options": {
+      "A": "Decrease cerebral metabolism",
+      "B": "Reduction of vasospasm",
+      "C": "Calcium channel blockage",
+      "D": "Free redical removal"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 22 year old woman developed small itchy wheals after physical exeion, walking in the sun, eating hot spicy food and when she was angry. The most likely diagnosis is:",
+    "options": {
+      "A": "Chronic idiopathic utricaria",
+      "B": "Heat uicaria",
+      "C": "Solar uicaria",
+      "D": "Cholinergic uicaria"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Swimming pool granuloma is caused by",
+    "options": {
+      "A": "Mycobacterium bovis",
+      "B": "Mycobacterium ulcerans",
+      "C": "Mycobacterium kansasii",
+      "D": "Mycobacterium marinum"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Metabolism of a drug primarily results in",
+    "options": {
+      "A": "Activation of the active drug",
+      "B": "Conversion of prodruv to active metabolite",
+      "C": "Conversion of lipid soluble drugs to water soluble metabolites",
+      "D": "Conversion of water soluble drugs to lipid solible metabolites"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "The cyclical flexion and extension motions of a leg during walking result from activity at which level of the nervous system",
+    "options": {
+      "A": "Cerebral coex",
+      "B": "Cerebellum",
+      "C": "Globus pallidus",
+      "D": "Spinal cord"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Primary Hyperoxaluria occurs in defect in metabolism of",
+    "options": {
+      "A": "Cystein",
+      "B": "Tryptophan",
+      "C": "Tyrosine",
+      "D": "Glycine"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 64-year-old man presents with symptoms of difficulty swallowing and weight loss of 10 lb. He has no prior history of heartburn, stomach ulcers, or difficulty swallowing. He smokes one pack a day for the past 45 years and drinks approximately 5 oz of alcohol a day. He is thin appearing, there are no oral lesions, and the remaining examination is normal. Esophagoscopy reveals a midesophageal narrowing with ragged ulcerating, and biopsies are taken. Which of the following is the most likely diagnosis",
+    "options": {
+      "A": "adenocarcinoma of esophagus",
+      "B": "esophageal web",
+      "C": "achalasia",
+      "D": "squamous cell carcinoma of esophagus"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Drugs used in the treatment of obesity in a 36 year old man is/are which of the following",
+    "options": {
+      "A": "Orlistat",
+      "B": "Sibutramine",
+      "C": "Rimonabant",
+      "D": "All of the above"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "All except one is required for the diagnosis of obesity hypoventilation syndrome",
+    "options": {
+      "A": "Hypeension",
+      "B": "Sleep disorder breathing",
+      "C": "BMI more than or equal to 30 kg/m2",
+      "D": "PaCO2 more than or eqal to 45 mmHg"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Hypercoagulation in nephrotic syndrome is caused by-",
+    "options": {
+      "A": "Loss of antithrombin III",
+      "B": "Decreased fibrinogen",
+      "C": "Decreased metabolism of Vitamin K",
+      "D": "Increase in protein C"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "A 30-year-old man presents to the clinic with recurrent symptoms of flushing, diarrhea, and weight loss. He cannot associate the symptoms with any particular activity, time of day or food ingestion. His past medical history is negative and he is not taking any prescription or recreational medications.On physical examination, his blood pressure is 126/74 mmHg, and the heart rate is 72/min and regular. His remaining physical examination is completely normal. Lab investigations reveal an elevated urinary 5-hydroxyindoleacetic acid (5-HIAA) Which of the following is the most likely diagnosis",
+    "options": {
+      "A": "phenylketonuria",
+      "B": "alkaptonuria",
+      "C": "malignant melanoma",
+      "D": "carcinoid syndrome"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Drug used for obesity:",
+    "options": {
+      "A": "Orlistat",
+      "B": "Rivatat",
+      "C": "Nitousoxide",
+      "D": "Phenylepherine"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Resistance to zidovirdine develops due to:",
+    "options": {
+      "A": "Mutation at reverse transcriptase",
+      "B": "Increased efflux of the drug from inside the cell",
+      "C": "Increased metabolism of the drug",
+      "D": "Decreased zidovudine triphosphate formation"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "The most important channel of elimination of digoxin is:",
+    "options": {
+      "A": "Glomerular filtration",
+      "B": "Tubular secretion",
+      "C": "Hepatic metabolism",
+      "D": "Excretion in bile"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "Samter's triad refers to the association of aspirin sensitive asthma and",
+    "options": {
+      "A": "Obesity",
+      "B": "Uicarla",
+      "C": "Nasal polyp",
+      "D": "Rhinosinusitis"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "All help in assessing obesity except",
+    "options": {
+      "A": "Quetelet's Index",
+      "B": "Ponderal Index",
+      "C": "Corpulence Index",
+      "D": "Sullivan Index"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medmcqa",
+    "question": "The adverse effect of combined OCP's among the following is :",
+    "options": {
+      "A": "Liver disorders",
+      "B": "PID",
+      "C": "Weight loss",
+      "D": "Acne"
+    },
+    "correct": "A"
+  }
+]

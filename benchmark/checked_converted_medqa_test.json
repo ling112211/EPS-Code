@@ -1,0 +1,1520 @@
+[
+  {
+    "dataset": "medqa",
+    "question": "A 22-year-old man presents to the emergency department for chest pain. He says that the chest pain began a few hours prior to presentation and is associated with nausea, abdominal discomfort, and sweating. He has experienced similar symptoms multiple times in the past, which brings him great concern because he believes he may be having a heart attack. This concern has persisted for 2 months. This has caused him to avoid taking long train rides or driving on divided highways. Approximately 7 months ago his parents divorced. Medical history is significant for obesity. He denies any medications or illicit drug use. Physical examination is unremarkable. An electrocardiogram demonstrates sinus tachycardia with a pulse of 110/min. Which of the following is most likely the diagnosis",
+    "options": {
+      "A": "Adjustment disorder",
+      "B": "Illness anxiety disorder",
+      "C": "Panic disorder",
+      "D": "Specific phobia"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 75-year-old man presents to the emergency department for abdominal pain. The patient states the pain started this morning and has been worsening steadily. He decided to come to the emergency department when he began vomiting. The patient has a past medical history of obesity, diabetes, alcohol abuse, and hypertension. His current medications include captopril, insulin, metformin, sodium docusate, and ibuprofen. His temperature is 104.0°F (40°C), blood pressure is 160/97 mmHg, pulse is 90/min, respirations are 15/min, and oxygen saturation is 98% on room air. Abdominal exam reveals left lower quadrant tenderness. Cardiac exam reveals a crescendo systolic murmur heard best by the right upper sternal border. Lab values are ordered and return as below.\n\nHemoglobin: 15 g/dL\nHematocrit: 42%\nLeukocyte count: 19,500 cells/mm^3 with normal differential\nPlatelet count: 226,000/mm^3\n\nSerum:\nNa+: 139 mEq/L\nCl-: 101 mEq/L\nK+: 4.4 mEq/L\nHCO3-: 24 mEq/L\nBUN: 22 mg/dL\nGlucose: 144 mg/dL\nCreatinine: 1.2 mg/dL\nCa2+: 9.8 mg/dL\n\nWhich of the following is the most accurate test for this patient's condition",
+    "options": {
+      "A": "Barium enema",
+      "B": "Colonoscopy",
+      "C": "CT scan",
+      "D": "Sigmoidoscopy"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 52-year-old woman comes to the physician because of a 3-week history of pain in her right knee. The pain is worse at the end of the day and when she walks. She says that it has become difficult for her to walk up the flight of stairs to reach her apartment. She has hypertension and psoriasis. Her sister has rheumatoid arthritis. She drinks 2–3 beers daily. Current medications include hydrochlorothiazide, topical betamethasone, and a multivitamin. She is 160 cm (5 ft 3 in) tall and weighs 92 kg (202 lb); BMI is 36 kg/m2. She appears anxious. Her temperature is 37°C (98.6°F), pulse is 87/min, and blood pressure is 135/83 mm Hg. Cardiopulmonary examinations shows no abnormalities. There are several scaly plaques over the patient's upper and lower extremities. The right knee is not tender nor erythematous; range of motion is limited. Crepitus is heard on flexion and extension of the knee. Her hemoglobin concentration is 12.6 g/dL, leukocyte count is 9,000/mm3, and erythrocyte sedimentation rate is 16 mm/h. An x-ray of the right knee is shown. Which of the following is the most appropriate next step in the management of this patient",
+    "options": {
+      "A": "Intraarticular glucocorticoid injections",
+      "B": "Weight loss program",
+      "C": "Total joint replacement",
+      "D": "Colchicine therapy"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 71-year-old man comes to the physician because of a 2-week history of fatigue and a cough productive of a blood-tinged phlegm. Over the past month, he has had a 5.0-kg (11-lb) weight loss. He has hypertension and type 2 diabetes mellitus. Eight months ago, he underwent a kidney transplantation. The patient does not smoke. His current medications include lisinopril, insulin, prednisone, and mycophenolate mofetil. His temperature is 38.9°C (102.1°F), pulse is 88/min, and blood pressure is 152/92 mm Hg. Rhonchi are heard at the right lower lobe of the lung on auscultation. There is a small ulceration on the left forearm. An x-ray of the chest shows a right lung mass with lobar consolidation. Antibiotic therapy with levofloxacin is started. Three days later, the patient has a seizure and difficulty coordinating movements with his left hand. An MRI of the brain shows an intraparenchymal lesion with peripheral ring enhancement. Bronchoscopy with bronchoalveolar lavage yields weakly acid-fast, gram-positive bacteria with branching, filamentous shapes. Which of the following is the most appropriate initial pharmacotherapy",
+    "options": {
+      "A": "Vancomycin",
+      "B": "Piperacillin/tazobactam",
+      "C": "Trimethoprim/sulfamethoxazole",
+      "D": "Erythromycin"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 3-year-old boy presents to the clinic for evaluation of leg pain. This has been persistent for the past 3 days and accompanied by difficulty walking. He has also had some erythema and ecchymoses in the periorbital region over the same time period. The vital signs are unremarkable. The physical exam notes the above findings, as well as some swelling of the upper part of the abdomen. The laboratory results are as follows:\nErythrocyte count 3.3 million/mm3\nLeukocyte count 3,000/mm3\nNeutrophils 54%\nEosinophils 1%\nBasophils 55%\nLymphocytes 30%\nMonocytes 3%\nPlatelet count 80,000/mm3\nA magnetic resonance image (MRI) scan of the abdomen shows a mass of adrenal origin. Which of the following is the most likely cause of this patient’s symptoms",
+    "options": {
+      "A": "Retinoblastoma",
+      "B": "Wilms tumor",
+      "C": "Neuroblastoma",
+      "D": "Hepatoblastoma"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A mother with HIV has given birth to a healthy boy 2 days ago. She takes her antiretroviral medication regularly and is compliant with the therapy. Before being discharged, her doctor explains that she cannot breastfeed the child since there is a risk of infection through breastfeeding and stresses that the child can benefit from formula feeding. The physician stresses the importance of not overheating the formula since Vitamin C may be inactivated by overheating. Which process could be impaired if the mother boiled the formula longer than needed",
+    "options": {
+      "A": "Heme synthesis",
+      "B": "Collagen synthesis",
+      "C": "Protein catabolism",
+      "D": "Fatty acid metabolism"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 67-year-old man presents to the emergency department with increased fatigue. He states that he has been feeling very tired lately but today lost consciousness while walking up the stairs. He report mild abdominal distension/discomfort, weight loss, a persistent cough, and multiple episodes of waking up drenched in sweat in the middle of the night. The patient does not see a primary care physician but admits to smoking 2 to 3 packs of cigarettes per day and drinking 1 to 3 alcoholic beverages per day. He recently traveled to Taiwan and Nicaragua. His temperature is 99.5°F (37.5°C), blood pressure is 177/98 mmHg, pulse is 100/min, respirations are 17/min, and oxygen saturation is 98% on room air. On physical exam, you note a fatigued appearing elderly man who is well-groomed. Cardiopulmonary exam reveals mild expiratory wheezes. Abdominal exam is notable for a non-pulsatile mass in the left upper quadrant. Laboratory values are ordered as seen below.\n\nHemoglobin: 12 g/dL\nHematocrit: 36%\nLeukocyte count: 105,500/mm^3\nPlatelet count: 197,000/mm^3\n\nSerum:\nNa+: 139 mEq/L\nCl-: 100 mEq/L\nK+: 4.3 mEq/L\nHCO3-: 25 mEq/L\nBUN: 20 mg/dL\nGlucose: 92 mg/dL\nCreatinine: 1.4 mg/dL\nCa2+: 10.2 mg/dL\nLeukocyte alkaline phosphatase score: 25 (range 20 - 100)\nAST: 12 U/L\nALT: 17 U/L\n\nWhich of the following is the most likely diagnosis",
+    "options": {
+      "A": "Acute lymphoblastic leukemia",
+      "B": "Acute myelogenous leukemia",
+      "C": "Chronic myeloid leukemia",
+      "D": "Tuberculosis"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 75-year-old man comes to the physician because of a 3-month history of upper abdominal pain, nausea, and sensation of early satiety. He has also had a 9.4-kg (20.7-lb) weight loss over the past 4 months. He has osteoarthritis. He drinks two beers every night with dinner. His only medication is ibuprofen. Esophagogastroduodenoscopy shows an ulcerated mass in the lesser curvature of the stomach. A biopsy specimen obtained during endoscopy shows irregular-shaped tubules with intraluminal mucus and debris. Which of the following is the most likely predisposing factor for this patient's condition",
+    "options": {
+      "A": "Inflammatory bowel disease",
+      "B": "Low-fiber diet",
+      "C": "Dietary nitrates",
+      "D": "Blood type O"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 77-year-old woman is brought to the physician for gradually increasing confusion and difficulty walking for the past 4 months. Her daughter is concerned because she has been forgetful and seems to be walking more slowly. She has been distracted during her weekly bridge games and her usual television shows. She has also had increasingly frequent episodes of urinary incontinence and now wears an adult diaper daily. She has hyperlipidemia and hypertension. Current medications include lisinopril and atorvastatin. Her temperature is 36.8°C (98.2°F), pulse is 84/min, respirations are 15/min, and blood pressure is 139/83 mmHg. She is confused and oriented only to person and place. She recalls 2 out of 3 words immediately and 1 out of 3 after five minutes. She has a broad-based gait and takes short steps. Sensation is intact and muscle strength is 5/5 throughout. Laboratory studies are within normal limits. Which of the following is the most likely diagnosis in this patient",
+    "options": {
+      "A": "Pseudodementia",
+      "B": "Frontotemporal dementia",
+      "C": "Normal pressure hydrocephalus",
+      "D": "Creutzfeldt-Jakob disease"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 68-year-old woman presents to the emergency department for leg weakness. About 4 hours ago, she was out walking her dog when she had a sudden onset of left-leg weakness. She had no prior symptoms and noticed nothing else except that she was unable to move her left leg like she normally could. This weakness lasted for roughly 3 hours, but it resolved completely while she was in the car on her way to the emergency department, she can move her leg normally now. Her medical history is notable for a 20-year history of hypertension and hyperlipidemia. Her heart rate is 80/min, the blood pressure is 148/92 mm Hg, and the respiratory rate is 14/min. Physical exam, including a thorough neurological exam, is unremarkable; strength is 5/5 throughout her bilateral upper and lower extremities. A noncontrast CT scan of her head is shown. Which of the following is the most likely diagnosis in this patient",
+    "options": {
+      "A": "Acute limb ischemia",
+      "B": "Ischemic stroke",
+      "C": "Subarachnoid hemorrhage",
+      "D": "Transient ischemic attack"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 14-year-old boy is brought to the office by his step-parents because he was recently caught beating a stray cat in an alley near his home. He has a police record which includes vandalism, shoplifting, and running away on two occasions. He has also received several detentions and threats of expulsion from school due to bullying and being too aggressive with the younger students. Past medical history is significant for a history of ADHD previously treated with methylphenidate, but now he does not take anything. His biological family placed him and his sister into the foster care system. His step-parents try to provide support and nurturing home life but the patient is very resistant and often acts out. What is the most likely diagnosis for this patient",
+    "options": {
+      "A": "Antisocial personality disorder",
+      "B": "Attention deficit hyperactivity disorder",
+      "C": "Conduct disorder",
+      "D": "Schizoid personality disorder"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 79-year-old man presents to a physician’s office for a routine appointment. He had a myocardial infarction 3 years ago and was started on aspirin, carvedilol, captopril, and high-dose atorvastatin. He denies shortness of breath or cough. He exercises regularly and is on a healthy diet that is good for his heart. The vital signs include: pulse 80/min, respirations 16/min and blood pressure 122/80 mm Hg. The physical examination reveals an overweight male with a body mass index (BMI) of 28 kg/m2. The fasting lipid profile is as follows:\nTotal cholesterol 200 mg/dL\nHigh-density lipoprotein (HDL)  35 mg/dL\nLow-density lipoprotein (LDL) 140 mg/dL\nTriglycerides 120 mg/dL\nWhich of the following drugs should be added to his regimen",
+    "options": {
+      "A": "Furosemide",
+      "B": "Orlistat",
+      "C": "Ezetimibe",
+      "D": "Losartan"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A drug discovery team is conducting research to observe the characteristics of a novel drug under different experimental conditions. The drug is converted into the inactive metabolites by an action of an enzyme E. After multiple experiments, the team concludes that as compared to physiologic pH, the affinity of the enzyme E for the drug decreases markedly in acidic pH. Co-administration of an antioxidant A increases the value of Michaelis-Menten constant (Km) for the enzyme reaction, while co-administration of a drug B decreases the value of Km. Assume the metabolism of the novel drug follows Michaelis-Menten kinetics at the therapeutic dose, and that the effects of different factors on the metabolism of the drug are first-order linear. For which of the following conditions will the metabolism of the drug be the slowest",
+    "options": {
+      "A": "Physiologic pH, co-administration of antioxidant A, no administration of drug B",
+      "B": "Acidic pH, co-administration of antioxidant A, no administration of drug B",
+      "C": "Acidic pH, co-administration of antioxidant A and of drug B",
+      "D": "Acidic pH, co-administration of drug B, no administration of antioxidant A"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 67-year-old man comes to the physician because of a 4-month history of fatigue and weight loss. Physical examination shows jaundice. The liver is palpated 3 cm below the right costal margin. Serum studies show an elevated alpha-fetoprotein and a prolonged prothrombin time. Genetic analysis of a liver biopsy specimen shows a G:C to T:A transversion in codon 249 of the gene coding for the TP53 protein in affected cells. Which of the following risk factors is most specific to the patient's condition",
+    "options": {
+      "A": "Alcoholism",
+      "B": "Hepatitis C infection",
+      "C": "Dietary aflatoxin exposure",
+      "D": "Hemochromatosis\n\""
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 42-year-old female with a history of systemic lupus erythematous (SLE) has a 3-year history of daily prednisone (20 mg) use. Due to long-term prednisone use, she is at increased risk for which of the following",
+    "options": {
+      "A": "Weight loss",
+      "B": "Pancreatic insufficiency",
+      "C": "Systolic hypertension",
+      "D": "Pathologic fractures"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 43-year-old man presents to a primary care clinic complaining of several months of fatigue and difficulty concentrating at work. He is tired throughout the day and often falls asleep briefly at work. He sleeps for 9 hours per night, falling asleep easily, waking up several times in the middle of the night, and then having trouble waking up in the morning. Physical exam is notable for obesity and a large neck circumference. His temperature is 98°F (36.7°C), blood pressure is 150/90 mmHg, pulse is 75/min, respirations are 22/min, and BMI is 33 kg/m^2. The rest of the physical exam is normal. Which of the following is the most likely cause of his fatigue",
+    "options": {
+      "A": "Chronic fatigue syndrome",
+      "B": "Circadian rhythm sleep wake disorder",
+      "C": "Hypothyroidism",
+      "D": "Obstructive sleep apnea"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 24-year-old man comes to the physician because of chronic fatigue and generalized weakness after exertion. His legs feel stiff after walking long distances and he has leg cramps after climbing stairs. His symptoms are always relieved by rest. Urine dipstick shows 3+ blood and urinalysis is negative for RBCs. Baseline venous lactate and serum ammonia levels are collected, after which a blood pressure cuff is attached to the upper right arm. The patient is asked to continuously pump his right arm with the cuff inflated and additional venous samples are collected at 2-minute intervals. Analysis of the venous blood samples shows that, over time, serum ammonia levels increase and venous lactate levels remain stable. A biopsy of the right gastrocnemius muscle will most likely show which of the following",
+    "options": {
+      "A": "Intrafascicular CD8+ lymphocytic infiltration",
+      "B": "Endomysial fibrosis with absent dystrophin",
+      "C": "Intermyofibrillar proliferation of mitochondria",
+      "D": "Subsarcolemmal acid–Schiff-positive deposits"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 54-year-old woman comes to the physician because of a 6-month history of dull, persistent pain and swelling of her right leg. The pain is worse at the end of the day and is relieved by walking or elevating her feet. Two years ago, she developed acute deep vein thrombosis in her right calf after a long flight, which was treated with anticoagulants for 6 months. Physical examination shows 2+ pitting edema of her right leg. The skin around the right ankle shows a reddish-brown discoloration and multiple telangiectasias. She has dilated varicose veins in the right leg. Which of the following is most likely to establish the diagnosis",
+    "options": {
+      "A": "Computerized tomography scan with contrast",
+      "B": "Nerve conduction studies",
+      "C": "D-dimer assay",
+      "D": "Duplex ultrasonography"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 68-year-old man presents to the emergency department with leg pain. He states that the pain started suddenly while he was walking outside. The patient has a past medical history of diabetes, hypertension, obesity, and atrial fibrillation. His temperature is 99.3°F (37.4°C), blood pressure is 152/98 mmHg, pulse is 97/min, respirations are 15/min, and oxygen saturation is 99% on room air. Physical exam is notable for a cold and pale left leg. The patient’s sensation is markedly diminished in the left leg when compared to the right, and his muscle strength is 1/5 in his left leg. Which of the following is the best next step in management",
+    "options": {
+      "A": "Graded exercise and aspirin",
+      "B": "Heparin drip",
+      "C": "Surgical thrombectomy",
+      "D": "Tissue plasminogen activator"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 25-year-old woman comes to the physician because of pain and weakness in her left leg that started 2 days ago while running a marathon. Physical examination shows impaired flexion of the left knee joint and impaired extension of the left hip joint. An MRI of the left lower extremity shows injury to the long head of the biceps femoris muscle and the semitendinosus muscle. Which of the following is the most likely origin of the injured muscles",
+    "options": {
+      "A": "Ischial tuberosity",
+      "B": "Anterior superior iliac spine",
+      "C": "Greater trochanter",
+      "D": "Linea aspera"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 34-year-old woman comes to the physician because of a 6-week history of depressed mood, loss of interest, and difficulty sleeping. She also has had a 4.5-kg (10-lb) weight loss during this period. She has not been as productive as before at work due to difficulty concentrating. There is no evidence of suicidal ideation. Laboratory studies including thyroid-stimulating hormone are within the reference range. The physician prescribes treatment with escitalopram. This drug targets a neurotransmitter that is produced in which of the following brain structures",
+    "options": {
+      "A": "Locus coeruleus",
+      "B": "Basal nucleus of Meynert",
+      "C": "Nucleus accumbens",
+      "D": "Raphe nucleus"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 63-year-old man presents to the ambulatory medical clinic with symptoms of dysphagia and ‘heartburn’, which he states have become more troublesome over the past year. Past medical history is significant for primary hypertension. On physical exam, he is somewhat tender to palpation over his upper abdomen. The vital signs include: temperature 36.7°C (98.0°F), blood pressure 126/74 mm Hg, heart rate 74/min, and respiratory rate 14/min. Barium swallow fluoroscopy demonstrates a subdiaphragmatic gastroesophageal junction, with herniation of the gastric fundus into the left hemithorax. Given the following options, what is the most appropriate next step in the management of this patient’s underlying condition",
+    "options": {
+      "A": "Lifestyle modification",
+      "B": "Antacid therapy",
+      "C": "Cimetidine",
+      "D": "Surgical gastropexy"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 47-year-old woman presents to her physician for a routine checkup. She is in good health and has no complaints. Past medical history is significant for type 2 diabetes mellitus and obesity. She recently started metformin and is tolerating the mild side effects, but her fasting blood glucose levels range from 160–190 mg/dL. Today, her blood pressure is 125/82 mm Hg, the heart rate is 90/min, the respiratory rate is 17/min, and the temperature is 37.0°C (98.6°F). On physical exam, she appears well developed and obese. Her heart has a regular rate and rhythm and his lungs are clear to auscultation bilaterally. Her fasting glucose level is 175 mg/dL and her A1c is 7.1%. Her physician decides to add canagliflozin to her current treatment regimen. Which of the following should be evaluated before starting this medication",
+    "options": {
+      "A": "γ-glutamyltransferase",
+      "B": "β-hCG levels",
+      "C": "Alanine aminotransferase",
+      "D": "Serum creatinine"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 59-year-old man presents to his family practitioner with his wife. He has fallen several times over the past 3 months. Standing up from a seated position is especially difficult for him. He also complains of intermittent dizziness, excessive sweating, constipation, and difficulty performing activities of daily living. He denies fever, jerking of the limbs, memory disturbances, urinary incontinence, and abnormal limb movements. Past medical includes a cholecystectomy 25 years ago and occasional erectile dysfunction. He takes a vitamin supplement with calcium and occasionally uses sildenafil. While supine, his blood pressure is 142/74 mm Hg and his heart rate is 64/min. After standing, his blood pressure is 118/60 mm Hg and his heart rate is 62/min. He is alert and oriented with a flat affect while answering questions. Extraocular movements are intact in all directions. No tremors are noticed. Muscle strength is normal in all limbs but with increased muscle tone. He is slow in performing intentional movements. His writing is small and he takes slow steps during walking with adducted arms and a slightly reduced arm swing. A trial of levodopa did not improve his symptoms. What is the most likely diagnosis",
+    "options": {
+      "A": "Parkinson’s disease",
+      "B": "Shy-Drager syndrome",
+      "C": "Progressive supranuclear palsy",
+      "D": "Wilson disease"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 33-year-old woman comes to the physician because of a 3-week history of fatigue and worsening shortness of breath on exertion. There is no family history of serious illness. She does not smoke. She takes diethylpropion to control her appetite and, as a result, has had a 4.5-kg (10-lb) weight loss during the past 5 months. She is 163 cm (5 ft 4 in) tall and weighs 115 kg (254 lb); BMI is 44 kg/m2. Her pulse is 83/min and blood pressure is 125/85 mm Hg. Cardiac examination shows a loud pulmonary component of the S2. Abdominal examination shows no abnormalities. Which of the following is the most likely underlying cause of this patient's shortness of breath",
+    "options": {
+      "A": "Hyperplasia of pulmonary vascular walls",
+      "B": "Blockade of the right bundle branch",
+      "C": "Fibrosis of pulmonary interstitium",
+      "D": "Calcification of the pulmonary valve"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 69-year-old man comes to the physician because of a 4-month history of progressive fatigue, cough, shortness of breath, and a 6.6-kg (14.5-lb) weight loss. For the past week, he has had blood-tinged sputum. He is a retired demolition foreman. There is dullness to percussion and decreased breath sounds over the left lung base. A CT scan of the chest shows a left-sided pleural effusion and circumferential pleural thickening with calcifications on the left hemithorax. Pathologic examination of a biopsy specimen of the thickened tissue is most likely to show which of the following findings",
+    "options": {
+      "A": "Synaptophysin-positive dark blue cells with hyperchromatic nuclei and scarce cytoplasm",
+      "B": "Calretinin-positive polygonal cells with numerous long surface microvilli",
+      "C": "Napsin-positive cells in an acinar growth pattern with intracytoplasmatic mucin",
+      "D": "Keratin-producing large polygonal cells with intercellular bridges"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 17-year-old girl presents to the clinic on her own, complaining of fatigue and feeling cold all the time. She is also very concerned about several minor medical conditions she has developed over the last year or so. Her past medical history is noncontributory. Menarche was at age 11 and her last menstrual period was 3 months ago. Her mother has hypothyroidism and she is concerned that she has it too. She proudly describes her “healthy” routine that consists of 2 grapefruits a day for breakfast and lunch and no dinner and that she runs 6 miles 4 times a week. She reports having good grades in school and that she tries very hard to fit in with the popular girls. She is also concerned that she has trouble losing weight and persistently asks for a prescription for weight loss medication. Her temperature is 36.9°C (98.5°F), blood pressure is 110/70 mm Hg, pulse is 60/min, and respirations are 13/min. Physical examination reveals a thin girl with pale mucosa and lanugo on her arms and back. Urine hCG is negative. Which of the following will most likely be detected in this patient",
+    "options": {
+      "A": "Normal serum iron levels",
+      "B": "Moist, supple skin",
+      "C": "BMI less than 17",
+      "D": "Increased hemoglobin"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 30-year-old African American man comes to the doctor's office for an annual checkup. He feels healthy and his only concern is an occasional headache after work. Past medical history is significant for an appendectomy 10 years ago and a fractured arm playing football in high school. His mother has type 2 diabetes mellitus, while his father and grandfather both have hypertension. He does not drink alcohol, smoke cigarettes, or use drugs. His vital signs include: pulse 78/min and regular, respiratory rate 16/min, and temperature 36.8°C (98.2°F). Physical examination reveals an overweight African American man 167 cm (5 ft 6 in) tall and weighing 80 kg (176 lb) with a protuberant belly. BMI is 28.7 kg/m2. The remainder of the examination is unremarkable. During his last 2 visits, his blood pressure readings have been 140/86 mm Hg and 136/82 mm Hg. Today his blood pressure is 136/86 mm Hg and his laboratory tests show:\nSerum Glucose (fasting) 90.0 mg/dL\nSerum Electrolytes: \nSodium 142.0 mEq/L\nPotassium 3.9 mEq/L\nChloride 101.0 mEq/L\nSerum Creatinine 0.8 mg/dL\nBlood urea nitrogen 9.0 mg/dL\nUrinalysis:\nGlucose Negative\nKetones Negative\nLeukocytes Negative\nNitrite Negative\nRBCs Negative\nCasts Negative\nWhich of the following is the next best step in the management of this patient",
+    "options": {
+      "A": "Start him on lisinopril.",
+      "B": "Order a glycosylated hemoglobin test (HbA1c).",
+      "C": "Start him on hydrochlorothiazide and lisinopril together.",
+      "D": "Recommend weight loss, more exercise, and a salt-restricted diet."
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 63-year-old man who recently immigrated to the United States from Indonesia comes to the physician because of worsening shortness of breath and swollen extremities for the past 3 months. He has had a 4-kg (8.8-lb) weight loss and intermittent fevers over the last 6 months. Examination shows pitting pedal edema and abdominal distension. Abdominal pressure over the right upper quadrant produces persistent distention of the jugular veins. An x-ray of the chest shows cavernous infiltrates in the left and right-upper lobes and a calcified cardiac silhouette. Cardiovascular examination is most likely to show which of the following",
+    "options": {
+      "A": "Absent jugular venous pulse y descent",
+      "B": "Pericardial knock",
+      "C": "Pulsus parvus et tardus",
+      "D": "Fixed split second heart sound"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 60-year-old woman presents to the clinic with a 3-month history of shortness of breath that worsens on exertion. She also complains of chronic cough that has lasted for 10 years. Her symptoms are worsened even with light activities like climbing up a flight of stairs. She denies any weight loss, lightheadedness, or fever. Her medical history is significant for hypertension, for which she takes amlodipine daily. She has a 70-pack-year history of cigarette smoking and drinks 3–4 alcoholic beverages per week. Her blood pressure today is 128/84 mm Hg. A chest X-ray shows flattening of the diaphragm bilaterally. Physical examination is notable for coarse wheezing bilaterally. Which of the following is likely to be seen with pulmonary function testing",
+    "options": {
+      "A": "Increased FEV1: FVC and decreased total lung capacity",
+      "B": "Decreased FEV1: FVC and increased total lung capacity",
+      "C": "Increased FEV1: FVC and normal total lung capacity",
+      "D": "Normal FEV1: FVC and decreased total lung capacity"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 58-year-old man with a history of hepatitis C infection presents to his physician because of unintentional weight loss and weakness. He has lost 6.8 kg (15 lb) within the last 6 months. Vital signs are within normal limits. Physical examination shows jaundice, splenomegaly, and caput medusae. A complete metabolic panel is ordered. Which of the following tests is the most likely to result in a diagnosis",
+    "options": {
+      "A": "Alanine aminotransferase",
+      "B": "Alkaline phosphatase",
+      "C": "Aspartate aminotransferase",
+      "D": "Blood urea nitrogen"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 38-year-old woman presents with dysphagia. She says the dysphagia is worse for solids than liquids and is progressive. She also complains of associated weakness, fatigue, and dyspnea. The patient denies any recent history of weight loss. Laboratory findings are significant for a hemoglobin of 8.7 g/dL. A peripheral blood smear shows evidence of microcytic hypochromic anemia. Which of the following is the most likely cause of her dysphagia",
+    "options": {
+      "A": "Failure of the relaxation of lower esophageal sphincter",
+      "B": "Upper esophageal web",
+      "C": "Lower esophageal spasm",
+      "D": "Esophageal carcinoma"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 16-year-old male presents to an ophthalmologist as a new patient with a complaint of blurry vision. He reports that over the past several months he has had increasing difficulty seeing the board from the back of the classroom at school. The patient is otherwise doing well in school and enjoys playing basketball. His past medical history is otherwise significant for scoliosis which is managed by an orthopedic surgeon. His family history is significant for a mother with type II diabetes mellitus, and a father who underwent aortic valve replacement last year. On physical exam, the patient is tall for his age and has long arms. He has 20 degrees of thoracic scoliosis, which is stable from previous exams. On slit-lamp examination, the patient is found to have bilateral upward lens subluxation and is prescribed corrective lenses.\n\nWhich of the following is the most likely etiology of this patient’s presentation",
+    "options": {
+      "A": "Defective metabolism of methionine",
+      "B": "Mutation of gene on chromosome 15",
+      "C": "Mutation of COL5A1 or COL5A2",
+      "D": "Mutation of RET proto-oncogene"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 67-year-old male with a past medical history of diabetes type II, obesity, and hyperlipidemia presents to the general medical clinic with bilateral hearing loss. He also reports new onset vertigo and ataxia. The symptoms started a day after undergoing an uncomplicated cholecystectomy. If a drug given prophylactically just prior to surgery has caused this patient’s symptoms, what is the mechanism of action of the drug",
+    "options": {
+      "A": "Inhibition of the formation of the translation initiation complex",
+      "B": "Inhibition of DNA-dependent RNA polymerase",
+      "C": "Inhibition of DNA gyrase",
+      "D": "Formation of free radical toxic metabolites that damage DNA"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 34-year-old woman comes to the physician because of a 6-week history of fever and productive cough with blood-tinged sputum. She has also had a 4-kg (8.8-lb) weight loss during the same time period. Examination shows enlarged cervical lymph nodes. An x-ray of the chest shows a 2.5-cm pulmonary nodule in the right upper lobe. A biopsy specimen of the lung nodule shows caseating granulomas with surrounding multinucleated giant cells. Which of the following is the most likely underlying cause of this patient's pulmonary nodule",
+    "options": {
+      "A": "Delayed T cell-mediated reaction",
+      "B": "Antibody-mediated cytotoxic reaction",
+      "C": "Combined type III/IV hypersensitivity reaction",
+      "D": "Immune complex deposition\n\""
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A researcher is studying the association between hemoglobin levels and BMI. He divides volunteers who wish to participate into 2 groups based on their BMI, a normal weight group and an overweight group. He then measures the hemoglobin level of all of the volunteers. His null hypothesis is that there is no association between hemoglobin levels and body weight. The mean hemoglobin level for the normal weight group is 13.4 g/dL and 13.8 g/dL for the overweight group. He obtains a mean difference of 0.4 g/dL between the 2 groups. He does an unpaired t-test and gets a p-value of 0.10. Which of the following statements best describes the study",
+    "options": {
+      "A": "If the null hypothesis is not true, 10% or more of the volunteers would not show any association between hemoglobin level and weight.",
+      "B": "If the null hypothesis is not true, there is still a 10% probability to not get this difference of 0.4 g/dL or higher due to chance.",
+      "C": "If the null hypothesis is true, there is still a 10% probability of not getting this difference of 0.4 g/dL or higher due to chance.",
+      "D": "If the null hypothesis is true, there is a 10% probability to get this difference of 0.4 g/dL or higher due to chance."
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 49-year-old woman presents to her primary care physician due to fatigue and shortness of breath. She finds herself being short of breath when climbing the stairs or walking uphill. Approximately 1 year ago, she was able to partake in long-distance running and weightlifting. Two weeks ago she noticed blood-tinged sputum after severely coughing during sleep. She emigrated from Mexico to the United States 3 years ago. Her temperature is 98°F (36.7°C), blood pressure is 100/62 mmHg, pulse is 135/min and irregularly irregular, and respirations are 21/min. On physical exam her speech is hoarse. She has bilateral crackles heard in the lung bases. Which of the following will most likely be found on cardiac auscultation",
+    "options": {
+      "A": "Crescendo-decrescendo systolic ejection murmur",
+      "B": "High-pitched, early diastolic decrescendo murmur",
+      "C": "Holosystolic, high-pitched murmur loudest at the left lower sternal border",
+      "D": "Opening snap with a mid-to-late diastolic murmur"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 67-year-old man who was diagnosed with arthritis 16 years ago presents with right knee swelling and pain. His left knee was swollen a few weeks ago, but now with both joints affected, he has difficulty walking and feels frustrated. He also has back pain which makes it extremely difficult to move around and be active during the day. He says his pain significantly improves with rest. He also suffers from dandruff for which he uses special shampoos. Physical examination is notable for pitting of his nails. Which of the following is the most likely diagnosis",
+    "options": {
+      "A": "Psoriatic arthritis",
+      "B": "Arthritis mutilans",
+      "C": "Rheumatoid arthritis",
+      "D": "Mixed connective tissue disease"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 46-year-old man comes to the physician because of a 2-month history of hoarseness and drooling. Initially, he had difficulty swallowing solid food, but now he has difficulty swallowing foods like oatmeal as well. During this period, he also developed weakness in both arms and has had an 8.2 kg (18 lb) weight loss. He appears ill. His vital signs are within normal limits. Examination shows tongue atrophy and pooled oral secretions. There is diffuse muscle atrophy in all extremities. Deep tendon reflexes are 3+ in all extremities. Sensation to pinprick, light touch, and vibration is intact. An esophagogastroduodenoscopy shows no abnormalities. Which of the following is the most likely cause of this patient's symptoms",
+    "options": {
+      "A": "Multiple cerebral infarctions",
+      "B": "Autoimmune destruction of acetylcholine receptors",
+      "C": "Demyelination of peripheral nerves",
+      "D": "Destruction of upper and lower motor neurons"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 56-year-old African American presents to the emergency department due to abdominal pain, fatigue, and weight loss over the past 3 months. He has a long-standing history of chronic hepatitis B virus infection complicated by cirrhosis. On examination, he has jaundice, leg edema, and a palpable mass in the right upper abdominal quadrant. Abdominal ultrasound shows a 3-cm liver mass with poorly defined margins and coarse, irregular internal echoes. Lab results are shown:\nAspartate aminotransferase (AST) 90 U/L\nAlanine aminotransferase (ALT) 50 U/L\nTotal bilirubin 2 mg/dL\nAlbumin 3 g/dL\nAlkaline phosphatase 100 U/L\nAlpha fetoprotein 600 micrograms/L\nWhich of the following is a feature of this patient's condition",
+    "options": {
+      "A": "Liver biopsy is required for diagnosis in a majority of patients",
+      "B": "It arises from the bile duct epithelium",
+      "C": "It arises from hepatocytes",
+      "D": "Daughter cysts are usually present on abdominal ultrasound"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 22-year-old man comes to the physician because of a fall associated with a 6-month history of increasing difficulty walking. Over the last year, his friends have also noticed his speech becoming slower. During this period, he also gave up his hobby of playing video games because he has become clumsy with his hands. His father died of esophageal varices at the age of 40 years. The patient does not smoke or drink alcohol. He takes no medications. He appears sad. His temperature is 37°C (98.6°F), pulse is 70/min, and blood pressure is 120/80 mm Hg. He is alert and oriented to person, place, and time. His speech is slurred and monotonous; his gait is unsteady. Examination shows scleral icterus and some drooling. The liver is palpated 2 to 3 cm below the right costal margin, and the spleen is palpated 1 to 2 cm below the left costal margin. Further evaluation of this patient is most likely to show which of the following findings",
+    "options": {
+      "A": "Increased number of CAG repeats",
+      "B": "Oligoclonal bands on CSF analysis",
+      "C": "Ventriculomegaly on CT scan of the brain",
+      "D": "Low serum ceruloplasmin concentration"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 65-year-old woman was referred to a specialist for dysphagia and weight loss. She has a history of difficulty swallowing solid foods, which has become worse over the past year. She has unintentionally lost 2.3 kg (5 lb). A previous gastroscopy showed mild gastritis with a positive culture for Helicobacter pylori. A course of triple antibiotic therapy and omeprazole was prescribed. Follow-up endoscopy appeared normal with no H. pylori noted on biopsy. Her heartburn improved but the dysphagia persisted. She had a myocardial infarction four years ago, complicated by acute mitral regurgitation. Physical examination revealed a thin woman with normal vital signs. Auscultation of the heart reveals a 3/6 blowing systolic murmur at the apex radiating to the axilla. Breath sounds are reduced at the base of the right lung. The abdomen is mildly distended but not tender. The liver and spleen are not enlarged. Electrocardiogram shows sinus rhythm with a non-specific intraventricular block. Chest X-ray shows an enlarged cardiac silhouette with mild pleural effusion. What is the most probable cause of dysphagia",
+    "options": {
+      "A": "Thoracic aortic aneurysm",
+      "B": "Achalasia",
+      "C": "Left atrium enlargement",
+      "D": "Diffuse esophageal spasm"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 66-year-old farmer is being evaluated for abnormal lung findings on a low dose chest CT scan obtained as part of his lung cancer screening. He has a 50-pack-year smoking history and has been hesitant to quit. He has a non-productive cough but brushes it away saying he is not bothered by it. He denies ever coughing up blood, breathlessness, chest pain, fatigue, or weight loss. He has never sought any medical care and states that he has always been in good shape. He consumes alcohol moderately and uses marijuana occasionally. He lives with his wife and has not traveled recently. On physical examination, his temperature is 37.1°C (98.8°F), blood pressure is 148/70 mm Hg, and pulse rate is 95/min. His BMI is 32 kg/m2. A general physical examination is unremarkable. Coarse breath sounds are present bilaterally. The cardiac exam is normal. Laboratory studies show a normal complete blood count and comprehensive metabolic panel. A follow-up high-resolution CT scan is performed that shows small irregular subcentimeter pulmonary nodules, several of which are cavitated in both lungs, predominantly distributed in the upper and middle zones. There is no mediastinal or hilar lymphadenopathy. A transbronchial needle aspiration of the lesion is performed which shows a nodular pattern of abundant, granular, mildly eosinophilic cells with grooved nuclei with indented nuclear membranes and a chronic inflammation that consists primarily of eosinophils. Immunohistochemical staining reveals numerous cells that stain positive for S100 and CD1a. Which of the cells of the human immune system are responsible for this lesion",
+    "options": {
+      "A": "T lymphocytes",
+      "B": "Natural killer cells",
+      "C": "Dendritic cells",
+      "D": "Ciliary epithelium"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 75-year-old man presents to the clinic for chronic fatigue of 3 months duration. Past medical history is significant for type 2 diabetes and hypertension, both of which are controlled with medications, as well as constipation. He denies any fever, weight loss, pain, or focal neurologic deficits. A complete blood count reveals microcytic anemia, and a stool guaiac test is positive for blood. He is subsequently evaluated with a colonoscopy. The physician notes some “small pouches” in the colon despite poor visualization due to inadequate bowel prep. What is the blood vessel that supplies the area with the above findings",
+    "options": {
+      "A": "Inferior mesenteric artery",
+      "B": "Middle colic artery",
+      "C": "Right colic artery",
+      "D": "Superior mesenteric artery"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A previously healthy 41-year-old woman comes to the physician for the evaluation of recurrent episodes of palpitations and sweating over the past month. Her symptoms typically start after swimming practice and improve after drinking ice tea and eating some candy. She has also had a 5-kg (11-lb) weight gain over the past 3 months. She works as a nurse. Physical examination shows no abnormalities. Fasting serum studies show:\nGlucose 38 mg/dL\nInsulin 260 μU/mL (N=11–240)\nProinsulin 65 μU/mL (N <20% of total insulin)\nC-peptide 5.0 ng/mL (N=0.8–3.1)\nInsulin secretagogues absent\nWhich of the following is the most likely cause of her symptoms?\"",
+    "options": {
+      "A": "Exogenous administration of insulin",
+      "B": "Binge eating disorder",
+      "C": "Pancreatic β-cell tumor",
+      "D": "Peripheral resistance to insulin"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 65-year-old man comes to the physician because of a 1-month history of progressive back pain. He has also had a 5-kg (11-lb) weight loss over the past 3 months. His only medications are a daily multivitamin and ibuprofen, which he takes daily for the back pain. Physical examination shows tenderness to palpation over the lower spine and the left iliac crest. His hemoglobin concentration is 9.3 g/dL, his serum calcium concentration is 12 mg/dL, and his serum creatinine concentration is 2.1 mg/dL. A bone marrow biopsy shows 21% plasma cells. A diagnosis of multiple myeloma is established. In preparation for an autologous hematopoietic stem cell transplantation, the patient receives a myeloablative treatment regimen that includes busulfan. Which of the following drugs acts via a similar mechanism of action to busulfan",
+    "options": {
+      "A": "Vemurafenib",
+      "B": "Etoposide",
+      "C": "Lomustine",
+      "D": "Cytarabine"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 55-year-old man presents to the emergency department for severe pain in his knee. The patient states that the pain began yesterday and has steadily worsened. The patient has a history of osteoarthritis of the knee, which was previously responsive to ibuprofen. He reports taking 3 doses of hydrochlorothiazide today after not taking his medication for 3 days. He recently attended a barbecue, which entailed eating beef and drinking alcohol. The patient was also recently treated for cellulitis. The patient has a past medical history of obesity, diabetes, and osteoarthritis. His temperature is 101°F (38.3°C), blood pressure is 157/98 mmHg, pulse is 95/min, respirations are 17/min, and oxygen saturation is 98% on room air. Physical exam is notable for a warm and erythematous left knee. There is tenderness to palpation of the left knee with limited range of motion due to pain. Which of the following is the best next step in management",
+    "options": {
+      "A": "Arthrocentesis",
+      "B": "CT scan",
+      "C": "IV fluids",
+      "D": "Naproxen"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 68-year-old woman comes to the physician for the evaluation of loss of urine for the last year. The patient states that she loses control over her bladder when walking or standing up. She reports frequent, small-volume urine losses with no urge to urinate prior to the leakage. She tried to strengthen her pelvic muscles with supervised Kegel exercises and using a continence pessary but her symptoms did not improve. The patient is sexually active with her husband. She has type 2 diabetes mellitus controlled with metformin. She does not smoke or drink alcohol. Vital signs are within normal limits. Her hemoglobin A1c is 6.3% and fingerstick blood glucose concentration is 110 mg/dL. Which of the following is the most appropriate next step in the management of this patient",
+    "options": {
+      "A": "Topical vaginal estrogen",
+      "B": "Tighter glycemic control",
+      "C": "Biofeedback",
+      "D": "Urethral sling"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 63-year-old man presents to the clinic for left calf pain when walking a distance of more than 200 m. He has had this pain for more than 8 months now, and he rates it as 7 out of 10. The pain subsides with rest. The patient has had a history of diabetes mellitus for the past 2 years which is well controlled. A percutaneous coronary intervention was performed in 2014. His current medications are insulin and aspirin. Family history is significant for coronary artery disease. He has an 80 pack-year history of smoking and currently smokes. He consumes 4 drinks per day of alcohol. On physical examination, his blood pressure is 144/89 mm Hg, the heart rate is 80/min and regular, the breathing rate is 25/min, and the pulse oximetry is 96%. Normal cardiac and lung sounds were heard on auscultation. Which of the following is the appropriate treatment to improve the patient’s symptoms",
+    "options": {
+      "A": "Cilostazol",
+      "B": "Femoral embolectomy",
+      "C": "Femoral-to-popliteal bypass graft",
+      "D": "Interventional endovascular treatment"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A previously healthy 18-year-old army recruit is brought to a military treatment facility because of a 3-week history of right foot pain. He recently started basic infantry training and has been running several kilometers daily. Initially, the pain only occurred while running, but now it is also present at rest. The pain is located diffusely over the right forefoot. Vital signs are within normal range. Examination shows mild swelling over the distal right forefoot. Pressing the metatarsal of the third right toe results in pain. He walks with an antalgic gait. The remainder of the examination shows no abnormalities. An x-ray of the right foot shows a slight loss of cortical density and callus formation at the third metatarsal shaft. Which of the following is the most appropriate next step in management",
+    "options": {
+      "A": "Rest and acetaminophen",
+      "B": "Ultrasonography",
+      "C": "Technetium bone scan",
+      "D": "Internal fixation"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 43-year-old man with HIV infection comes to the physician because of a 2-week history of progressive diarrhea and a 3-kg (6.6-lb) weight loss. During this period, he has had 3–4 episodes of watery stools daily, with multiple instances of blood in the stool. He is currently receiving antiretroviral therapy with zidovudine, lamivudine, and dolutegravir. Physical examination shows pallor and dry mucous membranes. A colonoscopy shows multiple linear ulcers. Polymerase chain reaction of a stool sample is positive for cytomegalovirus. Treatment with valganciclovir is begun. Adding this drug to his current medication regimen puts this patient at greatest risk for which of the following adverse effects",
+    "options": {
+      "A": "Hyperglycemia",
+      "B": "Abnormal dreams",
+      "C": "Hepatic steatosis",
+      "D": "Pancytopenia"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 21-year-old woman comes to the physician because of a 2-month history of fatigue, intermittent abdominal pain, and bulky, foul-smelling diarrhea. She has had a 4-kg (8-lb 12-oz) weight loss during this period despite no changes in appetite. Examination of the abdomen shows no abnormalities. Staining of the stool with Sudan III stain shows a large number of red droplets. Which of the following is the most likely underlying cause of this patient’s symptoms",
+    "options": {
+      "A": "Ulcerative colitis",
+      "B": "Carcinoid syndrome",
+      "C": "Lactose intolerance",
+      "D": "Celiac disease"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 45-year-old man comes to the clinic complaining of yellow skin and eyes, loss of appetite, and severe nausea over the last month or so. He drinks 2–3 beers everyday and about 5–6 on the weekend. He does not take any over-the-counter medications. He has smoked one pack of cigarettes every day for the last 20 years but does not use illicit drugs. Additionally, he reports no history of vomiting, abdominal pain, altered bowel habits, or unintentional weight loss. His temperature is 37°C (98.6°F), blood pressure is 135/85 mm Hg, pulse is 78/ min, respiratory rate is 14/ min, and BMI is 19 kg/m2. On physical examination his skin and sclera are icteric, and his abdomen is tender with a mildly enlarged liver. On laboratory investigations:\nComplete blood count\nHemoglobin 11 g/dL\nMCV 105 µm3\nWhite blood cell 14,000/mm3\nPlatelets 110,000/mm3\nWhich of the following liver function analyses is expected in this patient",
+    "options": {
+      "A": "Alanine aminotransferase (ALT): 1,500 / Aspartate aminotransferase (AST): 1,089 / AST/ALT: 0.73",
+      "B": "Alanine aminotransferase (ALT): 120 / Aspartate aminotransferase (AST): 256 / AST/ALT: 2.1",
+      "C": "Alanine aminotransferase (ALT): 83 / Aspartate aminotransferase (AST): 72 / AST/ALT: 0.87",
+      "D": "Alanine aminotransferase (ALT): 2,521 / Aspartate aminotransferase (AST): 2,222 / AST/ALT: 0.88"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "An 18-month-old boy is brought to his pediatrician because his mother is concerned about his walking. The boy was born at 37 weeks’ gestation and spent 1 night in the neonatal intensive care unit for respiratory distress. He otherwise has been healthy and started walking independently at 12 months. However, his mother reports that he has stopped walking and appears weaker than he was a few months ago. He also has started having brief convulsive episodes over the past week. His parents are both healthy with no medical conditions. On exam, the child demonstrates muscle rigidity and diffuse muscle wasting. He is unable to stand or sit up straight. His patellar, Achilles, and brachioradialis reflexes are absent. Fundoscopic examination is unremarkable. A urine sample demonstrates metachromic granules. This patient’s condition is caused by a defect in which of the following enzymes",
+    "options": {
+      "A": "Alpha-galactosidase A",
+      "B": "Arylsulfatase A",
+      "C": "Beta-galactocerebrosidase",
+      "D": "Hexosaminidase A"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 40-year-old chronic smoker presents to the office complaining of a cough and pleuritic chest pain. He also has had pain in his right shoulder for the past 2 weeks. He denies fever, night sweats, but has noticed a 2.2 kg (5 lb) weight loss in the last month. He has no recent history of travel. Past medical history is unremarkable. On cardiopulmonary examination, bilateral velcro-like crackles are auscultated in the upper to middle lung fields, with normal heart sounds. There is a 3 x 3 cm swelling on the right shoulder with a normal range of motion and intact sensation. 5/5 muscular strength in all extremities is noted. Chest X-ray reveals bilateral nodular opacities in the upper lung lobes and a lytic lesion on the right humeral head. Electron microscopy of the lung biopsy shows the following. Which of the following is the most likely diagnosis",
+    "options": {
+      "A": "Pancoast tumor",
+      "B": "Small cell carcinoma of the lung",
+      "C": "Histiocytosis X",
+      "D": "Pulmonary tuberculosis"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 32-year-old man presents to a mission hospital in Cambodia because he has had difficulty walking from his village to the market. He says that he has always been healthy other than occasional infections; however, over the last year he has been having numbness in his hands and feet. Furthermore, he has noticed weakness, muscle wasting, and pain in his lower extremities. The only change he can remember is that after having a poor harvest last year, he and his family have been subsisting on white rice. Physical exam reveals normal skin color and decreased deep tendon reflexes. The most likely cause of this patient's symptoms is associated with which of the following enzymatic reactions",
+    "options": {
+      "A": "Alpha-ketoglutarate dehydrogenase",
+      "B": "Acyl transferases",
+      "C": "Glycogen phosphorylase",
+      "D": "Homocysteine methyltransferase"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medqa",
+    "question": "An 8-year-old boy is brought to the emergency department because of a 4-day history of severe, left-sided ear pain and purulent discharge from his left ear. One week ago, he returned with his family from their annual summer vacation at a lakeside cabin, where he spent most of the time outdoors hiking and swimming. Examination shows tragal tenderness and a markedly edematous and erythematous external auditory canal. Audiometry shows conductive hearing loss of the left ear. Which of the following is the most likely cause of this patient's symptoms",
+    "options": {
+      "A": "Abnormal epithelial growth on tympanic membrane",
+      "B": "Infection with Aspergillus species",
+      "C": "Pleomorphic replacement of normal bone",
+      "D": "Infection with Pseudomonas aeruginosa\n\""
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 21-year-old woman is brought to the clinic for evaluation by her brother. The patient’s brother says that, 3 days ago, the patient had put on her best pantsuit and makeup and insisted that she was returning to work and driving to Seattle to take over for the CEO of the Amazon Corporation. He says this was especially odd because her husband was just killed in an automobile accident in a different city 2 days ago. Today, the patient’s brother says she was saddened, wearing grey jogging pants. The patient says she does not recall acting odd and does remember that her husband is dead. Her vital signs include: blood pressure 132/84 mm Hg, pulse 92/min, respiratory rate 16/min, temperature 37.4°C (99.4°F). Upon physical examination, the patient’s affect is saddened but her speech rate and volume are normal. There is no hallucinations, mania, interruptive speech, depressive symptoms, or loss of interest in activities once enjoyed. Results of urine drug screen are provided below:\nAmphetamine negative\nBenzodiazepine negative\nCocaine negative\nGHB negative\nKetamine negative\nLSD negative\nMarijuana negative\nOpioids negative\nPCP negative\nWhich of the following best describes the patient’s state",
+    "options": {
+      "A": "Schizoid personality disorder",
+      "B": "Borderline personality disorder",
+      "C": "Schizotypal personality disorder",
+      "D": "Brief psychotic disorder"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 20-year-old college student comes to the physician because she has been extremely sad for the past 3 weeks and has to cry constantly. Three weeks ago, her boyfriend left her after they were together for 4 years. She has no appetite and has had a 2.3-kg (5.1-lb) weight loss. She has missed several classes because she could not stop crying or get out of bed. She thinks about her ex-boyfriend all the time. She says that she experienced similar symptoms for about 2 months after previous relationships ended. The patient is 158 cm (5 ft 2 in) tall and weighs 45 kg (100 lb); BMI is 18 kg/m2. Her temperature is 36.1°C (97°F), pulse is 65/min, and blood pressure is 110/60 mm Hg. Physical examination shows no abnormalities. On mental status examination she appears sad and cries easily. Which of the following is the most likely diagnosis",
+    "options": {
+      "A": "Bereavement",
+      "B": "Adjustment disorder with depressed mood",
+      "C": "Acute stress disorder",
+      "D": "Anorexia nervosa"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 68-year-old, overweight gentleman with a 20-pack-year history of smoking presents to the primary care physician after noticing multiple blood-stained tissues after coughing attacks in the last month. His vital signs are within normal limits except for an O2 saturation of 93% on room air. He states that over the last 5 years his cough has continued to worsen and has never truly improved. He states that his shortness of breath has also worsened over this time period, as now he can barely make it up the flight of stairs in his home. In this patient, what is the most likely cause of his hemoptysis",
+    "options": {
+      "A": "Acute pulmonary edema",
+      "B": "Lung abscess",
+      "C": "Chronic bronchitis",
+      "D": "Coagulopathy"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 63-year-old man presents to the physician with a complaint of back pain for the past 2 months. The pain is present throughout the day, and even at night when he lies down. He also complains of difficulty walking upstairs and says he recently started to wear adult diapers because he seems to have difficulty controlling his bowel movements. His vital signs are within normal limits. The neurological examination revealed bilateral lower limb weakness, diminished temperature sensation, and decreased vibratory sense. The rectal examination revealed a hard nodular mass and a weak rectal sphincter tone. Which of the following is the most likely cause of his symptoms",
+    "options": {
+      "A": "Syringomyelia",
+      "B": "Spinal metastasis",
+      "C": "Herniated disc",
+      "D": "Spinal hematoma"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 38-year-old woman presents to a physician’s office for progressive weakness and pallor during the last few weeks. She also complains of shortness of breath during her yoga class. She denies fevers, cough, rhinorrhea, or changes in appetite or bowel and bladder habits. She is generally healthy except for an occasional migraine, which is relieved by acetaminophen. For the last month, she has been having more frequent migraine attacks and was started on prophylactic aspirin. The vital signs include: pulse 102/min, respirations 18/min, and blood pressure 130/84 mm Hg. Her blood pressure on previous visits has been 110/76 mm Hg, 120/78 mm Hg, and 114/80 mm Hg. The physical examination is otherwise unremarkable. Stool for occult blood is positive. In addition to a low hemoglobin concentration, which other laboratory finding is expected in this patient",
+    "options": {
+      "A": "Decreased platelet count",
+      "B": "Elevated D-dimer",
+      "C": "Prolonged prothrombin time (PT)",
+      "D": "Prolonged bleeding time"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 72-year-old man presents to the emergency department with a complaint of rectal bleeding. He describes blood mixed in with the stool, which is associated with a change in his normal bowel habit such that he is going more frequently than normal. He also has some crampy left-sided abdominal pain and weight loss. His symptoms started 2 months ago, but he thought they are due to lack of dietary fiber intake and excess consumption of red meat. He has had type 2 diabetes mellitus for 35 years for which he takes metformin. He also uses daily low-dose aspirin for cardioprotection and occasional naproxen for knee pain. His family history is irrelevant. On examination, his abdomen and digital rectal examination are normal. Colonoscopy shows an ulcerating mucosal lesion with a narrow bowel lumen and biopsy shows a moderately differentiated adenocarcinoma. Which of the following is the greatest risk factor for colorectal cancer in this patient",
+    "options": {
+      "A": "Lack of dietary fiber intake",
+      "B": "Increasing age",
+      "C": "Low-dose aspirin use",
+      "D": "Naproxen use"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 30-year-old man presents with heartburn for the past couple of weeks. He says he feels a burning sensation in his chest, at times reaching his throat, usually worse after eating spicy foods. He is overweight and actively trying to lose weight. He also has tried other lifestyle modifications for the past couple of months, but symptoms have not improved. He denies any history of cough, difficulty swallowing, hematemesis, or melena. The patient says he often drinks a can of beer in the evening after work and does not smoke. His blood pressure is 124/82 mm Hg, pulse is 72/min and regular, and respiratory rate is 14/min. Abdominal tenderness is absent. Which of the following is the next best step in the management of this patient",
+    "options": {
+      "A": "Start omeprazole.",
+      "B": "Start sucralfate.",
+      "C": "Start oral antacids.",
+      "D": "H. pylori screening"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 47-year-old woman is admitted to the hospital because of a 2-week history of low-grade fever, fatigue, and a 3-kg (6.6-lb) weight loss. Her temperature is 38°C (100.4°F). Physical examination shows pallor and a cardiac murmur. Her serum creatinine is 1.8 mg/dL. Urinalysis shows red cell casts and 2+ protein. A CT scan of the abdomen with contrast shows no abnormalities. Despite appropriate medical therapy, the patient dies. A photograph of the heart taken during autopsy is shown. Which of the following is the most likely explanation for the laboratory findings in this patient",
+    "options": {
+      "A": "Occlusion of renal arteries by cholesterol crystals",
+      "B": "Deposition of antigen-antibody complexes",
+      "C": "Intravascular fragmentation of red blood cells",
+      "D": "Hypersensitivity to penicillin haptens"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 59-year-old woman comes to the physician because of a 2-month history of fatigue and abdominal discomfort. Over the past 6 months, she has had a 5.4-kg (12-lb) weight loss. She takes no medications. Her temperature is 37.8°C (100°F), pulse is 70/min, respirations are 13/min, and blood pressure is 125/80 mm Hg. Cardiopulmonary examination shows no abnormalities. The spleen is palpated 3 cm below the left costal margin. Laboratory studies show:\nHemoglobin 9.4 g/dL\nMean corpuscular volume 86 μm3\nLeukocyte count 58,000/mm3\nSegmented neutrophils 54%\nBands 8%\nLymphocytes 7%\nMyelocytes 5%\nMetamyelocytes 10%\nPromyelocytes 4%\nBlasts 5%\nMonocytes 1%\nEosinophils 4%\nBasophils 2%\nPlatelet count 850,000/mm3\nSerum\nCreatinine\n0.9 mg/dL\nLDH 501 U/L\nBone marrow biopsy shows hyperplastic myelopoiesis with granulocytosis. Which of the following is the most appropriate next step in management?\"",
+    "options": {
+      "A": "Cytarabine and daunorubicin",
+      "B": "Serum protein electrophoresis",
+      "C": "Cytogenetic studies",
+      "D": "All-trans retinoic acid"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A scientist is trying to design a drug to modulate cellular metabolism in the treatment of obesity. Specifically, he is interested in understanding how fats are processed in adipocytes in response to different energy states. His target is a protein within these cells that catalyzes catabolism of an energy source. The products of this reaction are subsequently used in gluconeogenesis or ß-oxidation. Which of the following is true of the most likely protein that is being studied by this scientist",
+    "options": {
+      "A": "It is inhibited by acetylcholine",
+      "B": "It is inhibited by cortisol",
+      "C": "It is stimulated by epinephrine",
+      "D": "It is stimulated by insulin"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 61-year-old man presents to his primary care provider with fatigue, weight loss, and muscle aches. He has experienced these symptoms for the past year but initially attributed them to stress at his work as an attorney. However, over the past month, he has developed intermittent fevers associated with a skin rash that prompted him to seek medical evaluation. He denies any recent history of asthma, rhinitis, hematuria, or difficulty breathing. He is otherwise healthy and takes no medications. He has a distant history of cocaine abuse but has not used any drugs in 30 years. His family history is notable for pancreatic cancer in his father and inflammatory bowel disease in his sister. His temperature is 99.3°F (37.4°C), blood pressure is 130/75 mmHg, pulse is 90/min, and respirations are 18/min. On examination, rales are heard at the bilateral lung bases. S1 and S2 are normal. Strength is 5/5 in the bilateral upper and lower extremities and his gait is normal. Palpable purpura are noted on his trunk and bilateral upper and lower extremities. Erythrocyte sedimentation rate and C-reactive protein are both elevated. This patient’s condition is associated with antibodies directed against which of the following enzymes",
+    "options": {
+      "A": "Complement component 1q",
+      "B": "Myeloperoxidase",
+      "C": "Topoisomerase-1",
+      "D": "Type IV collagen"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 58-year-old woman with type 2 diabetes mellitus comes to the physician because of a 3-month history of right lower extremity pain and burning while walking. The pain subsides with rest. She has smoked one pack of cigarettes daily for the past 30 years. Her current medications include metformin, atorvastatin, and aspirin. Examination shows a lack of hair and decreased skin temperature over the right foot. The right pedal pulse is not palpable. The physician adds a drug to her regimen that causes vasodilation and inhibits the aggregation of platelets and the proliferation of smooth muscle cells. Which of the following drugs was most likely added",
+    "options": {
+      "A": "Dabigatran",
+      "B": "Eptifibatide",
+      "C": "Bosentan",
+      "D": "Cilostazol"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 68-year-old woman in a wheelchair presents with her husband. She has a 12-month history of progressive difficulty in walking and maintaining balance. Her husband reports that she walks slowly, has difficulty turning, and her feet seem ‘glued to the ground’. She also has problems recalling names and details of recent events. She has no tremors, delusions, hallucinations, sleep disturbances, or head trauma. Past medical history is significant for essential hypertension treated with losartan and urinary incontinence, for which she takes oxybutynin. On physical examination, her vital signs include: temperature 37.0°C (98.6°F), blood pressure 130/70 mm Hg, and pulse 80/min. On neurologic examination, her gait is slow, with short steps and poor foot clearance. A head CT is shown. The patient undergoes a lumbar puncture to remove 50 ml of cerebrospinal fluid, which transiently improves her gait for the next 3 days. What is the next step in the management of this patient",
+    "options": {
+      "A": "Acetazolamide",
+      "B": "Endoscopic third ventriculostomy",
+      "C": "Epidural blood patch",
+      "D": "Ventriculoperitoneal shunt"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 55-year-old man presents to his primary care physician for a wellness checkup. He states that he generally feels well and has no complaints at this time. The patient consumes alcohol frequently, eats a high sodium diet, and is sedentary. His temperature is 97.5°F (36.4°C), blood pressure is 167/108 mmHg, pulse is 90/min, respirations are 15/min, and oxygen saturation is 99% on room air. The patient’s blood pressure at his last 2 appointments were 159/100 mmHg and 162/99 mmHg, respectively. His physician wants to intervene to manage his blood pressure. Which of the following is the most effective treatment for this patient’s hypertension",
+    "options": {
+      "A": "DASH diet",
+      "B": "Reduce alcohol consumption",
+      "C": "Sodium restriction",
+      "D": "Weight loss"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 69-year-old man presents to his primary care physician with hip and back pain. The patient states that this weekend he had a barbecue. When he was lifting a heavy object he suddenly felt pain in his lower back. He describes the pain as in his buttocks but states that at times it travels down his leg. The patient states that it feels, \"electrical.\" The patient has a past medical history of obesity, diabetes, depression, anxiety, diverticulosis, constipation, and a surgical repair of his anterior cruciate ligament. His current medications include metformin, insulin, lisinopril, fluoxetine, and sodium docusate. Which of the following is most likely to help confirm the diagnosis",
+    "options": {
+      "A": "Flexion, abduction, and external rotation of the thigh",
+      "B": "Straight leg raise",
+      "C": "Internal rotation of the extended hip",
+      "D": "Radiography"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 45-year-old woman comes to the physician because of fatigue and irregular menstrual cycles for the past year. She also complains of recurrent sinus infections. During the past 6 months, she has had increased urinary frequency and swelling of her feet. She has also had difficulty lifting her 3-year-old niece for the past 3 weeks. She was recently diagnosed with depression. She works as a medical assistant. The patient has smoked one half-pack of cigarettes daily for 25 years and drinks four beers on the weekends. Her only medication is escitalopram. She is 160 cm (5 ft 3 in) tall and weighs 79 kg (175 lb); BMI is 31 kg/m2. She appears tired. Her temperature is 37°C (98.6°F), pulse is 80/min, respirations are 18/min, and blood pressure is 140/82 mm Hg. Physical examinations shows neck obesity and an enlarged abdomen. Examination of the skin shows multiple bruises on her arms and legs. There is generalized weakness and atrophy of the proximal muscles. Laboratory studies show:\nSerum\nNa+ 150 mEq/L\nK+ 3.0 mEq/L\nCl- 103 mEq/L\nHCO3- 30 mEq/L\nUrea nitrogen 19 mg/dL\nCreatinine 0.9 mg/dL\nGlucose 136 mg/dL\nA 1 mg overnight dexamethasone suppression test shows a serum cortisol of 167 nmol/L (N < 50) and a 24-hour urinary cortisol is 425 μg (N < 300 μg). Serum ACTH is 169 pg/mL (N = 7–50). Subsequently, a high-dose dexamethasone suppression test shows a serum cortisol level of 164 nmol/L (N < 50). Which of the following is the most likely underlying cause of this patient's symptoms?\"",
+    "options": {
+      "A": "Adrenal carcinoma",
+      "B": "Hypothyroidism",
+      "C": "Small cell lung cancer",
+      "D": "Adrenal adenoma"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 62-year-old man comes to the physician because of a 2-month history of an itchy rash and a 7-kg (15-lb) weight loss. Physical examination shows multiple erythematous plaques on the arms, legs, and chest. There are palpable lymph nodes in the axillary and inguinal areas. A biopsy of a skin lesion shows aggregates of neoplastic cells within the epidermis. A peripheral blood smear is most likely to show which of the following findings in this patient",
+    "options": {
+      "A": "Giant cells with bilobed nuclei",
+      "B": "Erythrocytes with basophilic nuclear remnants",
+      "C": "CD4+ cells with cerebriform nuclei",
+      "D": "Myeloblasts with azurophilic granules"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medqa",
+    "question": "An 8-year-old boy is brought in for initial evaluation by a pediatrician after he was adopted from an international orphanage. On presentation, he is found to have difficulty with walking as well as bone and joint pain. The adoption papers for the child state that he was the product of a normal birth with no medical issues noted at that time. Since then, he has not seen a doctor until this presentation. Physical exam reveals bowed legs, hard lumps on his ribs, and tenderness to palpation over his bones. He is found to be low in a substance that directly promotes intestinal absorption of a nutrient. Which of the following is a characteristic of the substance that is abnormally low in this patient",
+    "options": {
+      "A": "It is a fat soluble vitamin",
+      "B": "It is a water soluble vitamin",
+      "C": "It is produced by chief cells of the parathyroid gland",
+      "D": "It is produced by oxyphil cells of the parathyroid gland"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A previously healthy 42-year-old woman comes to the physician because of a 7-month history of diffuse weakness. There is no cervical or axillary lymphadenopathy. Cardiopulmonary and abdominal examination shows no abnormalities. A lateral x-ray of the chest shows an anterior mediastinal mass. Further evaluation of this patient is most likely to show which of the following",
+    "options": {
+      "A": "Acetylcholine receptor antibodies",
+      "B": "Elevated serum alpha-fetoprotein level",
+      "C": "History of fever, night sweats, and weight loss",
+      "D": "Increased urinary catecholamines"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 17-year-old adolescent male is brought to the emergency department by fire and rescue after being struck by a moving vehicle. The patient reports that he was running through his neighborhood when a car struck him while turning right on a red light. He denies any loss of consciousness. His temperature is 99.0°F (37.2°C), blood pressure is 88/56 mmHg, pulse is 121/min, respirations are 12/min, and SpO2 is 95% on room air. The patient is alert and oriented to person, place and time and is complaining of pain in his abdomen. He has lacerations on his face and extremities. On cardiac exam, he is tachycardic with normal S1 and S2. His lungs are clear to auscultation bilaterally, and his abdomen is soft but diffusely tender to palpation. The patient tenses his abdomen when an abdominal exam is performed. Bowel sounds are present, and he is moving all 4 extremities spontaneously. His skin is cool with delayed capillary refill. After the primary survey, 2 large-bore IVs are placed, and the patient is given a bolus of 2 liters of normal saline.\n\nWhich of the following is the best next step in management",
+    "options": {
+      "A": "Focused Abdominal Sonography for Trauma (FAST) exam",
+      "B": "Diagnostic peritoneal lavage",
+      "C": "Diagnostic laparoscopy",
+      "D": "Emergency laparotomy"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 65-year-old man with a history of coronary artery disease presents to your office complaining of ongoing chest pain with exertion. The patient has had a recent cardiac work-up that showed no areas of acute ischemia. At the last visit, the patient was prescribed sublingual nitroglycerin for symptom relief of stable angina. On further questioning, the patient states that he has been swallowing the tablet whole instead of allowing it to dissolve because he “does not like the taste”. What is the cause of the persistent symptoms",
+    "options": {
+      "A": "Nitroglycerin tolerance",
+      "B": "Unstable angina",
+      "C": "First pass metabolism of nitroglycerin",
+      "D": "Concomitant use of sildenafil"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 29-year-old man presents to the clinic with several days of flatulence and greasy, foul-smelling diarrhea. He says that he was on a camping trip last week after which his symptoms started. When asked further about his camping activities, he reports collecting water from a stream but did not boil or chemically treat the water. The patient also reports nausea, weight loss, and abdominal cramps followed by sudden diarrhea. He denies tenesmus, urgency, and bloody diarrhea. His temperature is 37°C (98.6° F), respiratory rate is 15/min, pulse is 107/min, and blood pressure is 89/58 mm Hg. A physical examination is performed where nothing significant was found except for dry mucous membranes. Intravenous fluids are started and a stool sample is sent to the lab, which reveals motile protozoa on microscopy, negative for any ova, no blood cells, and pus cells. What is the most likely diagnosis",
+    "options": {
+      "A": "Giardiasis",
+      "B": "C. difficile colitis",
+      "C": "Irritable bowel syndrome",
+      "D": "Traveler’s diarrhea due to Norovirus"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 55-year-old man with chronic hepatitis B virus infection comes to the physician because of generalized fatigue and a 5.4 kg (12 lb) weight loss over the past 4 months. Physical examination shows hepatomegaly. Laboratory studies show an α-fetoprotein concentration of 380 ng/ml (N < 10 ng/mL). A CT scan of the abdomen with contrast shows a solitary mass in the left lobe of the liver that enhances in the arterial phase. Which of the following is the most likely underlying pathogenesis of this patient's current condition",
+    "options": {
+      "A": "Overexpression of secretory hepatitis antigen",
+      "B": "Intracellular accumulation of misfolded protein",
+      "C": "Gain of function mutation of a proto-oncogene",
+      "D": "Integration of foreign DNA into host genome\n\""
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 47-year-old woman with chronic epigastric pain comes to the physician because of a 1-month history of intermittent, loose, foul-smelling stools. She has also had a 6-kg (13-lb) weight loss. She has consumed 9–10 alcoholic beverages daily for the past 25 years. Seven years ago, she traveled to Mexico on vacation; she has not been outside the large metropolitan area in which she resides since then. She appears malnourished. The stool is pale and loose; fecal fat content is elevated. An immunoglobulin A serum anti-tissue transglutaminase antibody assay is negative. Further evaluation is most likely to show which of the following",
+    "options": {
+      "A": "Trophozoites on stool microscopy",
+      "B": "Pancreatic calcifications",
+      "C": "Villous atrophy of duodenal mucosa",
+      "D": "Positive lactulose breath test"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 39-year-old woman presents to the clinic for her annual physical. Although she feels generally healthy she has noticed gaining about 9 kg (20 lb) over the last year. She eats a healthy, varied diet and exercises at the gym 4 days a week, including 20 minutes of aerobic exercise. On further questioning, she has also noted fatigue and constipation. She denies shortness of breath, chest pain, lightheadedness, or blood in her stool. At the clinic, the vital signs include: pulse 52/min, blood pressure 110/72 mm Hg, and oxygen saturation 99% on room air. The physical exam is notable only for slightly dry skin. The complete blood count (CBC) is within normal limits. Which of the following laboratory values is most likely elevated in this patient",
+    "options": {
+      "A": "Glucose",
+      "B": "Triiodothyronine (T3)",
+      "C": "Thyroxine (T4)",
+      "D": "Thyroid-stimulating hormone (TSH)"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 66-year-old woman comes to the physician for a routine health maintenance examination. She has no history of serious medical illness and takes no medications. A screening DEXA scan shows a T-score of -1.5 at the femur. Which of the following is the strongest predisposing factor for osteopenia",
+    "options": {
+      "A": "Hypoparathyroidism",
+      "B": "NSAID use",
+      "C": "Obesity",
+      "D": "Smoking"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 53-year-old woman comes to the emergency department because of blurry vision, headache, and multiple episodes of nosebleeds over the last few weeks. During this time, she has also been itching a lot, especially after getting ready for work in the mornings. She has had an 8-kg (17.6-lb) weight loss and increasing fatigue during the past 6 months. Her temperature is 37.8°C (100.0°F), pulse is 80/min, respirations are 15/min, and blood pressure is 158/90 mm Hg. Physical examination shows no lesions or evidence of trauma in the nasal cavity. Her face, palms, nail beds, oral mucosa, and conjunctiva appear red. Abdominal examination shows splenomegaly. Her hemoglobin concentration is 19 g/dL, hematocrit is 58%, platelets are 450,000/μL, and erythropoietin level is below normal. A peripheral blood smear shows RBC precursor cells. Which of the following is the most likely underlying cause of this patient's condition",
+    "options": {
+      "A": "Mutated JAK2 gene",
+      "B": "Increased intracranial pressure",
+      "C": "Megakaryocyte proliferation",
+      "D": "Renal cell carcinoma"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 75-year-old woman comes to the physician because of a 3-month history of involuntary weight loss and a painless lump on her neck. Physical examination shows a firm, irregular swelling on the right side of the neck. Ultrasonography of the thyroid gland shows a 2-cm nodule with irregular margins and microcalcifications in the right thyroid lobe. A biopsy of the thyroid nodule is performed. Which of the following changes would be most consistent with anaplasia",
+    "options": {
+      "A": "Negative staining of tumor cells for thyroglobulin",
+      "B": "Reduced number of functional thyroid cells",
+      "C": "Disorganized proliferation of mature thyroid cells",
+      "D": "Increased expression of thyroid transcription factor-1"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 37-year-old woman, G1P0, visits her gynecologist’s office for a routine prenatal checkup. During her quadruple screening test, her alpha-fetoprotein levels were increased while the β-hCG and pregnancy-associated plasma protein were decreased. There is also evidence of increased nuchal translucency on the scanning of the male fetus. A confirmatory test indicates signs of a genetic syndrome. The woman is counseled that her child will most likely have a severe intellectual disability. Physical features of this condition include polydactyly, cleft palate, micrognathia and clenched fists. This genetic condition also affects the formation of the brain and can lead to stillbirth. Most babies do not survive beyond the first year of life. Which of the following is responsible for this type of genetic syndrome",
+    "options": {
+      "A": "In utero infections",
+      "B": "Error in metabolism",
+      "C": "Nondisjunction of chromosomes",
+      "D": "Autosomal dominant genes"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 36-year-old man presents with increasing shortness of breath for a month, which is aggravated while walking and climbing up the stairs. He also complains of pain and stiffness in both wrists, and the distal interphalangeal and metacarpophalangeal joints of both hands. He was diagnosed with rheumatoid arthritis 6 months ago and was started on methotrexate with some improvement. He is a lifetime non-smoker and has no history of drug abuse. The family history is insignificant for any chronic disease. The blood pressure is 135/85 mm Hg, pulse rate is 90/min, temperature is 36.9°C (98.5°F), and the respiratory rate is 22/min. Physical examination reveals short rapid breathing with fine end-inspiratory rales. An echocardiogram is normal with an ejection fraction of 55%. A chest X-ray shows diffuse bilateral reticular markings with multiple pulmonary nodules. Which of the following is the most likely cause of this patient’s lung condition",
+    "options": {
+      "A": "Granulomatous lung disease",
+      "B": "Drug-induced pulmonary disease",
+      "C": "Cardiogenic pulmonary edema",
+      "D": "Radiation-induced pulmonary disease"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 65-year-old woman presents with complaints of difficulty sleeping due to discomfort in her legs for the past 6 months. She is unable to describe the discomfort, but says it is an unpleasant, creeping and crawling feeling that is not painful. She feels an irresistible urge to move her legs to decrease the discomfort. The unpleasant sensation in her legs often occurs at night when she is lying in bed. She is recently divorced and lives alone. She denies any changes in appetite, weight loss, low mood, or suicidal thoughts. The physical examination is unremarkable except for signs of mild pallor. Laboratory test results show microcytic anemia with hemoglobin of 9.8 g/dL and decreased serum iron and ferritin levels. Apart from correcting her anemia, which additional drug would you prescribe for her symptoms",
+    "options": {
+      "A": "Haloperidol",
+      "B": "Lithium",
+      "C": "Propranolol",
+      "D": "Ropinirole"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 44-year-old woman comes to the physician because of a 1-month history of progressively worsening headaches and fatigue. She has also had a 5-kg (11-lb) weight loss in the same time period. MRI of the head shows a hyperintense mass with extension into the right foramen rotundum. Further evaluation of this patient is most likely to show which of the following findings",
+    "options": {
+      "A": "Decreased sensation over the cheekbone, nasolabial fold, and the upper lip",
+      "B": "Abnormal taste of the distal tongue and decreased sensation behind the ear",
+      "C": "Absent corneal reflex and decreased sensation of the forehead",
+      "D": "Masseter and temporalis muscle wasting with jaw deviation to the right"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 37-year-old woman comes to the physician because of a 6-month history of weight loss, bloating, and diarrhea. She does not smoke or drink alcohol. Her vital signs are within normal limits. She is 173 cm (5 ft 8 in) tall and weighs 54 kg (120 lb); BMI is 18 kg/m2. Physical examination shows bilateral white spots on the temporal half of the conjunctiva, dry skin, and a hard neck mass in the anterior midline that does not move with swallowing. Urinalysis after a D-xylose meal shows an increase in renal D-xylose excretion. Which of the following is most likely to have prevented this patient's weight loss",
+    "options": {
+      "A": "Gluten-free diet",
+      "B": "Pancreatic enzyme replacement",
+      "C": "Tetracycline therapy",
+      "D": "Lactose-free diet"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 47-year-old taxi driver visits an ophthalmologist after failing a routine eye test for his driver’s license renewal. The patient reports a slight blurring of his vision, headaches, and occasional dizziness for the past month. On further questioning, he admits to feeling tired and out of sorts most of the time. He attributes it to working overtime and experiencing stress at home. He also complains of decreased libido, decreased appetite, and some weight loss over the past 2 months. There is no history of cold intolerance or hoarseness of voice. On examination, the patient appears malnourished. His vital signs are within normal limits. On physical examination, his thyroid gland is firm and normal in size. Genital examination reveals small, soft testes with patchy pubic hair. Ophthalmic examination reveals decreased visual acuity. The visual field of the patient is shown in the image (black indicates loss of vision while white indicates full vision). His laboratory results are significant for decreased serum ACTH, decreased serum cortisol, normal serum TSH, normal serum T4, decreased serum LH, decreased serum FSH, and decreased serum GH. On suspicions raised by the patient’s physical examination and lab studies, the clinician orders a brain MRI. The scan shows a pituitary macroadenoma impinging on and displacing the optic chiasm. Which of the following is the most likely diagnosis",
+    "options": {
+      "A": "Hypothyroidism",
+      "B": "Adrenal insufficiency",
+      "C": "Hypopituitarism",
+      "D": "Functional pituitary macroadenoma"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 64-year-old woman comes to the physician because of a 7.2-kg (16-lb) weight loss over the past 6 months. For the last 4 weeks, she has also had intermittent constipation and bloating. Four months ago, she spent 2 weeks in Mexico with her daughter. She has never smoked. She drinks one glass of wine daily. She appears thin. Her temperature is 38.3°C (101°F), pulse is 80/min, and blood pressure is 136/78 mm Hg. The lungs are clear to auscultation. The abdomen is distended and the liver is palpable 4 cm below the right costal margin with a hard, mildly tender nodule in the left lobe. Test of the stool for occult blood is positive. Serum studies show:\nAlkaline phosphatase 67 U/L\nAST 65 U/L\nALT 68 U/L\nHepatitis B surface antigen negative\nHepatitis C antibody negative\nA contrast-enhanced CT scan of the abdomen is shown. Which of the following is the most likely diagnosis?\"",
+    "options": {
+      "A": "Hepatic echinococcal cysts",
+      "B": "Cholangiocarcinoma",
+      "C": "Metastatic colorectal cancer",
+      "D": "Cirrhosis"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 35-year-old woman comes to the physician because of a dry cough and worsening shortness of breath with exertion for the past 6 months. She used to go running three times each week but had to stop because of decreased exercise tolerance and pain in the bilateral ankles. Two months ago, she was in Nigeria for several weeks to visit her family. She is allergic to cats and pollen. She has smoked one pack of cigarettes daily for the past 17 years. Her vital signs are within normal limits. Examination shows multiple 1.5- to 2-cm, nontender lymph nodes in the axillae. A few crackles are heard on auscultation of the chest. Her serum calcium concentration is 11.7 mg/dL. An x-ray of the chest shows enlarged hilar lymph nodes bilaterally and reticular opacities in both lungs. Which of the following is the most likely cause of these findings",
+    "options": {
+      "A": "Granulomatous inflammation",
+      "B": "Neoplastic transformation",
+      "C": "Viral infection",
+      "D": "Air trapping"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 56-year-old woman comes to the physician for follow-up after a measurement of elevated blood pressure at her last visit three months ago. She works as a high school teacher at a local school. She says that she mostly eats cafeteria food and take-out. She denies any regular physical activity. She does not smoke or use any recreational drugs. She drinks 2 to 3 glasses of wine per day. She has hypercholesterolemia for which she takes atorvastatin. Her height is 165 cm (5 ft 5 in), weight is 82 kg (181 lb), and BMI is 30.1 kg/m2. Her pulse is 67/min, respirations are 18/min, and blood pressure is 152/87 mm Hg on the right arm and 155/92 mm Hg on the left arm. She would like to try lifestyle modifications to improve her blood pressure before considering pharmacologic therapy. Which of the following lifestyle modifications is most likely to result in the greatest reduction of this patient's systolic blood pressure",
+    "options": {
+      "A": "Losing 15 kg (33 lb) of body weight",
+      "B": "Decreasing alcohol consumption to maximum of one drink per day",
+      "C": "Adopting a DASH diet",
+      "D": "Walking for 30 minutes, 5 days per week"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 65-year-old man comes to the physician because of a 10-month history of crampy left lower extremity pain that is exacerbated by walking and relieved by rest. The pain is especially severe when he walks on an incline. He has a 20-year history of type 2 diabetes mellitus, for which he takes metformin. He has smoked 1 pack of cigarettes daily for 40 years. His blood pressure is 140/92 mm Hg. Physical examination shows dry and hairless skin over the left foot. Which of the following is the most likely underlying cause of this patient's symptoms",
+    "options": {
+      "A": "Thrombosing vasculitis of the popliteal artery",
+      "B": "Intimal plaque in the posterior tibial artery",
+      "C": "Fibrin clot in the left popliteal vein",
+      "D": "Systemic hyperplastic arteriolosclerosis"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 44-year-old woman presents to her primary care physician’s office with episodes of pain in her right hand. She says that the pain is most significant at night and awakens her from sleep numerous times. When she experiences this pain, she immediately puts her hand under warm running water or shakes her hand. She has also experienced episodes of numbness in the affected hand. Driving and extending the right arm also provoke her symptoms. She denies any trauma to the hand or associated weakness. Medical history is notable for hypothyroidism treated with levothyroxine. She works as a secretary for a law firm. On physical exam, when the patient hyperflexes her wrist, pain and paresthesia affect the first 3 digits of the right hand. Which of the following is the confirmatory diagnostic test for this patient",
+    "options": {
+      "A": "Magnetic resonance imaging",
+      "B": "Nerve conduction studies",
+      "C": "Nerve biopsy",
+      "D": "Tinel test"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 25-year-old male presents with progressively worsening headaches over the past two months. He also feels that he has been losing his balance more often over the past week, but he denies any motor weakness or sensory impairment. His neurological exam reveals impaired upward gaze, pupils that constrict poorly to light but react to accommodation, and bilateral upper eyelid retraction. On tandem walking, he tends to fall on both sides. The remainder of the physical examination is unremarkable. What is the most likely diagnosis in this patient",
+    "options": {
+      "A": "Multiple sclerosis",
+      "B": "Pituitary mass",
+      "C": "Pineal tumor",
+      "D": "Craniopharyngioma"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 22-year-old female college student presents to the emergency department due to severe pain in her stomach after an evening of heavy drinking with her friends. The pain is located in the upper half of the abdomen, is severe in intensity, and has an acute onset. She claims to have consumed a dozen alcoholic drinks. Her past medical history is unremarkable. She has recently completed an extremely low-calorie diet which resulted in her losing 10 kg (22 lb) of body weight. Her pulse is 130/min, respirations are 26/min, and blood pressure is 130/86 mm Hg. Examination reveals a visibly distressed young female with periumbilical tenderness. Her BMI is 23 kg/m2. Laboratory tests show:\nArterial blood gas analysis\npH 7.54\nPo2 100 mm Hg\nPco2 23 mm Hg\nHCO3- 22 mEq/L\nSerum\nSodium 140 mEq/L\nPotassium 3.9 mEq/L\nChloride 100 mEq/L\nWhich of the following most likely caused her elevated pH",
+    "options": {
+      "A": "Alcohol induced respiratory depression",
+      "B": "Anxiety induced hyperventilation",
+      "C": "Renal failure induced electrolyte imbalance",
+      "D": "Weight loss induced electrolyte imbalance"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "An 82-year-old woman comes to the physician because of difficulty sleeping and increasing fatigue. Over the past 3 months she has been waking up early and having trouble falling asleep at night. During this period, she has had a decreased appetite and a 3.2-kg (7-lb) weight loss. Since the death of her husband one year ago, she has been living with her son and his wife. She is worried and feels guilty because she does not want to impose on them. She has stopped going to meetings at the senior center because she does not enjoy them anymore and also because she feels uncomfortable asking her son to give her a ride, especially since her son has had a great deal of stress lately. She is 155 cm (5 ft 1 in) tall and weighs 51 kg (110 lb); BMI is 21 kg/m2. Vital signs are within normal limits. Physical examination shows no abnormalities. On mental status examination, she is tired and has a flattened affect. Cognition is intact. Which of the following is the most appropriate initial step in management",
+    "options": {
+      "A": "Notify adult protective services",
+      "B": "Recommend relocation to a nursing home",
+      "C": "Begin cognitive-behavioral therapy",
+      "D": "Assess for suicidal ideation\n\""
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A previously healthy 5-year-old boy is brought to the physician by his parents because of a 2-day history of poor balance and difficulty walking. He has fallen multiple times and is unable to walk up the stairs unassisted. He has also had difficulty tying his shoes and dressing himself. His family adheres to a vegetarian diet. He has not yet received any routine childhood vaccinations. His mother has a history of anxiety. He is at the 70th percentile for height and 30th percentile for weight. Vital signs are within normal limits. He is alert and oriented to person, place, and time. Physical examination shows a broad-based, staggering gait. He has difficulty touching his nose and cannot perform rapidly-alternating palm movements. Strength is 5/5 in the upper and lower extremities. Deep tendon reflexes are 1+ bilaterally. Skin examination shows several faint hyperpigmented macules on the chest. Which of the following is the most likely underlying cause of this patient's symptoms",
+    "options": {
+      "A": "Vitamin B1 deficiency",
+      "B": "Varicella zoster infection",
+      "C": "Posterior fossa malignancy",
+      "D": "Peripheral nerve demyelination"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 32-year-old man comes to the Veterans Affairs hospital because of difficulty sleeping for the past 9 weeks. He is a soldier who returned from a deployment in Afghanistan 12 weeks ago. Fifteen weeks ago, his unit was ambushed in a deserted street, and a fellow soldier was killed. He wakes up frequently during the night from vivid dreams of this incident. He blames himself for being unable to save his friend. He also has trouble falling asleep and gets up earlier than desired. During this period, he has started to avoid walking in deserted streets. Vital signs are within normal limits. Physical examination shows no abnormalities. He refuses cognitive behavioral therapy and is started on sertraline. Five weeks later, he returns to the physician and complains about persistent nightmares and difficulty sleeping. Which of the following is the most appropriate next step in management",
+    "options": {
+      "A": "Diazepam therapy",
+      "B": "Triazolam therapy",
+      "C": "Phenelzine therapy",
+      "D": "Prazosin therapy"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "An institutionalized 65-year-old man is brought to the emergency department because of abdominal pain and distension for 12 hours. The pain was acute in onset and is a cramping-type pain associated with nausea, vomiting, and constipation. He has a history of chronic constipation and has used laxatives for years. There is no history of inflammatory bowel disease in his family. He has not been hospitalized recently. There is no recent history of weight loss or change in bowel habits. On physical examination, the patient appears ill. The abdomen is distended with tenderness mainly in the left lower quadrant and is tympanic on percussion. The blood pressure is 110/79 mm Hg, heart rate is 100/min, the respiratory rate is 20/min, and the temperature is 37.2°C (99.0°F). The CBC shows an elevated white blood cell count. The plain abdominal X-ray is shown in the accompanying image. What is the most likely cause of his condition",
+    "options": {
+      "A": "Acute diverticulitis",
+      "B": "Sigmoid volvulus",
+      "C": "Intussusception",
+      "D": "Colon cancer"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 38-year-old man comes to the physician because of a 1-month history of fever and a cough productive of a moderate amount of yellowish sputum. He has had a 6-kg (13-lb) weight loss during this period. He emigrated from the Middle East around 2 years ago. His father died of lung cancer at the age of 54 years. He has smoked one pack of cigarettes daily for 18 years. He appears malnourished. His temperature is 38.1°C (100.6°F), pulse is 101/min, and blood pressure is 118/72 mm Hg. Crackles are heard on auscultation of the chest. Cardiac examination shows no abnormalities. The abdomen is soft and nontender. Laboratory studies show:\nHemoglobin 12.3 g/dL\nLeukocyte count 13,200/mm3\nPlatelet count 330,000/mm3\nErythrocyte sedimentation rate 66 mm/h\nSerum\nUrea nitrogen 16 mg/dL\nGlucose 122 mg/dL\nCreatinine 0.9 mg/dL\nUrinalysis is within normal limits. An x-ray of the chest is shown. Which of the following is the most appropriate next step in management?\"",
+    "options": {
+      "A": "Perform a high-resolution CT scan of the chest",
+      "B": "Collect sputum specimens for acid-fast bacilli smear microscopy, culture, and nucleic acid amplification",
+      "C": "Perform transbronchial lung biopsy of the suspected lesion",
+      "D": "Perform an interferon-gamma release assay"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "An 88-year-old man presents to his primary care physician due to insomnia. The patient’s wife states that she often sees him sitting awake at night, seemed visibly irritated. This has persisted for years but worsened recently when the patient attended a funeral for one of his friends in the military. The patient states that he has trouble sleeping and finds that any slight sound causes him to feel very alarmed. Recently, the patient has been having what he describes as strong memories of events that occurred with his fellow soldiers while at war. At times he awakes in a cold sweat and has not been able to get quality sleep in weeks. The patient has a past medical history of anxiety, obesity, and type II diabetes mellitus. His current medications include insulin, metformin, lisinopril, sodium docusate, and fish oil. Which of the following is the best initial medical therapy for this patient",
+    "options": {
+      "A": "Bupropion",
+      "B": "Buspirone",
+      "C": "Clonazepam",
+      "D": "Escitalopram"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 49-year-old woman presents to the family medicine clinic with concerns about her weight. She has been constantly gaining weight for a decade now as she has not been able to control her diet. She has tried exercising but says that she is too lazy for this method of weight loss to work. Her temperature is 37° C (98.6° F), respirations are 15/min, pulse is 67/min, and blood pressure is 122/88 mm Hg. Her BMI is 30. Her labs from her past visit show:\nFasting blood glucose: 149 mg/dL\nGlycated hemoglobin (HbA1c): 9.1%\nTriglycerides: 175 mg/dL\nLDL-Cholesterol: 102 mg/dL\nHDL-Cholesterol: 35 mg/dL\nTotal Cholesterol: 180 mg/dL\nSerum creatinine: 1.0 mg/dL\nBUN: 12 mg/dL\nSerum:  \n  Albumin: 4.2 gm/dL\n  Alkaline phosphatase: 150 U/L\n  Alanine aminotransferase:      76 U/L\n  Aspartate aminotransferase: 88 U/L\nAfter discussing the long term issues that will arise if her health does not improve, she agrees to modify her lifestyle and diet. Which of the following would be the best pharmacotherapy for this patient",
+    "options": {
+      "A": "Dietary modification alone",
+      "B": "Metformin",
+      "C": "Glipizide",
+      "D": "Sitagliptin"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 27-year-old woman comes to her primary care physician complaining of palpitations. She reports that for the past 2 months she has felt anxious and states that her heart often feels like it’s “racing.” She also complains of sweating and unintentional weight loss. Physical examination reveals symmetrical, non-tender thyroid enlargement and exophthalmos. After additional testing, the patient is given an appropriate treatment for her condition. She returns 2 weeks later complaining of worsening of her previous ocular symptoms. Which of the following treatments did the patient most likely receive",
+    "options": {
+      "A": "Methimazole",
+      "B": "Propranolol",
+      "C": "Propylthiouracil",
+      "D": "Radioactive iodine"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "Eight weeks after starting a new weight-loss medication, a 43-year-old woman with obesity comes to the physician because of greasy diarrhea, excessive belching, and flatulence. She also complains of progressively worsening night-time vision. She has had no fever, chills, or vomiting. Physical examination shows dry, scaly skin on her extremities and face. Which of the following is the most likely mechanism of action of the drug she is taking",
+    "options": {
+      "A": "Stimulation of monoamine neurotransmitter release",
+      "B": "Inhibition of serotonin reuptake",
+      "C": "Stimulation of norepinephrine release",
+      "D": "Inhibition of lipase"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 41-year-old man comes to the emergency department with nausea, abdominal discomfort, and diarrhea for the past 2 days. His abdominal discomfort is worse shortly after meals. He has also had progressive perioral numbness and upper-extremity muscle cramping for the past 24 hours. Six months ago, he underwent a Roux-en-Y gastric bypass to treat obesity. He underwent a total thyroidectomy to treat a Hurthle cell lesion 4 days ago. His mother died of lung cancer at age 68. He has smoked 1 pack of cigarettes daily for 22 years. His only current medication is a multivitamin supplement. He appears fatigued. His temperature is 36°C (96.8°F), pulse is 72/min, respirations are 20/min, and blood pressure is 130/70 mm Hg. While measuring the patient's blood pressure, the nurse observes spasm of the patient's hand. Physical examination shows a well-healing surgical wound on the neck. The abdomen is mildly tender to palpation with well-healed laparoscopic incisional sites. The remainder of the examination shows no abnormalities. Serum studies show:\nNa+ 138 mEq/L\nK+ 4.2 mEq/L\nCl- 102 mEq/L\nHCO3- 25 mEq/L\nMg2+ 1.7 mEq/L\nPhosphorus 4.3 mg/dL\n25-hydroxyvitamin D 20 ng/mL (N: 20-100 ng/mL)\nParathyroid hormone 115 pg/mL\nTotal bilirubin, serum 0.7 mg/dL\nAlanine aminotransferase, serum 14 U/L\nAspartate aminotransferase, serum 15 U/L\nAlkaline phosphatase, serum 42 U/L\nWhich of the following is the most appropriate initial step in the management of this patient?\"",
+    "options": {
+      "A": "Obtain abdominal CT",
+      "B": "Begin rehydration therapy",
+      "C": "Administer calcium gluconate",
+      "D": "Supplementation with vitamin D"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 30-year-old man presents to his psychiatrist for a follow-up visit. He was diagnosed with schizophrenia 6 months ago and has been taking fluphenazine. He says that his symptoms are well controlled by the medication, and he no longer has auditory hallucinations. The psychiatrist also notes that his delusions and other psychotic symptoms have improved significantly. However, the psychiatrist notices something while talking to the patient that prompts him to say, “I know the drug has effectively controlled your symptoms but I think you should discontinue it now otherwise this side effect is likely to be irreversible.” Which of the following did the psychiatrist most likely notice in this patient",
+    "options": {
+      "A": "Resting tremors",
+      "B": "Crossing and uncrossing legs constantly",
+      "C": "Reduced spontaneous movements while walking",
+      "D": "Choreoathetoid movements of face"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 3-year-old boy is brought to the physician by his parents because of clumsiness and multiple falls over the past 4 months. He started walking at the age of 18 months and could walk up steps by the time he was 27 months old but now struggles to walk at all without assistance. When standing up from a lying position, he crawls onto his knees and slowly walks himself up with his hands. There is bilateral calf enlargement. Analysis of a left calf biopsy specimen from this patient is most likely to show which of the following",
+    "options": {
+      "A": "Proliferation of mitochondria within muscle fibers",
+      "B": "Degeneration of muscle fibers with fibrofatty replacement",
+      "C": "Atrophic muscle fibers interspersed among hypertrophic muscle fibers",
+      "D": "Necrotic muscle fibers with lymphocytic infiltrate"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 72-year-old man comes to the physician because of a 2-month history of fatigue and worsening abdominal pain. During this period, he also has excessive night sweats and shortness of breath on exertion. Over the past 3 months, he has had a 5.6-kg (12-lb) weight loss. He had a myocardial infarction 3 years ago. He has hypertension, diabetes mellitus, and chronic bronchitis. His medications include insulin, aspirin, lisinopril, and an albuterol inhaler. He has smoked half a pack of cigarettes for the past 45 years. Vital signs are within normal limits. The spleen is palpated 6 cm below the left costal margin. Laboratory studies show:\nHemoglobin 6.4 g/dL\nMean corpuscular volume 85 μm3\nLeukocyte count 5,200/mm3\nPlatelet count 96,000/mm3\nA blood smear is shown. Bone marrow aspiration shows extensive fibrosis and a few scattered plasma cells. A JAK 2 assay is positive. Which of the following is the most appropriate next step in management?\"",
+    "options": {
+      "A": "Cladribine",
+      "B": "Prednisone",
+      "C": "Imatinib",
+      "D": "Ruxolitinib"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 52-year-old woman presents to her primary care provider with colicky left flank pain that radiates to her groin. She appears to be in significant distress and is having trouble getting comfortable on the exam table. She and her mother both have a history of calcium oxalate kidney stones. She has a past medical history significant for type 2 diabetes and hypertension. She takes metformin, metoprolol and lisinopril. She has been watching her weight and eating a high protein diet that mainly consists of chicken and seafood. She also eats a great deal of yogurt for the calcium. She asks if she should cut out the yogurt, and wonders if it is the cause of her current kidney stone. What lifestyle modification would reduce her risk of developing kidney stones in the future",
+    "options": {
+      "A": "Increase electrolytes",
+      "B": "Switch to a sulfonylurea",
+      "C": "Switch to a potassium-sparing diuretic",
+      "D": "Decrease protein intake"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 33-year-old nurse is referred to an infectious disease specialist after she exhibited a PPD skin test with 17 mm of induration. She denies any cough, shortness of breath, hemoptysis, weight loss, fatigue, fevers, or night sweats over the last several months. Her temperature is 97.0°F (36.1°C), blood pressure is 120/81 mmHg, pulse is 82/min, respirations are 15/min, and oxygen saturation is 98% on room air. An initial chest radiograph is unremarkable. Which of the following is the most appropriate management of this patient",
+    "options": {
+      "A": "Isoniazid",
+      "B": "No management indicated",
+      "C": "Repeat PPD in 1 week",
+      "D": "Rifampin, isoniazid, pyrazinamide, and ethambutol"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 53-year-old man comes to the physician because of a 3-month history of cough and progressively worsening difficulty walking up the stairs in his apartment. He has noticed that it is easier for him to climb the stairs after he has exercised. He has also had a 4.6-kg (10.1-lb) weight loss over the past 6 months. He has smoked one pack of cigarettes daily for 35 years. Examination shows dry mucous membranes. The pupils are equal and react sluggishly to light. Muscle strength in the proximal lower extremity is initially 3/5 but increases to 5/5 after repeated muscle tapping. His achilles reflex is 1+. Which of the following is the most likely diagnosis",
+    "options": {
+      "A": "Polymyalgia rheumatica",
+      "B": "Dermatomyositis",
+      "C": "Hypothyroidism",
+      "D": "Lambert-Eaton syndrome"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 33-year-old woman presents to the clinic complaining of a 9-month history of weight loss, fatigue, and a general sense of malaise. She additionally complains of an unusual sensation in her chest upon rapidly rising from a supine to a standing position. Current vitals include a temperature of 36.8°C (98.2°F), pulse of 72/min, blood pressure of 118/63 mm Hg, and a respiratory rate of 15/min. Her BMI is 21 kg/m2. Auscultation demonstrates an early-mid diastole low-pitched sound at the apex of the heart. A chest X-ray reveals a poorly demarcated abnormality in the heart and requires CT imaging for further analysis. What would most likely be seen on CT imaging",
+    "options": {
+      "A": "Tumor within the right atria",
+      "B": "Fistula between the right and left atria",
+      "C": "Normal cardiac imaging",
+      "D": "Tumor within the left atria"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 72-year-old man presents to the emergency department with difficulty breathing for the past 3 hours. He also mentions that over the last week he was frequently breathless and fatigued after walking a few blocks. He has had diabetes mellitus and hypertension for the past 10 years, and his regular medications include metformin, glipizide, and lisinopril. However, he did not take his medications last week due to unplanned travel. Review of his medical records reveals an episode of acute viral hepatitis about 6 months ago from which he recovered well. His temperature is 37.0°C (98.6°F), the pulse is 108/min, the blood pressure is 170/94 mm Hg, and the respiratory rate is 24/min. On physical examination, periorbital edema is present with pitting edema over both ankles and pretibial regions. Pallor and icterus are absent. Auscultation of the chest reveals crackles over the infrascapular regions bilaterally. Abdominal examination shows tender hepatomegaly. Which of the following is the most likely diagnosis",
+    "options": {
+      "A": "Diabetic ketoacidosis",
+      "B": "Acute decompensated heart failure",
+      "C": "Pulmonary embolism",
+      "D": "Acute renal failure"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 13-year-old girl is brought to the physician by her mother because of a 1-year history of worsening clumsiness. Initially, she swayed while walking; over the past 3 months, she has fallen 4 times. Ophthalmic examination shows a horizontal nystagmus. Proprioception and vibratory sensation are decreased in the distal extremities. Deep tendon reflexes are 1+ bilaterally. Further evaluation of the patient shows a genetic disorder involving an iron-binding mitochondrial protein encoded on chromosome 9. Which of the following findings is most likely to also be seen in this patient",
+    "options": {
+      "A": "Telangiectasias",
+      "B": "Hammer toes",
+      "C": "Myoclonic jerks",
+      "D": "Adenoma sebaceum"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 46-year-old woman comes to the physician because of a 3-day history of diarrhea, moderate abdominal pain, and weakness. Her symptoms began on the return flight from a 2-week yoga retreat in India, where she stayed at a resort. She was mildly nauseous as she boarded the flight, and diarrhea followed immediately after eating the in-flight meal. Since then, she has had up to five watery stools daily. She has a 1-year history of gastroesophageal reflux disease and is allergic to shellfish. Her only medication is ranitidine. She appears lethargic. Her temperature is 37°C (98.6°F), pulse is 70/min, and blood pressure is 115/72 mm Hg. Abdominal examination shows diffuse tenderness with no guarding or rebound. Bowel sounds are hyperactive. Which of the following is the most likely pathogen",
+    "options": {
+      "A": "Giardia intestinalis",
+      "B": "Shigella species",
+      "C": "Staphylococcus aureus",
+      "D": "Enterotoxigenic Escherichia coli"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 40-year-old man visits the office with complaints of fever and abdominal pain for the past 6 days. He is also concerned about his weight loss as he weighs 3.6 kg (8 lb) less, today, than he did 2 months ago. He has a previous history of being admitted to the hospital for recurrent cholangitis. The vital signs include: heart rate 97/min, respiratory rate 17/min, temperature 39.0°C (102.2°F), and blood pressure 114/70 mm Hg. On physical examination, there is tenderness on palpation of the right upper quadrant. The laboratory results are as follows:\nHemoglobin 16 g/dL\nHematocrit 44%\nLeukocyte count 18,000/mm3\nNeutrophils  60%\nBands 4%\nEosinophils 2%\nBasophils 1%\nLymphocytes  27%\nMonocytes 6%\nPlatelet count 345,000/mm3\nAspartate aminotransferase (AST)  57 IU/L\nAlanine aminotransferase (ALT) 70 IU/L\nAlkaline phosphatase 140 U/L\nTotal bilirubin 8 mg/dL\nDirect bilirubin 5 mg/dL\nAn ultrasound is also done to the patient which is shown in the picture. What is the most likely diagnosis",
+    "options": {
+      "A": "Liver abscess",
+      "B": "Hepatitis B",
+      "C": "Acute cholecystitis",
+      "D": "Cholangitis"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 64-year-old woman comes to the physician because of a 7-month history of abdominal discomfort, fatigue, and a 6.8-kg (15-lb) weight loss. Physical examination shows generalized pallor and splenomegaly. Laboratory studies show anemia with pronounced leukocytosis and thrombocytosis. Cytogenetic analysis shows a BCR-ABL fusion gene. A drug with which of the following mechanisms of action is most appropriate for this patient",
+    "options": {
+      "A": "Tyrosine kinase inhibitor",
+      "B": "Monoclonal anti-CD20 antibody",
+      "C": "Monoclonal anti-HER-2 antibody",
+      "D": "Ribonucleotide reductase inhibitor"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 25-year-old mother presents to her primary care physician for wrist pain. The patient recently gave birth to a healthy newborn at 40 weeks gestation. Beginning one week ago, she started having pain over her wrist that has steadily worsened. The patient notes that she also recently fell while walking and broke the fall with her outstretched arm. The patient is an accountant who works from home and spends roughly eight hours a day typing or preparing financial statements. Recreationally, the patient is a competitive cyclist who began a rigorous training routine since the birth of her child. The patient's past medical history is notable for hypothyroidism that is treated with levothyroxine. On physical exam, inspection of the wrist reveals no visible or palpable abnormalities. Pain is reproduced when the thumb is held in flexion, and the wrist is deviated toward the ulna. The rest of the patient's physical exam is within normal limits. Which of the following is the best next step in management",
+    "options": {
+      "A": "Radiography of the wrist",
+      "B": "Thumb spica cast",
+      "C": "Wrist guard to be worn during work and at night",
+      "D": "Rest and ibuprofen"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 43-year-old woman presents to her primary care provider for follow-up of her glucose levels. At her last visit 3 months ago, her fasting serum glucose was 128 mg/dl. At that time, she was instructed to follow a weight loss regimen consisting of diet and exercise. Her family history is notable for a myocardial infarction in her father and type II diabetes mellitus in her mother. She does not smoke and drinks 2-3 glasses of wine per week. Her temperature is 99°F (37.2°C), blood pressure is 131/78 mmHg, pulse is 80/min, and respirations are 17/min. Her BMI is 31 kg/m^2. On exam, she is well-appearing and appropriately interactive. Today, despite attempting to make the appropriate lifestyle changes, a repeat fasting serum glucose is 133 mg/dl. The patient is prescribed the first-line oral pharmacologic agent for her condition. Which of the following is the correct mechanism of action of this medication",
+    "options": {
+      "A": "Activation of peroxisome proliferator-activating receptors",
+      "B": "Closure of potassium channels in pancreatic beta cells",
+      "C": "Inhibition of alpha-glucosidase in the intestinal brush border",
+      "D": "Inhibition of hepatic gluconeogenesis"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 2-year-old boy is brought to the physician by his parents because of difficulty walking and cold feet for the past 2 months. His parents report that he tires quickly from walking. The patient was born at 37 weeks' gestation and has met all developmental milestones. There is no personal or family history of serious illness. He is at the 50th percentile for height and 40th percentile for weight. His temperature is 36.9°C (98.4°F), pulse is 119/min, respirations are 32/min, and blood pressure is 135/85 mm Hg. A grade 2/6 systolic murmur is heard in the left paravertebral region. Pedal pulses are absent. Further evaluation of this patient is most likely to show which of the following findings",
+    "options": {
+      "A": "Rib notching",
+      "B": "Low tissue oxygenation in the legs",
+      "C": "Interarm difference in blood pressure",
+      "D": "Right ventricular outflow obstruction"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 62-year-old man presents to his primary care provider complaining of abdominal pain. He reports a 6-month history of gradually progressive epigastric pain and 10 pounds of unexpected weight loss. He has also noticed that his skin feels itchier than usual. His past medical history is notable for gout, hypertension, and diabetes mellitus. He takes allopurinol, enalapril, and glyburide. He has a 10-pack-year smoking history and a distant history of cocaine abuse. His temperature is 100.1°F (37.8°C), blood pressure is 135/85 mmHg, pulse is 100/min, and respirations are 20/min. On exam, he has notable hepatomegaly and a palpable gallbladder. A right upper quadrant ultrasound reveals an irregular extrahepatic mass originating from the gallbladder wall. Which of the following serum markers is most likely elevated in this patient",
+    "options": {
+      "A": "Bombesin",
+      "B": "CA-125",
+      "C": "CA 19-9",
+      "D": "S-100"
+    },
+    "correct": "C"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 76-year-old man presents for a follow-up appointment at his primary care provider’s office. The patient has severe osteoarthritis, which substantially limits his daily physical activity. Several imaging studies have confirmed severe articular degeneration and evidence of bone grinding on bone in his hip joints. The patient suffers from chronic pain and depression that have been resistant to medication. At the physician’s office, his blood pressure is 119/67 mm Hg, the respirations are 18/min, the pulse is 87/min, and the temperature is 36.7°C (98.0°F). On physical examination, the patient has a flat affect and appears anxious. He has significant pain and limited passive and active range of motion of his hip joints bilaterally. This patient would most likely benefit from which of the following procedures if there are no contraindications",
+    "options": {
+      "A": "Hip osteotomy",
+      "B": "Total hip arthroplasty",
+      "C": "Arthroscopic debridement",
+      "D": "Autologous chondrocyte implantation"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 75-year-old man presents to the emergency department because of pain in his left thigh and left calf for the past 3 months. The pain occurs at rest, increases with walking, and is mildly improved by hanging the foot off the bed. He has had hypertension for 25 years and type 2 diabetes mellitus for 30 years. He has smoked 30–40 cigarettes per day for the past 45 years. On examination, femoral, popliteal, and dorsalis pedis pulses are faint on both sides. The patient’s foot is shown in the image. Resting ankle-brachial index (ABI) is found to be 0.30. Antiplatelet therapy and aggressive risk factors modifications are initiated. Which of the following is the best next step for this patient",
+    "options": {
+      "A": "Systemic anticoagulation with heparin",
+      "B": "Urgent assessment for revascularization",
+      "C": "Exercise therapy",
+      "D": "Amputation"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 45-year-old woman comes to the physician because of fatigue, irregular menses, and recurrent respiratory infections for the past 6 months. Her blood pressure is 151/82 mm Hg. Physical examination shows a round face, thinning of the skin, and multiple bruises on her arms. Further studies confirm the diagnosis of an ACTH-secreting pituitary adenoma. This patient is at greatest risk for which of the following",
+    "options": {
+      "A": "Weight loss",
+      "B": "Eosinophilia",
+      "C": "Hypoglycemia",
+      "D": "Pathologic fracture"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 60-year-old obese man comes to the emergency department with tightness in his chest and lower extremity edema. He has a history of heart failure that has gotten worse over the last several years. He takes finasteride, lisinopril, and albuterol. He does not use oxygen at home. He has mildly elevated blood pressure, and he is tachycardic and tachypneic. Physical examination shows an overweight man having difficulty speaking with 2+ pitting edema on his lower extremities up to his thighs. The attending asks you to chart out the patient's theoretical cardiac function curve from where it was 5 years ago when he was healthy to where it is right now. What changes occurred in the last several years without compensation",
+    "options": {
+      "A": "Cardiac output went up, and right atrial pressure went down",
+      "B": "Cardiac output went down, and right atrial pressure went up",
+      "C": "Cardiac output went down, and right atrial pressure went down",
+      "D": "Both cardiac output and right atrial pressures are unchanged"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 34-year-old woman is brought to the emergency department by fire and rescue after an apparent suicide attempt. She reports ingesting several pills 6 hours prior to presentation but cannot recall what they were. No pills were found on the scene. She complains of severe malaise, ringing in her ears, and anxiety. Her past medical history is notable for bipolar disorder, generalized anxiety disorder, rheumatoid arthritis, obesity, and diabetes. She takes lithium, methotrexate, metformin, and glyburide. She has a reported history of benzodiazepine and prescription opioid abuse. Her temperature is 102.2°F (39°C), blood pressure is 135/85 mmHg, pulse is 110/min, and respirations are 26/min. On exam, she appears diaphoretic and pale. Results from an arterial blood gas are shown:\n\npH: 7.48\nPaCO2: 32 mmHg\nHCO3-: 23 mEq/L\n\nThis patient should be treated with which of the following",
+    "options": {
+      "A": "Ammonium chloride",
+      "B": "Atropine",
+      "C": "Physostigmine",
+      "D": "Sodium bicarbonate"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 56-year-old Caucasian male presents to the clinic to establish care. He has never seen a physician and denies any known medical problems. Physical examination is notable for central obesity, but the patient has regular heart and lung sounds. He has a blood pressure of 157/95 mm Hg and heart rate of 92/min. He follows up 2 weeks later, and his blood pressure continues to be elevated. At this time, you diagnose him with essential hypertension and decide to initiate antihypertensive therapy. Per the Joint National Committee 8 guidelines for treatment of high blood pressure, of the following combinations of drugs, which can be considered for first-line treatment of high blood pressure in the Caucasian population",
+    "options": {
+      "A": "ACE inhibitor, angiotensin receptor blocker (ARB), beta-blocker (BB), or thiazide",
+      "B": "ACE inhibitor, ARB, CCB, or thiazide",
+      "C": "ACE inhibitor, ARB, CCB or loop diuretic",
+      "D": "ACE inhibitor, ARB, alpha-blocker, or loop diuretic"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 63-year-old man is admitted to the intensive care unit for hemodynamic instability. Several days prior, he had been swimming in the Gulf coast when he stepped on a sharp rock and cut his right foot. Three days ago, the patient presented to the emergency room after noticing painful redness spreading along his skin up from his right foot and was subsequently admitted for antibiotic treatment. Currently, his temperature is 101.8°F (38.8°C), blood pressure is 84/46 mmHg with a mean arterial pressure of 59 mmHg, pulse is 104/min, and respirations are 14/min. His telemetry shows sinus tachycardia. His blood cultures are pending, but Gram stain demonstrated gram-negative bacilli. Which of the following best describes the form of shock and the skin exam",
+    "options": {
+      "A": "Distributive shock with warm skin",
+      "B": "Hypovolemic shock with warm skin",
+      "C": "Neurogenic shock with cold skin",
+      "D": "Obstructive shock with cold skin"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 19-year-old woman is brought to the emergency department by ambulance 30 minutes after her neighbor found her unconscious on a running trail. Her neighbor reports that she has been training for a marathon since the beginning of the summer. She is alert and oriented but becomes irritable when realizing that she is at a hospital and refuses to answer questions. She appears tired. She is 174 cm (5 ft 7 in) tall and weighs 51 kg (112 lb). Her temperature is 35.5°C (96°F), pulse is 44/min, respirations are 20/min, and blood pressure is 84/48 mm Hg. Examination shows dry, scaly skin and dry mucous membranes. Cardiopulmonary examination shows a high-frequency, mid-to-late systolic murmur that is heard best at the apex. Her hemoglobin concentration is 11.9 g/dL. Which of the following is the most likely diagnosis",
+    "options": {
+      "A": "Hypertrophic obstructive cardiomyopathy",
+      "B": "Hypothyroidism",
+      "C": "Heat exhaustion",
+      "D": "Anorexia nervosa"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 58-year-old man comes to the emergency department because of increasing shortness of breath and a nonproductive cough for the last week. Three weeks ago, he had a fever and a cough for 6 days after he returned from a trip to Southeast Asia. He has had a 4-kg (9-lb) weight loss over the past 3 months. He has bronchial asthma and hypertension. He has smoked one pack of cigarettes daily for 41 years. Current medications include an albuterol inhaler and enalapril. His temperature is 37.6°C (99.7°F), pulse is 88/min, respirations are 20/min, and blood pressure is 136/89 mm Hg. There is dullness to percussion, decreased breath sounds, and decreased tactile fremitus over the left lung base. Cardiac examination shows no abnormalities. Chest x-ray of this patient is most likely to show which of the following",
+    "options": {
+      "A": "Elevation of diaphragm",
+      "B": "Ground glass appearance",
+      "C": "Widened intercostal spaces",
+      "D": "Blunting of costophrenic angle"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 32-year-old woman presents to her primary care physician for recent onset headaches, weight loss, and restlessness. Her symptoms started yesterday, and since then she has felt sweaty and generally uncomfortable. The patient’s past medical history is unremarkable except for a recent viral respiratory infection which resolved on its own. The patient is not currently on any medications. Her temperature is 99.5°F (37.5°C), blood pressure is 127/68 mmHg, pulse is 110/min, respirations are 14/min, and oxygen saturation is 98% on room air. On physical exam, you see a sweaty and uncomfortable woman who has a rapid pulse. The patient demonstrates no abnormalities on HEENT exam. The patient’s laboratory values are ordered as seen below.\n\nHemoglobin: 12 g/dL\nHematocrit: 36%\nLeukocyte count: 8,500/mm^3 with normal differential\nPlatelet count: 195,000/mm^3\n\nSerum:\nNa+: 139 mEq/L\nCl-: 102 mEq/L\nK+: 4.4 mEq/L\nHCO3-: 24 mEq/L\nBUN: 20 mg/dL\nGlucose: 99 mg/dL\nCreatinine: 1.0 mg/dL\nCa2+: 10.2 mg/dL\nTSH: .03 mIU/L\nAST: 12 U/L\nALT: 10 U/L\n\nThe patient is prescribed propranolol and proplythiouracil. She returns 1 week later complaining of severe fatigue. Laboratory values are ordered as seen below.\n\nHemoglobin: 12 g/dL\nHematocrit: 36%\nLeukocyte count: 8,500/mm^3 with normal differential\nPlatelet count: 195,000/mm^3\n\nSerum:\nNa+: 139 mEq/L\nCl-: 102 mEq/L\nK+: 4.4 mEq/L\nHCO3-: 24 mEq/L\nBUN: 20 mg/dL\nGlucose: 99 mg/dL\nCreatinine: 1.0 mg/dL\nCa2+: 10.2 mg/dL\nTSH: 6.0 mIU/L\nAST: 12 U/L\nALT: 10 U/L\n\nWhich of the following is the best next step in management",
+    "options": {
+      "A": "Decrease dose of current medications",
+      "B": "Discontinue current medications and add ibuprofen",
+      "C": "Discontinue medications and add T3",
+      "D": "Discontinue current medications"
+    },
+    "correct": "D"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 65-year-old man comes to the physician because of a 10-day history of episodic retrosternal pain, shortness of breath, and palpitations. The episodes occur when he climbs stairs or tries to walk briskly on his treadmill. The symptoms resolve when he stops walking. The previous evening he felt dizzy and weak during such an episode. He also reports that he had a cold 2 weeks ago. He was diagnosed with type 2 diabetes mellitus four years ago but is otherwise healthy. His only medication is glyburide. He appears well. His pulse is 62/min and is weak, respirations are 20/min, and blood pressure is 134/90 mmHg. Cardiovascular examination shows a late systolic ejection murmur that is best heard in the second right intercostal space. The lungs are clear to auscultation. Which of the following mechanisms is the most likely cause of this patient's current condition",
+    "options": {
+      "A": "Increased left ventricular oxygen demand",
+      "B": "Lymphocytic infiltration of the myocardium",
+      "C": "Critical transmural hypoperfusion of the myocardium",
+      "D": "Increased release of endogenous insulin"
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 64-year-old woman presents to her primary care physician complaining of difficulty maintaining her balance while walking. Her husband comes along to the appointment with her, because he feels that she has not been acting herself at home lately. After further questioning him, it is noted that she has recently been voiding urine unintentionally at inappropriate times. If there is suspicion for an intracranial process, what would most likely be seen on MRI and what is the treatment",
+    "options": {
+      "A": "Constricted ventricles; surgical resection",
+      "B": "Dilated ventricles; ventricular shunt",
+      "C": "Dilated ventricles; surgical resection",
+      "D": "Constricted ventricles; watch and wait"
+    },
+    "correct": "B"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 45-year-old woman comes to the physician because of a 6-month history of progressive irritability, palpitations, heat intolerance, frequent bowel movements, and a 6.8-kg (15-lb) weight loss. She also has a smooth, uniformly enlarged mass at the front of her neck and protuberant eyes with lid retraction. Laboratory investigations show undetectable levels of thyroid stimulating hormone, elevated levels of free T3 and T4, and a raised titer of TSH receptor autoantibodies (TRAbs). Therapy is initiated with radioactive iodine-131. This patient is at greatest risk for which of the following complications",
+    "options": {
+      "A": "Worsening exophthalomos",
+      "B": "Agranulocytosis",
+      "C": "Vocal cord paralysis",
+      "D": "Thyroid carcinoma\n\""
+    },
+    "correct": "A"
+  },
+  {
+    "dataset": "medqa",
+    "question": "A 69-year-old male presents to the emergency department with shortness of breath. The patient has presented three times this past month with similar complaints. The patient sees no primary care physician and is currently not taking any medications. The patient states his shortness of breath started when he was walking from his car to a local restaurant. His temperature is 99.5°F (37.5°C), pulse is 100/min, blood pressure is 130/90 mmHg, respirations are 18/min, and oxygen saturation is 96% on room air. On physical exam you note a fatigued appearing gentleman. Cardiovascular exam reveals an additional heart sound after S2. Pulmonary exam is notable for bilateral crackles. Abdominal exam reveals an obese abdomen without pain in any of the quadrants. Lower extremity pitting edema is noted bilaterally. Which of the following sets of lab values most likely corresponds to this patient's presentation",
+    "options": {
+      "A": "High BNP, high ADH, high sodium, high potassium",
+      "B": "High BNP, low ADH, normal sodium, low potassium",
+      "C": "High BNP, high ADH, low sodium, low potassium",
+      "D": "Low BNP, low ADH, normal sodium, normal potassium"
+    },
+    "correct": "C"
+  }
+]

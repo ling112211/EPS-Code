@@ -1,0 +1,848 @@
+[
+  {
+    "id": "medbullets_0",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 24-year-old man presents to the emergency department with abdominal pain, nausea, and vomiting. The symptoms began towards the end of running a marathon and persisted after finishing the race. The patient is otherwise healthy and has no other medical problems. His temperature is 98.0°F (36.7°C), blood pressure is 105/71 mmHg, pulse is 113/min, respirations are 19/min, and oxygen saturation is 98% on room air. Physical exam reveals a distended and tender abdomen. A radiograph is performed as seen in Figure A. Which of the following is the most likely diagnosis? A. Cecal volvulus B. Ileus C. Sigmoid volvulus D. Small bowel obstruction"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_1",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 72-year-old man presents to the clinic for his annual exam. For the past few months, he has pain in his chest with physical activity. The pain goes away after he takes a break. He reports no chest pain while he is resting, and the pain is not worsening. His past medical history is notable for hypertension, type 2 diabetes mellitus, and hyperlipidemia. His medications include amlodipine, atorvastatin, and metformin. His temperature is 36.5°C (97.7°F), blood pressure is 132/80 mmHg, pulse is 74/min, respirations are 14/min, and oxygen saturation is 98% on room air. He has a regular rate and rhythm, normal S1 and S2, and no murmurs, rubs, or gallops. His anterior, lateral, and posterior chest are non-tender to palpation. His electrocardiogram is shown in Figure A. Troponin I level is < 0.017 ng/mL. Which of the following is the most likely diagnosis? A. Costochondritis B. Non-ST elevation myocardial infarction C. ST elevation myocardial infarction D. Stable angina E. Unstable angina"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_2",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 69-year-old patient presents to the emergency department with shortness of breath and substernal pain. The patient has a medical history of obesity, anxiety, and constipation. He is currently not taking any medications and has not filled his prescriptions for over 1 year. An ECG is obtained and is seen in Figure A. The patient is managed appropriately and is discharged on atorvastatin, metoprolol, aspirin, clopidogrel, and sodium docusate. The patient visits his primary care physician 4 weeks later and claims to be doing better. He has been taking his medications and resting. At this visit, his temperature is 99.5°F (37.5°C), blood pressure is 130/87 mmHg, pulse is 80/min, respirations are 11/min, and oxygen saturation is 96% on room air. The patient states he feels better since the incident. Which of the following is the most appropriate next step in management? A. Add hydrochlorothiazide B. Add lisinopril C. Add nifedipine D. Continue current medications and schedule follow up E. Switch beta-blocker to carvedilol"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_4",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 25-year-old woman is brought to the emergency department by her family. They found her somnolent next to her computer with an empty pill bottle around 3 hours ago. The family cannot recall the types of pill bottles that they found and did not bring them to the ED. The patient's medical history is notable for anxiety, obesity, hypertension, and polycystic ovarian syndrome. She is currently not on any medications. She was given an exercise program but she has not been compliant with these exercises. Her temperature is 99.5°F (37.5°C), pulse is 82/min, blood pressure is 125/85 mmHg, respirations are 11/min, and oxygen saturation is 97% on room air. Physical exam is within normal limits. The patient begins communicating with the physician and states that she did take acetaminophen but it was only a few pills. Her parents are certain the bottle was new. Which of the following is the most appropriate next step in management? A. Blood acetaminophen levels B. Charcoal C. Lactated ringer bolus D. N-acetylcysteine E. Syrup of ipecac"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_6",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 4-year-old boy is brought in by his grandmother for worsening seizure activity. She reports that occasionally he “suddenly drops” when running around the house. She says that his first seizure occurred 1 year ago. Since then, he has been on valproic acid but the seizure activity remains unchanged. He was recently enrolled in daycare because she could no longer care for him full-time. Since then, the seizure activity has increased and the daycare facility also noted concerns over his lack of response to voice commands. Family history is significant for a cousin who died suddenly at a young age. His temperature is 98.6°F (37°C), blood pressure is 105/52 mmHg, pulse is 110/min, and respirations are 25/min. A physical exam is significant for lack of response to auditory stimulation. An EEG is performed, which is unrevealing. An ECG is shown in Figure A. The patient is then startled when a door is closed quickly and he suddenly loses consciousness. An ECG is quickly performed and is shown in Figure B. An electrolyte panel is drawn with the following findings:\n\nSerum:\nNa+: 142 mEq/L\nCl-: 88 mEq/dL\nK+: 3.4 mEq/L\nHCO3-: 24 mEq/L\nBUN: 11 mg/dL\nGlucose: 67 mg/dL\nCreatinine: 0.6 mg/dL\nMg2+: 1.7 mg/dL\n\nWhich of the following is the most appropriate next step in management? A. Administer intravenous lorazepam B. Implant a pacemaker C. Replete potassium and magnesium and start a beta-blocker D. Replete potassium and magnesium and start procainamide E. Start ethosuximide"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_8",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 55-year-old man presents to the emergency department with chest pressure and diaphoresis. His symptoms started at work when he was lifting boxes. He states that he currently feels crushing pressure over his chest. He is given aspirin and an ECG is performed in triage, as seen in Figure A. His past medical history is notable for diabetes and obesity. He has smoked 1 pack of cigarettes per day for the past 30 years. His temperature is 97.9°F (36.6°C), blood pressure is 155/99 mmHg, pulse is 110/min, respirations are 22/min, and oxygen saturation is 98% on room air. Physical exam reveals an uncomfortable, diaphoretic man. His heart and breath sounds are unremarkable. A repeat ECG in the emergency department is performed, also seen in Figure A. The patient’s chest pain is worse when the ECG in the emergency department is taken, compared to the one taken in triage. He is given nitroglycerin, with minimal improvement in his symptoms. A troponin level is drawn. Which of the following is the most appropriate next step in management? A. Cardiac catheterization B. Chest radiograph C. CK-MB level D. Heparin E. Repeat ECG in 10 minutes"
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_9",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 28-year-old woman presents to her primary care provider with a headache. Every few weeks she has an episode of a right-sided, throbbing headache. The episodes began several years ago and are accompanied by nausea and bright spots in her vision. The headache usually subsides if she lies still in a dark, quiet room for several hours. The patient denies any weakness, numbness, or tingling during these episodes. Her medical history is significant for acne, hypothyroidism, obesity, and endometriosis. Her home medications include levothyroxine, oral contraceptive pills, and topical trans-retinoin. Her temperature is 98.6°F (37°C), blood pressure is 125/81 mmHg, pulse is 64/min, and respirations are 11/min. She has 2 glasses of wine with dinner several nights a week and has never smoked. She works as a receptionist at a marketing company. On physical exam, the patient has no focal neurologic deficits. A CT of the head is performed and shows no acute abnormalities. Which of the following is the most appropriate treatment for this patient during these episodes? A. Acetazolamide B. High-flow oxygen C. Sumatriptan D. Topiramate E. Verapamil"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_10",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 69-year-old woman presents with pain in her hip and groin. The pain is present in the morning but is nearly unbearable by the end of the day. Her medical history is notable for a treated episode of acute renal failure, diabetes mellitus, obesity, and hypertension. Her current medications include losartan, metformin, insulin, and ibuprofen. The patient recently started taking high doses of vitamin D as she believes that it could help her symptoms. She also recently fell off the treadmill while exercising at the gym. Her temperature is 98.6°F (37°C), blood pressure is 135/91 mmHg, pulse is 72/min, and respirations are 12/min. On exam, an obese woman in no distress is noted. There is pain, decreased range of motion, and crepitus on exam of her right hip. The patient points to the areas that cause her pain stating that it is mostly over the groin. Which of the following is most likely to be found on plain radiographic imaging of this patient? A. Femoral neck fracture B. Hyperdense foci in the ureters C. Loss of joint space and osteophytes D. Normal radiography E. Posterior displacement of the femoral head"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_13",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 35-year-old man presents to his primary care physician with pain along the bottom of his foot. The patient is a long-time runner but states that the pain has been getting worse recently. When running and at rest he has a burning and aching pain along the bottom of his foot that sometimes turns to numbness. Taking time off from training does not improve his symptoms. The patient has a medical history of surgical repair of his Achilles tendon, ACL, and medial meniscus. He is currently not taking any medications. The patient lives with his wife and they both practice a vegan lifestyle. His temperature is 98.6°F (37°C), blood pressure is 114/72 mmHg, pulse is 81/min, and respirations are 12/min. On physical exam, the patient states that he is currently not experiencing any pain in his foot but rather is experiencing numbness/tingling along the plantar surface of his foot. Strength is 5/5 and reflexes are 2+ in the lower extremities. Which of the following is the most likely diagnosis? A. Common fibular nerve compression B. Herniated disc C. Plantar fasciitis D. Tarsal tunnel syndrome E. Vitamin B12 deficiency"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_15",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 33-year-old man presents to the emergency department with dizziness. He states he has a constant sensation that the room is spinning. He is now having trouble walking and has been vomiting intermittently. He has no past medical history and takes no medications. His temperature is 98.0°F (36.7°C), blood pressure is 122/84 mmHg, pulse is 80/min, respirations are 16/min, and oxygen saturation is 98% on room air. Physical exam reveals a young man who is vomiting. His gait is ataxic and he exhibits rightward nystagmus. His dizziness is constant and unchanged with performance of the Dix-Hallpike maneuver. The head impulse test reveals a corrective saccade and there is no skew deviation. Which of the following is the most appropriate next step in management? A. Prednisone B. Epley maneuver C. MRI brain D. CT head"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_16",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 1-month-old girl presents to her pediatrician with her mother. The patient was born at 38 weeks gestation via Caesarean section for cervical incompetence. The patient’s mother has no complaints. The child had a runny nose and cough for a few days last week. The patient’s mother endorses decreased appetite during the aforementioned illness which has now returned to baseline. The patient’s family history is significant for an older brother with glucose-6-phosphate dehydrogenase (G6PD) deficiency and a maternal uncle with cirrhosis secondary to chronic hepatitis B. On physical exam, the patient has scleral icterus and dark urine staining her diaper. Laboratory testing reveals the following: Serum: Na+: 137 mEq/L Cl-: 102 mEq/L K+: 4.2 mEq/L HCO3-: 24 mEq/L Urea nitrogen: 12 mg/dL Glucose: 96 mg/dL Creatinine: 0.36 mg/dL Alkaline phosphatase: 146 U/L Aspartate aminotransferase (AST): 86 U/L Alanine aminotransferase (ALT): 76 U/L Total bilirubin: 4.6 mg/dL Direct bilirubin: 3.8 mg/dL Which of the following is the most likely diagnosis? A. Decreased metabolism of bilirubin B. Increased enterohepatic circulation of bilirubin C. Increased production of bilirubin D. Obstruction of the extrahepatic biliary tree E. Obstruction of the intrahepatic biliary tree"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_17",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 75-year-old man presents to the emergency department with fatigue. He has had severe nausea, vomiting, and diarrhea for the past 3 days. Today, his wife noticed that he was confused. The patient has a history of coronary artery disease with a drug-eluting stent placed 1 year ago, obesity, hypertension, and dyslipidemia. He denies chest pain or dyspnea, but complains of diffuse abdominal pain. His temperature is 99.0°F (37.2°C), blood pressure is 100/60 mmHg, pulse is 105/min, and respirations are 22/min. Physical exam reveals a confused man with dry mucous membranes. His abdomen is diffusely tender to palpation. Laboratory studies are ordered and notable for the following:\n\nSerum:\nNa+: 147 mEq/L\nCl-: 112 mEq/L\nK+: 3.5 mEq/L\nHCO3-: 14 mEq/L\nBUN: 80 mg/dL\nGlucose: 100 mg/dL\nCreatinine: 2.1 mg/dL\nTroponin: 0.10 mcg/L (normal < 0.01 mcg/L)\n\nAn ECG is ordered and is pending. Which of the following is the most appropriate management of this patient's elevated troponin? A. Aspirin B. Aspirin, heparin, clopidogrel, and cardiac catheterization C. Metoprolol and aspirin D. Obtain a urinalysis and creatine phosphokinase level E. Ringer lactate bolus"
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_18",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 45-year-old man with a past medical history of obesity presents with a concern about his sexual performance. He has a history of depression which is well managed with fluoxetine. He states that since starting the medication, his sexual drive has increased, yet he is unable to achieve orgasm. As a result, he refuses to take the medication anymore. He has a past medical history of diabetes and notes that his home blood glucose readings have been higher lately. His temperature is 98.3°F (36.8°C), blood pressure is 127/82 mmHg, pulse is 88/min, respirations are 14/min, and oxygen saturation is 99% on room air. Physical exam reveals an obese man in no acute distress with a normal affect and non-focal neurologic exam. The physician agrees to change the patient’s antidepressant. Which of the following is the most appropriate treatment for this patient? A. Bupropion B. Electroconvulsive therapy C. Escitalopram D. Mirtazapine E. Phenelzine"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_19",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 37-year-old woman presents to her physician for mood changes and recent falls over the course of 3 months. She feels more irritable with her husband and children and does not find pleasure in creating art anymore. Over the last 2 weeks, she has been sleeping approximately 5 hours a night and had a fall while walking in her home with the lights off. She denies any head trauma or loss of consciousness associated with the fall. She has a medical history of generalized anxiety disorder and hypothyroidism for which she takes escitalopram and levothyroxine. She had a Roux-en-Y gastric bypass 5 years ago. She has been in a monogamous relationship with her husband for the last 15 years and uses a copper intrauterine device. Physical examination is notable for a depressed affect. Pupils are equal, round, and reactive to light and accommodation. She has 4/5 strength in the bilateral lower extremities and brisk patellar reflexes. Which of the following is most likely the cause of this patient's symptoms? A. Poor iron absorption B. Prior Treponema pallidum exposure C. Reduced central nervous system dopamine and serotonin D. Reduced functional parietal cell count E. Subtherapeutic levothyroxine dose"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_20",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 67-year-old man presents with a recurrent episode of syncope. He states that this has happened to him multiple times, particularly when he changes body position from sitting to standing, exerts himself, or turns his head quickly. He says that he notes numbness, vertigo, and sometimes even trouble with speaking immediately prior to fainting. The episodes usually last 1-5 minutes. When he wakes up, he is mildly confused but typically returns to baseline within a minute. The patient has a past medical history of diabetes, dyslipidemia, and hypertension. His temperature is 98.5°F (36.9°C), blood pressure is 153/89 mmHg, pulse is 90/min, respirations are 11/min, and oxygen saturation is 97% on room air. The patient's neurological exam is unremarkable. However, when he is asked to stand up and start walking, he experiences the same numbness and tingling and feels like he may faint. Which of the following is the most likely diagnosis? A. Vagal event B. Seizure C. Blood vessel narrowing D. Stroke"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_21",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 23-year-old woman presents to the emergency department complaining of a worsening headache. The headache started 1 month ago. It is constant and “all over” but gets worse when she is lying down or in the setting of bright lights. A review of systems is significant for a low-grade fever, night sweats, cough, malaise, poor appetite, and unintentional weight loss of 12 pounds in the last 2 months. The patient is sexually active with multiple male partners and reports inconsistent condom use. She has a history of intravenous drug use and has not been to a doctor in the last 2 years. Her temperature is 100.4°F (38.0°C), blood pressure is 110/78 mmHg, pulse is 88/min, and respirations are 14/min with an oxygen saturation of 98% O2 on room air. On physical exam, pain is elicited upon passive flexion of the patient’s neck. A CT scan shows ventricular enlargement. A CD4+ count is 57 cells/µL blood. A lumbar puncture is performed with the following findings:\n\nCerebrospinal fluid:\nOpening pressure: 210 mmH2O\nGlucose: 32 mg/dL\nProtein: 204 mg/dL\nIndia ink stain: Positive\n\nLeukocyte count and differential:\nLeukocyte count: 200/mm^3\nLymphocytes: 100%\nRed blood cell count: 2/mm^3\n\nWhich of the following treatments most directly addresses the underlying cause of this patient's symptoms? A. Acyclovir B. Amphotericin B and 5-flucytosine C. Dexamethasone D. Fluconazole E. Vancomycin and ceftriaxone"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_22",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 26-year-old man presents to his primary care physician with a 6-month history of increasing lower back pain. He first felt the pain while lifting boxes at work but thought that he had just strained a muscle. The pain appears to be worse in the mornings and after rest. Exercise and physical activity appear to temporarily make the pain better. He has taken acetaminophen and ibuprofen for the pain. He has no significant medical history and takes no medications. His temperature is 98.6°F (37.0°C), blood pressure is 115/70 mmHg, pulse is 70/min, and respirations are 12/min. On physical exam, he is found to have limited flexion and extension of his spine as well as tenderness to palpation over the insertion of his patellar tendons bilaterally. Results from laboratory tests are shown below:\n\nSerum:\nErythrocyte sedimentation rate (ESR): 61 mm/hr\nC-reactive protein (CRP): 36 mg/L (normal <10 mg/L)\n\nWhich of the following is the most accurate test for this patient's condition? A. Bone scan B. Computed tomography C. Magnetic resonance imaging D. Radiograph E. Ultrasound"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_23",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 55-year-old man presents to the emergency department with worsening dyspnea over the past 48 hours. He recently had a cold that kept him home from work for the past week. He has a past medical history of diabetes, obesity, and hypertension. He had his Achilles tendon repaired 4 weeks ago and he has been less mobile. His temperature is 99.2°F (37.3°C), blood pressure is 150/85 mmHg, pulse is 82/min, respirations are 16/min, and oxygen saturation is 100% on room air. Physical exam is notable for dyspnea provoked by walking short distances. Jugular venous distension is noted on exam. The patient’s blood pressure is 130/70 mmHg during inspiration. A bedside echocardiogram demonstrates impaired diastolic filling with normal ventricular contractility. An ECG is performed as seen in Figure A. Which of the following is the most likely diagnosis? A. Cardiac tamponade B. Constrictive pericarditis C. Myocardial infarction D. Pulmonary embolism E. Restrictive cardiomyopathy"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_25",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 66-year-old man presents to the clinic with a 6-week history of bloody stools. He describes the blood as bright red wisps that float on the surface of the stool. He has no pain with bowel movements but notes on occasion he may strain. He does not endorse fatigue, fever, constipation, diarrhea, nausea, vomiting, abdominal pain, weight loss, or dyspnea. His last colonoscopy was 3 years prior to presentation and was benign. He has a medical history significant for hypertension that is well-controlled with lisinopril. He had an uncomplicated appendectomy when he was 23 years old. He has no family history of gastrointestinal malignancy. His temperature is 98.6°F (37.0°C), blood pressure is 140/90 mmHg, pulse is 76/min, and respirations are 16/min. On physical exam, the patient's abdomen is soft, non-distended, and non-tender with normal bowel sounds and without organomegaly or masses. The anus is patent without fissures, hemorrhoids, or skin tags. Which of the following is the most appropriate next step in management? A. Colonoscopy B. Computerized tomography scan of abdomen and pelvis C. Increase fiber in diet D. Observation E. Sigmoidoscopy"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_27",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 57-year-old man presents to the emergency department for shortness of breath. He was riding the train home from a business conference when his symptoms began. The patient has a medical history of obesity, diabetes, diabetic nephropathy, hypertension, and a 40-pack-year smoking history. His current medications include atorvastatin, lisinopril, insulin, metformin, and nicotine gum. His temperature is 99.5°F (37.5°C), blood pressure is 130/87 mmHg, pulse is 120/min, respirations are 15/min, and oxygen saturation is 93% on room air. An ECG is ordered as seen in Figure A. A chest radiograph is ordered as seen in Figure B. Laboratory values are ordered as seen below: Serum: Na+: 137 mEq/L Cl-: 105 mEq/L K+: 4.1 mEq/L HCO3-: 24 mEq/L BUN: 22 mg/dL Glucose: 129 mg/dL Creatinine: 1.2 mg/dL Ca2+: 10.1 mg/dL AST: 11 U/L ALT: 12 U/L On physical exam, the patient appears to be in distress. His cardiac exam is notable for tachycardia. Pulmonary exam reveals bilateral air movement without any wheezes or crackles. The patient's right lower extremity appears mildly inflamed, and palpation of the calf elicits pain. Which of the following is the most appropriate next step in management? A. Aspirin B. Cardiac troponins C. Heparin D. Ventilation perfusion scan"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_28",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 54-year-old man presents to the clinic with 4 weeks of persistently worsening back pain. The pain is localized to 1 spot in his lower back and is worse with physical activity. His medical history is pertinent for intravenous drug use. He has no past surgical history. His temperature is 36.8°C (98.2°F), blood pressure is 118/90 mmHg, pulse is 92/min, respirations are 13/min, and oxygen saturation is 99% on room air. On physical exam, he has midline back tenderness to palpation at L2-L3. Laboratory workup reveals an erythrocyte sedimentation rate of 112 mm/h and C-reactive protein of 10 mg/dL. Which of the following is the most likely diagnosis? A. Ankylosing spondylitis B. Degenerative spine disease C. Herniated disc D. Metastatic tumor E. Osteomyelitis"
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_31",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 56-year-old man presents from prison with 1 month of subjective fevers, chills, cough, and night sweats. He noticed a gradual weight loss over the past year despite no changes to his diet or physical activity. He has never smoked cigarettes but does have a history of opiate use prior to incarceration. He does not take any medications. His temperature is 100.8°F (38.2°C), blood pressure is 142/88 mmHg, pulse is 78/min, and respirations are 12/min. Physical exam reveals a thin, ill-appearing man. Pulmonary auscultation reveals faint, inspiratory crackles in the right upper lobe. His chest radiograph is shown in Figure A. Which of the following is the most appropriate next step in management? A. Ampicillin-sulbactam B. Biopsy C. Itraconazole D. Rifampin, isoniazid, pyrazinamide, and ethambutol (RIPE) therapy E. Vancomycin"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_33",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 24-year-old woman presents to clinic for a routine annual exam. She has generally been feeling well, but notes feeling intermittent palpitations over the past few months. Her past medical history is unremarkable and she is not currently taking any medications. She denies drinking alcohol, smoking cigarettes, or using recreational drugs. She attributes her palpitations to recently drinking more caffeine, but would like to obtain an electrocardiogram since her symptoms are worrisome and affecting her ability to concentrate on her career as a fitness instructor. Her temperature is 36.9°C (98.4°F), blood pressure is 116/76 mmHg, pulse is 55/min, respirations are 12/min, and oxygen saturation is 98% on room air. Her electrocardiogram is shown in Figure A. Which of the following is the most likely diagnosis? A. First degree atrioventricular block B. Second degree atrioventricular block, Mobitz type I C. Second degree atrioventricular block, Mobitz type II D. Sinus bradycardia E. Third degree atrioventricular block"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_34",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 59-year-old man presents to the emergency department after a sudden onset of slurred speech and right upper extremity weakness. His symptoms lasted 20 minutes but by the time he arrived at the emergency department he was symptom-free. The patient denies any preceding symptoms. He has a history of diabetes, obesity, and hypertension but does not see a physician for his underlying conditions. His temperature is 99.2°F (37.3°C), blood pressure is 140/85 mmHg, pulse is 82/min, respirations are 16/min, and oxygen saturation is 100% on room air. Physical exam reveals normal vision, strength, and sensation with a stable gait. Finger-nose testing and tandem gait are unremarkable. A CT scan of the head is performed and is unremarkable. Which of the following is the most appropriate next step in management? A. Aspirin B. Atorvastatin C. CTA head/neck D. Labetalol E. MRI brain"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_37",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 45-year-old morbidly obese woman with a history of asthma and type 2 diabetes mellitus presents to her primary care physician for advice on weight loss. She thinks that her husband is having sex with other women because they have not had sex over the past year. She feels that her co-workers also disrespect her for her weight and constant sweat stains around her armpits and chest. She has noticed that the sweat stains get itchy and induce a burning sensation unless she showers or changes her shirt. She has been compliant with her medications, which include albuterol, metformin, glyburide, and atorvastatin. Her temperature is 98.6°F (37°C), blood pressure is 128/85 mmHg, pulse is 91/min, and respirations are 11/min. On physical exam, the patient has a flat affect, with moist oral mucosa and nasal polyps. She denies sinus tenderness. Her neck is thick with a posterior cervical fat pad. During cardiac auscultation, the finding in Figure A is noted below her breasts. What is the most appropriate next step in management for this finding? A. Fluconazole B. Prednisone C. Topical clobetasol D. Topical imiquimod E. Topical nystatin"
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_39",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 57-year-old immigrant from Nigeria presents to the emergency department for sudden, severe pain and swelling in her lower extremity. She was at a rehabilitation hospital when her symptoms started. The patient has a medical history of obesity, diabetes, bipolar disorder, and tonic-clonic seizures. Her current medications include metformin, insulin, lisinopril, and valproic acid. The patient has IV drug and alcohol use disorder and has presented to the ED many times for intoxication. Her temperature is 98.6°F (37°C), blood pressure is 115/71 mmHg, pulse is 72/min, and respirations are 12/min. Physical exam reveals anasarca and asymmetric lower extremity swelling. Based on the results of a doppler ultrasound of her swollen lower extremity, heparin is started. The patient is then transferred to the general medicine floor for continued management. Laboratory studies are shown below.\n\nSerum:\nNa+: 137 mEq/L\nK+: 5.5 mEq/L\nCl-: 100 mEq/L\nHCO3-: 24 mEq/L\nUrea nitrogen: 22 mg/dL\nCa2+: 5.7 mg/dL\nCreatinine: 1.7 mg/dL\nGlucose: 70 mg/dL\n\nWhich of the following is the most likely diagnosis? A. Antithrombin III deficiency B. Factor V Leiden C. Liver failure D. Nephrotic syndrome E. Prothrombin gene mutation"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_41",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 55-year-old man presents to the emergency department with chest pain and shortness of breath. He has a medical history of hypertension, diabetes, and obesity. His temperature is 98.6°F (37.0°C), blood pressure is 177/118 mmHg, pulse is 127/min, respirations are 11/min, and oxygen saturation is 98% on room air. An ECG is performed and notable for ST elevation in leads II, III, and aVF. The patient is treated appropriately and transferred to the medical floor. On the 2nd day of his hospitalization, the patient has abdominal pain. His serum lipase is 272 U/L and his creatinine is 1.6 mg/dL. A physical exam is notable for the finding in Figure A. He is requesting pain medication for his abdominal pain. Which of the following is the most likely underlying diagnosis? A. Cholesterol embolism B. Heart failure and reinfarction C. Medication side effect D. Pancreatitis E. Renal failure"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_44",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 64-year-old man presents with nausea, vomiting, and weakness. He states that his wife made him come in when he fainted today while attempting to stand up. He otherwise states he has noticed some visual changes, including noting a yellow tint to objects. He has a history of heart failure with reduced ejection fraction, obesity, diabetes, hypertension, acute coronary syndrome, atrial fibrillation, and peripheral vascular disease. His temperature is 98.5°F (36.9°C), blood pressure is 153/91 mmHg, pulse is 40/min, respirations are 15/min, and oxygen saturation is 97% on room air. Physical exam reveals a frail man who is unable to ambulate secondary to lightheadedness. His neurological exam is otherwise non-focal. An ECG is performed as seen in Figure A. Which of the following is the most likely etiology of this patient’s symptoms? A. Amiodarone B. Digoxin C. Diltiazem D. Procainamide E. Propranolol"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_48",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 2-year-old boy is brought to the emergency room by his mother, who states that her son has been coughing uncontrollably for 3 hours. The child has a medical history of obesity and atopic dermatitis and uses topical steroid cream. His birth history is unremarkable. His family history is notable for asthma in his older sister and irritable bowel syndrome in his father. His temperature is 98.5°F (36.9°C), pulse is 120/min, blood pressure is 90/52 mmHg, and respirations are 32/min. On exam, he appears uncomfortable, is coughing continuously, and is drooling. Cardiopulmonary and abdominal exams are unremarkable. A chest radiograph is performed and the results are shown in Figures A and B. Which of the following is the most appropriate next step in management? A. Balloon catheter removal B. Endoscopic removal C. Ipecac administration D. Observation E. Surgical extraction"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_51",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 27-year-old man presents to the emergency department with altered mental status. He was running a marathon but became confused halfway through the race. He arrives unable to coherently answer questions and is not sure where he is. He has a history of a seizure disorder. His temperature is 105°F (40.6°C), blood pressure is 116/68 mmHg, pulse is 167/min, respirations are 29/min, and oxygen saturation is 99% on room air. Physical exam reveals a confused man who is moving all 4 extremities and is protecting his airway. During the exam, he develops a tonic-clonic seizure, which lasts 1 minute and then terminates on its own. The patient is given intravenous fluids, and basic laboratory studies are drawn and pending. A urine dipstick is positive for red blood cells. Which of the following is most likely to be seen on laboratory testing? A. Hyperkalemia B. Hyperphosphatemia C. Hyperuricemia D. Hypocalcemia E. Hyponatremia"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_52",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 24-year-old man presents to his primary care physician with left groin pain. The pain started a year ago and has progressed. He now has 8/10 pain when climbing stairs or rising from a seated position. He localizes the pain to the front of his groin. He denies any erythema or swelling. He has a history of hypertension, sickle cell anemia, and a splenectomy. He drinks a glass of wine with dinner every night and took up scuba diving 2 months ago but otherwise does not exercise. His temperature is 97.5°F (36.4°C), blood pressure is 124/68 mmHg, pulse is 82/min, and respirations are 16/min. His body mass index (BMI) is 18.1 kg/m^2. Physical exam reveals left groin pain at the terminal ranges of hip abduction and internal rotation. There is no point tenderness. A radiograph is obtained as in Figure A. Which of the following components of this patient’s history most strongly predisposed him to this condition? A. Alcohol use B. History of sickle cell disease C. Lack of physical activity D. Low BMI E. Scuba diving"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_53",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 60-year-old man presents to his primary care physician with weight gain. He states that ever since his wife died 4 months ago, he has been eating and sleeping more and no longer engages in any activities he once enjoyed such as hiking or fishing. He feels guilty for not spending more time with his wife before she died. He was recently fired for making several major bookkeeping mistakes at work as an accountant as he had trouble focusing. The patient is requesting oxycodone at this appointment as he states he has burning pain in his legs that feels worse now than it has in years past. The patient has a past medical history of obesity, poorly controlled diabetes, hypertension, and peripheral vascular disease. His temperature is 98.7°F (37.1°C), blood pressure is 129/82 mmHg, pulse is 83/min, respirations are 15/min, and oxygen saturation is 99% on room air. Physical exam reveals a stable gait and reduced sensation symmetrically over the lower extremities. He complains of electric pain when touching his lower extremities. His affect seems depressed. Which of the following is the most appropriate treatment for this patient? A. Amitriptyline B. Bupropion C. Escitalopram D. Phenelzine E. Venlafaxine"
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_57",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 28-year-old G1P0 woman presents to initiate prenatal care after a positive home pregnancy test. The first day of her last menstrual period was 7 weeks prior to presentation. The patient has no medical conditions and takes no medications. Her temperature is 98.6°F (37.0°C), blood pressure is 110/70 mmHg, pulse is 64/min, and respirations are 17/min. Physical exam is notable for a nontender abdomen. Pelvic exam reveals a closed cervix with no adnexal or uterine tenderness. A urine pregnancy test is positive, and an intrauterine singleton pregnancy measuring approximately 9 weeks gestational age is visualized on transvaginal ultrasound. The patient asks if she should modify her current exercise regimen due to her pregnancy. She typically swims or uses an exercise bike for 45 minutes, 5 days a week, and plays in an office soccer league for 1 hour on 1 day per week. Which of the following is the most appropriate recommendation regarding exercise for this patient? A. Avoid exercise during pregnancy B. Avoid soccer during pregnancy, continue other activities C. Continue the current exercise regimen D. Limit moderate exercise to a maximum of 30 minutes per day during pregnancy E. Reduce to walking only, beginning in the third trimester"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_58",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 5-year-old girl presents to the emergency room due to difficulty walking. She has been complaining of pain in her right leg for the last few days. Her neighbor’s cat bit her last week and her parents attributed the pain to her healing bite. At the time of the bite, they cleaned the wound and irrigated it with sterile saline water from a first aid kit. She has no medical history and has never been hospitalized. Her temperature is 102.2°F (39°C), blood pressure is 118/78 mmHg, pulse is 90/min, respirations are 21/min, and pulse oximetry is 99% on room air. The open wound remains present on the thigh with surrounding erythema and edema. MRI is consistent with osteomyelitis. Which of the following is the most appropriate next step in management? A. Doxycycline B. Ampicillin and sulbactam C. Amoxicillin and clavulanate D. Flucanozole"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_60",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 69-year-old man presents to his primary care provider for a general checkup. He has a medical history of type 2 diabetes mellitus, hypertension, depression, obesity, and a myocardial infarction 7 years ago. The patient's prescribed medications are metoprolol, aspirin, lisinopril, hydrochlorothiazide, fluoxetine, metformin, and insulin. The patient has not been filling his prescriptions regularly and can not remember what medications he has been taking. His temperature is 99.5°F (37.5°C), pulse is 96/min, blood pressure is 180/120 mmHg, respirations are 18/min, and oxygen saturation is 97% on room air. Laboratory values are obtained and the results are shown below:\n\nSerum:\nNa+: 139 mEq/L\nK+: 4.3 mEq/L\nCl-: 100 mEq/L\nHCO3-: 24 mEq/L\nBUN: 7 mg/dL\nGlucose: 170 mg/dL\nCreatinine: 1.2 mg/dL\n\nWhich of the following cardiac findings would be expected on physical exam? A. Fixed splitting of S1 and S2 B. Heart sound after S2 C. Heart sound before S1 D. Holosystolic murmur at the apex E. Normal S1 and S2"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_68",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 47-year-old woman presents to the clinic with 3 weeks of increased thirst and urination. She has a history of obesity, hypertension, and depression for which she takes losartan and sertraline. She has smoked 1 pack of cigarettes per day for 30 years. Her temperature is 99.5°F (37.5°C), blood pressure is 148/90 mmHg, pulse is 84/min, and respirations are 15/min. Physical exam is unremarkable, including no costovertebral or suprapubic tenderness to palpation. Laboratory studies are performed and show:\n\nSerum:\nNa+: 140 mEq/L\nK+: 4.4 mEq/L\nHCO3-: 21 mEq/L\nBlood urea nitrogen (BUN): 38 mg/dL\nCreatinine: 1.1 mg/dL\nGlucose: 215 mg/dL\n\nWhich of the following is the most appropriate screening test for nephropathy in this patient? A. Creatinine clearance B. Hemoglobin A1c C. Oral glucose tolerance test D. Urine albumin-to-creatinine ratio E. Urine protein dipstick"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_70",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 41-year-old man presents to his primary care provider after seeing bright red blood in the toilet bowl after his last 2 bowel movements. He reports that he also noticed some blood mixed with his stool. The patient denies abdominal pain or any changes in his stool habits. He notes a weight loss of 8 pounds in the last 2 months with no changes in his diet or exercise habits. His medical history is significant for an episode of pancreatitis 2 years ago for which he was hospitalized for several days. He drinks 2-3 beers on the weekend and he has never smoked. He has no family history of colon cancer. His temperature is 97.6°F (36.4°C), blood pressure is 135/78 mmHg, pulse is 88/min, and respirations are 14/min. On physical exam, his abdomen is soft and non-tender to palpation. Bowel sounds are present, and there is no hepatomegaly. Which of the following is the most appropriate next step in management? A. Abdominal CT B. Anoscopy C. Barium enema D. Colonoscopy E. Ultrasound of abdomen"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_76",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 23-year-old woman presents with a 7-day history of abdominal pain, and now bloody diarrhea that brings her to her primary care physician. Review of systems is notable for a 12-pound unintentional weight loss and intermittent loose stools. She has a family history notable for a father with coronary artery disease and a mother with primary sclerosing cholangitis. Her temperature is 37.2°C (98.9°F), blood pressure is 100/72 mmHg, pulse is 72/min, respirations are 12/min, and oxygen saturation is 100% on room air. Her abdomen is soft, mildly diffusely tender to deep palpation, and non-distended. She is found to have the finding on colonoscopy in Figure A. Serum perinuclear antineutrophil cytoplasmic antibodies (p-ANCA) are positive. Which of the following is most likely to be present in this patient? A. Continuous lesion beginning in the rectum B. Fistulae and stricture formation C. Worse disease severity near the ileocecal valve D. Perianal disease"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_78",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 55-year-old man presents to his primary care physician with fatigue, malaise, and a painful rash. The patient states that his symptoms have been worsening over the past week. He also has experienced abdominal pain and diarrhea. He has a medical history of obesity and smokes regularly. His temperature is 97.5°F (36.4°C), blood pressure is 142/82 mmHg, pulse is 85/min, respirations are 15/min, and oxygen saturation is 98% on room air. Physical exam is notable for an erythematous rash with papules and plaques on the patient's face, torso, and extremities. He states that the rash is painful. A fingerstick blood glucose is unable to accurately read his blood glucose and gives a reading of > 500 mg/dL. Which of the following is the most likely underlying pathophysiology of this patient’s condition? A. Alpha cell tumor B. Beta cell destruction C. Beta cell tumor D. Hypercortisolism E. Insulin resistance"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_80",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 50-year-old man presents to the emergency department with chest pain. He states that the pain is dull in quality, started 30 minutes ago, has been gradually worsening, and is worse with exertion. He also endorses some shortness of breath. He also believes the pain is worse when leaning back and improved when leaning forward. His wife noticed he fainted after the pain started but regained consciousness shortly after. He has a medical history of diabetes and hypertension for which he is on metformin and losartan. His temperature is 99.2°F (37.3°C), blood pressure is 130/87 mmHg, pulse is 99/min, respirations are 22/min, and oxygen saturation is 100% on room air. Physical exam reveals an overweight man. A normal S1 and S2 are auscultated with clear breath sounds. An ECG is performed as seen in Figure A. Which of the following is the most likely diagnosis? A. Hyperkalemia B. Hypertrophic obstructive cardiomyopathy C. Hypokalemia D. Myocardial infarction E. Pericarditis"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_81",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 65-year-old man presents to the emergency department for evaluation of left arm and leg weakness. He was walking in the park about 45 minutes prior to arrival when the patient stumbled and fell. He had sudden weakness in his left leg and was unable to grasp a handrail with his left hand. He currently takes no medications. His temperature is 98.0°F (36.6°C), blood pressure is 128/89 mmHg, pulse is 130/min, and respirations are 18/min. On exam, he has 3/5 strength in the left upper and lower extremities and a left-sided facial droop. A non-contrast CT scan of the head is performed, which suggests parenchymal ischemia in the distribution of the right middle cerebral artery. An ECG is performed, as shown in Figure A. He is given intravenous alteplase with rapid improvement in his strength deficits and facial asymmetry. Which of the following is the most appropriate long-term therapy for secondary stroke prevention for this patient? A. Aspirin B. Atorvastatin C. Cardiac pacemaker D. Rivaroxaban E. Warfarin"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_83",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 49-year-old man presents with 3 months of generalized weakness. He has had a chronic cough and a 20 pound unintentional weight loss over the past 6 months. He has a medical history significant for high blood pressure, hyperlipidemia, and seasonal allergies with no prior surgical history. He has no history of tobacco use. He moved from India 7 years prior to presentation. He currently lives in Oregon and has not left the west coast since moving. His temperature is 99°F (37.2°C), blood pressure is 100/70 mmHg, pulse is 76/min, and respirations are 16/min. His physical exam is significant for hyperpigmentation of the oral mucosa and temporal muscle wasting. Radiography of the abdomen demonstrates bilateral adrenal calcifications. Laboratory values are as follows:\n\nSerum:\nNa+: 130 mEq/L\nCl-: 96 mEq/L\nK+: 5.2 mEq/L\nHCO3-: 24 mEq/L\nMorning cortisol: 2 ug/dL\n30-minute cortisol during cosyntropin test: 8 ug/dL (normal > 18 ug/dL)\nMorning adrenocorticotropic hormone (ACTH) concentration (serum): 80 pg/mL (normal 10-60 pg/mL)\n\nWhich of the following is the most appropriate next step in management? A. Bilateral adrenalectomy, prednisone, and fludrocortisone B. Dexamethasone C. Hydrocortisone and immunoglobulin therapy D. Prednisone taper E. Rifamycin, isoniazid, pyrazinamide, ethambutol, and hydrocortisone therapy"
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_88",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 53-year-old African-American woman presents to her primary care doctor with increasing difficulty climbing the stairs. She noticed the weakness approximately 3 months ago. It has gotten progressively worse since that time. She has also noticed increasing difficulty combing her hair, standing from a seated position, and experiences muscle aches. Her medical history is significant for hypertension treated with lifestyle modification and gastroesophageal reflux disease (GERD). Her temperature is 98.6°F (37.0°C), blood pressure is 130/65 mmHg, pulse is 80/min, and respirations are 16/min. She has 3/5 strength to shoulder abduction and hip flexion bilaterally. Her strength is 5/5 to wrist extension and ankle plantar flexion. No skin rashes are noted. Which of the following is the most accurate test to confirm this patient’s diagnosis? A. Electromyography B. MRI C. Muscle biopsy D. Serum aldolase E. Serum creatine kinase"
+      },
+      {
+        "role": "assistant",
+        "content": "C"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_89",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 27-year-old woman presents to her primary care physician with new hair growth on her face and lower abdomen over the last month. She has started to develop pimples on her face and back over the last several months. Her last menstrual period was over 3 months ago and her periods have been irregular over the last year. She has been gaining weight recently. The patient has a medical history of obesity and prediabetes with a hemoglobin A1c of 6.0% last year. Her temperature is 98.5°F (36.9°C), pulse is 80/min, blood pressure is 139/88 mmHg, and respirations are 13/min. Cardiopulmonary exam is unremarkable, and the patient’s abdomen appears slightly distended but exhibits no tenderness to palpation. The patient’s face has coarse stubble along the jawline and on the upper lip, and there is similar hair along the midline of her lower abdomen. A pelvic exam reveals mild clitoromegaly, a normal anteverted uterus, and a large left adnexal mass that is mildly tender. Her laboratory test results are shown below:\n\nHemoglobin: 13.9 g/dL\nLeukocyte count: 8,000 cells/mm^3\nPlatelet count: 142,000/mm^3\n\nDHEAS: 73 ug/dL (Normal: 145-395 ug/dL)\nTestosterone: 256 ng/dL\n17-hydroxyprogesterone: 214 ng/dL (Normal: < 200 ng/dL)\n\nUltrasound findings are shown in Figure A. Which of the following is the most likely diagnosis in this patient? A. Adrenal tumor B. Congenital adrenal hyperplasia C. Ovarian hyperthecosis D. Ovarian tumor E. Polycystic ovary syndrome"
+      },
+      {
+        "role": "assistant",
+        "content": "D"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_91",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 60-year-old woman presents to the emergency department with back pain after gardening. Her pain is 7/10 in severity, non-radiating, and not relieved by rest. She has never experienced this pain in the past and denies fever, night sweats, unintentional weight loss, and bowel or bladder incontinence. She has hypertension for which she takes hydrochlorothiazide and had a recent asthma flare requiring a prednisone taper. She does not drink alcohol or smoke. Her temperature is 98.6°F (37.0°C), blood pressure is 120/80 mmHg, pulse is 90/min, and respirations are 18/min. Physical exam reveals an uncomfortable middle-aged woman in no acute distress. There is no tenderness to palpation of the spinous processes. Flexion of the hip with the knee extended while the patient is supine does not elicit any pain, nor does forced dorsiflexion of the foot at terminal hip extension. She has 5/5 strength to hip flexion, extension, abduction, and adduction; knee flexion and extension; and ankle dorsiflexion and plantarflexion bilaterally. Bilateral patellar and Achilles reflexes are 2+. Serum laboratory results are as follows: Hemoglobin: 12.0 g/dL Creatinine: 1.1 mg/dL Ca2+: 10.6 mg/dL Which of the following is the most likely diagnosis? A. Herniated disc B. Lumbosacral strain C. Multiple myeloma D. Spondylolisthesis E. Vertebral compression fracture"
+      },
+      {
+        "role": "assistant",
+        "content": "B"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_93",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 65-year-old man presents to his primary care physician for stiffness in his arm. He has been having trouble combing his hair and reaching objects that are high on the shelf. The patient has a medical history of type 2 diabetes mellitus, obesity, and hypertension. His current medications include metformin, insulin, lisinopril, and hydrochlorothiazide. The patient leads a sedentary life in which he tends to stay home and watch television. He does not engage in any physical or strenuous activity. His temperature is 98.6°F (37°C), blood pressure is 138/85 mmHg, pulse is 75/min, and respirations are 12/min. On physical exam, the patient has decreased passive and active range of motion of his shoulder. The strength of the patient's upper extremity is 4/5 limited by pain. Which of the following is the most likely diagnosis? A. Adhesive capsulitis B. Biceps tendinopathy C. Glenohumeral osteoarthritis D. Rotator cuff impingement E. Subacromial bursitis"
+      },
+      {
+        "role": "assistant",
+        "content": "A"
+      }
+    ],
+    "kto_tag": true
+  },
+  {
+    "id": "medbullets_96",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位专业的医学专家。请回答以下选择题，逐步分析选项后，直接输出单个选项字母（A、B、C、D 或 E）。"
+      },
+      {
+        "role": "user",
+        "content": "A 52-year-old man presents to the clinic with a left foot ulcer that he noticed 6 days ago. He has a history of obesity, hypertension, type 2 diabetes mellitus, and depression. His current medications include metformin, aspirin, rosuvastatin, lisinopril, and fluoxetine. He has a 25-pack-year smoking history and drinks 1 glass of wine a day. His temperature is 98.6°F (37.0°C), blood pressure is 115/70 mmHg, pulse is 70/min, and respirations are 12/min. On physical exam, he has a 1.2 x 1.7 cm ulcer on the plantar surface of his left metatarsal head. Which of the following tests will most appropriately assess this patient’s future risk of foot ulcers? A. Ankle-brachial index B. Capillary refill time C. Contrast-enhanced foot magnetic resonance imaging D. Knee reflex testing E. Monofilament testing"
+      },
+      {
+        "role": "assistant",
+        "content": "E"
+      }
+    ],
+    "kto_tag": true
+  }
+]
