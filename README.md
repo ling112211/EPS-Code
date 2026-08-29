@@ -1,6 +1,6 @@
 # Exercise-Prescription-System
 
-This repository provides the code to reproduce the analyses, tables, and figures for the paper: **LLM-human collaboration for personalized exercise prescription in digital chronic disease management: a randomized controlled trial** (under review).
+This repository provides the code to reproduce the analyses, tables, and figures for the paper: **LLM-human collaboration for personalized exercise prescription in digital chronic disease management: a randomized controlled trial**.
 
 The trial was prospectively registered at the [Chinese Clinical Trial Registry (ChiCTR2600118939)](https://www.chictr.org.cn/hvshowprojectEN.html?id=295346&v=1.0).
 
@@ -22,7 +22,7 @@ Key results:
 
 - EPS improved medical benchmark performance by 20–30 percentage points over base models across all four benchmarks, with Qwen3-14B (EPS) achieving 86.75% on CMB, 90.66% on CMExam, 89.74% on MedMCQA, and 86.30% on MedQA.
 - In the weight-loss RCT, the EPS–human arm achieved significantly greater mean weight loss (1.40 kg vs 1.20 kg; *P* = 0.0004) and a higher proportion of participants achieving ≥2% weight loss (62.94% vs 54.27%; *P* = 0.0008).
-- In the glycemic-control RCT, the EPS–human arm yielded significantly larger reductions in fasting glucose (0.98 mmol/L vs 0.30 mmol/L; *P* < 0.05).
+- In the exploratory glycemic-control RCT, the complete-case estimate favoured EPS–human, although the manager-clustered CR2 confidence interval included zero.
 
 ## Repository Structure
 
@@ -101,6 +101,7 @@ Exercise-Prescription-System/
 │   │   └── enhanced_feedback_mediation.py     # Frequency-control, content-audit, and latency analysis for Supplementary Table 3
 │   ├── weight_loss_analysis.py                # Weight-loss outcomes and cumulative response (Fig. 3a)
 │   ├── glycemic_control_analysis.py           # Fasting glucose outcomes and individual reductions (Fig. 3b)
+│   ├── clustering_analysis.py                 # ICC and clustered analyses (Supplementary Tables 24-25)
 │   └── operational_outcomes.py                # Delivery, latency, and draft-review outcomes (Fig. 3c)
 ├── questionnaire/
 │   └── participant_reported.py                # Participant-reported experience panels (Fig. 4a-c)
@@ -145,6 +146,7 @@ Exercise-Prescription-System/
 | `clinical_trial/baseline_characteristics.py` | Table 1 | `data/example/` (**example only**) |
 | `clinical_trial/weight_loss_analysis.py` | Fig. 3a | `data/example/` (**example only**) |
 | `clinical_trial/glycemic_control_analysis.py` | Fig. 3b | `data/example/` (**example only**) |
+| `clinical_trial/clustering_analysis.py` | Supplementary Tables 24-25 | Controlled-access complete-case workbooks with health manager IDs (**not bundled**) |
 | `clinical_trial/operational_outcomes.py` | Fig. 3c | Derived check-in summary; real trial chat data are controlled access |
 | `clinical_trial/checkin_analysis/*.py` | Tagged-checkin linkage + Supplementary Table 3 frequency-control/content-audit outputs | `data/example/checkin/` (**example only**) |
 | `questionnaire/participant_reported.py` | Fig. 4a-c | `data/example/` (**example only**) |
@@ -289,6 +291,28 @@ python clinical_trial/glycemic_control_analysis.py \
 ```
 
 The script writes both the manuscript filenames (`glycemic_fpg_reduction_bars.pdf/.png`) and `_nm_style` aliases.
+
+### ICC and Clustering Analyses (Supplementary Tables 24 and 25)
+
+Estimates unconditional health manager and community ICCs, fits health manager and community random-intercept models, and reports Bell–McCaffrey CR2 sensitivity analyses. The script runs five mixed-model optimizers and retains the converged solution with the highest restricted log likelihood.
+
+```bash
+# Weight-loss cohort
+python clinical_trial/clustering_analysis.py \
+    --cohort weight_loss \
+    --human-xlsx path/to/Human\ weight-loss.xlsx \
+    --eps-xlsx path/to/EPS-Human\ weight-loss.xlsx \
+    --outdir outputs/clustering/weight_loss
+
+# Glycemic-control cohort
+python clinical_trial/clustering_analysis.py \
+    --cohort glycemic \
+    --human-xlsx path/to/Human\ glycemic-control.xlsx \
+    --eps-xlsx path/to/EPS-Human\ glycemic-control.xlsx \
+    --outdir outputs/clustering/glycemic
+```
+
+The controlled-access workbooks must contain participant, community, and health manager identifiers together with the cohort outcome fields. Accepted column names are documented in `data/README_data.md`. Each run writes `icc_results.csv`, `model_results.csv`, design and cluster summaries, and `analysis_metadata.json` with input hashes and package versions.
 
 ### Tagged Check-In Linkage And Frequency-Control/Content-Audit Analysis (Supplementary Table 3)
 
@@ -486,8 +510,8 @@ This repository includes three categories of data:
 **Example data only (does not reproduce paper results):**
 - `data/example/` — anonymised synthetic datasets provided solely to verify that the analysis and plotting scripts run without errors. These files have the same format as the real data but contain different values. Outputs produced with these files will **not** match the tables and figures reported in the paper.
 
-**Not bundled in this repository (required by the current sensitivity-analysis scripts):**
-- Controlled-access Excel files for weight-loss and glycemic-control completers and missing-participant baselines. These scripts currently expect those files at fixed paths under `weight-loss/`, `glycemic/`, and `sensitivity_analysis/* missing data/`.
+**Not bundled in this repository (required by the clinical-trial sensitivity analyses):**
+- Controlled-access Excel files for weight-loss and glycemic-control completers and missing-participant baselines. The ICC analysis also requires the health manager and community identifiers in the complete-case workbooks. Data paths for `clinical_trial/clustering_analysis.py` are supplied through command-line arguments; the three `sensitivity_analysis/*.py` scripts use fixed paths under `weight-loss/`, `glycemic/`, and `sensitivity_analysis/* missing data/`.
 
 The real clinical trial data (weight-loss RCT: 1,580 randomized participants, including 1,444 in the complete-case efficacy analysis; glycemic-control RCT: 48 randomized participants, including 40 in the complete-case efficacy analysis; participant questionnaire) are available under controlled access due to patient privacy regulations. Researchers who wish to access the de-identified participant data for academic purposes may contact the corresponding author. Please see `data/README_data.md` for a full description of each dataset and the required file format.
 
