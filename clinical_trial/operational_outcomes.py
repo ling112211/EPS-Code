@@ -45,13 +45,20 @@ def load_json(path: Path) -> Dict[str, Any]:
 
 
 def extract_quality(summary: Dict[str, Any]) -> Dict[str, Any]:
-    for key in ("panel_c_content_audit", "panel_c_message_level_content_audit", "module_4a_keyword_quality"):
+    for key in (
+        "panel_d_content_audit",
+        "panel_c_content_audit",
+        "panel_c_message_level_content_audit",
+        "module_4a_keyword_quality",
+    ):
         if key in summary:
             return summary[key]
     raise KeyError("Summary JSON has no message-level content-audit results.")
 
 
 def extract_latency(summary: Dict[str, Any]) -> Dict[str, Any]:
+    if "panel_a_latency" in summary:
+        return summary["panel_a_latency"]
     if "panel_d_latency" in summary:
         return summary["panel_d_latency"]
 

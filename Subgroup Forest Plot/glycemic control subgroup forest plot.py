@@ -5,12 +5,21 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+from scipy import stats
+import statsmodels.api as sm
+import statsmodels.formula.api as smf
+from statsmodels.stats.multitest import multipletests
 
 
 # =========================
 # Global plot style
 # =========================
 plt.rcParams["font.family"] = "Times New Roman"
+plt.rcParams["mathtext.fontset"] = "custom"
+plt.rcParams["mathtext.rm"] = "Times New Roman"
+plt.rcParams["mathtext.it"] = "Times New Roman:italic"
+plt.rcParams["mathtext.bf"] = "Times New Roman:bold"
+plt.rcParams["mathtext.bfit"] = "Times New Roman:italic:bold"
 plt.rcParams["pdf.fonttype"] = 42
 plt.rcParams["ps.fonttype"] = 42
 
@@ -56,20 +65,8 @@ def clean_sex_binary_keepna(series: pd.Series) -> pd.Series:
 # =========================
 # Stats helpers
 # =========================
-def normal_cdf(x: float) -> float:
-    return 0.5 * (1.0 + math.erf(x / math.sqrt(2)))
-
-
-def z_crit_975() -> float:
-    return 1.959963984540054
-
-
 def t_crit_975(df: float) -> float:
-    try:
-        from scipy import stats
-        return float(stats.t.ppf(0.975, df))
-    except Exception:
-        return z_crit_975()
+    return float(stats.t.ppf(0.975, df))
 
 
 def welch_ci_mean_diff(x_eps, x_hum):
@@ -102,47 +99,40 @@ def welch_ci_mean_diff(x_eps, x_hum):
     return diff, diff - tcrit * se, diff + tcrit * se, df
 
 
-def welch_ttest_pvalue(x, y) -> float:
-    x = pd.Series(x).dropna().astype(float).values
-    y = pd.Series(y).dropna().astype(float).values
-    if len(x) < 2 or len(y) < 2:
-        return np.nan
-    try:
-        from scipy import stats
-        _, p = stats.ttest_ind(x, y, equal_var=False, nan_policy="omit")
-        return float(p)
-    except Exception:
-        mx, my = float(np.mean(x)), float(np.mean(y))
-        vx, vy = float(np.var(x, ddof=1)), float(np.var(y, ddof=1))
-        denom = math.sqrt(vx / len(x) + vy / len(y))
-        if denom <= 0 or not np.isfinite(denom):
-            return np.nan
-        z = (mx - my) / denom
-        return float(2.0 * (1.0 - normal_cdf(abs(z))))
-
-
 def interaction_pvalue(df: pd.DataFrame, subgroup_col: str) -> float:
     """
-    Group × subgroup interaction p-value via nested OLS.
-    Returns NaN if statsmodels unavailable or sample too small.
+    Omnibus group-by-subgroup interaction P value via nested OLS models.
     """
-    try:
-        import statsmodels.formula.api as smf
-        import statsmodels.api as sm
-    except Exception:
-        return np.nan
-
     d = df[["outcome", "group", subgroup_col]].dropna().copy()
     if d.shape[0] < 12:
-        return np.nan
-
+        raise RuntimeError(f"Insufficient complete observations for interaction test: {subgroup_col}")
     try:
         m0 = smf.ols(f"outcome ~ group + C({subgroup_col})", data=d).fit()
         m1 = smf.ols(f"outcome ~ group * C({subgroup_col})", data=d).fit()
         an = sm.stats.anova_lm(m0, m1)
         return float(an.loc[1, "Pr(>F)"])
-    except Exception:
-        return np.nan
+    except Exception as exc:
+        raise RuntimeError(f"Interaction test failed for subgroup: {subgroup_col}") from exc
+
+
+def omnibus_interaction_results(df: pd.DataFrame, subgroup_specs: list[tuple[str, str]]) -> pd.DataFrame:
+    """Return raw and Holm-adjusted P values for four omnibus interactions."""
+    if len(subgroup_specs) != 4:
+        raise RuntimeError(f"Expected four subgroup variables, found {len(subgroup_specs)}.")
+    raw_p = np.asarray(
+        [interaction_pvalue(df, subgroup_col) for _, subgroup_col in subgroup_specs],
+        dtype=float,
+    )
+    if not np.isfinite(raw_p).all():
+        raise RuntimeError("All four omnibus interaction P values must be finite.")
+    holm_p = multipletests(raw_p, method="holm")[1]
+    return pd.DataFrame(
+        {
+            "Subgroup": [name for name, _ in subgroup_specs],
+            "P_interaction_raw": raw_p,
+            "P_interaction_holm": holm_p,
+        }
+    )
 
 
 # =========================
@@ -196,14 +186,13 @@ def safe_welch_effect(df_sub: pd.DataFrame):
     eps_n = int(eps.dropna().shape[0])
     hum_n = int(hum.dropna().shape[0])
     diff, low, high, _ = welch_ci_mean_diff(eps, hum)
-    p = welch_ttest_pvalue(eps, hum)
-    return eps_n, hum_n, diff, low, high, p
+    return eps_n, hum_n, diff, low, high
 
 
-def build_subgroup_table(df: pd.DataFrame) -> pd.DataFrame:
+def build_subgroup_table(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
     records = []
 
-    eps_n, hum_n, diff, low, high, p = safe_welch_effect(df)
+    eps_n, hum_n, diff, low, high = safe_welch_effect(df)
     records.append(
         {
             "Subgroup": "Overall",
@@ -213,8 +202,6 @@ def build_subgroup_table(df: pd.DataFrame) -> pd.DataFrame:
             "Effect": diff,
             "CI_low": low,
             "CI_high": high,
-            "P_value": p,
-            "P_interaction": np.nan,
         }
     )
 
@@ -225,12 +212,13 @@ def build_subgroup_table(df: pd.DataFrame) -> pd.DataFrame:
         ("Age", "age_cat"),
     ]
 
+    interaction_tests = omnibus_interaction_results(df, subgroup_specs)
+
     for sg_name, sg_col in subgroup_specs:
-        p_int = interaction_pvalue(df, sg_col)
         levels = list(df[sg_col].cat.categories)
         for lv in levels:
             dsub = df[df[sg_col] == lv]
-            eps_n, hum_n, diff, low, high, p = safe_welch_effect(dsub)
+            eps_n, hum_n, diff, low, high = safe_welch_effect(dsub)
             records.append(
                 {
                     "Subgroup": sg_name,
@@ -240,102 +228,157 @@ def build_subgroup_table(df: pd.DataFrame) -> pd.DataFrame:
                     "Effect": diff,
                     "CI_low": low,
                     "CI_high": high,
-                    "P_value": p,
-                    "P_interaction": p_int,
                 }
             )
 
-    out = pd.DataFrame.from_records(records)
-
-    def fmt_ci_row(r) -> str:
-        if pd.isna(r["Effect"]) or pd.isna(r["CI_low"]) or pd.isna(r["CI_high"]):
-            return ""
-        return f'{r["Effect"]:.2f} ({r["CI_low"]:.2f}, {r["CI_high"]:.2f})'
-
-    out["Effect_CI"] = out.apply(fmt_ci_row, axis=1)
-    out["N_text"] = out.apply(lambda r: f'N={int(r["EPS_n"])}/{int(r["Human_n"])}', axis=1)
-    return out
+    return pd.DataFrame.from_records(records), interaction_tests
 
 
 # =========================
 # Forest plot
 # =========================
-def forest_plot(df_subg: pd.DataFrame, outfile_png: Path | None, outfile_pdf: Path | None, title: str | None):
-    d = df_subg.copy()
+def forest_plot(
+    df_subg: pd.DataFrame,
+    interaction_tests: pd.DataFrame,
+    outfile_png: Path | None,
+    outfile_pdf: Path | None,
+    title: str | None,
+) -> None:
+    p_map = interaction_tests.set_index("Subgroup")["P_interaction_holm"]
+    subgroup_order = interaction_tests["Subgroup"].tolist()
+    observed_subgroups = set(df_subg.loc[df_subg["Subgroup"] != "Overall", "Subgroup"])
+    if set(p_map.index) != observed_subgroups:
+        raise RuntimeError("Interaction-test rows do not match subgroup variables.")
 
-    d["Label"] = np.where(d["Subgroup"] == "Overall", "Overall", d["Subgroup"] + ": " + d["Level"])
+    overall_rows = df_subg[df_subg["Subgroup"] == "Overall"]
+    if len(overall_rows) != 1:
+        raise RuntimeError("Expected exactly one overall-effect row.")
 
-    n_rows = d.shape[0]
-    y = np.arange(n_rows)
-
-    fig_h = max(6.0, 0.38 * n_rows + 1.2)
-    fig, ax = plt.subplots(figsize=(10, fig_h))
-
-    mask = d["Effect"].notna() & d["CI_low"].notna() & d["CI_high"].notna()
-    y_mask = y[mask.to_numpy()]
-
-    if y_mask.size > 0:
-        ax.errorbar(
-            d.loc[mask, "Effect"].to_numpy(),
-            y_mask,
-            xerr=[
-                (d.loc[mask, "Effect"] - d.loc[mask, "CI_low"]).to_numpy(),
-                (d.loc[mask, "CI_high"] - d.loc[mask, "Effect"]).to_numpy(),
-            ],
-            fmt="o",
-            capsize=3,
-            linewidth=1,
+    display_rows = []
+    overall = overall_rows.iloc[0].to_dict()
+    overall.update({"Row_type": "overall", "Label": "Overall", "P_display": np.nan})
+    display_rows.append(overall)
+    for subgroup_name in subgroup_order:
+        display_rows.append(
+            {
+                "Subgroup": subgroup_name,
+                "Level": "",
+                "EPS_n": np.nan,
+                "Human_n": np.nan,
+                "Effect": np.nan,
+                "CI_low": np.nan,
+                "CI_high": np.nan,
+                "Row_type": "header",
+                "Label": subgroup_name,
+                "P_display": p_map.loc[subgroup_name],
+            }
         )
+        for _, source_row in df_subg[df_subg["Subgroup"] == subgroup_name].iterrows():
+            row = source_row.to_dict()
+            row.update({"Row_type": "level", "Label": source_row["Level"], "P_display": np.nan})
+            display_rows.append(row)
 
-    ax.axvline(0, linewidth=1)
+    d = pd.DataFrame(display_rows)
+    y = np.arange(d.shape[0])
+    fig_h = max(6.4, 0.39 * d.shape[0] + 1.0)
+    fig, ax = plt.subplots(figsize=(12.5, fig_h))
+
+    level_mask = d["Row_type"] == "level"
+    overall_mask = d["Row_type"] == "overall"
+    mask = level_mask & d["Effect"].notna() & d["CI_low"].notna() & d["CI_high"].notna()
+    ax.errorbar(
+        d.loc[mask, "Effect"],
+        y[mask.to_numpy()],
+        xerr=[
+            d.loc[mask, "Effect"] - d.loc[mask, "CI_low"],
+            d.loc[mask, "CI_high"] - d.loc[mask, "Effect"],
+        ],
+        fmt="o", color="#2F6B9A", ecolor="#2F6B9A", markersize=4.5,
+        capsize=3, linewidth=1,
+    )
+    overall_row = d.loc[overall_mask].iloc[0]
+    ax.errorbar(
+        float(overall_row["Effect"]),
+        int(y[overall_mask.to_numpy()][0]),
+        xerr=[
+            [float(overall_row["Effect"] - overall_row["CI_low"])],
+            [float(overall_row["CI_high"] - overall_row["Effect"])],
+        ],
+        fmt="D", color="#202020", ecolor="#202020", markersize=5,
+        capsize=3, linewidth=1.1,
+    )
+
+    ax.axvline(0, color="#666666", linewidth=0.9)
+    ax.grid(axis="x", color="#E6E6E6", linewidth=0.6)
+    ax.set_axisbelow(True)
+    for yy in y[d["Row_type"].eq("header").to_numpy()]:
+        ax.axhline(yy - 0.5, color="#D9D9D9", linewidth=0.7)
 
     ax.set_yticks(y)
-    ax.set_yticklabels(d["Label"])
-    ax.set_xlabel("Mean difference in fasting glucose reduction (mmol/L): EPS-human − Human")
+    ax.set_yticklabels(d["Label"], fontsize=9.5)
+    for tick, row_type in zip(ax.get_yticklabels(), d["Row_type"]):
+        if row_type in {"overall", "header"}:
+            tick.set_fontweight("bold")
+    ax.tick_params(axis="y", length=0, pad=7)
     if title:
         ax.set_title(title)
-
     ax.spines["top"].set_visible(False)
     ax.spines["right"].set_visible(False)
+    ax.spines["bottom"].set_color("#202020")
+    ax.spines["bottom"].set_linewidth(0.8)
+    ax.set_xlabel("")
 
-    xmin_candidates = [0.0]
-    xmax_candidates = [0.0]
-    if d["CI_low"].notna().any():
-        xmin_candidates.append(float(np.nanmin(d["CI_low"].to_numpy())))
-    if d["CI_high"].notna().any():
-        xmax_candidates.append(float(np.nanmax(d["CI_high"].to_numpy())))
-
-    xmin = min(xmin_candidates)
-    xmax = max(xmax_candidates)
-    if not np.isfinite(xmin) or not np.isfinite(xmax) or xmin == xmax:
-        xmin, xmax = -1.0, 1.0
-
-    base_span = xmax - xmin
-    pad = 0.12 * base_span
-    xmin_plot = xmin - pad
-    xmax_plot = xmax + pad
-
-    text_space = 0.60 * (xmax_plot - xmin_plot)
-    ax.set_xlim(xmin_plot, xmax_plot + text_space)
-
-    def fmt_ci(r) -> str:
-        if pd.isna(r["Effect"]) or pd.isna(r["CI_low"]) or pd.isna(r["CI_high"]):
+    def fmt_ci(row: pd.Series) -> str:
+        if pd.isna(row["Effect"]) or pd.isna(row["CI_low"]) or pd.isna(row["CI_high"]):
             return ""
-        return f'{r["Effect"]:.2f} ({r["CI_low"]:.2f}, {r["CI_high"]:.2f})'
+        return f'{row["Effect"]:.2f} ({row["CI_low"]:.2f}, {row["CI_high"]:.2f})'
 
-    x_text = ax.get_xlim()[1]
-    for i, r in d.iterrows():
-        ax.text(
-            x_text,
-            y[i],
-            f'{r["N_text"]}   {fmt_ci(r)}',
-            va="center",
-            ha="right",
-            fontsize=9,
-        )
+    n_x = 1.04
+    effect_x = 1.53
+    interaction_x = 2.20
+    ax.text(
+        n_x, 1.02, r"$\mathbfit{n}$ (EPS-human/Human)", transform=ax.transAxes,
+        va="bottom", ha="center", fontsize=9, fontweight="bold", clip_on=False,
+    )
+    ax.text(
+        effect_x, 1.02, "Mean difference (95% CI)", transform=ax.transAxes,
+        va="bottom", ha="center", fontsize=9, fontweight="bold", clip_on=False,
+    )
+    ax.text(
+        interaction_x, 1.02, r"Interaction $\mathbfit{P}$" "\n(Holm-adjusted)",
+        transform=ax.transAxes, va="bottom", ha="center", fontsize=9,
+        fontweight="bold", clip_on=False,
+    )
+    for i, row in d.iterrows():
+        yy = y[i]
+        if row["Row_type"] in {"overall", "level"}:
+            ax.text(
+                n_x, yy, f'{int(row["EPS_n"])}/{int(row["Human_n"])}',
+                transform=ax.get_yaxis_transform(), va="center", ha="center",
+                fontsize=9, clip_on=False,
+            )
+            ax.text(
+                effect_x, yy, fmt_ci(row), transform=ax.get_yaxis_transform(),
+                va="center", ha="center", fontsize=9, clip_on=False,
+            )
+        elif row["Row_type"] == "header":
+            ax.text(
+                interaction_x, yy, f'{row["P_display"]:.3f}',
+                transform=ax.get_yaxis_transform(), va="center", ha="center",
+                fontsize=9, clip_on=False,
+            )
 
     ax.invert_yaxis()
-    plt.tight_layout()
+    ax.plot(
+        [-0.55, 2.48], [0, 0], transform=ax.transAxes, color="#B8B8B8",
+        linewidth=0.7, clip_on=False, zorder=0,
+    )
+    fig.subplots_adjust(left=0.31, right=0.57, top=0.89, bottom=0.14)
+    fig.text(
+        0.56, 0.025,
+        "Mean difference in fasting glucose reduction (mmol/L): EPS-human - Human",
+        ha="center", va="bottom", fontsize=10,
+    )
 
     if outfile_png is not None:
         plt.savefig(outfile_png, dpi=300)
@@ -363,7 +406,7 @@ def read_excel_clean(path: Path) -> pd.DataFrame:
 # Main
 # =========================
 def main():
-    parser = argparse.ArgumentParser(description="Glycemic-control subgroup forest plot (Extended Data Fig. 2; fasting glucose reduction).")
+    parser = argparse.ArgumentParser(description="Glycemic-control subgroup forest plot (Supplementary Fig. 2; fasting glucose reduction).")
     parser.add_argument("--eps", required=True, type=str, help="Path to EPS-human arm Excel file.")
     parser.add_argument("--human", required=True, type=str, help="Path to Human arm Excel file.")
     parser.add_argument("--out_table", required=True, type=str, help="Output Excel path for subgroup table.")
@@ -429,7 +472,7 @@ def main():
     df_all = pd.concat([eps_df, hum_df], ignore_index=True)
     df_all = add_subgroup_columns(df_all)
 
-    subg = build_subgroup_table(df_all)
+    subg, interaction_tests = build_subgroup_table(df_all)
 
     out_table = Path(args.out_table).expanduser()
     out_png = Path(args.out_png).expanduser()
@@ -441,12 +484,21 @@ def main():
 
     with pd.ExcelWriter(out_table, engine="openpyxl") as w:
         subg.to_excel(w, sheet_name="Subgroup effects", index=False)
+        interaction_tests.to_excel(w, sheet_name="Interaction tests", index=False)
 
-    forest_plot(subg, outfile_png=out_png, outfile_pdf=out_pdf, title=args.title)
+    forest_plot(
+        subg,
+        interaction_tests,
+        outfile_png=out_png,
+        outfile_pdf=out_pdf,
+        title=args.title,
+    )
 
     print("Saved subgroup table:", str(out_table))
     print("Saved forest plot (PNG):", str(out_png))
     print("Saved forest plot (PDF):", str(out_pdf))
+    print("Omnibus interaction P values (raw and Holm-adjusted):")
+    print(interaction_tests.to_string(index=False))
 
 
 if __name__ == "__main__":

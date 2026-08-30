@@ -10,19 +10,19 @@ from collections import defaultdict, deque
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
-from statistics import NormalDist
 from typing import Any
 
 import numpy as np
 from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
+from scipy import stats
 
 
 HUMAN_GROUP = 0.0
 EPS_GROUP = 1.0
 DEFAULT_N_BOOT = 5000
 DEFAULT_SEED = 42
-STANDARD_NORMAL = NormalDist()
+MIN_POSITIVE_FLOAT = float(np.nextafter(0.0, 1.0))
 FEEDBACK_KEYWORD = "#exercise feedback"
 
 USER_COLUMNS = ["user_nickname", "participant_nickname", "用户昵称"]
@@ -282,6 +282,14 @@ def format_number(value: Any, digits: int = 4) -> str:
     return f"{value:.{digits}f}"
 
 
+def format_p_value(value: float | None) -> str:
+    if value is None or math.isnan(value):
+        return "NA"
+    if value < 0.001:
+        return f"{value:.3e}"
+    return f"{value:.4f}"
+
+
 def format_pct(value: float | None) -> str:
     return "NA" if value is None else f"{value:.1%}"
 
@@ -301,7 +309,25 @@ def pstar(p_value: float | None) -> str:
 def normal_two_sided_p(z_value: float | None) -> float | None:
     if z_value is None or math.isnan(z_value):
         return None
-    return 2.0 * (1.0 - STANDARD_NORMAL.cdf(abs(z_value)))
+    p_value = float(2.0 * stats.norm.sf(abs(z_value)))
+    return MIN_POSITIVE_FLOAT if p_value == 0.0 else p_value
+
+
+def holm_adjust(p_values: list[float | None]) -> list[float | None]:
+    """Holm step-down adjustment while preserving missing-value positions."""
+    adjusted: list[float | None] = [None] * len(p_values)
+    valid = sorted(
+        (float(p_value), index)
+        for index, p_value in enumerate(p_values)
+        if p_value is not None and not math.isnan(p_value)
+    )
+    running_max = 0.0
+    family_size = len(valid)
+    for rank, (p_value, index) in enumerate(valid):
+        candidate = min(1.0, (family_size - rank) * p_value)
+        running_max = max(running_max, candidate)
+        adjusted[index] = running_max
+    return adjusted
 
 
 def load_json(path: Path) -> dict[str, Any]:
@@ -910,13 +936,28 @@ def _mean_quality_comparison(
     eps_mean = float(np.mean(eps_values)) if n_eps else None
     diff = eps_mean - human_mean if human_mean is not None and eps_mean is not None else None
 
+    test_statistic = None
+    degrees_of_freedom = None
     if diff is not None and n_human > 1 and n_eps > 1:
         human_var = float(np.var(human_values, ddof=1))
         eps_var = float(np.var(eps_values, ddof=1))
-        se = math.sqrt(eps_var / n_eps + human_var / n_human)
-        ci_low = diff - 1.96 * se
-        ci_high = diff + 1.96 * se
-        p_value = normal_two_sided_p(diff / se) if se > 0 else (1.0 if abs(diff) < 1e-12 else 0.0)
+        human_component = human_var / n_human
+        eps_component = eps_var / n_eps
+        se = math.sqrt(eps_component + human_component)
+        if se > 0:
+            test_statistic = diff / se
+            degrees_of_freedom = (eps_component + human_component) ** 2 / (
+                eps_component**2 / (n_eps - 1) + human_component**2 / (n_human - 1)
+            )
+            critical_value = float(stats.t.ppf(0.975, degrees_of_freedom))
+            ci_low = diff - critical_value * se
+            ci_high = diff + critical_value * se
+            p_value = float(2.0 * stats.t.sf(abs(test_statistic), degrees_of_freedom))
+            if p_value == 0.0:
+                p_value = MIN_POSITIVE_FLOAT
+        else:
+            ci_low = ci_high = diff
+            p_value = 1.0 if abs(diff) < 1e-12 else MIN_POSITIVE_FLOAT
     else:
         ci_low = ci_high = p_value = None
 
@@ -933,6 +974,9 @@ def _mean_quality_comparison(
         "difference_eps_minus_human": diff,
         "ci_low": ci_low,
         "ci_high": ci_high,
+        "test": "two-sided Welch t-test",
+        "test_statistic": test_statistic,
+        "degrees_of_freedom": degrees_of_freedom,
         "p_value": p_value,
         "sig": pstar(p_value),
     }
@@ -947,16 +991,31 @@ def run_keyword_quality_comparison(
         _binary_quality_comparison(human_messages, eps_messages, key, label)
         for key, label in QUALITY_BINARY_FEATURES
     )
+    if len(rows) != 7:
+        raise RuntimeError(f"Expected seven content-audit comparisons, observed {len(rows)}.")
+    adjusted_p_values = holm_adjust([row["p_value"] for row in rows])
+    if any(p_value is None or not np.isfinite(p_value) for p_value in adjusted_p_values):
+        raise RuntimeError("All seven content-audit P values must be finite before Holm adjustment.")
+    for row, adjusted_p_value in zip(rows, adjusted_p_values):
+        row["p_value_raw"] = row["p_value"]
+        row["p_value_holm"] = adjusted_p_value
+        row["sig_holm"] = pstar(adjusted_p_value)
     return {
-        "module": "Panel C - Message-Level Feedback-Content Audit",
+        "module": "Panel D - Message-Level Feedback-Content Audit",
         "unit": "non-empty feedback hashtag segment",
         "human_n_messages": len(human_messages),
         "eps_n_messages": len(eps_messages),
+        "multiplicity_adjustment": "Holm",
+        "multiplicity_family_size": len(rows),
+        "all_holm_adjusted_p_lt_0_001": all(
+            p_value is not None and p_value < 0.001 for p_value in adjusted_p_values
+        ),
         "features": rows,
         "interpretation": (
             "This is a construct-validity audit, not a formal causal mediation model. "
             "Positive differences mean EPS-human feedback segments have a higher message-level "
-            "mean or feature prevalence than Human feedback segments."
+            "mean or feature prevalence than Human feedback segments. P values are Holm-adjusted "
+            "across segment length and the six binary content dimensions."
         ),
     }
 
@@ -1118,7 +1177,7 @@ def mann_whitney_u(x: list[float], y: list[float]) -> dict[str, Any]:
     if sigma <= 0:
         return {"u": float(u), "z": None, "p": None, "n1": n1, "n2": n2}
     z = (u - mu) / sigma
-    return {"u": float(u), "z": float(z), "p": float(2.0 * (1.0 - STANDARD_NORMAL.cdf(abs(z)))), "n1": n1, "n2": n2}
+    return {"u": float(u), "z": float(z), "p": normal_two_sided_p(z), "n1": n1, "n2": n2}
 
 
 def arm_latency_descriptives(latencies: list[float], label: str) -> dict[str, Any]:
@@ -1358,7 +1417,7 @@ def maybe_build_plot(
             ax_a.plot(x_grid, y_grid, color=colors[label], linewidth=1.8)
     ax_a.set_xlabel("Feedback count")
     ax_a.set_ylabel(config.plot_ylabel)
-    ax_a.set_title("A. Within-arm dose-response")
+    ax_a.set_title("Within-arm dose-response")
     ax_a.legend(fontsize=8)
     ax_a.spines[["top", "right"]].set_visible(False)
 
@@ -1369,7 +1428,7 @@ def maybe_build_plot(
             ax_b.hist(values, bins=20, density=True, alpha=0.55, color=colors[label], label=label)
     ax_b.set_xlabel("Feedback count")
     ax_b.set_ylabel("Density")
-    ax_b.set_title("B. Feedback frequency distribution")
+    ax_b.set_title("Feedback frequency distribution")
     ax_b.legend(fontsize=8)
     ax_b.spines[["top", "right"]].set_visible(False)
 
@@ -1390,7 +1449,7 @@ def maybe_build_plot(
     else:
         ax_c.text(0.5, 0.5, "No coded messages", ha="center", va="center", transform=ax_c.transAxes)
     ax_c.set_ylabel("Messages with feature (%)")
-    ax_c.set_title("C. Content audit")
+    ax_c.set_title("Content audit")
     ax_c.spines[["top", "right"]].set_visible(False)
 
     ax_d = fig.add_subplot(gs[1, 1])
@@ -1404,7 +1463,7 @@ def maybe_build_plot(
         ax_d.text(0.5, 0.5, "No latency matches", ha="center", va="center", transform=ax_d.transAxes)
     ax_d.set_xlabel("Response latency (min)")
     ax_d.set_ylabel("Density")
-    ax_d.set_title("D. Response latency")
+    ax_d.set_title("Response latency")
     ax_d.spines[["top", "right"]].set_visible(False)
 
     fig.suptitle(config.title, fontsize=13, fontweight="bold")
@@ -1562,8 +1621,11 @@ def format_quality_value(item: dict[str, Any], value: float | None) -> str:
 
 
 def write_content_audit_sheet(workbook: Workbook, *, comparison: dict[str, Any]) -> None:
-    ws = workbook.create_sheet("Panel C - Content Audit")
-    headers = ["Feature", "Human", "EPS-human", "Difference", "95% CI", "P value", "Metric"]
+    ws = workbook.create_sheet("Panel D - Content Audit")
+    headers = [
+        "Feature", "Human", "EPS-human", "Difference", "95% CI",
+        "Raw P value", "Holm-adjusted P value", "Metric",
+    ]
     for col_idx, header in enumerate(headers, start=1):
         write_cell(ws, 1, col_idx, header, font=HEADER_FONT, fill=LINE_FILL, align=CENTER)
     row = 2
@@ -1582,11 +1644,12 @@ def write_content_audit_sheet(workbook: Workbook, *, comparison: dict[str, Any])
             format_quality_value(item, item.get("eps_value")),
             format_quality_value(item, item.get("difference_eps_minus_human")),
             ci_text,
-            format_number(item.get("p_value")),
+            format_p_value(item.get("p_value_raw")),
+            format_p_value(item.get("p_value_holm")),
             item.get("metric"),
         ]
         for col_idx, value in enumerate(values, start=1):
-            write_cell(ws, row, col_idx, value, align=LEFT if col_idx in (1, 7) else CENTER)
+            write_cell(ws, row, col_idx, value, align=LEFT if col_idx in (1, 8) else CENTER)
         row += 1
     row += 1
     write_section_header(ws, row, "Interpretation", len(headers))
@@ -1597,7 +1660,7 @@ def write_content_audit_sheet(workbook: Workbook, *, comparison: dict[str, Any])
 
 
 def write_latency_descriptive_sheet(workbook: Workbook, *, arm_stats: dict[str, Any]) -> None:
-    ws = workbook.create_sheet("Panel D - Latency")
+    ws = workbook.create_sheet("Panel A - Latency")
     headers = ["Arm", "n messages", "Mean latency (min)", "Median latency (min)", "IQR [P25, P75]", "SD latency (min)"]
     for col_idx, header in enumerate(headers, start=1):
         write_cell(ws, 1, col_idx, header, font=HEADER_FONT, fill=LINE_FILL, align=CENTER)
@@ -1650,22 +1713,23 @@ def write_readme_sheet(workbook: Workbook, *, config: CohortConfig, human_keywor
         (f"Random seed: {seed}", None, None),
         (f"Deprecated bootstrap argument retained for CLI compatibility: {n_boot} (not used in this workflow)", None, None),
         ("", None, None),
-        ("Panel A - Interaction / dose-response model", SECTION_FONT, SECTION_FILL),
+        ("Panel A - Response latency", SECTION_FONT, SECTION_FILL),
+        ("  Computes elapsed time from the participant's most recent exercise-record post to the feedback reply.", None, None),
+        ("  Reports arm-level medians, IQRs, and a Mann-Whitney comparison.", None, None),
+        ("", None, None),
+        ("Panel B - Interaction / dose-response model", SECTION_FONT, SECTION_FILL),
         ("  Fits outcome ~ arm + centred feedback count + arm x count + covariates.", None, None),
         ("  The arm effect at equal feedback count tests whether the arm difference persists after frequency control.", None, None),
         ("  The arm x count term tests whether the count-outcome slope differs by arm.", None, None),
         ("", None, None),
-        ("Panel B - Nearest-neighbour matching", SECTION_FONT, SECTION_FILL),
+        ("Panel C - Nearest-neighbour matching", SECTION_FONT, SECTION_FILL),
         ("  Greedy 1:1 nearest-neighbour matching on feedback count within the overlap region.", None, None),
         ("  The matched model estimates the arm effect after approximate frequency balance.", None, None),
         ("", None, None),
-        ("Panel C - Message-level content audit", SECTION_FONT, SECTION_FILL),
+        ("Panel D - Message-level content audit", SECTION_FONT, SECTION_FILL),
         ("  Codes feedback segment length and six individualized-exercise-prescription content features.", None, None),
-        ("  Between-arm differences in proportions use two-sided z tests; segment length uses Welch-style SE.", None, None),
-        ("", None, None),
-        ("Panel D - Response latency", SECTION_FONT, SECTION_FILL),
-        ("  Computes elapsed time from the participant's most recent exercise-record post to the feedback reply.", None, None),
-        ("  Reports arm-level medians, IQRs, and a Mann-Whitney comparison.", None, None),
+        ("  Segment length uses a two-sided Welch t test and the six binary dimensions use two-sided z tests.", None, None),
+        ("  The resulting seven P values are adjusted using the Holm procedure.", None, None),
         ("", None, None),
         ("Notes", SECTION_FONT, SECTION_FILL),
         ("  All OLS standard errors are HC3 heteroskedasticity-robust.", None, None),
@@ -1772,10 +1836,10 @@ def write_results_workbook(
     write_diagnostics_sheet(workbook, diagnostics=diagnostics, warnings=warnings, plot_status=plot_status)
     write_dataset_sheet(workbook, cohort=config.key, rows=rows)
     write_descriptives_sheet(workbook, desc=desc)
-    write_module_sheet(workbook, sheet_name="Panel A - Interaction", results=m1_results, row_builder=module_1_rows)
-    write_module_sheet(workbook, sheet_name="Panel B - Matching", results=m2_results, row_builder=module_2_rows)
-    write_content_audit_sheet(workbook, comparison=quality_comparison)
     write_latency_descriptive_sheet(workbook, arm_stats=arm_latency_stats)
+    write_module_sheet(workbook, sheet_name="Panel B - Interaction", results=m1_results, row_builder=module_1_rows)
+    write_module_sheet(workbook, sheet_name="Panel C - Matching", results=m2_results, row_builder=module_2_rows)
+    write_content_audit_sheet(workbook, comparison=quality_comparison)
     ensure_parent_dir(output_xlsx)
     workbook.save(output_xlsx)
 
@@ -1827,7 +1891,7 @@ def build_markdown_report(
             lines.append("")
 
     append_module(
-        "Panel A - Interaction / Dose-Response",
+        "Panel B - Interaction / Dose-Response",
         m1_results,
         lambda result: [
             f"beta_1 (arm effect at equal feedback count) = {format_number(result['arm_effect_at_centre']['estimate'])} (SE {format_number(result['arm_effect_at_centre']['se'])}, p={format_number(result['arm_effect_at_centre']['p_value'])}, {result['arm_effect_at_centre']['sig']}).",
@@ -1837,7 +1901,7 @@ def build_markdown_report(
         ],
     )
     append_module(
-        "Panel B - Nearest-Neighbour Matching",
+        "Panel C - Nearest-Neighbour Matching",
         m2_results,
         lambda result: [
             f"Matched pairs = {result['n_matched_pairs']} within overlap [{format_number(result['overlap_lo'], 2)}, {format_number(result['overlap_hi'], 2)}].",
@@ -1847,25 +1911,29 @@ def build_markdown_report(
         ],
     )
 
-    lines.extend(["", "## Panel C - Message-Level Content Audit", ""])
+    lines.extend(["", "## Panel D - Message-Level Content Audit", ""])
     lines.append(
         f"Message-level coded segments: Human n={quality_comparison.get('human_n_messages', 0)}, EPS-human n={quality_comparison.get('eps_n_messages', 0)}."
     )
-    lines.extend(["", "| Feature | Human | EPS-human | EPS-Human diff | 95% CI | p |", "|---------|-------|-----------|----------------|--------|---|"])
+    lines.extend([
+        "", "| Feature | Human | EPS-human | EPS-Human diff | 95% CI | Raw p | Holm-adjusted p |",
+        "|---------|-------|-----------|----------------|--------|-------|-----------------|",
+    ])
     for item in quality_comparison.get("features", []):
         lines.append(
             f"| {item['label']} | {format_quality_value(item, item.get('human_value'))} | "
             f"{format_quality_value(item, item.get('eps_value'))} | "
             f"{format_quality_value(item, item.get('difference_eps_minus_human'))} | "
             f"[{format_quality_value(item, item.get('ci_low'))}, {format_quality_value(item, item.get('ci_high'))}] | "
-            f"{format_number(item.get('p_value'))} {item.get('sig')} |"
+            f"{format_p_value(item.get('p_value_raw'))} | "
+            f"{format_p_value(item.get('p_value_holm'))} {item.get('sig_holm')} |"
         )
     lines.extend(["", quality_comparison.get("interpretation", ""), ""])
 
     eps_latency = arm_latency_stats.get("eps", {})
     human_latency = arm_latency_stats.get("human", {})
     mw = arm_latency_stats.get("mann_whitney", {})
-    lines.extend(["## Panel D - Response Latency", ""])
+    lines.extend(["## Panel A - Response Latency", ""])
     lines.extend(["| Arm | n | Median latency [IQR], min | Mean latency, min |", "|-----|---|---------------------------|-------------------|"])
     for item in (eps_latency, human_latency):
         lines.append(
@@ -1995,10 +2063,10 @@ def main() -> None:
 
     warnings = build_quality_warnings(diagnostics, all_rows)
 
-    log("Running Panel A - Interaction...")
+    log("Running Panel B - Interaction...")
     m1_results = [run_interaction_model(all_rows, spec) for spec in config.outcome_specs]
 
-    log("Running Panel B - Matching...")
+    log("Running Panel C - Matching...")
     m2_results = [run_matching_analysis(all_rows, spec) for spec in config.outcome_specs]
 
     log("Attempting plot generation...")
@@ -2069,10 +2137,10 @@ def main() -> None:
         "diagnostics": diagnostics,
         "warnings": warnings,
         "descriptive_statistics": desc,
-        "panel_a_interaction": m1_results,
-        "panel_b_matching": m2_results,
-        "panel_c_content_audit": quality_comparison,
-        "panel_d_latency": arm_latency_stats,
+        "panel_a_latency": arm_latency_stats,
+        "panel_b_interaction": m1_results,
+        "panel_c_matching": m2_results,
+        "panel_d_content_audit": quality_comparison,
         "plot_status": plot_status,
         "outputs": {key: str(value) for key, value in output_paths.items()},
     }

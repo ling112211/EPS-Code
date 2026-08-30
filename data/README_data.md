@@ -123,9 +123,9 @@ Exercise-Prescription-System/
 | `clinical_trial/glycemic_control_analysis.py` | Fig. 3b | `data/example/` (**example only**) |
 | `clinical_trial/clustering_analysis.py` | Supplementary Tables 24-25 | Controlled-access complete-case workbooks with health manager IDs (**not bundled**) |
 | `clinical_trial/operational_outcomes.py` | Fig. 3c | Derived check-in summary; real trial chat data are controlled access |
-| `clinical_trial/checkin_analysis/*.py` | Tagged-checkin linkage + Supplementary Table 3 mediation outputs | `data/example/checkin/` (**example only**) |
+| `clinical_trial/checkin_analysis/*.py` | Tagged-checkin linkage + Supplementary Table 3 frequency-control/content-audit outputs | `data/example/checkin/` (**example only**) |
 | `questionnaire/participant_reported.py` | Fig. 4a-c | `data/example/` (**example only**) |
-| `Subgroup Forest Plot/*.py` | Extended Data Figs. 1-2 | `data/example/` (**example only**) |
+| `Subgroup Forest Plot/*.py` | Supplementary Figs. 1-2 | `data/example/` (**example only**) |
 | `sensitivity_analysis/ITT_weight_loss.py` | Supplementary Table 1 (ITT weight-loss) | Controlled-access trial Excel files in `weight-loss/` and `sensitivity_analysis/weight loss missing data/` (**not bundled**) |
 | `sensitivity_analysis/ITT_glycemic.py` | Supplementary Table 2 (ITT glycemic) | Controlled-access trial Excel files in `glycemic/` and `sensitivity_analysis/glycemic control missing data/` (**not bundled**) |
 | `sensitivity_analysis/tipping_point_analysis.py` | Supplementary Tables 1-2 (tipping-point rows) | Same controlled-access inputs as the two ITT scripts above (**not bundled**) |
@@ -338,7 +338,7 @@ python clinical_trial/operational_outcomes.py \
 
 ### Participant-Reported Outcomes (Fig. 4a-c)
 
-Applies the Q1 screening filter by default and generates the radar chart with 95% confidence intervals, item-level mean differences, and domain-level response distributions. Optional completion-time and straight-lining filters are available with `--time-filter` and `--drop-straightliners` for sensitivity checks.
+Applies the Q1 screening filter and complete-questionnaire validation by default. Questionnaires with any missing, unparseable, or out-of-range response to items 2-15 are excluded. Item-level comparisons use two-sided Welch tests with Holm adjustment across the 14 items. Optional completion-time and straight-lining filters are available with `--time-filter` and `--drop-straightliners` for sensitivity checks.
 
 > **Note**: The commands below use the example data provided in `data/example/`. The outputs will **not** match Fig. 4 in the paper. Replace the paths with your real data files once access has been granted.
 
@@ -349,11 +349,13 @@ python questionnaire/participant_reported.py \
     --outdir     outputs/questionnaire
 ```
 
-The panel files are `phase2_radar_mean_ci` (Fig. 4a), `phase2_item_mean_differences` (Fig. 4b), and `phase2_domain_response_distribution` (Fig. 4c).
+The panel files are `phase2_radar_mean_ci` (Fig. 4a), `phase2_item_mean_differences` (Fig. 4b), and `phase2_domain_response_distribution` (Fig. 4c). The script also writes item-level raw and Holm-adjusted P values, a questionnaire QC flow table, and an invalid-questionnaire audit.
 
-### Subgroup Forest Plots (Extended Data Figs. 1 and 2)
+### Subgroup Forest Plots (Supplementary Figs. 1 and 2)
 
-> **Note**: The commands below use the example data provided in `data/example/`. The outputs will **not** match Extended Data Figs. 1 and 2 in the paper. Replace the paths with your real data files once access has been granted.
+Each script fits four omnibus treatment-by-subgroup interaction tests and applies Holm adjustment across those four tests within the cohort. The output workbook contains a separate `Interaction tests` sheet with raw and Holm-adjusted P values, and each forest plot displays the Holm-adjusted value on the corresponding subgroup-heading row.
+
+> **Note**: The commands below use the example data provided in `data/example/`. The outputs will **not** match Supplementary Figs. 1 and 2 in the paper. Replace the paths with your real data files once access has been granted.
 
 ```bash
 # Weight-loss subgroup analysis

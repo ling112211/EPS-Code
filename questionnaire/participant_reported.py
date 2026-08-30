@@ -9,6 +9,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 from matplotlib.patches import Patch
+from scipy.stats import t as t_dist
+from scipy.stats import ttest_ind
 
 
 # =========================
@@ -132,11 +134,7 @@ def mean_ci_t(x: np.ndarray, alpha: float = 0.05) -> Tuple[float, float, float, 
     sd = float(np.std(x, ddof=1))
     se = sd / float(np.sqrt(n))
 
-    try:
-        from scipy.stats import t as t_dist
-        tcrit = float(t_dist.ppf(1.0 - alpha / 2.0, df=n - 1))
-    except Exception:
-        tcrit = 1.959963984540054
+    tcrit = float(t_dist.ppf(1.0 - alpha / 2.0, df=n - 1))
 
     ci_low = mean - tcrit * se
     ci_high = mean + tcrit * se
@@ -146,7 +144,7 @@ def mean_ci_t(x: np.ndarray, alpha: float = 0.05) -> Tuple[float, float, float, 
 def welch_t_pvalue(x: np.ndarray, y: np.ndarray) -> float:
     """
     Two-sided Welch's t-test p-value.
-    Uses scipy if available; otherwise a normal approximation fallback.
+    Requires SciPy so that the reported test uses the Welch t distribution.
     """
     x = np.asarray(x, dtype=float)
     y = np.asarray(y, dtype=float)
@@ -155,18 +153,7 @@ def welch_t_pvalue(x: np.ndarray, y: np.ndarray) -> float:
     if x.size < 2 or y.size < 2:
         return np.nan
 
-    try:
-        from scipy.stats import ttest_ind
-        return float(ttest_ind(x, y, equal_var=False, nan_policy="omit").pvalue)
-    except Exception:
-        mx, my = float(np.mean(x)), float(np.mean(y))
-        vx, vy = float(np.var(x, ddof=1)), float(np.var(y, ddof=1))
-        denom = math.sqrt(vx / x.size + vy / y.size)
-        if denom <= 0:
-            return np.nan
-        t = (mx - my) / denom
-        p = math.erfc(abs(t) / math.sqrt(2.0))
-        return float(p)
+    return float(ttest_ind(x, y, equal_var=False, nan_policy="omit").pvalue)
 
 
 def holm_adjust(pvals: np.ndarray) -> np.ndarray:
@@ -272,6 +259,61 @@ def apply_time_filter(
     mask_keep = (tsec >= min_time_s) & (tsec <= max_time_s)
     removed = int((~mask_keep).sum())
     return df.loc[mask_keep].copy(), removed
+
+
+def likert_invalid_reason(x: object) -> Optional[str]:
+    """Classify missing, unparseable, or out-of-range Q2-Q15 responses."""
+    if pd.isna(x):
+        return "missing"
+    if isinstance(x, (int, float, np.integer, np.floating)):
+        value = float(x)
+    else:
+        match = re.match(r"^\s*(-?\d+(?:\.\d+)?)", str(x).strip())
+        if not match:
+            return "unparseable"
+        value = float(match.group(1))
+    if not 1.0 <= value <= 7.0:
+        return "out_of_range"
+    return None
+
+
+def drop_invalid_questionnaires(
+    df: pd.DataFrame,
+    q_cols: List[str],
+    group_name: str,
+) -> Tuple[pd.DataFrame, pd.DataFrame]:
+    """Exclude an entire questionnaire if any Q2-Q15 response is invalid."""
+    invalid_indices = set()
+    audit_rows = []
+    for source_row_index, row in df.iterrows():
+        invalid_items = []
+        invalid_reasons = []
+        for col in q_cols:
+            reason = likert_invalid_reason(row[col])
+            if reason is not None:
+                invalid_items.append(f"Q{qnum(col)}")
+                invalid_reasons.append(reason)
+        if invalid_items:
+            invalid_indices.add(source_row_index)
+            audit_rows.append({
+                "group": group_name,
+                "source_row_index": source_row_index,
+                "invalid_item_count": len(invalid_items),
+                "invalid_items": ",".join(invalid_items),
+                "invalid_reasons": ",".join(invalid_reasons),
+            })
+
+    audit = pd.DataFrame(
+        audit_rows,
+        columns=[
+            "group",
+            "source_row_index",
+            "invalid_item_count",
+            "invalid_items",
+            "invalid_reasons",
+        ],
+    )
+    return df.loc[~df.index.isin(invalid_indices)].copy(), audit
 
 
 # =========================
@@ -504,12 +546,7 @@ def diff_ci(h_values: np.ndarray, e_values: np.ndarray) -> Tuple[float, float, f
     numerator = (var_h / n_h + var_e / n_e) ** 2
     denominator = ((var_h / n_h) ** 2 / (n_h - 1)) + ((var_e / n_e) ** 2 / (n_e - 1))
     degrees_freedom = numerator / denominator if denominator else min(n_h, n_e) - 1
-    try:
-        from scipy.stats import t as t_dist
-
-        critical = float(t_dist.ppf(0.975, df=degrees_freedom))
-    except Exception:
-        critical = 1.959963984540054
+    critical = float(t_dist.ppf(0.975, df=degrees_freedom))
     return difference, difference - critical * se, difference + critical * se
 
 
@@ -573,7 +610,12 @@ def build_domain_distribution_table(
     return pd.DataFrame(rows)
 
 
-def plot_item_differences(diff_df: pd.DataFrame, out_pdf: Path, out_png: Path) -> None:
+def plot_item_differences(
+    diff_df: pd.DataFrame,
+    holm_pvalues: np.ndarray,
+    out_pdf: Path,
+    out_png: Path,
+) -> None:
     plot_df = diff_df.iloc[::-1].reset_index(drop=True)
     domain_colors = {
         "Satisfaction and interaction": "#0072B2",
@@ -619,7 +661,11 @@ def plot_item_differences(diff_df: pd.DataFrame, out_pdf: Path, out_png: Path) -
     ax.spines["right"].set_visible(False)
     ax.spines["left"].set_linewidth(0.75)
     ax.spines["bottom"].set_linewidth(0.75)
-    ax.text(0.03, 0.97, "All Welch $P < 0.001$", transform=ax.transAxes, ha="left", va="top", fontsize=7.0, color="#252525")
+    if np.all(np.asarray(holm_pvalues, dtype=float) < 0.001):
+        pvalue_text = "All Holm-adjusted $P < 0.001$"
+    else:
+        pvalue_text = "Holm-adjusted $P$ values reported in table"
+    ax.text(0.03, 0.97, pvalue_text, transform=ax.transAxes, ha="left", va="top", fontsize=7.0, color="#252525")
     fig.subplots_adjust(left=0.36, right=0.99, bottom=0.13, top=0.92)
     fig.savefig(out_pdf, bbox_inches="tight")
     fig.savefig(out_png, bbox_inches="tight", dpi=600)
@@ -711,6 +757,19 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--no-drop-straightliners", dest="drop_straightliners", action="store_false")
     p.set_defaults(drop_straightliners=False)
     p.add_argument("--min-answered", type=int, default=8, help="Minimum answered items required to evaluate straight-lining")
+    p.add_argument(
+        "--drop-invalid-questionnaires",
+        action="store_true",
+        help="Exclude an entire questionnaire if any Q2-Q15 response is missing, unparseable, or outside 1-7",
+    )
+    p.add_argument("--no-drop-invalid-questionnaires", dest="drop_invalid_questionnaires", action="store_false")
+    p.set_defaults(drop_invalid_questionnaires=True)
+    p.add_argument("--expected-human-n", type=int, default=None, help="Assert the final Human analysis sample size")
+    p.add_argument("--expected-eps-n", type=int, default=None, help="Assert the final EPS-human analysis sample size")
+    p.add_argument("--received-human", type=int, default=None, help="Questionnaires received in the Human arm")
+    p.add_argument("--received-eps", type=int, default=None, help="Questionnaires received in the EPS-human arm")
+    p.add_argument("--q1-yes-human", type=int, default=None, help="Human respondents reporting exposure to feedback")
+    p.add_argument("--q1-yes-eps", type=int, default=None, help="EPS-human respondents reporting exposure to feedback")
     p.add_argument("--group-human", type=str, default="Human", help="Human group label for tables/plots")
     p.add_argument("--group-eps", type=str, default="EPS-human", help="EPS-human group label for tables/plots")
 
@@ -747,6 +806,9 @@ def main() -> None:
     if id_e is not None:
         df_e = df_e.dropna(subset=[id_e]).copy()
 
+    supplied_input_h = len(df_h)
+    supplied_input_e = len(df_e)
+
     # Identify question columns.
     q1_h = find_single_col(df_h, Q1_PATTERN)
     q1_e = find_single_col(df_e, Q1_PATTERN)
@@ -767,6 +829,9 @@ def main() -> None:
         df_h = df_h.loc[use_h == 1.0].copy()
         df_e = df_e.loc[use_e == 1.0].copy()
 
+    q1_screened_h = len(df_h)
+    q1_screened_e = len(df_e)
+
     # Completion-time QC (optional, only if detected).
     removed_time_h = removed_time_e = 0
     if args.time_filter:
@@ -783,6 +848,19 @@ def main() -> None:
         df_h, removed_sl_h = drop_straightliners(df_h, q_cols_h, min_answered=args.min_answered)
         df_e, removed_sl_e = drop_straightliners(df_e, q_cols_e, min_answered=args.min_answered)
 
+    invalid_audit_h = pd.DataFrame()
+    invalid_audit_e = pd.DataFrame()
+    if args.drop_invalid_questionnaires:
+        df_h, invalid_audit_h = drop_invalid_questionnaires(df_h, q_cols_h, args.group_human)
+        df_e, invalid_audit_e = drop_invalid_questionnaires(df_e, q_cols_e, args.group_eps)
+    removed_invalid_h = len(invalid_audit_h)
+    removed_invalid_e = len(invalid_audit_e)
+
+    if args.expected_human_n is not None and len(df_h) != args.expected_human_n:
+        raise AssertionError(f"Expected Human n={args.expected_human_n}, observed n={len(df_h)}")
+    if args.expected_eps_n is not None and len(df_e) != args.expected_eps_n:
+        raise AssertionError(f"Expected EPS-human n={args.expected_eps_n}, observed n={len(df_e)}")
+
     # Summaries.
     sum_h = summarize_group(df_h, q_cols_h, args.group_human)
     sum_e = summarize_group(df_e, q_cols_e, args.group_eps)
@@ -790,6 +868,12 @@ def main() -> None:
     # P-values and Holm adjustment.
     pvals = compute_item_pvalues(df_h, df_e, q_cols_h, q_cols_e)
     wide = make_wide_table(sum_h, sum_e, pvals)
+
+    if args.drop_invalid_questionnaires:
+        if set(wide["n_human"]) != {len(df_h)}:
+            raise AssertionError("Human item-level sample sizes do not match the complete-questionnaire sample")
+        if set(wide["n_eps"]) != {len(df_e)}:
+            raise AssertionError("EPS-human item-level sample sizes do not match the complete-questionnaire sample")
 
     outdir = Path(args.outdir)
     outdir.mkdir(parents=True, exist_ok=True)
@@ -804,6 +888,9 @@ def main() -> None:
     out_dist_csv = outdir / f"{args.prefix}_domain_response_distribution.csv"
     out_dist_pdf = outdir / f"{args.prefix}_domain_response_distribution.pdf"
     out_dist_png = outdir / f"{args.prefix}_domain_response_distribution.png"
+    out_item_results_csv = outdir / f"{args.prefix}_item_level_results.csv"
+    out_qc_flow_csv = outdir / f"{args.prefix}_questionnaire_qc_flow.csv"
+    out_invalid_audit_csv = outdir / f"{args.prefix}_invalid_questionnaire_audit.csv"
 
     wide.to_csv(out_wide_csv, index=False, encoding="utf-8-sig")
     pd.concat([sum_h, sum_e], ignore_index=True).to_csv(out_long_csv, index=False, encoding="utf-8-sig")
@@ -819,6 +906,53 @@ def main() -> None:
     diff_df.to_csv(out_diff_csv, index=False, encoding="utf-8-sig")
     dist_df.to_csv(out_dist_csv, index=False, encoding="utf-8-sig")
 
+    item_results = diff_df.merge(wide, on="question", how="inner", validate="one_to_one").rename(columns={
+        "p_value_welch": "p_unadjusted_welch",
+        "p_holm_14tests": "p_holm_adjusted_14_items",
+    })
+    item_results = item_results[[
+        "question", "label", "domain",
+        "n_human", "mean_human", "ci_low_human", "ci_high_human",
+        "n_eps", "mean_eps", "ci_low_eps", "ci_high_eps",
+        "mean_difference", "ci_low", "ci_high",
+        "p_unadjusted_welch", "p_holm_adjusted_14_items",
+    ]]
+    item_results.to_csv(out_item_results_csv, index=False, encoding="utf-8-sig")
+
+    invalid_audit = pd.concat([invalid_audit_h, invalid_audit_e], ignore_index=True)
+    invalid_audit.to_csv(out_invalid_audit_csv, index=False, encoding="utf-8-sig")
+
+    def prior_qc_exclusions(q1_yes: Optional[int], supplied_rows: int) -> float:
+        return np.nan if q1_yes is None else q1_yes - supplied_rows
+
+    qc_flow = pd.DataFrame([
+        {
+            "group": args.group_human,
+            "received": args.received_human,
+            "q1_yes": args.q1_yes_human,
+            "supplied_precleaned_rows": supplied_input_h,
+            "prior_time_or_straightline_exclusions": prior_qc_exclusions(args.q1_yes_human, supplied_input_h),
+            "q1_screened_rows_this_run": q1_screened_h,
+            "time_exclusions_this_run": removed_time_h,
+            "straightline_exclusions_this_run": removed_sl_h,
+            "invalid_likert_questionnaires_excluded": removed_invalid_h,
+            "final_analysis_n": len(df_h),
+        },
+        {
+            "group": args.group_eps,
+            "received": args.received_eps,
+            "q1_yes": args.q1_yes_eps,
+            "supplied_precleaned_rows": supplied_input_e,
+            "prior_time_or_straightline_exclusions": prior_qc_exclusions(args.q1_yes_eps, supplied_input_e),
+            "q1_screened_rows_this_run": q1_screened_e,
+            "time_exclusions_this_run": removed_time_e,
+            "straightline_exclusions_this_run": removed_sl_e,
+            "invalid_likert_questionnaires_excluded": removed_invalid_e,
+            "final_analysis_n": len(df_e),
+        },
+    ])
+    qc_flow.to_csv(out_qc_flow_csv, index=False, encoding="utf-8-sig")
+
     # Plot Fig. 3a-c.
     radar_plot_with_ci(
         sum_h=sum_h,
@@ -829,13 +963,13 @@ def main() -> None:
         group_h_name=args.group_human,
         group_e_name=args.group_eps,
     )
-    plot_item_differences(diff_df, out_diff_pdf, out_diff_png)
+    plot_item_differences(diff_df, wide["p_holm_14tests"].to_numpy(), out_diff_pdf, out_diff_png)
     plot_domain_distributions(dist_df, out_dist_pdf, out_dist_png, args.group_human, args.group_eps)
 
     # Console report.
     print("=== Participant-reported outcomes (Phase 2) ===")
-    print(f"Human: n={len(df_h)} | removed_time={removed_time_h} | removed_straightline={removed_sl_h}")
-    print(f"EPS  : n={len(df_e)} | removed_time={removed_time_e} | removed_straightline={removed_sl_e}")
+    print(f"Human: n={len(df_h)} | removed_time={removed_time_h} | removed_straightline={removed_sl_h} | removed_invalid={removed_invalid_h}")
+    print(f"EPS  : n={len(df_e)} | removed_time={removed_time_e} | removed_straightline={removed_sl_e} | removed_invalid={removed_invalid_e}")
     print(f"Saved: {out_wide_csv}")
     print(f"Saved: {out_long_csv}")
     print(f"Saved: {out_radar_pdf}")
@@ -843,6 +977,9 @@ def main() -> None:
     print(f"Saved: {out_dist_pdf}")
     print(f"Saved: {out_diff_csv}")
     print(f"Saved: {out_dist_csv}")
+    print(f"Saved: {out_item_results_csv}")
+    print(f"Saved: {out_qc_flow_csv}")
+    print(f"Saved: {out_invalid_audit_csv}")
     print()
     print(wide[["question", "mean_human", "mean_eps", "p_value_welch", "p_holm_14tests"]].to_string(index=False))
 

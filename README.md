@@ -150,7 +150,7 @@ Exercise-Prescription-System/
 | `clinical_trial/operational_outcomes.py` | Fig. 3c | Derived check-in summary; real trial chat data are controlled access |
 | `clinical_trial/checkin_analysis/*.py` | Tagged-checkin linkage + Supplementary Table 3 frequency-control/content-audit outputs | `data/example/checkin/` (**example only**) |
 | `questionnaire/participant_reported.py` | Fig. 4a-c | `data/example/` (**example only**) |
-| `Subgroup Forest Plot/*.py` | Extended Data Figs. 1-2 | `data/example/` (**example only**) |
+| `Subgroup Forest Plot/*.py` | Supplementary Figs. 1-2 | `data/example/` (**example only**) |
 | `sensitivity_analysis/ITT_weight_loss.py` | Supplementary Table 1 (ITT weight-loss) | Controlled-access trial Excel files in `weight-loss/` and `sensitivity_analysis/weight loss missing data/` (**not bundled**) |
 | `sensitivity_analysis/ITT_glycemic.py` | Supplementary Table 2 (ITT glycemic) | Controlled-access trial Excel files in `glycemic/` and `sensitivity_analysis/glycemic control missing data/` (**not bundled**) |
 | `sensitivity_analysis/tipping_point_analysis.py` | Supplementary Tables 1-2 (tipping-point rows) | Same controlled-access inputs as the two ITT scripts above (**not bundled**) |
@@ -316,7 +316,9 @@ The controlled-access workbooks must contain participant, community, and health 
 
 ### Tagged Check-In Linkage And Frequency-Control/Content-Audit Analysis (Supplementary Table 3)
 
-Builds actual feedback counts from chat-export workbooks using keyword matching plus participant linking, then runs the updated Supplementary Table 3 workflow: interaction/dose-response models, nearest-neighbour matching on feedback count, message-level feedback-content audit, and response-latency descriptive statistics.
+Builds actual feedback counts from chat-export workbooks using keyword matching plus participant linking, then runs the updated Supplementary Table 3 workflow: response-latency descriptives (Panel A), interaction/dose-response models (Panel B), nearest-neighbour matching on feedback count (Panel C), and a message-level feedback-content audit (Panel D).
+
+In Panel D, segment length is compared using a two-sided Welch t test and the six binary content dimensions are compared using two-sided z tests. The resulting seven P values are adjusted together using the Holm procedure. Both raw and Holm-adjusted P values are retained in the JSON, Markdown, and Excel outputs.
 
 `clinical_trial/checkin_analysis/enhanced_feedback_mediation.py` is the current entrypoint for this workflow. Despite the historical filename, it does not run a formal causal mediation model; the content audit is construct-validity evidence for individualized exercise prescription.
 
@@ -400,7 +402,7 @@ python clinical_trial/checkin_analysis/enhanced_feedback_mediation.py \
 The frequency-control/content-audit script writes four output files per cohort. The weight-loss outputs correspond to Supplementary Table 3:
 - `<cohort>_frequency_control_content_audit_summary.json` — machine-readable summary for Panels A-D.
 - `<cohort>_frequency_control_content_audit_report.md` — human-readable memo covering interaction, matching, content audit, and latency.
-- `<cohort>_frequency_control_content_audit_results.xlsx` — workbook with diagnostics, participant features, descriptives, and one sheet per panel.
+- `<cohort>_frequency_control_content_audit_results.xlsx` — workbook with diagnostics, participant features, descriptives, and Panel A-D sheets ordered to match Supplementary Table 3.
 - `<cohort>_frequency_control_content_audit_plot.png` — summary plot for dose-response, frequency, content features, and latency when Matplotlib is available.
 
 The workflow uses one neutral English tag, `#exercise feedback`, in both arms by default. If you override the tag, the Human and EPS-human arm keywords must remain identical.
@@ -419,7 +421,7 @@ The script writes `operational_outcomes_panel_c.pdf/.png` and `operational_outco
 
 ### Participant-Reported Outcomes (Fig. 4a-c)
 
-Applies the Q1 screening filter by default and generates the radar chart with 95% confidence intervals, item-level mean differences, and domain-level response distributions. Optional completion-time and straight-lining filters are available with `--time-filter` and `--drop-straightliners` for sensitivity checks.
+Applies the Q1 screening filter and complete-questionnaire validation by default. A questionnaire is excluded if any response to items 2-15 is missing, unparseable, or outside the prespecified 1-7 range. The script reports two-sided Welch tests with Holm adjustment across the 14 items and generates the radar chart with 95% confidence intervals, item-level mean differences, and domain-level response distributions. Optional completion-time and straight-lining filters are available with `--time-filter` and `--drop-straightliners` for sensitivity checks.
 
 > **Note**: The commands below use the example data provided in `data/example/`. The outputs will **not** match Fig. 4 in the paper. Replace the paths with your real data files once access has been granted.
 
@@ -430,11 +432,13 @@ python questionnaire/participant_reported.py \
     --outdir     outputs/questionnaire
 ```
 
-The outputs correspond to the manuscript panels: `phase2_radar_mean_ci` (Fig. 4a), `phase2_item_mean_differences` (Fig. 4b), and `phase2_domain_response_distribution` (Fig. 4c), each provided as PDF and PNG.
+The outputs correspond to the manuscript panels: `phase2_radar_mean_ci` (Fig. 4a), `phase2_item_mean_differences` (Fig. 4b), and `phase2_domain_response_distribution` (Fig. 4c), each provided as PDF and PNG. The script also writes a complete item-level results table with unadjusted and Holm-adjusted P values, a questionnaire QC flow table, and an audit of excluded invalid questionnaires.
 
-### Subgroup Forest Plots (Extended Data Figs. 1 and 2)
+### Subgroup Forest Plots (Supplementary Figs. 1 and 2)
 
-> **Note**: The commands below use the example data provided in `data/example/`. The outputs will **not** match Extended Data Figs. 1 and 2 in the paper. Replace the paths with your real data files once access has been granted.
+Each script fits four omnibus treatment-by-subgroup interaction tests using nested ordinary least squares models and applies Holm adjustment across those four tests within the cohort. Subgroup-specific estimates and pointwise confidence intervals are presented descriptively. The output workbook contains separate `Subgroup effects` and `Interaction tests` sheets; the forest plot displays one Holm-adjusted interaction P value on each bold subgroup-heading row.
+
+> **Note**: The commands below use the example data provided in `data/example/`. The outputs will **not** match Supplementary Figs. 1 and 2 in the paper. Replace the paths with your real data files once access has been granted.
 
 ```bash
 # Weight-loss subgroup analysis
