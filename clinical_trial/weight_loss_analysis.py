@@ -452,7 +452,7 @@ def plot_weight_loss_bars(
 
     if percent_weight_loss is None:
         raise ValueError(
-            "Fig. 2a requires participant-level percent weight-loss values for "
+            "Fig. 3a requires participant-level percent weight-loss values for "
             "the cumulative response panel."
         )
 
@@ -629,7 +629,7 @@ def plot_weight_loss_bars_from_results(
 
 
 def parse_args() -> argparse.Namespace:
-    p = argparse.ArgumentParser(description="Weight-loss outcomes (Fig. 2a).")
+    p = argparse.ArgumentParser(description="Weight-loss outcomes (Fig. 3a).")
     p.add_argument("--weight_human", type=str, default=None, help="Path to Human weight-loss Excel.")
     p.add_argument("--weight_eps", type=str, default=None, help="Path to EPS-human weight-loss Excel.")
     p.add_argument(
@@ -651,7 +651,7 @@ def main() -> None:
     if args.summary_xlsx is not None:
         if args.weight_human is None or args.weight_eps is None:
             raise SystemExit(
-                "Fig. 2a now includes a cumulative response panel. With --summary-xlsx, "
+                "Fig. 3a now includes a cumulative response panel. With --summary-xlsx, "
                 "also provide --weight_human and --weight_eps for participant-level values."
             )
         results = read_results_table(Path(args.summary_xlsx))

@@ -735,7 +735,7 @@ def plot_domain_distributions(
 # CLI
 # =========================
 def parse_args() -> argparse.Namespace:
-    p = argparse.ArgumentParser(description="Participant-reported experience (Fig. 3a-c) analysis and plots.")
+    p = argparse.ArgumentParser(description="Participant-reported experience (Fig. 4a-c) analysis and plots.")
     p.add_argument("--human-xlsx", type=str, required=True, help="Path to Human summary.xlsx")
     p.add_argument("--eps-xlsx", type=str, required=True, help="Path to EPS-human clean_responses.xlsx")
     p.add_argument("--sheet", type=str, default="0", help="Excel sheet name or index (default: 0)")
@@ -953,7 +953,7 @@ def main() -> None:
     ])
     qc_flow.to_csv(out_qc_flow_csv, index=False, encoding="utf-8-sig")
 
-    # Plot Fig. 3a-c.
+    # Plot Fig. 4a-c.
     radar_plot_with_ci(
         sum_h=sum_h,
         sum_e=sum_e,

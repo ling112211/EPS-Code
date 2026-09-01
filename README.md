@@ -98,10 +98,10 @@ Exercise-Prescription-System/
 │   │   ├── generate_synthetic_checkin_data.py # Creates synthetic participant/chat workbooks for verification
 │   │   ├── build_checkin_dataset.py           # Links tagged chat messages to participants and appends count columns
 │   │   ├── feedback_mediation.py              # Legacy exploratory count-mediation script; not used for the updated article logic
-│   │   └── enhanced_feedback_mediation.py     # Frequency-control, content-audit, and latency analysis for Supplementary Table 3
+│   │   └── enhanced_feedback_mediation.py     # Frequency-control, content-audit, and latency analysis for Supplementary Table 5
 │   ├── weight_loss_analysis.py                # Weight-loss outcomes and cumulative response (Fig. 3a)
 │   ├── glycemic_control_analysis.py           # Fasting glucose outcomes and individual reductions (Fig. 3b)
-│   ├── clustering_analysis.py                 # ICC and clustered analyses (Supplementary Tables 24-25)
+│   ├── clustering_analysis.py                 # ICC and clustered analyses (Supplementary Tables 1 and 3)
 │   └── operational_outcomes.py                # Delivery, latency, and draft-review outcomes (Fig. 3c)
 ├── questionnaire/
 │   └── participant_reported.py                # Participant-reported experience panels (Fig. 4a-c)
@@ -146,14 +146,14 @@ Exercise-Prescription-System/
 | `clinical_trial/baseline_characteristics.py` | Table 1 | `data/example/` (**example only**) |
 | `clinical_trial/weight_loss_analysis.py` | Fig. 3a | `data/example/` (**example only**) |
 | `clinical_trial/glycemic_control_analysis.py` | Fig. 3b | `data/example/` (**example only**) |
-| `clinical_trial/clustering_analysis.py` | Supplementary Tables 24-25 | Controlled-access complete-case workbooks with health manager IDs (**not bundled**) |
+| `clinical_trial/clustering_analysis.py` | Supplementary Tables 1 and 3 | Controlled-access complete-case workbooks with health manager IDs (**not bundled**) |
 | `clinical_trial/operational_outcomes.py` | Fig. 3c | Derived check-in summary; real trial chat data are controlled access |
-| `clinical_trial/checkin_analysis/*.py` | Tagged-checkin linkage + Supplementary Table 3 frequency-control/content-audit outputs | `data/example/checkin/` (**example only**) |
+| `clinical_trial/checkin_analysis/*.py` | Tagged-checkin linkage + Supplementary Table 5 frequency-control/content-audit outputs | `data/example/checkin/` (**example only**) |
 | `questionnaire/participant_reported.py` | Fig. 4a-c | `data/example/` (**example only**) |
 | `Subgroup Forest Plot/*.py` | Supplementary Figs. 1-2 | `data/example/` (**example only**) |
-| `sensitivity_analysis/ITT_weight_loss.py` | Supplementary Table 1 (ITT weight-loss) | Controlled-access trial Excel files in `weight-loss/` and `sensitivity_analysis/weight loss missing data/` (**not bundled**) |
-| `sensitivity_analysis/ITT_glycemic.py` | Supplementary Table 2 (ITT glycemic) | Controlled-access trial Excel files in `glycemic/` and `sensitivity_analysis/glycemic control missing data/` (**not bundled**) |
-| `sensitivity_analysis/tipping_point_analysis.py` | Supplementary Tables 1-2 (tipping-point rows) | Same controlled-access inputs as the two ITT scripts above (**not bundled**) |
+| `sensitivity_analysis/ITT_weight_loss.py` | Supplementary Table 2 (ITT weight-loss) | Controlled-access trial Excel files in `weight-loss/` and `sensitivity_analysis/weight loss missing data/` (**not bundled**) |
+| `sensitivity_analysis/ITT_glycemic.py` | Supplementary Table 4 (ITT glycemic) | Controlled-access trial Excel files in `glycemic/` and `sensitivity_analysis/glycemic control missing data/` (**not bundled**) |
+| `sensitivity_analysis/tipping_point_analysis.py` | Supplementary Tables 2 and 4 (tipping-point rows) | Same controlled-access inputs as the two ITT scripts above (**not bundled**) |
 
 The example data under `data/example/` are anonymised synthetic files provided solely to verify that the code runs without errors. They do **not** reproduce the numerical results or figures reported in the paper. To obtain the real clinical trial data (weight-loss RCT, glycemic-control RCT, and questionnaire), please contact the corresponding author (see [Data Availability](#data-availability)).
 
@@ -292,7 +292,7 @@ python clinical_trial/glycemic_control_analysis.py \
 
 The script writes both the manuscript filenames (`glycemic_fpg_reduction_bars.pdf/.png`) and `_nm_style` aliases.
 
-### ICC and Clustering Analyses (Supplementary Tables 24 and 25)
+### ICC and Clustering Analyses (Supplementary Tables 1 and 3)
 
 Estimates unconditional health manager and community ICCs, fits health manager and community random-intercept models, and reports Bell–McCaffrey CR2 sensitivity analyses. The script runs five mixed-model optimizers and retains the converged solution with the highest restricted log likelihood.
 
@@ -314,9 +314,9 @@ python clinical_trial/clustering_analysis.py \
 
 The controlled-access workbooks must contain participant, community, and health manager identifiers together with the cohort outcome fields. Accepted column names are documented in `data/README_data.md`. Each run writes `icc_results.csv`, `model_results.csv`, design and cluster summaries, and `analysis_metadata.json` with input hashes and package versions.
 
-### Tagged Check-In Linkage And Frequency-Control/Content-Audit Analysis (Supplementary Table 3)
+### Tagged Check-In Linkage And Frequency-Control/Content-Audit Analysis (Supplementary Table 5)
 
-Builds actual feedback counts from chat-export workbooks using keyword matching plus participant linking, then runs the updated Supplementary Table 3 workflow: response-latency descriptives (Panel A), interaction/dose-response models (Panel B), nearest-neighbour matching on feedback count (Panel C), and a message-level feedback-content audit (Panel D).
+Builds actual feedback counts from chat-export workbooks using keyword matching plus participant linking, then runs the updated Supplementary Table 5 workflow: response-latency descriptives (Panel A), interaction/dose-response models (Panel B), nearest-neighbour matching on feedback count (Panel C), and a message-level feedback-content audit (Panel D).
 
 In Panel D, segment length is compared using a two-sided Welch t test and the six binary content dimensions are compared using two-sided z tests. The resulting seven P values are adjusted together using the Holm procedure. Both raw and Holm-adjusted P values are retained in the JSON, Markdown, and Excel outputs.
 
@@ -399,10 +399,10 @@ python clinical_trial/checkin_analysis/enhanced_feedback_mediation.py \
     --outdir outputs/checkin_analysis/glycemic
 ```
 
-The frequency-control/content-audit script writes four output files per cohort. The weight-loss outputs correspond to Supplementary Table 3:
+The frequency-control/content-audit script writes four output files per cohort. The weight-loss outputs correspond to Supplementary Table 5:
 - `<cohort>_frequency_control_content_audit_summary.json` — machine-readable summary for Panels A-D.
 - `<cohort>_frequency_control_content_audit_report.md` — human-readable memo covering interaction, matching, content audit, and latency.
-- `<cohort>_frequency_control_content_audit_results.xlsx` — workbook with diagnostics, participant features, descriptives, and Panel A-D sheets ordered to match Supplementary Table 3.
+- `<cohort>_frequency_control_content_audit_results.xlsx` — workbook with diagnostics, participant features, descriptives, and Panel A-D sheets ordered to match Supplementary Table 5.
 - `<cohort>_frequency_control_content_audit_plot.png` — summary plot for dose-response, frequency, content features, and latency when Matplotlib is available.
 
 The workflow uses one neutral English tag, `#exercise feedback`, in both arms by default. If you override the tag, the Human and EPS-human arm keywords must remain identical.
@@ -457,7 +457,7 @@ python "Subgroup Forest Plot/glycemic control subgroup forest plot.py" \
     --out_pdf   outputs/subgroup/glycemic_subgroup.pdf
 ```
 
-### ITT Sensitivity Analysis (Supplementary Tables 1 and 2)
+### ITT Sensitivity Analysis (Supplementary Tables 2 and 4)
 
 Performs Intention-to-Treat sensitivity analyses using multiple imputation (MICE under MAR) and baseline observation carried forward (BOCF). MNAR delta-adjustment and tipping-point sensitivity are handled separately in `tipping_point_analysis.py`. Results are saved as multi-sheet Excel workbooks.
 
@@ -485,7 +485,7 @@ Fixed output files:
 - `sensitivity_analysis/ITT_weight_loss_results.xlsx`
 - `sensitivity_analysis/ITT_glycemic_results.xlsx`
 
-### Tipping-Point Analysis (Supplementary Tables 1 and 2)
+### Tipping-Point Analysis (Supplementary Tables 2 and 4)
 
 Determines how much worse missing outcomes in the EPS arm would need to be (relative to MAR imputation) before the treatment effect loses statistical significance.
 
@@ -503,7 +503,7 @@ Fixed output file:
 This repository includes three categories of data:
 
 **Fully available (real data, reproduces paper results):**
-- `D1/` — public exercise and weight-management corpus (85,469 entries across 18 JSON datasets) used for supervised fine-tuning of EPS. Each entry count refers to one top-level element in the corresponding JSON array. The corpus was assembled from publicly available medical instruction datasets and filtered using a bilingual keyword lexicon to retain exercise- and weight-management–relevant instances (see Section 4.3.1 and Supplementary Table 8 for full keyword list and matching rules). Extended Data Table 3 in the paper summarises D1 composition by target application, language, and number of examples.
+- `D1/` — public exercise and weight-management corpus (85,469 entries across 18 JSON datasets) used for supervised fine-tuning of EPS. Each entry count refers to one top-level element in the corresponding JSON array. The corpus was assembled from publicly available medical instruction datasets and filtered using a bilingual keyword lexicon to retain exercise- and weight-management–relevant instances (see Section 4.3.1 and Supplementary Table 22 for full keyword list and matching rules). Supplementary Table 23 in the paper summarises D1 composition by target application, language, and number of examples.
 - `benchmark/checked_converted_medmcqa_test.json` — MedMCQA benchmark question set (270 questions) used for model evaluation.
 - `benchmark/checked_converted_medqa_test.json` — MedQA (USMLE) benchmark question set (138 questions) used for model evaluation.
 - `benchmark/checked_merged_CMExam_test.json` — CMExam benchmark question set used for model evaluation.

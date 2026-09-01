@@ -9,7 +9,7 @@ Primary scenario: EPS-arm-specific delta (most conservative for EPS benefit).
 Secondary: differential delta (EPS vs Human arms).
 
 Reports both: p > 0.05 crossing AND CI crossing zero. These tipping-point
-rows are incorporated into Supplementary Tables 1 and 2.
+rows are incorporated into Supplementary Tables 2 and 4.
 
 ★ This script is the SOLE source of MNAR delta-adjustment and tipping-point
   results. The ITT scripts (ITT_weight_loss.py, ITT_glycemic.py) handle

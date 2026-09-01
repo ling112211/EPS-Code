@@ -1,4 +1,4 @@
-"""EPS accuracy gains relative to corresponding base models (Fig. 4c)."""
+"""EPS accuracy gains relative to corresponding base models (Fig. 5c)."""
 
 from __future__ import annotations
 
@@ -125,7 +125,7 @@ def plot_gain_heatmap(gains: np.ndarray, out_png: Path, out_pdf: Path) -> None:
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Plot EPS accuracy-gain heatmap (Fig. 4c).")
+    parser = argparse.ArgumentParser(description="Plot EPS accuracy-gain heatmap (Fig. 5c).")
     parser.add_argument("--input", type=Path, default=Path("data/benchmark_results/benchmark_accuracy.csv"))
     parser.add_argument("--outdir", type=Path, default=Path("outputs/benchmark"))
     return parser.parse_args()

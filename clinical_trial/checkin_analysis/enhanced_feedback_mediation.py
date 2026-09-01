@@ -1971,7 +1971,7 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
             "Run the checkin frequency-control/content-audit workflow for the updated "
-            "Supplementary Table 3 logic."
+            "Supplementary Table 5 logic."
         )
     )
     parser.add_argument("--cohort", choices=sorted(COHORT_CONFIGS), required=True, help="Clinical-trial cohort.")

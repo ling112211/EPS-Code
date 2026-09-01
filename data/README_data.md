@@ -76,7 +76,7 @@ Exercise-Prescription-System/
 │   │   └── enhanced_feedback_mediation.py
 │   ├── weight_loss_analysis.py                # Weight-loss outcomes and cumulative response (Fig. 3a)
 │   ├── glycemic_control_analysis.py           # Fasting glucose outcomes and individual reductions (Fig. 3b)
-│   ├── clustering_analysis.py                 # ICC and clustered analyses (Supplementary Tables 24-25)
+│   ├── clustering_analysis.py                 # ICC and clustered analyses (Supplementary Tables 1 and 3)
 │   └── operational_outcomes.py                # Delivery, latency, and draft-review outcomes (Fig. 3c)
 ├── questionnaire/
 │   └── participant_reported.py                # Participant-reported experience panels (Fig. 4a-c)
@@ -121,14 +121,14 @@ Exercise-Prescription-System/
 | `clinical_trial/baseline_characteristics.py` | Table 1 | `data/example/` (**example only**) |
 | `clinical_trial/weight_loss_analysis.py` | Fig. 3a | `data/example/` (**example only**) |
 | `clinical_trial/glycemic_control_analysis.py` | Fig. 3b | `data/example/` (**example only**) |
-| `clinical_trial/clustering_analysis.py` | Supplementary Tables 24-25 | Controlled-access complete-case workbooks with health manager IDs (**not bundled**) |
+| `clinical_trial/clustering_analysis.py` | Supplementary Tables 1 and 3 | Controlled-access complete-case workbooks with health manager IDs (**not bundled**) |
 | `clinical_trial/operational_outcomes.py` | Fig. 3c | Derived check-in summary; real trial chat data are controlled access |
-| `clinical_trial/checkin_analysis/*.py` | Tagged-checkin linkage + Supplementary Table 3 frequency-control/content-audit outputs | `data/example/checkin/` (**example only**) |
+| `clinical_trial/checkin_analysis/*.py` | Tagged-checkin linkage + Supplementary Table 5 frequency-control/content-audit outputs | `data/example/checkin/` (**example only**) |
 | `questionnaire/participant_reported.py` | Fig. 4a-c | `data/example/` (**example only**) |
 | `Subgroup Forest Plot/*.py` | Supplementary Figs. 1-2 | `data/example/` (**example only**) |
-| `sensitivity_analysis/ITT_weight_loss.py` | Supplementary Table 1 (ITT weight-loss) | Controlled-access trial Excel files in `weight-loss/` and `sensitivity_analysis/weight loss missing data/` (**not bundled**) |
-| `sensitivity_analysis/ITT_glycemic.py` | Supplementary Table 2 (ITT glycemic) | Controlled-access trial Excel files in `glycemic/` and `sensitivity_analysis/glycemic control missing data/` (**not bundled**) |
-| `sensitivity_analysis/tipping_point_analysis.py` | Supplementary Tables 1-2 (tipping-point rows) | Same controlled-access inputs as the two ITT scripts above (**not bundled**) |
+| `sensitivity_analysis/ITT_weight_loss.py` | Supplementary Table 2 (ITT weight-loss) | Controlled-access trial Excel files in `weight-loss/` and `sensitivity_analysis/weight loss missing data/` (**not bundled**) |
+| `sensitivity_analysis/ITT_glycemic.py` | Supplementary Table 4 (ITT glycemic) | Controlled-access trial Excel files in `glycemic/` and `sensitivity_analysis/glycemic control missing data/` (**not bundled**) |
+| `sensitivity_analysis/tipping_point_analysis.py` | Supplementary Tables 2 and 4 (tipping-point rows) | Same controlled-access inputs as the two ITT scripts above (**not bundled**) |
 
 The example data under `data/example/` are anonymised synthetic files provided solely to verify that the code runs without errors. They do **not** reproduce the numerical results or figures reported in the paper. To obtain the real clinical trial data (weight-loss RCT, glycemic-control RCT, and questionnaire), please contact the corresponding author (see [Data Availability](#data-availability)).
 
@@ -293,7 +293,7 @@ python clinical_trial/glycemic_control_analysis.py \
 
 The script writes both the manuscript filenames (`glycemic_fpg_reduction_bars.pdf/.png`) and `_nm_style` aliases.
 
-### ICC and Clustering Analyses (Supplementary Tables 24 and 25)
+### ICC and Clustering Analyses (Supplementary Tables 1 and 3)
 
 The clustering script reads the controlled-access complete-case workbooks and accepts either the original Chinese column names or the English alternatives below.
 
@@ -374,7 +374,7 @@ python "Subgroup Forest Plot/glycemic control subgroup forest plot.py" \
     --out_pdf   outputs/subgroup/glycemic_subgroup.pdf
 ```
 
-### ITT Sensitivity Analysis (Supplementary Tables 1 and 2)
+### ITT Sensitivity Analysis (Supplementary Tables 2 and 4)
 
 Performs Intention-to-Treat sensitivity analyses using multiple imputation (MICE under MAR) and baseline observation carried forward (BOCF). MNAR delta-adjustment and tipping-point sensitivity are handled separately in `tipping_point_analysis.py`. Results are saved as multi-sheet Excel workbooks.
 
@@ -402,7 +402,7 @@ Fixed output files:
 - `sensitivity_analysis/ITT_weight_loss_results.xlsx`
 - `sensitivity_analysis/ITT_glycemic_results.xlsx`
 
-### Tipping-Point Analysis (Supplementary Tables 1 and 2)
+### Tipping-Point Analysis (Supplementary Tables 2 and 4)
 
 Determines how much worse missing outcomes in the EPS arm would need to be (relative to MAR imputation) before the treatment effect loses statistical significance.
 

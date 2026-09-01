@@ -1,4 +1,4 @@
-"""Incremental expert-rating gains across the EPS ablation sequence (Fig. 4d)."""
+"""Incremental expert-rating gains across the EPS ablation sequence (Fig. 5d)."""
 
 from __future__ import annotations
 
@@ -131,7 +131,7 @@ def plot_gain_heatmap(gains: np.ndarray, out_png: Path, out_pdf: Path) -> None:
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Plot expert-pilot ablation-gain heatmap (Fig. 4d).")
+    parser = argparse.ArgumentParser(description="Plot expert-pilot ablation-gain heatmap (Fig. 5d).")
     parser.add_argument(
         "--input",
         type=Path,

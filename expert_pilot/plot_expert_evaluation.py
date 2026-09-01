@@ -449,7 +449,7 @@ def plot_grouped_bars(summary: pd.DataFrame, out_pdf: Path, out_png: Path, show:
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(
         description=(
-            "Expert pilot evaluation (Fig. 4b): descriptive means with 95% CI, Friedman omnibus "
+            "Expert pilot evaluation (Fig. 5b): descriptive means with 95% CI, Friedman omnibus "
             "tests, paired Wilcoxon pairwise tests, Holm adjustment, and grouped bar plots."
         )
     )

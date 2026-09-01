@@ -332,7 +332,7 @@ def plot_glycemic_bars(
 
     if individual_reduction is None:
         raise ValueError(
-            "Fig. 2b requires participant-level fasting glucose reductions for "
+            "Fig. 3b requires participant-level fasting glucose reductions for "
             "the individual-outcomes panel."
         )
 
@@ -532,7 +532,7 @@ def plot_glycemic_bars_from_results(
 
 
 def parse_args() -> argparse.Namespace:
-    p = argparse.ArgumentParser(description="Fasting glucose outcomes (Fig. 2b).")
+    p = argparse.ArgumentParser(description="Fasting glucose outcomes (Fig. 3b).")
     p.add_argument("--gly_human", type=str, default=None, help="Path to Human glycemic-control Excel.")
     p.add_argument("--gly_eps", type=str, default=None, help="Path to EPS-human glycemic-control Excel.")
     p.add_argument(
@@ -554,7 +554,7 @@ def main() -> None:
     if args.summary_xlsx is not None:
         if args.gly_human is None or args.gly_eps is None:
             raise SystemExit(
-                "Fig. 2b now includes an individual reduction panel. With --summary-xlsx, "
+                "Fig. 3b now includes an individual reduction panel. With --summary-xlsx, "
                 "also provide --gly_human and --gly_eps for participant-level values."
             )
         results = read_results_table(Path(args.summary_xlsx))

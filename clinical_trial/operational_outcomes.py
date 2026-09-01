@@ -1,4 +1,4 @@
-"""Operational outcomes plot for the weight-loss randomized trial (Fig. 2c).
+"""Operational outcomes plot for the weight-loss randomized trial (Fig. 3c).
 
 The input JSON is produced by ``clinical_trial/checkin_analysis/
 enhanced_feedback_mediation.py``. The parser also accepts the legacy manuscript
@@ -256,7 +256,7 @@ def write_summary_csv(path: Path, data: Dict[str, Any]) -> None:
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Plot operational outcomes in the weight-loss cohort (Fig. 2c).")
+    parser = argparse.ArgumentParser(description="Plot operational outcomes in the weight-loss cohort (Fig. 3c).")
     parser.add_argument("--summary-json", type=Path, required=True, help="Summary JSON from enhanced_feedback_mediation.py.")
     parser.add_argument("--outdir", type=Path, default=Path("outputs/clinical_trial"), help="Output directory.")
     parser.add_argument("--eps-drafts-edited", type=int, default=11, help="Number of EPS drafts edited before delivery (default: manuscript audit value, 11).")
